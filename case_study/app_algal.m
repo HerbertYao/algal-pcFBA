@@ -83,12 +83,9 @@ end
 figure;
 dendrogram(linkage(pdist(Trscpt')));
 title('Hierarchical Clustering of all 16 datasets');
+yline(5500);
 
 % Define a new dataset of 4 col as distinctive features for keff estimation
-%   col 1: avg of set 1 and 2
-%   col 2: avg of set 3 to 6
-%   col 3: avg of set 7 to 11
-%   col 4: avg of set 12 to 16
 feat = [];
 feat(:,1) = mean(Trscpt(:,1:3),2);
 feat(:,2) = Trscpt(:,4);
@@ -135,11 +132,26 @@ clear idx varlen;
 fullCplxIdx = find(startsWith(model.mets,'cplx_'));
 cplxFormIdx = find(startsWith(model.rxns,'cplxForm_'));
 enzymeFormIdx = find(startsWith(model.rxns,'enzymeForm_'));
+r_old = zeros(length(fullCplxIdx),1);
+r_new = zeros(length(fullCplxIdx),1);
 
 for i = 1:length(rValues)
+    r_old(i) = -1/mean(nonzeros(model_alt.S(fullCplxIdx(i),enzymeFormIdx)));
     model_alt.S(fullCplxIdx(i),enzymeFormIdx) = model_alt.S(fullCplxIdx(i),enzymeFormIdx) / rValues(i);
+    r_new(i) = -1/mean(nonzeros(model_alt.S(fullCplxIdx(i),enzymeFormIdx)));
 end
-%}
+
+figure;
+histogram(r_old*65,40,'FaceColor',[0.4660 0.6740 0.1880]);
+hold on;
+histogram(r_new*65,40,'FaceAlpha',0.4);
+hold off;
+set(gca,'YScale','log');
+legend({'Pre-NCQP','Post-NCQP'});
+xlabel('Enzymatic K_{eff} (sec^{-1})');
+ylabel('Frequency');
+% title('r distribution');
+
 % Convex QP for proteome abundance
 changeCobraSolverParams('QP','feasTol',1e-9);
 changeCobraSolverParams('QP','printLevel',0);
@@ -179,9 +191,22 @@ for i = 1:16
     ol2 = find((-record_FBAsol(proteinExIdx,i)./Trscpt_fit(:,i) > 10) + (-record_FBAsol(proteinExIdx,i)./Trscpt_fit(:,i) < 0.1));
     scatter(Trscpt_fit(:,i),-record_FBAsol(proteinExIdx,i));
     hold on;
+%   plot outliers
     scatter(Trscpt_fit(ol,i),-record_FBAsol(proteinExIdx(ol),i),[],[0.9290 0.6940 0.1250]);
     scatter(Trscpt_fit(ol2,i),-record_FBAsol(proteinExIdx(ol2),i),[],'red');
     hold off;
+
+%   calculate r2
+    [~,~,~,~,stat] = regress(Trscpt_fit(:,i),-record_FBAsol(proteinExIdx,i));
+    r2 = stat(1);
+
+    X = log(Trscpt_fit(:,i));
+    Y = log(-record_FBAsol(proteinExIdx,i));
+    idx = find(~isinf(X).*~isinf(Y));
+    [~,~,~,~,stat] = regress(X(idx),Y(idx));
+    r2_log = stat(1);
+
+    title(['Sample ',num2str(i),' [R^2=',num2str(round(r2,3)),',R^2*=',num2str(round(r2_log,3)),']']);
 
     set(gca,'YScale','log');
     set(gca,'XScale','log');
@@ -237,21 +262,7 @@ for i = 1:16
     models{i} = model_alt;
 end
 
-% Plot TAG production
-% v_tag = record_FBAsol(18287,:);
-% x = {'0h','0.5h','2h','4h','8h','12h','24h','48h','b','b+0.5h','b+2h','b+4h','b+8h','b+12h','b+24h','b+48h'};
-% X = categorical(x);
-% X = reordercats(X,x);
-% figure;
-% bar(X,[tag_lb,tag_ub]);
-% set(gca,'YScale','log');
-% ylabel('Total TAG Prod. Flux');
-% xlabel('Time');
-
-clear idx prot X x dt wt i j model_qp ol ol2;
-
-% Two Parameter: transcriptome exponent and protein UB multiplier
-% Now the production rate is incredibly low (~2e-6)
+clear idx prot X x dt wt i j model_qp ol ol2 X Y r2 r2_log stat;
 
 %% De-bottlenecking
 %   max production rate is 0.59 without proteomic bounds, so relieving
@@ -265,20 +276,30 @@ relaxList = zeros(length(fullProtein),16);
 for i = 1:16
     model_alt = models{i};
     [FBAsols{i},models_db{i},relaxProt,relaxLevel] = proteinDebottleneck(model_alt,20);
+%     [FBAsols{i},models_db{i},relaxProt,relaxLevel] = proteinDebottleneck(model_alt,30);
 
     for j = 1:length(relaxProt)
 %         relaxList(find(strcmp(fullProtein,relaxProt{j}))) = relaxList(find(strcmp(fullProtein,relaxProt{j}))) + relaxLevel(j);
         relaxList(find(strcmp(fullProtein,relaxProt{j})),i) = relaxLevel(j);
     end
     disp(FBAsols{i}.f);
+%     test(i) = FBAsols{i}.f;
 end
 
-% plot the 15 most relieved proteins across samples
-[~,idx] = maxk(sum(relaxList,2),25);
+%% plot the 15 most relieved proteins across samples
+[~,idx] = maxk(sum(relaxList,2),15);
+Z = zeros(15,16);
+for i = 1:16
+    Z(:,i) = models_db{i}.lb(proteinExIdx(idx))./models{i}.lb(proteinExIdx(idx));
+end
+
 figure;
-h = heatmap(1:16,erase(fullProtein(idx),'protein_'),relaxList(idx,:));
+% heatmap(1:16,erase(fullProtein(idx),'protein_'),relaxList(idx,:));
+heatmap(1:16,erase(fullProtein(idx),'protein_'),round(Z,1));
 xlabel('Sample');
 ylabel('Debottlenecked Protein ID');
+
+clear idx Z i j;
 
 %% Unbiased Analysis
 % Now do unbiased analysis on debottlenecked models...
@@ -483,32 +504,32 @@ end
 % FA and TAG Synthesis
 % rxnList = {'COA1819ZD9DS','AGPATCOA1601819Z','PAPA1601819Z','ACOADAGAT1601819Z160',...
 %     'PLDAGAT1601819Z1602','EX_TAG'};
-% rxnList = {'AGPATCOA1601819Z','PAPA1601819Z','ACOADAGAT1601819Z160',...
-%     'PLDAGAT1601819Z1602','EX_TAG'};
-% protIdx = {359,[],[352,353,354,355,356,357],395,[]};
-% rev = [0,0,0,0,0];
+rxnList = {'G3PAT160','AGPATCOA1601819Z','PAPA1601819Z','ACOADAGAT1601819Z160',...
+    'PLDAGAT1601819Z1602','EX_TAG'};
+protIdx = {386,359,[],[352,353,354,355,356,357],395,[]};
+rev = [0,0,0,0,0,0];
 % ACCOA Supply
 % rxnList = {'ACALD','MMSD','PFLACTm','ACS','PTArm'};
 % protIdx = {149,551,926,523,[927,928]};
 % rev = [0,0,0,0,1];
-rxnList = {'ACALD','MMSD','PFLACTm','ACS','PTArm','ACKrm'};
-protIdx = {149,551,926,523,[927,928],[922,923]};
-rev = [0,0,0,0,1,0];
+% rxnList = {'ACALD','PFLACTm','ACS','PTArm','ACKrm'};
+% protIdx = {149,926,523,[927,928],[922,923]};
+% rev = [0,0,0,1,0];
 % TCA Cycle
 % rxnList = {'CS','CSm','ACONT','ACONTm','ICL','ICDH','ICDH_nad',...
 %     'ICDHm','SUCLm','SUCDH_q8_m','SUCDHm','FUMm','MDHCm','MALSm'};
 % ATP synthesis
-% rxnList = {'PYK','PYKm','ATPSm','NanoG0425_chl','ATPSh_chl'};
-% protIdx = {[499,500,501,502,503,504],[499,500,501,502,503,504],...
-%     find(C_matrix(:,511)),[504,1419],find(C_matrix(:,1184))};
-% rev = [0,0,0,0,0];
+% rxnList = {'PYK','ENO','PYKm','ATPSm','ATPSh_chl','PPCKm'};
+% protIdx = {[499,500,501,502,503,504],466,[499,500,501,502,503,504],...
+%     find(C_matrix(:,511)),find(C_matrix(:,1184)),1191};
+% rev = [0,0,0,0,0,0];
 % rxnList = {'PYK','PYKm','ATPSm','NanoG0425_chl','ATPSh_chl','PGK'};
 % protIdx = {[499,500,501,502,503,504],[499,500,501,502,503,504],...
 %     find(C_matrix(:,511)),[504,1419],find(C_matrix(:,1184)),497};
 % rev = [0,0,0,0,0,1];
 % De novo synthesis
-% rxnList = {'HACD2m','ECOAH2m','ACOAR2m','ACACT3m'};
-% protIdx = {[142,264],144,127,265};
+% rxnList = {'ACACT3m','HACD3m','ECOAH3m','ACOAR3m'};
+% protIdx = {265,[142,264],144,127};
 % rev = [0,0,0,0];
 % Chloroplast Activities
 % rxnList = {'NanoG0589_chl','NanoG0198_chl','P680P_chl','P700A0_chl',...

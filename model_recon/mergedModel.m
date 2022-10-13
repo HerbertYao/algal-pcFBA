@@ -1483,7 +1483,7 @@ save('model_merged','model_merged','fullProtein','fullCplx','C_matrix','K_matrix
 
 % autotrophic, mixotrophic, and heterotrophic optimal solution
 model_auto = model_merged;
-model_mixo = changeRxnBounds(model_merged,'EX_ac_e',-3,'l');
+model_mixo = changeRxnBounds(model_merged,'EX_ac_e',-2,'l');
 model_hetero = changeRxnBounds(model_merged,'EX_ac_e',-1000,'l');
 FBAsol_auto = optimizeCbModel(model_auto,'max');
 FBAsol_mixo = optimizeCbModel(model_mixo,'max');
@@ -2040,3 +2040,22 @@ set(gca,'YScale','log');
 yline(1738);
 %}
 %}
+% proteinList = [517,1187,1190,1186,1175,1182,473,524,466,480,504,1191,496,498,469,168,304];
+rxnList = [235,234,237,257,2409];
+
+x = {};
+Y = [];
+for i = 1:length(model_cyt.rxns)
+    if ((length(find(model_auto.S(:,i)))==1) && (abs(FBAsol_hetero.v(i))>1e-2))
+        x{length(x)+1} = model_auto.rxns{i};
+        Y(length(Y)+1) = FBAsol_hetero.v(i);
+    end
+end
+
+figure;
+title('Exchange Rxns');
+X = categorical(x);
+X = reordercats(X,x);
+bar(X,Y);
+clear x X Y;
+
