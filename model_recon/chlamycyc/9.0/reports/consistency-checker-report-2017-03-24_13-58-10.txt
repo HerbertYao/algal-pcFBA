@@ -1,0 +1,166 @@
+
+=====Checking all inverse links====
+
+[Checking inverses under class  Generalized-Reactions]
+[Checking inverses under class  Publications]
+[Checking inverses under class  Evidence]
+[Checking inverses under class  Collections]
+[Checking inverses under class  Notes]
+[Checking inverses under class  Enzymatic-Reactions]
+[Checking inverses under class  Chemicals]
+[Checking inverses under class  Growth-Observations]
+[Checking inverses under class  CCO]
+[Checking inverses under class  Polymer-Segments]
+[Checking inverses under class  Cell-Types]
+[Checking inverses under class  Promoter-Boxes]
+[Checking inverses under class  EC-BOOKKEEPING]
+[Checking inverses under class  PGDB-Metadata]
+
+Warning: No slotunit exists for slot TEMPLATE-COUNTERS in frame KB-DESCRIPTOR
+[Checking inverses under class  Gene-Ontology-Terms]
+[Checking inverses under class  Organizations]
+[Checking inverses under class  Protein-Features]
+[Checking inverses under class  Organisms]
+[Checking inverses under class  People]
+[Checking inverses under class  Compound-Mixtures]
+[Checking inverses under class  Databases]
+[Checking inverses under class  Regulation]
+
+===== Checking and removing any values from PATHWAY-LINKS that point to nonexistent frames ====
+
+Removing link from pwy PWY-5837 to nonexistent pwys (PWY-5795
+                                                     PWY-5801
+                                                     PWY-5802
+                                                     PWY-5853
+                                                     PWY-5852
+                                                     PWY-5851)
+
+===== Checking and removing any reactions from PRIMARIES slot that are no longer in the pathway ====
+
+
+===== Checking modified protein links to eliminate nonexistent frames ====
+
+
+===== Cross-referencing compounds and reactions ====
+
+
+==== Calculating sub and super pathways ====
+
+===== Finding missing sub pathway links ====
+
+
+==== Checking for missing sub pathway links ====
+Warning:PWY-7343 is completely contained within PWY-7238 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-7177 is completely contained within PWY-7185 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-7353 is completely contained within PWY-6897 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PLPSAL-PWY is completely contained within PWY-7204 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5944 is completely contained within PWY-5288 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-3821 is completely contained within PWY-6527 but is not listed in the SUB-PATHWAYS slot
+
+Warning:METHIONINE-DEG1-PWY is completely contained within PWY-5041 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-7205 is completely contained within PWY0-163 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6473 is completely contained within PWY-4321 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5484 is completely contained within GLYCOLYSIS but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY66-400 is completely contained within PWY-5484 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5173 is completely contained within PYRUVDEHYD-PWY but is not listed in the SUB-PATHWAYS slot
+
+Warning:THRESYN-PWY is completely contained within PWY-3001 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-7177 is completely contained within PWY-5687 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-7176 is completely contained within PWY-5687 but is not listed in the SUB-PATHWAYS slot
+
+
+==Done checking all the links==
+
+==== Checking pathways for duplicate reactions in REACTION-LIST slot ====
+
+== Done checking pathways for duplicate reactions ==
+
+==== Verifying replicon components and positions ====
+
+== Done verifying replicon components ==
+
+
+===== Validating Gene Ontology (GO) Terms =====
+
+
+== Done validating GO terms ==
+
+===== Changing compound name strings to frame IDs in a variety of slots =====
+
+[Checking class Enzymatic-Reactions]
+[Checking class Modified-Proteins]
+[Checking class Compounds]
+[Checking class Regulation]
+[Checking class Reactions]
+[Checking class Pathways]
+(2.5.1.64-RXN (ISOCHORISMATE) (SUCCINYL-OH-CYCLOHEXADIENE-COOH))  -->
+   (2.5.1.64-RXN (ISOCHORISMATE) ("SUCCINYL-OH-CYCLOHEXADIENE-COOH")) in
+   #<"PWY-5837" instance frame in CHLAMYBASE[F] @
+     #x1004270f732>, PRIMARIES
+[Checking class Enzymatic-Reactions]
+
+== Done changing compound name strings to compound frame IDs ==
+
+===== Checking pathway predecessors/reactions/subs ====
+
+Adjusting predecessor list of super-pathway PWY-5703
+Adjusting predecessor list of super-pathway PWY-5156
+Adjusting predecessor list of super-pathway PWY-5381
+Adjusting predecessor list of super-pathway PWY66-400
+
+===== Removing newlines from names ====
+
+
+===== Clearing read-only computed slot values ====
+
+
+==== Deleting frames that have TEMPORARY-FRAME in their ID ====
+
+
+== Done running all the Misc automatic checks ==
+
+===== Classifying modified proteins as such ====
+
+
+===== Updating molecular weights of polypeptides from amino acid sequences ====
+
+Updated 0 protein molecular weights from sequence
+
+== Done with protein updates  ==
+
+===== Checking compound structures for redundancy =====
+
+Checking Compound structures for redundant bonds
+
+== Done checking compound structure redundancies ==
+
+==== Recomputing statistics for database chlamycyc ====
+
+ Recomputed statistics are as follows:
+(PROTEIN-FEATURES 0 TRANSCRIPTIONAL-REGULATORY-INTERACTION 0
+ PHENOTYPE-MICROARRAY-DATASETS 0 NUM-GO-TERMS 81
+ GENE-ESSENTIALITY-DATASETS 0 GENES-WITH-GENE-ESSENTIALITY-DATA NIL
+ BROWSABLE-GENOME-P NIL PSEUDOGENE-NUMBER 0 ENZYMATIC-REACTION-NUMBER
+ 2293 CITATION-COUNT 3464 GENOME-LENGTH NIL MAPPED-GENE-NUMBER 138
+ UN-MAPPED-GENE-NUMBER 2498 PROTEIN-GENE-NUMBER 4443 RNA-GENE-NUMBER 0
+ ORF-GENE-NUMBER 2511 REACTION-NUMBER 2510 NO-EC-REACTION-NUMBER 630
+ ORGANISM-REACTION-NUMBER 2510 TRANSPORT-REACTION-NUMBER 79
+ POLYPEPTIDE-NUMBER 2712 COMPLEX-NUMBER 32 ENZYME-NUMBER 2617
+ TRANSPORTER-NUMBER 219 CPD-NUMBER 1791 TOTAL-GENE-NUMBER 2706
+ OPERON-NUMBER 0 TRNA-NUMBER 6 LAST-TIME-STAMP 24-Mar-2017  13:58:34)
+
+==== Done recomputing statistics for database chlamycyc ====
+The report from this consistency checker run can be found at
+/home/pzhang/ptools-local/pgdbs/user/chlamycyc/6.0.1/reports/consistency-checker-report-2017-03-24_13-58-10.txt

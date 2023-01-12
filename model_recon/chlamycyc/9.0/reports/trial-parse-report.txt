@@ -1,0 +1,47 @@
+;;;      ---  Parse Results for Chlamydomonas reinhardtii  ---
+;;;
+;;; This report summarizes the findings of the PathoLogic parser for
+;;; the annotation files for all new genetic elements.  Through
+;;; inspection of this report, the user can tell whether features of major 
+;;; importance were not recognized, possibly due to syntax errors or other
+;;; problems in the annotation files.
+;;;
+;;; If you want to change annotation file(s) to improve their parsability, 
+;;; update the files, reinitialize the KB, and re-run the Build.  If you want
+;;; to avoid having to reinitialize in the future, use the Trial Parse 
+;;; command until you are satisfied with the parse results, and only then
+;;; Build.
+
+
+;;; -----------------------------------------------------------
+
+;;; Parsing results for annotation file:
+;;;        C:\Documents and Settings\Caryn\aracyc_database\ptools-local\pgdbs\user\chlamycyc\2.0\input\cr.120111.pf
+
+;;;
+;;; The annotation file used by the parser is:
+;;; C:\Documents and Settings\Caryn\aracyc_database\ptools-local\pgdbs\user\chlamycyc\2.0\input\cr.120111.pf
+gene-IDs :                      1893
+gene-name :                     1893
+gene-startbase :                   0
+gene-endbase :                     0
+gene-product-type :             1893
+  gene-Proteins :                 1893
+  gene-tRNAs :                       0
+  gene-rRNAs :                       0
+  gene-snRNAs :                      0
+  gene-miscRNAs :                    0
+product-IDs :                      0 [cannot be supplied in Genbank files]
+product-names :                    0
+product-synonyms :                 0 [cannot be supplied in Genbank files]
+total EC numbers :              2036
+  genes with 1 EC number :        1893
+  genes with >1 EC numbers :       128
+total GO terms linked to reactions :       0
+  genes with 1 GO term linked to reactions :       0
+  genes with >1 GO terms linked to reactions :       0
+gene-products:
+  hypothetical :                     0
+  predicted :                        0
+  putative :                         0
+genes with synonyms :              0

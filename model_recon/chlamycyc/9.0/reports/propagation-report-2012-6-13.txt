@@ -1,0 +1,197 @@
+This report was generated on 13-Jun-2012  16:26:50.
+
+* = already updated
+
+Compounds
+
+
+6 Compounds have differences in slot CITATIONS between MetaCyc and ChlamyCyc.
+ 	ID	Name	ChlamyCyc Value	MetaCyc Value	
+	CPD-10776	(2S,4S)-2-methyl-2,3,3,4-tetrahydroxytetrahydrofuran	NIL	("15350213" "11823863")	
+	CPD-11763	bisorganyltrisulfane	NIL	12855721	
+	CPD-11670	5-hydroxyindole thiazolidine carboxylate	NIL	17877637	
+	CPD-10775	(2S,4S)-2-methyl-2,4-dihydroxydihydrofuran-3-one	NIL	("15350213" "11823863")	
+	CPD-13171	15,9'-di-<i>cis</i>-phytofluene	NIL	15503129	
+	CPD-12366	8-oxo-7,8-dihydro-2'-GTP	NIL	17804481	
+
+37 Compounds have differences in slot SYNONYMS between MetaCyc and ChlamyCyc.
+ 	ID	Name	ChlamyCyc Value	MetaCyc Value	
+	Pyrimidine-Ribonucleosides	a pyrimidine ribonucleoside	("an <i>N</i>-D-ribosylpyrimidine" "pyrimidine nucleoside")	("an <i>N</i>-D-ribosylpyrimidine")	
+	Chitosan	chitosan	("&beta;-1,4-poly-D-glucosamine" "&beta;-1,4-Poly-D-glucosamine")	("&beta;-1,4-poly-D-glucosamine")	
+	CELLULOSE	cellulose	("&alpha;-cel" "&alpha;-cellulose" "(1,4-&beta;-D-glucosyl)(N)")	("(1,4-&beta;-D-glucosyl)(N)")	
+	PECTATE	a pectate	("a poly(1,4-&alpha;-D-galacturonate)(n)" "Poly(1,4-&alpha;-D-galacturonate)(n)" "(1,4-&alpha;-D-Galacturonosyl)n" "1,4-&alpha;-D-galacturonide" "a pectic acid" "an &alpha;-D-polygalacturonic acid" "a poly(1,4-&alpha;-D-galacturonate)")	("Poly(1,4-&alpha;-D-galacturonate)(n)" "(1,4-&alpha;-D-Galacturonosyl)n" "1,4-&alpha;-D-galacturonide" "a pectic acid" "an &alpha;-D-polygalacturonic acid" "a poly(1,4-&alpha;-D-galacturonate)")	
+	TRANS-D2-ENOYL-COA	a <i>trans</i>-2-enoyl-CoA	("a <i>trans</i>-2-enoyl-CoA" "a <i>trans</i>-didehydroacyl-CoA" "a <i>trans</i>-&Delta;<SUP>2</SUP>-enoyl-CoA" "a <i>trans</i>-2,3-didehydroacyl-CoA" "a <i>trans</i>-2,3-dehydroacyl-CoA" "trans-2,3-didehydroacyl-CoA" "trans-2,3-dehydroacyl-CoA" "trans-&Delta;<SUP>2</SUP>-enoyl-CoA" "<i>trans</i>-2,3-didehydroacyl-CoA" "<i>trans</i>-2,3-dehydroacyl-CoA" "<i>trans</i>-&Delta;<SUP>2</SUP>-enoyl-CoA" "<i>trans</i>-didehydroacyl-CoA" "a (2<i>E</i>)-2-enoyl-CoA")	("a <i>trans</i>-didehydroacyl-CoA" "a <i>trans</i>-&Delta;<SUP>2</SUP>-enoyl-CoA" "a <i>trans</i>-2,3-didehydroacyl-CoA" "a <i>trans</i>-2,3-dehydroacyl-CoA" "trans-2,3-didehydroacyl-CoA" "trans-2,3-dehydroacyl-CoA" "trans-&Delta;<SUP>2</SUP>-enoyl-CoA" "<i>trans</i>-2,3-didehydroacyl-CoA" "<i>trans</i>-2,3-dehydroacyl-CoA" "<i>trans</i>-&Delta;<SUP>2</SUP>-enoyl-CoA" "<i>trans</i>-didehydroacyl-CoA" "a (2<i>E</i>)-2-enoyl-CoA")	
+	Retinyl-Esters	a retinyl ester	an all-<i>trans</i>-retinyl ester	NIL	
+	1-Alkyl-sn-glycero-3-phosphocholines	a 1-alkyl-<i>sn</i>-glycero-3-phosphocholine	("1-organyl-2-lyso-<i>sn</i>-glycero-3-phosphocholine" "1-radyl-2-lyso-<i>sn</i>-glycero-3-phosphocholine" "1-Radyl-2-lyso-sn-glycero-3-phosphocholine" "1-Alkyl-2-lyso-sn-glycero-3-phosphocholine" "1-Organyl-2-lyso-sn-glycero-3-phosphocholine")	("1-radyl-2-lyso-<i>sn</i>-glycero-3-phosphocholine" "1-organyl-2-lyso-<i>sn</i>-glycero-3-phosphocholine")	
+	2-Acylglycero-Phosphocholines	a 1-lysophosphatidylcholine	("a 1-lysophosphatidylcholine" "a 2-acylglycero-3-phosphocholine" "a 2-acyl-sn-glycero-3-phosphocholine" "a L-1-lysolecithin" "a 1-lyso-2-acyl-<i>sn</i>-glycero-3-phosphocholine" "a 1-lysolecithin" "a &beta;-lysophosphatidylcholine" "a 2-acylglycerophosphocholine" "a 2-acyl-<i>sn</i>-glycero-3-phosphocholine")	("a 2-acylglycero-3-phosphocholine" "a 2-acyl-sn-glycero-3-phosphocholine" "a L-1-lysolecithin" "a 1-lyso-2-acyl-<i>sn</i>-glycero-3-phosphocholine" "a 1-lysolecithin" "a &beta;-lysophosphatidylcholine" "a 2-acylglycerophosphocholine" "a 2-acyl-<i>sn</i>-glycero-3-phosphocholine")	
+	CPD-409	a 2-monoacylglycerol	("2-acylglycerol" "2-glyceride" "a 2-acylglycerol" "a 2-glyceride" "a 2-MAG")	("a 2-acylglycerol" "a 2-glyceride" "a 2-MAG")	
+	D-Galactosyl-12-diacyl-glycerols	a monogalactosyldiacylglycerol	("a   monogalactosyldiglyceride" "a monogalactosyl-diacylglycerol" "a 1,2-diacyl-3-&beta;-D-galactosyl-sn-glycerol" "a D-galactosyldiacylglycerol" "a 3-(&beta;-D-galactosyl)-1,2-diacyl-<i>sn</i>-glycerol" "a 3-&beta;-D-galactosyl-1,2-diacylglycerol" "a monogalactosyldiglyceride" "MGDG" "a Gal&beta;1->3acyl2Gro" "a mono-&beta;-D-galactosyldiacylglycerol")	("a monogalactosyl-diacylglycerol" "a 1,2-diacyl-3-&beta;-D-galactosyl-sn-glycerol" "a D-galactosyldiacylglycerol" "a 3-(&beta;-D-galactosyl)-1,2-diacyl-<i>sn</i>-glycerol" "a 3-&beta;-D-galactosyl-1,2-diacylglycerol" "a monogalactosyldiglyceride" "MGDG" "a Gal&beta;1->3acyl2Gro" "a mono-&beta;-D-galactosyldiacylglycerol")	
+	Inositolphosphoryl-Ceramides	an inositolphosphorylceramide	an inositolphosphorylceramide	NIL	
+	Amino-Acids-20	a standard &alpha; amino acid	("protein-building  amino acid" "amino acid" "L-amino acid" "protein-building amino acid" "proteinogenic amino acid")	("amino acid" "L-amino acid" "protein-building amino acid" "proteinogenic amino acid")	
+	DIACYLGLYCEROL-PYROPHOSPHATE	a 1,2-diacyl-<i>sn</i>-glycerol 3-diphosphate	("a diacylglycerol 3-diphosphate" "a 1,2-diacylglycerol 3-diphosphate" "DGPP" "a diacylglycerol pyrophosphate" "Phosphatidate" "phosphatidic acids")	("DGPP" "a diacylglycerol pyrophosphate" "a 1,2-diacylglycerol 3-diphosphate" "a diacylglycerol 3-diphosphate")	
+	DIOH-ISOVALERATE	2,3-dihydroxy-3-methylbutanoate	("2,3-dihydroxy-isovalerate" "2,3-dihydroxy-3-methylbutanoate" "(R)-2,3-dihydroxy-3-methylbutanoate" "&alpha;,&beta;-dihydroxy-isovalerate")	("2,3-dihydroxy-isovalerate" "&alpha;,&beta;-dihydroxy-isovalerate")	
+	THIAMINE-P	thiamin phosphate	("thiamine-phosphate" "TMP" "thiamin monophosphate" "thiamin phosphate" "thiamin-P" "thiamine-Pi" "ThP" "thiamine monophosphate")	("TMP" "thiamin monophosphate" "thiamine-phosphate" "thiamin-P" "thiamine-Pi" "ThP" "thiamine monophosphate")	
+	DIHYDRONEOPTERIN-P	7,8-dihydroneopterin 3'-phosphate	("dihydroneopterin phosphate" "dihydroneopterin monophosphate" "dihydroneopterin 3'-monophosphate" "dihydroneopterin-P" "2-amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine phosphate" "dihydroneopterin 3'-phosphate" "7,8-dihydro-D-neopterin 3'-phosphate")	("dihydroneopterin 3'-monophosphate" "dihydroneopterin-P" "2-amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine phosphate" "dihydroneopterin 3'-phosphate" "7,8-dihydro-D-neopterin 3'-phosphate")	
+	AMINO-HYDROXYMETHYL-METHYLPYRIMIDINE-PP	4-amino-2-methyl-5-diphosphomethylpyrimidine	("4-amino-2-methyl-5-diphosphomethylpyrimidine" "2-methyl-4-amino-5-hydroxymethylpyrimidine diphosphate" "HMP-PP" "4-amino-5-hydroxymethyl-2-methylpyrimidine-PP")	("2-methyl-4-amino-5-hydroxymethylpyrimidine diphosphate" "HMP-PP" "4-amino-5-hydroxymethyl-2-methylpyrimidine-PP")	
+	AMINO-HYDROXYMETHYL-METHYL-PYR-P	4-amino-2-methyl-5-phosphomethylpyrimidine	("4-amino-2-methyl-5-phosphomethylpyrimidine" "4-amino-5-phosphomethyl-2-methylpyrimidine" "HMP-P" "4-amino-5-hydroxymethyl-2-methylpyrimidine-P" "4-amino-5-hydroxymethyl-2-methylpyrimidine-phosphate")	("4-amino-5-phosphomethyl-2-methylpyrimidine" "HMP-P" "4-amino-5-hydroxymethyl-2-methylpyrimidine-P" "4-amino-5-hydroxymethyl-2-methylpyrimidine-phosphate")	
+	WATER	H<SUB>2</SUB>O	("H<sub>2</sub>0" "H20" "hydrogen oxide" "water")	("H<sub>2</sub>0" "hydrogen oxide" "water")	
+	XANTHOSINE-5-PHOSPHATE	XMP	("xanthosine-5-phosphate" "(9-D-ribosylxanthine)-5'-phosphate" "XMP" "xanthosine-5'-phosphate" "xanthosine-5-P" "xanthosine-5'-P" "9-(5-phospho-&beta;-D-ribosyl)xanthine")	("(9-D-ribosylxanthine)-5'-phosphate" "xanthosine-5-phosphate" "xanthosine-5'-phosphate" "xanthosine-5-P" "xanthosine-5'-P" "9-(5-phospho-&beta;-D-ribosyl)xanthine")	
+	2-ACETO-LACTATE	(<i>S</i>)-2-hydroxy-2-methyl-3-oxobutanoate	("(2<i>S</i>)-2-hydroxy-2-methyl-3-oxobutanoate" "(<i>S</i>)-2-acetolactate" "(S)-2-hydroxy-2-methyl-3-oxobutanoate" "&alpha;-acetolactate" "(2S)-2-hydroxy-2-methyl-3-oxobutanoate")	("(<i>S</i>)-2-acetolactate" "&alpha;-acetolactate" "(2<i>S</i>)-2-hydroxy-2-methyl-3-oxobutanoate")	
+	P-AMINO-BENZOATE	4-aminobenzoate	("<i>p</i>-aminobenzoate" "para-aminobenzoic acid" "p-aminobenzoic acid" "para-aminobenzoate" "4-aminobenzoate" "4-aminobenzoic acid" "pABA")	("para-aminobenzoic acid" "p-aminobenzoic acid" "para-aminobenzoate" "<i>p</i>-aminobenzoate" "4-aminobenzoic acid" "pABA")	
+	CPD0-1081	<i>N</i>-acetyl-&beta;-D-glucosamine(anhydrous)-<i>N</i>-acetylmuramate	("<i>N</i>-acetyl-&beta;-D-glucosamine(anhydrous)-<i>N</i>-acetylmuramic acid" "glcNAc-1,6-anhMurNAc" "N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramate" "N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramic acid")	("glcNAc-1,6-anhMurNAc" "<i>N</i>-acetyl-&beta;-D-glucosamine(anhydrous)-<i>N</i>-acetylmuramic acid")	
+	2-3-DIHYDRODIPICOLINATE	(<i>S</i>)-2,3-dihydrodipicolinate	("L-2,3-dihydrodipicolinate" "2,3-dihydrodipicolinate" "dihydrodipicolinate" "2,3-di-H-dipicolinate")	("2,3-di-H-dipicolinate" "L-2,3-dihydrodipicolinate")	
+	DELTA1-PIPERIDEINE-2-6-DICARBOXYLATE	(<i>S</i>)-2,3,4,5-tetrahydrodipicolinate	("(S)-2,3,4,5-tetrahydropyridine-2,6-dicarboxylate" "2,3,4,5-tetrahydrodipicolinate" "(<i>S</i>)-2,3,4,5-tetrahydropyridine-2,6-dicarboxylate" "&Delta;<SUP>1</SUP>-piperideine-2,6-dicarboxylate" "tetrahydrodipicolinate" "tetrahydropyridine-2,6-dicarboxylate" "L-2,3,4,5-tetrahydrodipicolinate")	("2,3,4,5-tetrahydrodipicolinate" "(<i>S</i>)-2,3,4,5-tetrahydropyridine-2,6-dicarboxylate" "&Delta;<SUP>1</SUP>-piperideine-2,6-dicarboxylate" "tetrahydrodipicolinate" "tetrahydropyridine-2,6-dicarboxylate" "L-2,3,4,5-tetrahydrodipicolinate")	
+	CPD-1083	(<i>E</i>)-2-methylcrotonoyl-CoA	("2-methyl-crotonyl-CoA" "methylcrotonyl-CoA" "trans-2-methylbut-2-enoyl-CoA" "2-methylbut-2-enoyl-CoA" "tigloyl-CoA" "tiglyl-CoA" "(E)-2-methylcrotonoyl-CoA")	("methylcrotonyl-CoA" "trans-2-methylbut-2-enoyl-CoA" "2-methylbut-2-enoyl-CoA" "tigloyl-CoA" "tiglyl-CoA" "2-methyl-crotonyl-CoA")	
+	CPD1F-4	(3<i>S</i>,5<i>R</i>,6<i>R</i>)-3,5-dihydroxy-6,7-didehydro-5,6-dihydro-12'-apo-&beta;-caroten-12'-al	("C25-allenic-apo-aldehyde" "(3<i>S</i>,5<i>R</i>,6<i>R</i>)-3,5-dihydroxy-6,7-didehydro-5,6-dihydro-12'-apo-&beta;-caroten-12'-al")	("C25-allenic-apo-aldehyde")	
+	METHYLENE-THF	5,10-methylenetetrahydrofolate	("5,10-methylenetetrahydropteroyl mono-L-glutamate" "5,10-methylene-THF" "N<SUP>5</SUP>,N<SUP>10</SUP>-methylenetetrahydrofolate" "5,10-methylenetetrahydrofolate")	("5,10-methylene-THF" "N<SUP>5</SUP>,N<SUP>10</SUP>-methylenetetrahydrofolate" "5,10-methylenetetrahydropteroyl mono-L-glutamate")	
+	DIVINYL-PROTOCHLOROPHYLLIDE-A	divinyl protochlorophyllide <i>a</i>	("divinylprotochlorophyllide" "divinyl protochlrophyllide a")	("divinylprotochlorophyllide")	
+	MONO-VINYL-PROTOCHLOROPHYLLIDE-A	monovinyl protochlorophyllide <i>a</i>	("protochlorophyllide <i>a</i>" "protochlorophyllide" "monovinyl protochlrophyllide a")	("protochlorophyllide <i>a</i>")	
+	CPD-7670	dimethyl sulfide	("dimethylsulfide" "reduced dimethyl sulfoxide" "dimethyl sulphide" "dimethylsulphide" "DMS" "dimethyl sulfide")	("reduced dimethyl sulfoxide" "dimethyl sulphide" "dimethylsulphide" "DMS" "dimethylsulfide")	
+	BUTYRIC_ACID	n-butanoate	("Butyrate (n-C4:0)" "butyrate" "butyric acid" "butanoic acid" "ethylacetic acid" "butanoate" "1-propanecarboxylic acid" "propylformic acid")	("butyrate" "butyric acid" "butanoic acid" "ethylacetic acid" "butanoate" "1-propanecarboxylic acid" "propylformic acid")	
+	2-TRANS6-TRANS-FARNESAL	(2<i>E</i>,6<i>E</i>)-farnesal	("(2-trans,6-trans)-3,7,11-trimethyldodeca-2,6,10-trienal" "(2E,6E)-3,7,11-trimethyldodeca-2,6,10-trienal" "(2<i>E</i>,6<i>E</i>)-3,7,11-trimethyldodeca-2,6,10-trienal" "(2-<i>trans</i>,6-<i>trans</i>)-3,7,11-trimethyldodeca-2,6,10-trienal" "(2E,6E)-3,7,11-trimethyl-2,6,10-dodecatrienal" "<i>E,E</i>-farnesal" "2-<i>trans</i>-6-<i>trans</i>-farnesal")	("(2<i>E</i>,6<i>E</i>)-3,7,11-trimethyldodeca-2,6,10-trienal" "(2-<i>trans</i>,6-<i>trans</i>)-3,7,11-trimethyldodeca-2,6,10-trienal" "(2E,6E)-3,7,11-trimethyl-2,6,10-dodecatrienal" "<i>E,E</i>-farnesal" "2-<i>trans</i>-6-<i>trans</i>-farnesal")	
+	RETINAL	<i>all-trans</i>-retinal	("<i>all-trans</i>-retinene" "<i>all-trans</i>-Vitamin A aldehyde" "retinal" "vitamin A aldehyde" "retinene" "axerophthal" "retinaldehyde" "all-trans-Retinal" "all-trans-Vitamin A aldehyde" "all-trans-Retinene")	("vitamin A aldehyde" "retinene" "axerophthal" "retinaldehyde" "retinal" "<i>all-trans</i>-Vitamin A aldehyde" "<i>all-trans</i>-retinene")	
+	SO3	sulfite	("HSO<SUB>3</SUB><SUP>-</SUP>" "HSO<SUB>3</SUB>" "bisulfite" "SO<SUB>3</SUB>" "SO<SUB>3</SUB><SUP>-2</SUP>")	("SO<SUB>3</SUB>" "SO<SUB>3</SUB><SUP>-2</SUP>")	
+	AMP	AMP	("AMP" "A" "adenosine-phosphate" "5'-AMP" "adenosine-monophosphate" "adenylic acid" "adenosine-5'-phosphate" "adenosine 5'-monophosphate" "adenylate" "5'-adenylic acid" "5'-adenosine monophosphate" "adenosine 5'-phosphate")	("AMP" "adenosine-phosphate" "5'-AMP" "adenosine-monophosphate" "adenylic acid" "adenosine-5'-phosphate" "adenosine 5'-monophosphate" "adenylate" "5'-adenylic acid" "5'-adenosine monophosphate" "adenosine 5'-phosphate")	
+	IMP	IMP	("inosine-5'-phosphate" "5'-IMP" "ribosylhypoxanthine monophosphate" "IMP" "inosinate" "inosine monophosphate" "inosine 5'-monophosphate" "inosine 5'-phosphate" "5'-inosinate" "5'-inosinic acid" "5'-inosine monophosphate")	("5'-IMP" "ribosylhypoxanthine monophosphate" "inosine-5'-phosphate" "inosinate" "inosine monophosphate" "inosine 5'-monophosphate" "inosine 5'-phosphate" "5'-inosinate" "5'-inosinic acid" "5'-inosine monophosphate")	
+
+Reactions
+
+16 Reactions are present in ChlamyCyc but not in MetaCyc. (16 already deleted)
+ 	ID	Name	
+*	#S(MISSING-FRAME :ID L-ASCORBATE-PEROXIDASE-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES (RXN-12440)
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID RXN1F-146
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID 1.14.99.30-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID RXN66-282
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES (SQUALENE-MONOOXYGENASE-RXN)
+                         :LOCAL-MERGE-CANDIDATES (SQUALENE-MONOOXYGENASE-RXN)
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID DIHYDROOROTOX-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID L-ASCORBATE-OXIDASE-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES (RXN-8488
+                                                ETHYL-RXN
+                                                DOPAMINE-BETA-MONOOXYGENASE-RXN)
+                         :LOCAL-MERGE-CANDIDATES (DOPAMINE-BETA-MONOOXYGENASE-RXN)
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID RXN-11025
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID RXN0-5234
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID R9-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES (3-HYDROXBUTYRYL-COA-DEHYDRATASE-RXN)
+                         :LOCAL-MERGE-CANDIDATES (3-HYDROXBUTYRYL-COA-DEHYDRATASE-RXN)
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID TRNA-CYTOSINE-5--METHYLTRANSFERASE-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID TRNA-GUANINE-N2--METHYLTRANSFERASE-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID TRNA-GUANINE-N1--METHYLTRANSFERASE-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID TRNA-ADENINE-N1--METHYLTRANSFERASE-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID R314-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES (NICOTINAMID-RXN)
+                         :LOCAL-MERGE-CANDIDATES (NICOTINAMID-RXN)
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID RXN0-4082
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID 3.1.11.5-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+
+Pathways
+
+1 Pathways have differences in slot SYNONYMS between MetaCyc and ChlamyCyc.
+ 	ID	Name	ChlamyCyc Value	MetaCyc Value	
+	NONMEVIPP-PWY	methylerythritol phosphate pathway	("DOXP pathway" "nonmevalonate isopentenyl diphosphate biosynthesis" "methylerythritol phosphate degradation" "MEP degradation" "deoxyxylulose phosphate pathway" "DXP pathway" "Rohmer pathway" "isopentenyl diphosphate biosynthesis -- mevalonate-independent" "nonmevalonate isoprenoid pathway" "MEP pathway")	("nonmevalonate isopentenyl diphosphate biosynthesis" "methylerythritol phosphate degradation" "MEP degradation" "deoxyxylulose phosphate pathway" "DOXP pathway" "Rohmer pathway" "isopentenyl diphosphate biosynthesis -- mevalonate-independent" "nonmevalonate isoprenoid pathway" "MEP pathway")	
+

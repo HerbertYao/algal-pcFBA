@@ -1,0 +1,49 @@
+
+;;; ---  PGDB Incremental Update ---
+;;; ---  Parse Results for Chlamydomonas reinhardtii  ---
+;;;
+;;; This report summarizes the findings of the PathoLogic parser for
+;;; the annotation files for all updated genetic elements.  Through
+;;; inspection of this report, the user can tell whether features of major 
+;;; importance were not recognized, possibly due to syntax errors or other
+;;; problems in the updated annotation files. If you want to change 
+;;; annotation file(s) to improve their parsability, update the files 
+;;  then re-run the Update.
+
+
+;;; -----------------------------------------------------------
+
+;;; Parsing results for annotation file:
+;;;        /Carnegie/DPB/Data/Shared/Labs/Rhee/Private/PMN/pmn_release_prep/pmn14_release_prep/pgdb-creation-package/e2p2v3-outputs/Creinhardtii_281_v5.6.protein.fa.e2p2v4.orxn.revised.pf
+
+;;;
+;;; The annotation file used by the parser is:
+;;; /Carnegie/DPB/Data/Shared/Labs/Rhee/Private/PMN/pmn_release_prep/pmn14_release_prep/pgdb-creation-package/e2p2v3-outputs/Creinhardtii_281_v5.6.protein.fa.e2p2v4.orxn.revised.pf
+gene-IDs :                      3104
+gene-name :                     3104
+gene-startbase :                   0
+gene-endbase :                     0
+gene-product-type :             3104
+  gene-Proteins :                 3104
+  gene-tRNAs :                       0
+  gene-rRNAs :                       0
+  gene-snRNAs :                      0
+  gene-miscRNAs :                    0
+product-IDs :                      0 [cannot be supplied in Genbank files]
+product-accessions :               0 [cannot be supplied in Genbank files]
+product-names :                    0
+product-synonyms :                 0 [cannot be supplied in Genbank files]
+total EC numbers :                 0
+  genes with an EC number :          0
+  genes with >1 EC numbers :         0
+total supplied MetaCyc reaction ids :    3957
+  genes with a supplied MetaCyc reaction id :    3104
+  genes with >1 supplied MetaCyc reaction id :     510
+total GO terms linked to reactions :       0
+  genes with a GO term linked to reactions :       0
+  genes with >1 GO terms linked to reactions :       0
+gene-products:
+  hypothetical :                     0
+  predicted :                        0
+  putative :                         0
+genes with synonyms :              0

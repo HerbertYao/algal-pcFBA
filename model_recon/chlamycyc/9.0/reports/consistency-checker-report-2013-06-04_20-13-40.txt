@@ -1,0 +1,39 @@
+
+==== Checking citations ====
+
+Deleting empty citations...
+
+Converting badly formed citations to the right format...
+
+
+Performing various checks on citations...
+
+2264 total citations
+2017 pubmed citations
+247 non-pubmed citations
+2893 publication frames in DB
+7400 frames contain at least one citation
+0 pubmed citations have not yet been downloaded from pubmed
+
+The following citation problems were found:
+
+Non-medline citation KREUZBERG87 not found in DB: referenced
+in frame GIO2-1750-MONOMER
+, slot COMMENT. 
+
+Non-medline citation KREUZBERG87 not found in DB: referenced
+in frame GIO2-716-MONOMER
+, slot COMMENT. 
+
+Unbalanced brackets error in slot COMMENT of frame CPDN82-1
+
+
+
+== Done checking citations ==
+
+
+====Checking Transcription unit data====
+
+==Done checking Transcription unit data==
+The report from this consistency checker run can be found at
+/var/pathway-tools/ptools-local/pgdbs/user/chlamycyc/2.0.1/reports/consistency-checker-report-2013-06-04_20-13-40.txt

@@ -1,0 +1,688 @@
+::: Pathway Rescoring Report written at  13-Jan-2020  10:56:47
+
+There are 421 pathways currently in the PGDB.  Of these, 245 pathways were 
+previously inferred and their status has not changed.  The remainder are either
+newly inferred or require(d) manual confirmation for the various reasons stated
+below.  Pathways in the lists below that are marked with an X have been 
+interactively deleted.  All other pathways in the various lists below were 
+present in the PGDB at report generation time.  
+This report was generated on 13-Jan-2020  10:56:47.
+
+8 Pathways that were previously deleted manually now have evidence for additional or different reactions.
+ 	ANAGLYCOLYSIS-PWY	glycolysis III (from glucose)	
+ 	PWY-5837	2-carboxy-1,4-naphthoquinol biosynthesis	
+ 	PWY-5872	ubiquinol-10 biosynthesis (eukaryotic)	
+ 	PWY-6717	(1,4)-&beta;-D-xylan degradation	
+ 	PWY-6981	chitin biosynthesis	
+ 	PWY-7053	docosahexaenoate biosynthesis I (lower eukaryotes)	
+ 	PWY-7511	protein ubiquitination	
+ 	PWY-7799	Arg/N-end rule pathway (eukaryotic)	
+
+
+76 Pathways that were previously inferred but which now would be pruned due to insufficient evidence.
+You will probably want to delete most or all of these.
+ 	GLYOXDEG-PWY	glycolate and glyoxylate degradation II	
+ 	 	 Evidence Score: 0.25732255  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	HEXPPSYN-PWY	hexaprenyl diphosphate biosynthesis	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT NIL)
+                  (REACTIONS-MISSING
+                   (TRANS-PENTAPRENYLTRANSFERASE-RXN)))	
+ 	ILEUDEG-PWY	L-isoleucine degradation I	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT NIL)
+                  (REACTIONS-MISSING
+                   (2-METHYLACYL-COA-DEHYDROGENASE-RXN
+                    2KETO-3METHYLVALERATE-RXN
+                    METHYLACETOACETYLCOATHIOL-RXN TIGLYLCOA-HYDROXY-RXN
+                    1.1.1.178-RXN BRANCHED-CHAINAMINOTRANSFERILEU-RXN)))	
+ 	ILEUSYN-PWY	L-isoleucine biosynthesis I (from threonine)	
+ 	 	 Evidence Score: 0.111504674  Reason:	
+ 	 	 BIOSYNTHETIC-PWY-MISSING-FINAL-STEPS	
+ 	MALATE-ASPARTATE-SHUTTLE-PWY	L-aspartate degradation II	
+ 	 	 Evidence Score: 0.21058953  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	NAGLIPASYN-PWY	lipid IV<sub>A</sub> biosynthesis	
+ 	 	 Evidence Score: 0.14666668  Reason:	
+ 	 	 (DEFAULT-REJECT
+                  (REACTIONS-PRESENT (UDPACYLGLCNACDEACETYL-RXN))
+                  (REACTIONS-MISSING
+                   (UDPNACETYLGLUCOSAMACYLTRANS-RXN
+                    UDPHYDROXYMYRGLUCOSAMNACETYLTRANS-RXN
+                    LIPIDXSYNTHESIS-RXN TETRAACYLDISACC4KIN-RXN
+                    LIPIDADISACCHARIDESYNTH-RXN)))	
+ 	NONMEVIPP-PWY	methylerythritol phosphate pathway I	
+ 	 	 Evidence Score: 0.1960467  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PLPSAL-PWY	pyridoxal 5'-phosphate salvage I	
+ 	 	 Evidence Score: 0.2055248  Reason:	
+ 	 	 (INFERIOR-TO-NON-PREFERRED-VARIANT PWY-7204)	
+ 	PWY-1042	glycolysis IV (plant cytosol)	
+ 	 	 Evidence Score: 0.4446849  Reason:	
+ 	 	 (REACTOME-MISSING-A-KEY-REACTION
+                  (REACTIONS-PRESENT
+                   (1.2.1.9-RXN PEPDEPHOS-RXN 2PGADEHYDRAT-RXN
+                    3PGAREARR-RXN PHOSGLYPHOS-RXN GAPOXNPHOSPHN-RXN
+                    TRIOSEPISOMERIZATION-RXN F16ALDOLASE-RXN
+                    6PFRUCTPHOS-RXN))
+                  (REACTIONS-MISSING (2.7.1.90-RXN))
+                  (KEY-REACTIONS-MISSING (2.7.1.90-RXN)))	
+ 	PWY-1822	indole-3-acetate activation I	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT NIL)
+                  (REACTIONS-MISSING (RXN-2982 RXN-2981)))	
+ 	PWY-2301	<i>myo</i>-inositol biosynthesis	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 (REACTOME-MISSING-A-KEY-REACTION
+                  (REACTIONS-PRESENT
+                   (MYO-INOSITOL-1-PHOSPHATE-SYNTHASE-RXN))
+                  (REACTIONS-MISSING
+                   (MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN))
+                  (KEY-REACTIONS-MISSING
+                   (MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN)))	
+ 	PWY-2681	<i>trans</i>-zeatin biosynthesis	
+ 	 	 Evidence Score: 0.07272727  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-3161	indole-3-acetate biosynthesis III (bacteria)	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-3781	aerobic respiration I (cytochrome c)	
+ 	 	 Evidence Score: 0.62031543  Reason:	
+ 	 	 ETR-ONLY-PATHWAY	
+ 	PWY-3821	D-galactose detoxification	
+ 	 	 Evidence Score: 0.28184  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-4321	L-glutamate degradation IV	
+ 	 	 Evidence Score: 0.14113244  Reason:	
+ 	 	 (DEFAULT-REJECT
+                  (REACTIONS-PRESENT
+                   (RXN-11002
+                    SUCCINATE-SEMIALDEHYDE-DEHYDROGENASE-RXN))
+                  (REACTIONS-MISSING
+                   (RXN-6902 GABATRANSAM-RXN GLUTDECARBOX-RXN)))	
+ 	PWY-4661	1D-<i>myo</i>-inositol hexakisphosphate biosynthesis III (<i>Spirodela polyrrhiza</i>)	
+ 	 	 Evidence Score: 0.13053788  Reason:	
+ 	 	 (DEFAULT-REJECT
+                  (REACTIONS-PRESENT
+                   (MYO-INOSITOL-1-PHOSPHATE-SYNTHASE-RXN 2.7.1.134-RXN
+                    RXN-7163))
+                  (REACTIONS-MISSING
+                   (MYO-INOSITOL-1-KINASE-RXN RXN-7202 RXN-7203
+                    RXN-7204)))	
+ 	PWY-4702	phytate degradation I	
+ 	 	 Evidence Score: 0.12571429  Reason:	
+ 	 	 (DEFAULT-REJECT
+                  (REACTIONS-PRESENT (RXN0-1001 RXN-7241))
+                  (REACTIONS-MISSING
+                   (RXN0-5408 RXN-7242 RXN-7243 RXN-7244 RXN-7245
+                    RXN-7246 RXN-7247 RXN-7248 RXN-7249 RXN-7250
+                    RXN-7253 RXN-7251)))	
+ 	PWY-4861	UDP-&alpha;-D-galacturonate biosynthesis I (from UDP-D-glucuronate)	
+ 	 	 Evidence Score: 0.8  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-4983	nitric oxide biosynthesis II (mammals)	
+ 	 	 Evidence Score: 0.4259305  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-5098	chlorophyll <i>a</i> degradation I	
+ 	 	 Evidence Score: 0.14902015  Reason:	
+ 	 	 (DEFAULT-REJECT
+                  (REACTIONS-PRESENT (RXN-17252 RXN-7738))
+                  (REACTIONS-MISSING (3.1.1.82-RXN RXN-7739 RXN-7741)))	
+ 	PWY-5115	GDP-L-galactose biosynthesis	
+ 	 	 Evidence Score: 0.39976597  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-5136	fatty acid &beta;-oxidation II (peroxisome)	
+ 	 	 Evidence Score: 0.2967941  Reason:	
+ 	 	 (DEGRADATIVE-PWY-MISSING-INITIAL-STEPS
+                  (REACTIONS-PRESENT
+                   (RXN-11026 OHACYL-COA-DEHYDROG-RXN
+                    ENOYL-COA-HYDRAT-RXN))
+                  (REACTIONS-MISSING
+                   (KETOACYLCOATHIOL-RXN ACYLCOASYN-RXN)))	
+ 	PWY-5172	acetyl-CoA biosynthesis III (from citrate)	
+ 	 	 Evidence Score: 0.3846717  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-5353	arachidonate biosynthesis I (6-desaturase, lower eukaryotes)	
+ 	 	 Evidence Score: 0.052892357  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT (RXN-8346))
+                  (REACTIONS-MISSING
+                   (RXN-16044 RXN-16043 RXN-11680 RXN-12968 RXN-12971
+                    RXN-12969 RXN-12777)))	
+ 	PWY-5381	pyridine nucleotide cycling (plants)	
+ 	 	 Evidence Score: 0.09707377  Reason:	
+ 	 	 (PWY-SUPERSET-OF-SOME-PWY
+                  (SUPER-SET-OF (PYRIDNUCSAL-PWY)))	
+ 	PWY-5382	hydrogen oxidation II (aerobic, NAD)	
+ 	 	 Evidence Score: 0.3846717  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-5453	methylglyoxal degradation III	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT NIL)
+                  (REACTIONS-MISSING (RXN-8632 RXN0-4281)))	
+ 	PWY-5484	glycolysis II (from fructose 6-phosphate)	
+ 	 	 Evidence Score: 0.43567076  Reason:	
+ 	 	 (PWY-SAME-AS-VARIANT-TO-KEEP (GLYCOLYSIS))	
+ 	PWY-5493	reductive monocarboxylic acid cycle	
+ 	 	 Evidence Score: 0.5023321  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-5755	4-hydroxybenzoate biosynthesis II (bacteria)	
+ 	 	 Evidence Score: 0.21749437  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-5785	di-<i>trans</i>,poly-<i>cis</i>-undecaprenyl phosphate biosynthesis	
+ 	 	 Evidence Score: 0.2  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-5791	1,4-dihydroxy-2-naphthoate biosynthesis II (plants)	
+ 	 	 Evidence Score: 0.2747655  Reason:	
+ 	 	 (INFERIOR-TO-NON-PREFERRED-VARIANT PWY-5837)	
+ 	PWY-6012	acyl carrier protein metabolism	
+ 	 	 Evidence Score: 0.09616792  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6079	anthranilate degradation I (aerobic)	
+ 	 	 Evidence Score: 0.2926926  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-63	UDP-&beta;-L-arabinose biosynthesis I (from UDP-&alpha;-D-xylose)	
+ 	 	 Evidence Score: 0.8  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6327	tetrathionate oxidation	
+ 	 	 Evidence Score: 0.8  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6370	ascorbate recycling (cytosolic)	
+ 	 	 Evidence Score: 0.24183396  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6473	4-aminobutanoate degradation IV	
+ 	 	 Evidence Score: 0.14126165  Reason:	
+ 	 	 (DEGRADATIVE-PWY-MISSING-INITIAL-STEPS
+                  (REACTIONS-PRESENT
+                   (SUCCINATE-SEMIALDEHYDE-DEHYDROGENASE-RXN))
+                  (REACTIONS-MISSING (RXN-6902)))	
+ 	PWY-6482	diphthamide biosynthesis I (archaea)	
+ 	 	 Evidence Score: 0.1282239  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6509	methanol oxidation to formaldehyde III	
+ 	 	 Evidence Score: 0.8  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6596	adenosine nucleotides degradation I	
+ 	 	 Evidence Score: 0.20547158  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6606	guanosine nucleotides degradation II	
+ 	 	 Evidence Score: 0.28161022  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6607	guanosine nucleotides degradation I	
+ 	 	 Evidence Score: 0.06285918  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6610	adenine salvage	
+ 	 	 Evidence Score: 0.41941306  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6698	oxalate degradation V	
+ 	 	 Evidence Score: 0.8  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6707	gallate biosynthesis	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 (REACTOME-MISSING-A-KEY-REACTION
+                  (REACTIONS-PRESENT NIL)
+                  (REACTIONS-MISSING
+                   (3-DEHYDROQUINATE-DEHYDRATASE-RXN RXN-12131))
+                  (KEY-REACTIONS-MISSING (RXN-12131)))	
+ 	PWY-6745	phytochelatins biosynthesis	
+ 	 	 Evidence Score: 0.8  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6758	hydrogen production II	
+ 	 	 Evidence Score: 0.3846717  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6787	flavonoid biosynthesis (in equisetum)	
+ 	 	 Evidence Score: 0.10670626  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT NIL)
+                  (REACTIONS-MISSING
+                   (RXN-7921 RXN-527 RXN-7775 RXN-7687 RXN-7652
+                    RXN1F-93 NARINGENIN-3-DIOXYGENASE-RXN RXN-7686
+                    APIGNAR-RXN NARINGENIN-CHALCONE-SYNTHASE-RXN)))	
+ 	PWY-6799	fatty acid biosynthesis (plant mitochondria)	
+ 	 	 Evidence Score: 0.070630826  Reason:	
+ 	 	 (DEFAULT-REJECT
+                  (REACTIONS-PRESENT (MALONYL-COA-ACP-TRANSACYL-RXN))
+                  (REACTIONS-MISSING (RXN-12360 RXN-12359 RXN-12361)))	
+ 	PWY-6842	glutathione-mediated detoxification II	
+ 	 	 Evidence Score: 0.14104629  Reason:	
+ 	 	 (DEFAULT-REJECT
+                  (REACTIONS-PRESENT
+                   (THIOL-S-METHYLTRANSFERASE-RXN RXN-6641
+                    GSHTRAN-RXN))
+                  (REACTIONS-MISSING
+                   (TRANS-RXN-358 RXN-6763 RXN-6642 RXN-12534 RXN-12533
+                    RXN-12532)))	
+ 	PWY-6852	senecionine N-oxide biosynthesis	
+ 	 	 Evidence Score: 0.8  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6898	thiamine salvage III	
+ 	 	 Evidence Score: 0.25683936  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6902	chitin degradation II (Vibrio)	
+ 	 	 Evidence Score: 0.05650466  Reason:	
+ 	 	 (PWY-SUPERSET-OF-SOME-PWY (SUPER-SET-OF (PWY-6814)))	
+ 	PWY-6936	seleno-amino acid biosynthesis (plants)	
+ 	 	 Evidence Score: 0.05650466  Reason:	
+ 	 	 BIOSYNTHETIC-PWY-MISSING-FINAL-STEPS	
+ 	PWY-701	L-methionine degradation II	
+ 	 	 Evidence Score: 0.3846717  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-702	L-methionine biosynthesis II (plants)	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-7159	3,8-divinyl-chlorophyllide <i>a</i> biosynthesis III (aerobic, light independent)	
+ 	 	 Evidence Score: 0.373359  Reason:	
+ 	 	 (REACTOME-MISSING-A-KEY-REACTION
+                  (REACTIONS-PRESENT
+                   (RXN-5282 RXN-5283 RXN-5284 RXN0-1461
+                    RXN-MG-PROTOPORPHYRIN-METHYLESTER-SYN RXN1F-20
+                    UROGENDECARBOX-RXN PROTOPORGENOXI-RXN))
+                  (REACTIONS-MISSING (RXN-17485))
+                  (KEY-REACTIONS-MISSING (RXN-17485)))	
+ 	PWY-7175	nostoxanthin biosynthesis	
+ 	 	 Evidence Score: 0.3846717  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-7177	UTP and CTP dephosphorylation II	
+ 	 	 Evidence Score: 0.98429805  Reason:	
+ 	 	 (REACTOME-MISSING-A-KEY-REACTION
+                  (REACTIONS-PRESENT (CTPSYN-RXN))
+                  (REACTIONS-MISSING (RXN-12200 RXN-12199))
+                  (KEY-REACTIONS-MISSING (RXN-12199 RXN-12200)))	
+ 	PWY-7185	UTP and CTP dephosphorylation I	
+ 	 	 Evidence Score: 0.8918344  Reason:	
+ 	 	 (INFERIOR-TO-NON-PREFERRED-VARIANT PWY-7177)	
+ 	PWY-7187	pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis II	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-7394	urate conversion to allantoin II	
+ 	 	 Evidence Score: 0.6284618  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-7409	phospholipid remodeling (phosphatidylethanolamine, yeast)	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT NIL)
+                  (REACTIONS-MISSING
+                   (RXN-15067 RXN-14160 RXN-15035 RXN-15036)))	
+ 	PWY-7436	vitamin E biosynthesis (tocotrienols)	
+ 	 	 Evidence Score: 0.6666667  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY0-1275	lipoate biosynthesis and incorporation II	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY0-1313	acetate conversion to acetyl-CoA	
+ 	 	 Evidence Score: 0.2285295  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY0-522	lipoate salvage I	
+ 	 	 Evidence Score: 0.32075554  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY0-541	cyclopropane fatty acid (CFA) biosynthesis	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY1F-353	glycine betaine biosynthesis III (plants)	
+ 	 	 Evidence Score: 0.14126165  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT (BADH-RXN))
+                  (REACTIONS-MISSING (RXN1F-357)))	
+ 	PWY4FS-11	L-ascorbate biosynthesis II (L-gulose pathway)	
+ 	 	 Evidence Score: 0.24039237  Reason:	
+ 	 	 BIOSYNTHETIC-PWY-MISSING-FINAL-STEPS	
+ 	PWY66-420	carnosine biosynthesis	
+ 	 	 Evidence Score: 0.8  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY66-421	homocarnosine biosynthesis	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWYQT-4432	glutathione degradation	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT NIL)
+                  (REACTIONS-MISSING (RXN-6622 RXNQT-4143)))	
+ 	TRESYN-PWY	trehalose biosynthesis I	
+ 	 	 Evidence Score: 0.7784197  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+
+
+77 Pathways that were added since PathoLogic was last run but which now would be pruned.
+You should consider deleting most or all of these.
+ 	GLYOXDEG-PWY	glycolate and glyoxylate degradation II	
+ 	 	 Evidence Score: 0.25732255  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	HEXPPSYN-PWY	hexaprenyl diphosphate biosynthesis	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT NIL)
+                  (REACTIONS-MISSING
+                   (TRANS-PENTAPRENYLTRANSFERASE-RXN)))	
+ 	ILEUDEG-PWY	L-isoleucine degradation I	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT NIL)
+                  (REACTIONS-MISSING
+                   (2-METHYLACYL-COA-DEHYDROGENASE-RXN
+                    2KETO-3METHYLVALERATE-RXN
+                    METHYLACETOACETYLCOATHIOL-RXN TIGLYLCOA-HYDROXY-RXN
+                    1.1.1.178-RXN BRANCHED-CHAINAMINOTRANSFERILEU-RXN)))	
+ 	ILEUSYN-PWY	L-isoleucine biosynthesis I (from threonine)	
+ 	 	 Evidence Score: 0.111504674  Reason:	
+ 	 	 BIOSYNTHETIC-PWY-MISSING-FINAL-STEPS	
+ 	MALATE-ASPARTATE-SHUTTLE-PWY	L-aspartate degradation II	
+ 	 	 Evidence Score: 0.21058953  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	NAGLIPASYN-PWY	lipid IV<sub>A</sub> biosynthesis	
+ 	 	 Evidence Score: 0.14666668  Reason:	
+ 	 	 (DEFAULT-REJECT
+                  (REACTIONS-PRESENT (UDPACYLGLCNACDEACETYL-RXN))
+                  (REACTIONS-MISSING
+                   (UDPNACETYLGLUCOSAMACYLTRANS-RXN
+                    UDPHYDROXYMYRGLUCOSAMNACETYLTRANS-RXN
+                    LIPIDXSYNTHESIS-RXN TETRAACYLDISACC4KIN-RXN
+                    LIPIDADISACCHARIDESYNTH-RXN)))	
+ 	NONMEVIPP-PWY	methylerythritol phosphate pathway I	
+ 	 	 Evidence Score: 0.1960467  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PLPSAL-PWY	pyridoxal 5'-phosphate salvage I	
+ 	 	 Evidence Score: 0.2055248  Reason:	
+ 	 	 (INFERIOR-TO-NON-PREFERRED-VARIANT PWY-7204)	
+ 	PWY-1042	glycolysis IV (plant cytosol)	
+ 	 	 Evidence Score: 0.4446849  Reason:	
+ 	 	 (REACTOME-MISSING-A-KEY-REACTION
+                  (REACTIONS-PRESENT
+                   (1.2.1.9-RXN PEPDEPHOS-RXN 2PGADEHYDRAT-RXN
+                    3PGAREARR-RXN PHOSGLYPHOS-RXN GAPOXNPHOSPHN-RXN
+                    TRIOSEPISOMERIZATION-RXN F16ALDOLASE-RXN
+                    6PFRUCTPHOS-RXN))
+                  (REACTIONS-MISSING (2.7.1.90-RXN))
+                  (KEY-REACTIONS-MISSING (2.7.1.90-RXN)))	
+ 	PWY-1822	indole-3-acetate activation I	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT NIL)
+                  (REACTIONS-MISSING (RXN-2982 RXN-2981)))	
+ 	PWY-2301	<i>myo</i>-inositol biosynthesis	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 (REACTOME-MISSING-A-KEY-REACTION
+                  (REACTIONS-PRESENT
+                   (MYO-INOSITOL-1-PHOSPHATE-SYNTHASE-RXN))
+                  (REACTIONS-MISSING
+                   (MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN))
+                  (KEY-REACTIONS-MISSING
+                   (MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN)))	
+ 	PWY-2681	<i>trans</i>-zeatin biosynthesis	
+ 	 	 Evidence Score: 0.07272727  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-3161	indole-3-acetate biosynthesis III (bacteria)	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-3781	aerobic respiration I (cytochrome c)	
+ 	 	 Evidence Score: 0.62031543  Reason:	
+ 	 	 ETR-ONLY-PATHWAY	
+ 	PWY-3821	D-galactose detoxification	
+ 	 	 Evidence Score: 0.28184  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-4321	L-glutamate degradation IV	
+ 	 	 Evidence Score: 0.14113244  Reason:	
+ 	 	 (DEFAULT-REJECT
+                  (REACTIONS-PRESENT
+                   (RXN-11002
+                    SUCCINATE-SEMIALDEHYDE-DEHYDROGENASE-RXN))
+                  (REACTIONS-MISSING
+                   (RXN-6902 GABATRANSAM-RXN GLUTDECARBOX-RXN)))	
+ 	PWY-4661	1D-<i>myo</i>-inositol hexakisphosphate biosynthesis III (<i>Spirodela polyrrhiza</i>)	
+ 	 	 Evidence Score: 0.13053788  Reason:	
+ 	 	 (DEFAULT-REJECT
+                  (REACTIONS-PRESENT
+                   (MYO-INOSITOL-1-PHOSPHATE-SYNTHASE-RXN 2.7.1.134-RXN
+                    RXN-7163))
+                  (REACTIONS-MISSING
+                   (MYO-INOSITOL-1-KINASE-RXN RXN-7202 RXN-7203
+                    RXN-7204)))	
+ 	PWY-4702	phytate degradation I	
+ 	 	 Evidence Score: 0.12571429  Reason:	
+ 	 	 (DEFAULT-REJECT
+                  (REACTIONS-PRESENT (RXN0-1001 RXN-7241))
+                  (REACTIONS-MISSING
+                   (RXN0-5408 RXN-7242 RXN-7243 RXN-7244 RXN-7245
+                    RXN-7246 RXN-7247 RXN-7248 RXN-7249 RXN-7250
+                    RXN-7253 RXN-7251)))	
+ 	PWY-4861	UDP-&alpha;-D-galacturonate biosynthesis I (from UDP-D-glucuronate)	
+ 	 	 Evidence Score: 0.8  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-4983	nitric oxide biosynthesis II (mammals)	
+ 	 	 Evidence Score: 0.4259305  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-5098	chlorophyll <i>a</i> degradation I	
+ 	 	 Evidence Score: 0.14902015  Reason:	
+ 	 	 (DEFAULT-REJECT
+                  (REACTIONS-PRESENT (RXN-17252 RXN-7738))
+                  (REACTIONS-MISSING (3.1.1.82-RXN RXN-7739 RXN-7741)))	
+ 	PWY-5115	GDP-L-galactose biosynthesis	
+ 	 	 Evidence Score: 0.39976597  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-5136	fatty acid &beta;-oxidation II (peroxisome)	
+ 	 	 Evidence Score: 0.2967941  Reason:	
+ 	 	 (DEGRADATIVE-PWY-MISSING-INITIAL-STEPS
+                  (REACTIONS-PRESENT
+                   (RXN-11026 OHACYL-COA-DEHYDROG-RXN
+                    ENOYL-COA-HYDRAT-RXN))
+                  (REACTIONS-MISSING
+                   (KETOACYLCOATHIOL-RXN ACYLCOASYN-RXN)))	
+ 	PWY-5172	acetyl-CoA biosynthesis III (from citrate)	
+ 	 	 Evidence Score: 0.3846717  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-5353	arachidonate biosynthesis I (6-desaturase, lower eukaryotes)	
+ 	 	 Evidence Score: 0.052892357  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT (RXN-8346))
+                  (REACTIONS-MISSING
+                   (RXN-16044 RXN-16043 RXN-11680 RXN-12968 RXN-12971
+                    RXN-12969 RXN-12777)))	
+ 	PWY-5381	pyridine nucleotide cycling (plants)	
+ 	 	 Evidence Score: 0.09707377  Reason:	
+ 	 	 (PWY-SUPERSET-OF-SOME-PWY
+                  (SUPER-SET-OF (PYRIDNUCSAL-PWY)))	
+ 	PWY-5382	hydrogen oxidation II (aerobic, NAD)	
+ 	 	 Evidence Score: 0.3846717  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-5453	methylglyoxal degradation III	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT NIL)
+                  (REACTIONS-MISSING (RXN-8632 RXN0-4281)))	
+ 	PWY-5484	glycolysis II (from fructose 6-phosphate)	
+ 	 	 Evidence Score: 0.43567076  Reason:	
+ 	 	 (PWY-SAME-AS-VARIANT-TO-KEEP (GLYCOLYSIS))	
+ 	PWY-5493	reductive monocarboxylic acid cycle	
+ 	 	 Evidence Score: 0.5023321  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-5704	urea degradation II	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT NIL)
+                  (REACTIONS-MISSING (UREASE-RXN)))	
+ 	PWY-5755	4-hydroxybenzoate biosynthesis II (bacteria)	
+ 	 	 Evidence Score: 0.21749437  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-5785	di-<i>trans</i>,poly-<i>cis</i>-undecaprenyl phosphate biosynthesis	
+ 	 	 Evidence Score: 0.2  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-5791	1,4-dihydroxy-2-naphthoate biosynthesis II (plants)	
+ 	 	 Evidence Score: 0.2747655  Reason:	
+ 	 	 (INFERIOR-TO-NON-PREFERRED-VARIANT PWY-5837)	
+ 	PWY-6012	acyl carrier protein metabolism	
+ 	 	 Evidence Score: 0.09616792  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6079	anthranilate degradation I (aerobic)	
+ 	 	 Evidence Score: 0.2926926  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-63	UDP-&beta;-L-arabinose biosynthesis I (from UDP-&alpha;-D-xylose)	
+ 	 	 Evidence Score: 0.8  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6327	tetrathionate oxidation	
+ 	 	 Evidence Score: 0.8  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6370	ascorbate recycling (cytosolic)	
+ 	 	 Evidence Score: 0.24183396  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6473	4-aminobutanoate degradation IV	
+ 	 	 Evidence Score: 0.14126165  Reason:	
+ 	 	 (DEGRADATIVE-PWY-MISSING-INITIAL-STEPS
+                  (REACTIONS-PRESENT
+                   (SUCCINATE-SEMIALDEHYDE-DEHYDROGENASE-RXN))
+                  (REACTIONS-MISSING (RXN-6902)))	
+ 	PWY-6482	diphthamide biosynthesis I (archaea)	
+ 	 	 Evidence Score: 0.1282239  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6509	methanol oxidation to formaldehyde III	
+ 	 	 Evidence Score: 0.8  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6596	adenosine nucleotides degradation I	
+ 	 	 Evidence Score: 0.20547158  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6606	guanosine nucleotides degradation II	
+ 	 	 Evidence Score: 0.28161022  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6607	guanosine nucleotides degradation I	
+ 	 	 Evidence Score: 0.06285918  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6610	adenine salvage	
+ 	 	 Evidence Score: 0.41941306  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6698	oxalate degradation V	
+ 	 	 Evidence Score: 0.8  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6707	gallate biosynthesis	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 (REACTOME-MISSING-A-KEY-REACTION
+                  (REACTIONS-PRESENT NIL)
+                  (REACTIONS-MISSING
+                   (3-DEHYDROQUINATE-DEHYDRATASE-RXN RXN-12131))
+                  (KEY-REACTIONS-MISSING (RXN-12131)))	
+ 	PWY-6745	phytochelatins biosynthesis	
+ 	 	 Evidence Score: 0.8  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6758	hydrogen production II	
+ 	 	 Evidence Score: 0.3846717  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6787	flavonoid biosynthesis (in equisetum)	
+ 	 	 Evidence Score: 0.10670626  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT NIL)
+                  (REACTIONS-MISSING
+                   (RXN-7921 RXN-527 RXN-7775 RXN-7687 RXN-7652
+                    RXN1F-93 NARINGENIN-3-DIOXYGENASE-RXN RXN-7686
+                    APIGNAR-RXN NARINGENIN-CHALCONE-SYNTHASE-RXN)))	
+ 	PWY-6799	fatty acid biosynthesis (plant mitochondria)	
+ 	 	 Evidence Score: 0.070630826  Reason:	
+ 	 	 (DEFAULT-REJECT
+                  (REACTIONS-PRESENT (MALONYL-COA-ACP-TRANSACYL-RXN))
+                  (REACTIONS-MISSING (RXN-12360 RXN-12359 RXN-12361)))	
+ 	PWY-6842	glutathione-mediated detoxification II	
+ 	 	 Evidence Score: 0.14104629  Reason:	
+ 	 	 (DEFAULT-REJECT
+                  (REACTIONS-PRESENT
+                   (THIOL-S-METHYLTRANSFERASE-RXN RXN-6641
+                    GSHTRAN-RXN))
+                  (REACTIONS-MISSING
+                   (TRANS-RXN-358 RXN-6763 RXN-6642 RXN-12534 RXN-12533
+                    RXN-12532)))	
+ 	PWY-6852	senecionine N-oxide biosynthesis	
+ 	 	 Evidence Score: 0.8  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6898	thiamine salvage III	
+ 	 	 Evidence Score: 0.25683936  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-6902	chitin degradation II (Vibrio)	
+ 	 	 Evidence Score: 0.05650466  Reason:	
+ 	 	 (PWY-SUPERSET-OF-SOME-PWY (SUPER-SET-OF (PWY-6814)))	
+ 	PWY-6936	seleno-amino acid biosynthesis (plants)	
+ 	 	 Evidence Score: 0.05650466  Reason:	
+ 	 	 BIOSYNTHETIC-PWY-MISSING-FINAL-STEPS	
+ 	PWY-701	L-methionine degradation II	
+ 	 	 Evidence Score: 0.3846717  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-702	L-methionine biosynthesis II (plants)	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-7159	3,8-divinyl-chlorophyllide <i>a</i> biosynthesis III (aerobic, light independent)	
+ 	 	 Evidence Score: 0.373359  Reason:	
+ 	 	 (REACTOME-MISSING-A-KEY-REACTION
+                  (REACTIONS-PRESENT
+                   (RXN-5282 RXN-5283 RXN-5284 RXN0-1461
+                    RXN-MG-PROTOPORPHYRIN-METHYLESTER-SYN RXN1F-20
+                    UROGENDECARBOX-RXN PROTOPORGENOXI-RXN))
+                  (REACTIONS-MISSING (RXN-17485))
+                  (KEY-REACTIONS-MISSING (RXN-17485)))	
+ 	PWY-7175	nostoxanthin biosynthesis	
+ 	 	 Evidence Score: 0.3846717  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-7177	UTP and CTP dephosphorylation II	
+ 	 	 Evidence Score: 0.98429805  Reason:	
+ 	 	 (REACTOME-MISSING-A-KEY-REACTION
+                  (REACTIONS-PRESENT (CTPSYN-RXN))
+                  (REACTIONS-MISSING (RXN-12200 RXN-12199))
+                  (KEY-REACTIONS-MISSING (RXN-12199 RXN-12200)))	
+ 	PWY-7185	UTP and CTP dephosphorylation I	
+ 	 	 Evidence Score: 0.8918344  Reason:	
+ 	 	 (INFERIOR-TO-NON-PREFERRED-VARIANT PWY-7177)	
+ 	PWY-7187	pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis II	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-7394	urate conversion to allantoin II	
+ 	 	 Evidence Score: 0.6284618  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY-7409	phospholipid remodeling (phosphatidylethanolamine, yeast)	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT NIL)
+                  (REACTIONS-MISSING
+                   (RXN-15067 RXN-14160 RXN-15035 RXN-15036)))	
+ 	PWY-7436	vitamin E biosynthesis (tocotrienols)	
+ 	 	 Evidence Score: 0.6666667  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY0-1275	lipoate biosynthesis and incorporation II	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY0-1313	acetate conversion to acetyl-CoA	
+ 	 	 Evidence Score: 0.2285295  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY0-522	lipoate salvage I	
+ 	 	 Evidence Score: 0.32075554  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY0-541	cyclopropane fatty acid (CFA) biosynthesis	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY1F-353	glycine betaine biosynthesis III (plants)	
+ 	 	 Evidence Score: 0.14126165  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT (BADH-RXN))
+                  (REACTIONS-MISSING (RXN1F-357)))	
+ 	PWY4FS-11	L-ascorbate biosynthesis II (L-gulose pathway)	
+ 	 	 Evidence Score: 0.24039237  Reason:	
+ 	 	 BIOSYNTHETIC-PWY-MISSING-FINAL-STEPS	
+ 	PWY66-420	carnosine biosynthesis	
+ 	 	 Evidence Score: 0.8  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWY66-421	homocarnosine biosynthesis	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+ 	PWYQT-4432	glutathione degradation	
+ 	 	 Evidence Score: 0.0  Reason:	
+ 	 	 (DEFAULT-REJECT (REACTIONS-PRESENT NIL)
+                  (REACTIONS-MISSING (RXN-6622 RXNQT-4143)))	
+ 	TRESYN-PWY	trehalose biosynthesis I	
+ 	 	 Evidence Score: 0.7784197  Reason:	
+ 	 	 OUTSIDE-TAXONOMIC-RANGE	
+
+
+0 Pathways are not present in MetaCyc.  If any of these pathways have been created specifically for your
+organism and have experimental evidence and comments, please consider submitting them for inclusion into
+MetaCyc.  If not, these are probably pathways that have been deleted from Metacyc (and possibly replaced
+with others).  You should consider carefully whether these pathways should be kept or deleted.
+
+
+15 Pathways have been newly inferred in this organism.
+You should check the list for false positives, but otherwise you will want to keep most of these.
+ 	ARGININE-SYN4-PWY	L-ornithine biosynthesis II	
+ 	DTDPRHAMSYN-PWY	dTDP-L-rhamnose biosynthesis	
+ 	GLYSYN2-PWY	glycine biosynthesis	
+ 	PWY-3742	tetrahydrofolate biosynthesis II	
+ 	PWY-5907	homospermidine biosynthesis	
+ 	PWY-6577	farnesylcysteine salvage pathway	
+ 	PWY-6691	plaunotol biosynthesis	
+ 	PWY-7590	(7Z,10Z,13Z)-hexadecatrienoate biosynthesis	
+ 	PWY-7683	nitrite reduction (hemoglobin)	
+ 	PWY-7899	protein NEDDylation	
+ 	PWY-7920	complex <i>N</i>-linked glycan biosynthesis (plants)	
+ 	PWY-8001	felinine and 3-methyl-3-sulfanylbutan-1-ol biosynthesis	
+ 	PWY-8028	cycloartenol biosynthesis	
+ 	PWY3O-4107	NAD salvage pathway V (PNC V cycle)	
+ 	PWYDQC-4	indole-3-acetate biosynthesis I	
+
+

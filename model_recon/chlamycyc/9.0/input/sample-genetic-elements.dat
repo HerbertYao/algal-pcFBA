@@ -1,0 +1,112 @@
+;;==========================================================================
+;; Sample genetic-elements.dat file.
+;; 
+;; This file contains a set of records, one for each genetic element
+;; (chromosome, plasmid, etc.) or contig in the organism. Each genetic
+;; element can be described by either a single annotation file or a
+;; set of annotation files, each associated with a single contig
+;; belonging to the genetic element. Records are terminated by a
+;; single line containing only the string "//". (The "//" is also
+;; required after the final genetic element.) Each record contains a
+;; set of attribute-value pairs, one per line, separated by the tab
+;; character. Lines beginning with ; are comment lines. Valid
+;; attributes are:
+;;
+;; ID
+;;   Required. Identifier for the genetic element. The identifer must
+;;   be unique with respect to all other identifiers used in the PGDB,
+;;   such as gene and protein identifiers. The ID should start with an
+;;   alphabetic character, and contain no spaces or special
+;;   characters. Numbers are allowed, as are dashes and underscores.
+;;   Case insensitive.
+;;
+;; NAME
+;;   Required. Descriptive name for the genetic element.
+;;
+;; TYPE
+;;   Optional. One of :CHRSM, :PLASMID, :CONTIG, :MT (mitochondrial
+;;   chromosome), or :PT (chloroplast chromosome). Defaults to :CHRSM.
+;;
+;; CIRCULAR?
+;;   Required (except for contigs). Is the genetic element circular?
+;;   One of Y or N.
+;;
+;; CODON-TABLE
+;;   Optional; defaults to the codon table specified in the
+;;   organism.dat file, or to the standard codon-table if not
+;;   supplied. This should be a number between 1 and 15.
+;;
+;; ANNOT-FILE
+;;   Required, unless the CONTIG attribute is supplied. Filename for
+;;   the annotation file for this genetic element. The file must be in
+;;   either PathoLogic format (file suffix .pf) or GenBank format
+;;   (file suffix .gb or .gbk). If a GenBank file is supplied, the
+;;   SEQ-FILE attribute (see below) should be omitted, and the
+;;   sequence of the genetic element will be extracted from this
+;;   file. If the file is in the <ORG>cyc/<VERSION>/input/ directory,
+;;   then only the filename is required, otherwise a full pathname
+;;   must be supplied.
+;;
+;; SEQ-FILE
+;;   Optional. Filename for the sequence file for this genetic
+;;   element. The file must be in FASTA format (file suffix .fna,
+;;   .fsa, .fa, .fasta, or .seq). If the ANNOT-FILE attribute
+;;   specifies a file in GenBank format, the SEQ-FILE attribute may be
+;;   omitted, and the genetic element sequence will be extracted from
+;;   the GenBank file. If the file is in the <ORG>cyc/<VERSION>/input/
+;;   directory, then only the filename is required, otherwise a full
+;;   pathname must be supplied.
+;;
+;; CONTIG
+;;   Optional (but not permitted in records of type :CONTIG). ID for a
+;;   contig that forms part of this genetic element. A genetic element
+;;   may have multiple CONTIG lines. This field should not be supplied
+;;   if the ANNOT-FILE attribute is supplied. Syntax requirements same
+;;   as ID.
+;;===========================================================================
+
+;; A chromosome with annotation provided in PathoLogic format.
+ID	TEST-CHROM-1
+NAME	Chromosome 1
+TYPE	:CHRSM
+CIRCULAR?	N
+ANNOT-FILE	chrom1.pf
+SEQ-FILE	chrom1.fsa
+//
+;; A chromosome with annotation provided in GenBank format; SEQ-FILE
+;; omitted (sequence will be extracted from the GenBank file).
+ID	TEST-CHROM-2
+NAME	Chromosome 2
+CIRCULAR?	N
+ANNOT-FILE	/mydata/chrom2.gbk
+//
+;; A mitochondrial chromosome with no sequence data.
+ID	TEST-MIT-CHROM
+NAME	Mitochondrial chromosome
+TYPE	:MT
+CIRCULAR?	Y
+CODON-TABLE	2
+ANNOT-FILE	mit-chrom.pf
+//
+;; A chromosome with two contigs, whose IDs are given by the CONTIG
+;; attributes.
+ID	TEST-CHROM-3
+NAME	Chromosome 3
+TYPE	:CHRSM
+CIRCULAR?	N
+CONTIG	CONTIG-1
+CONTIG	CONTIG-2
+//
+;; The two contig records associated with TEST-CHROM-3.
+ID	CONTIG-1
+NAME	Contig 1 of Chromosome 3
+TYPE	:CONTIG
+ANNOT-FILE	chrom3-contig1.pf
+SEQ-FILE	chrom3-contig1.fsa
+//
+ID	CONTIG-2
+NAME	Contig 2 of Chromosome 3
+TYPE	:CONTIG
+ANNOT-FILE	chrom3-contig2.pf
+SEQ-FILE	chrom3-contig2.fsa
+//

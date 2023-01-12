@@ -1,0 +1,32 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; /var/ptools/ptools-local/pgdbs/user/chlamycyc/3.5/input/organism.dat
+;; generated automatically by PathoLogic v. 16.5
+;;
+;; Lines starting with ; are comment lines.  Each non-comment line should be of the form:
+;; ATTRIBUTE	value
+;; The separator character is the Tab character.
+;; Valid attributes are:
+;;
+;; ID (unique id -- 2-10 alphanumeric characters, no intervening spaces, must
+;; start with a letter)
+;; STORAGE (either File, MySQL or Oracle, defaults to File)
+;; NAME (full species name)
+;; ABBREV-NAME (abbreviated species name)
+;; SUBSPECIES
+;; STRAIN
+;; PRIVATE? (either T or NIL, defaults to NIL, specifies whether database can
+;; be published to the general public over the web)
+;; DOWNLOAD-TIMESTAMP
+;;
+;; Of these, only ID and NAME are required.  Once the file and the project are generated,
+;; the ID and STORAGE fields should *not* be edited.  The other attributes may be edited 
+;; so long as the correct format is maintained.
+;; Case is important only for species and strain names.  
+;; More attributes may be defined at a later time.
+;; Attributes other than these will be ignored.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+ID	CHLAMY
+STORAGE	MYSQL
+NAME	Chlamydomonas reinhardtii
+ABBREV-NAME	C. reinhardtii

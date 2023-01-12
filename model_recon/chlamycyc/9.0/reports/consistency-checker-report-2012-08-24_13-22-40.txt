@@ -1,0 +1,77 @@
+
+===== Checking constraints =====
+
+
+==== Frame CPD-5804 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame ETHYLENE-CMPD ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame L-LACTATE ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD-7078 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD-4210 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame INDOLE ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame 2-METHYL-6-SOLANYL-14-BENZOQUINONE ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD-5725 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame 5-FORMYL-THF ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD-3 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD1F-115 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD-7409 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame 7-METHYLGUANOSINE-ETCETERA-POLYNUCLEOTID ==== 
+   Slot STRUCTURE-ATOMS
+    -- Value |Polynucleotides| does not obey the type restrictions imposed on
+       this slot; the value must be an instance of one of the classes (Elements
+                                          Groups
+                                          Proteins
+                                          RNAs
+                                          Compounds)
+
+
+== Done checking constraints ==
+The report from this consistency checker run can be found at
+/var/pathway-tools/ptools-local/pgdbs/user/chlamycyc/2.0/reports/consistency-checker-report-2012-08-24_13-22-40.txt

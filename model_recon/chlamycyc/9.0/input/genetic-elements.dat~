@@ -1,0 +1,10 @@
+ID	Chlamydomonas reinhardtii
+NAME	Chlamydomonas reinhardtii
+CIRCULAR?	N
+ANNOT-FILE	cr.120111.pf
+//
+ID	TEST
+NAME	TEST
+CIRCULAR?	N
+ANNOT-FILE	test.pf
+

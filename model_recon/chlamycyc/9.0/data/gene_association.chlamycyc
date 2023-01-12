@@ -1,0 +1,5 @@
+ChlamyCyc	MONOMERIO2-6	L-amino-acid oxidase		GO:0042597	PMID:8344302	EXP		C	L-amino-acid oxidase	LAO1	protein	taxon:3055	20121024	ChlamyCyc
+ChlamyCyc	MONOMER-17779	pyruvate formate lyase		GO:0005739	PMID:20190198	EXP		C	pyruvate formate lyase	PFL1	protein	taxon:3055	20121017	ChlamyCyc
+ChlamyCyc	MONOMER-17779	pyruvate formate lyase		GO:0005739	PMID:19349646	EXP		C	pyruvate formate lyase	PFL1	protein	taxon:3055	20121017	ChlamyCyc
+ChlamyCyc	MONOMER-17779	pyruvate formate lyase		GO:0009507	PMID:20190198	EXP		C	pyruvate formate lyase	PFL1	protein	taxon:3055	20121017	ChlamyCyc
+ChlamyCyc	MONOMERIO2-8	Delta4 desaturase		GO:0009536	PMID:22562471	EXP		C	Delta4 desaturase	&Delta;4FAD	protein	taxon:3055	20121030	ChlamyCyc

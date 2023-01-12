@@ -1,0 +1,3690 @@
+
+===== Checking constraints =====
+
+Checking constraints for class  Proteins
+
+==== Frame Sulfurated-Sulfur-Acceptors ==== 
+   Slot INCHI
+    -- Slot INCHI may not be used in this frame; it may only be used in
+       frames in the class Compounds
+
+Checking constraints for class  RNAs
+Checking constraints for class  All-Genes
+Checking constraints for class  Reactions
+
+==== Frame PHOSGLYPHOS-RXN ==== 
+   Slot DELTAG0
+    -- Slot DELTAG0 is not known in KB CHLAMYBASE
+
+Checking constraints for class  Compounds
+
+==== Frame X-DGRO-DGAL-NON-2:6_1:A_2:KETO_3:D ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame B-DIDO-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-LIDO-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-DIDO-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-DMAN-HEX-1:5 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-DMAN-HEX-1:5 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-LMAN-HEX-1:5_6:D ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame B-DGAL-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame O-DGAL-HEX-0:0_1:ALDI ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-LGAL-HEX-1:5_6:D ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-LGAL-HEX-1:5_6:D ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-DGLC-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame B-DGLC-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame B-DXYL-PEN-1:5 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-DXYL-PEN-1:5 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-DARA-PEN-1:4 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-LARA-PEN-1:4 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-DARA-HEX-2:5_2:KETO ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-DARA-HEX-2:5_2:KETO ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame B-DARA-HEX-2:5_2:KETO ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-DARA-PEN-1:4 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame GLYCO-CT-SULFATE ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame GLYCO-CT-PHOSPHATE ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame GLYCO-CT-N-ACETYL ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame GLYCO-CT-N-SULFATE ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame GLYCO-CT-METHYL ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+Checking constraints for class  All-Elements
+Checking constraints for class  Pathways
+Checking constraints for class  Enzymatic-Reactions
+Checking constraints for class  Publications
+Checking constraints for class  Protein-Features
+Checking constraints for class  Compound-Mixtures
+Checking constraints for class  Databases
+Checking constraints for class  People
+Checking constraints for class  Organizations
+Checking constraints for class  Notes
+Checking constraints for class  Growth-Observations
+Checking constraints for class  Regulation
+
+==== Frame REG-8162 ==== 
+   Slot REGULATOR
+    -- This slot has only 0 values, whereas at least 1 value must be supplied
+
+Checking constraints for class  Cell-Types
+Checking constraints for class  DOMAIN-SLOTS
+[Fixed missing inverse by storing "USED-BY-ORGANISMS" in BIOMASS-TEMPLATES.INVERSE]
+[Fixed missing inverse by storing "FEATURES" in FEATURE-OF.INVERSE]
+[Fixed missing inverse by storing "BUCKET-OF" in BUCKET-SEQUENCE.INVERSE]
+[Fixed missing inverse by storing "LEFT" in APPEARS-IN-LEFT-SIDE-OF.INVERSE]
+[Fixed missing inverse by storing "INTERNALS-OF-GROUP" in GROUP-INTERNALS.INVERSE]
+[Fixed missing inverse by storing "IN-CELL-ARCHITECTURE" in CCO-INSTANCES.INVERSE]
+[Fixed missing inverse by storing "AFFILIATIONS" in AFFILIATES.INVERSE]
+[Fixed missing inverse by storing "COMPONENT-OF" in COMPONENTS.INVERSE]
+[Fixed missing inverse by storing "SURROUNDED-BY" in SURROUNDS.INVERSE]
+[Fixed missing inverse by storing "TERM-MEMBERS" in GO-TERMS.INVERSE]
+[Fixed missing inverse by storing "ENZRXN-IN-PATHWAY" in ENZRXNS.INVERSE]
+[Fixed missing inverse by storing "CREDITED-FOR" in CREDITS.INVERSE]
+[Fixed missing inverse by storing "WITH-GROWTH-MEDIA" in OBSERVED-GROWTH.INVERSE]
+[Fixed missing inverse by storing "IN-PATHWAY" in REACTION-LIST.INVERSE]
+[Fixed missing inverse by storing "CATALYZES" in ENZYME.INVERSE]
+[Fixed missing inverse by storing "REACTION" in ENZYMATIC-REACTION.INVERSE]
+[Fixed missing inverse by storing "BINDS-SIGMA-FACTOR" in RECOGNIZED-PROMOTERS.INVERSE]
+[Fixed missing inverse by storing "PREVIOUS-IN-THREAD" in NEXT-IN-THREAD.INVERSE]
+[Fixed missing inverse by storing "REGULATOR" in REGULATES.INVERSE]
+[Fixed missing inverse by storing "FEATURE-OF" in FEATURES.INVERSE]
+[Fixed missing inverse by storing "UNMODIFIED-FORM" in MODIFIED-FORM.INVERSE]
+[Fixed missing inverse by storing "GO-TERMS" in TERM-MEMBERS.INVERSE]
+[Fixed missing inverse by storing "TAUTOMERS" in TAUTOMERS.INVERSE]
+[Fixed missing inverse by storing "SUPER-PATHWAYS" in SUB-PATHWAYS.INVERSE]
+[Fixed missing inverse by storing "COMPOSITION" in IN-MIXTURE.INVERSE]
+[Fixed missing inverse by storing "GROUP-INTERNALS" in INTERNALS-OF-GROUP.INVERSE]
+[Fixed missing inverse by storing "REACTION-LIST" in IN-PATHWAY.INVERSE]
+[Fixed missing inverse by storing "REGULATES" in REGULATOR.INVERSE]
+[Fixed missing inverse by storing "IN-GROUP" in GROUP-MEMBERS.INVERSE]
+[Fixed missing inverse by storing "COFACTORS-OF" in COFACTORS.INVERSE]
+[Fixed missing inverse by storing "CCO-INSTANCES" in IN-CELL-ARCHITECTURE.INVERSE]
+[Fixed missing inverse by storing "AUTHOR-OF-PGDBS" in PGDB-AUTHORS.INVERSE]
+[Fixed missing inverse by storing "PRODUCT" in GENE.INVERSE]
+[Fixed missing inverse by storing "GENOME" in IN-GENOME.INVERSE]
+[Fixed missing inverse by storing "SURROUNDS" in SURROUNDED-BY.INVERSE]
+[Fixed missing inverse by storing "CREDITS" in CREDITED-FOR.INVERSE]
+[Fixed missing inverse by storing "PROSTHETIC-GROUPS" in PROSTHETIC-GROUPS-OF.INVERSE]
+[Fixed missing inverse by storing "ENZYMES-NOT-USED" in ENZYME-NOT-USED-IN.INVERSE]
+[Fixed missing inverse by storing "REFERENT-FRAMES" in HISTORY.INVERSE]
+[Fixed missing inverse by storing "REGULATED-ENTITY" in REGULATED-BY.INVERSE]
+[Fixed missing inverse by storing "ENZYME-NOT-USED-IN" in ENZYMES-NOT-USED.INVERSE]
+[Fixed missing inverse by storing "ASSOCIATED-BINDING-SITE" in INVOLVED-IN-REGULATION.INVERSE]
+[Fixed missing inverse by storing "RIGHT" in APPEARS-IN-RIGHT-SIDE-OF.INVERSE]
+[Fixed missing inverse by storing "COMPONENTS" in COMPONENT-OF.INVERSE]
+[Fixed missing inverse by storing "SUB-PATHWAYS" in SUPER-PATHWAYS.INVERSE]
+[Fixed missing inverse by storing "GENE" in PRODUCT.INVERSE]
+[Fixed missing inverse by storing "INVOLVED-IN-REGULATION" in ASSOCIATED-BINDING-SITE.INVERSE]
+[Fixed missing inverse by storing "IN-MIXTURE" in COMPOSITION.INVERSE]
+[Fixed missing inverse by storing "APPEARS-IN-RIGHT-SIDE-OF" in RIGHT.INVERSE]
+[Fixed missing inverse by storing "PROSTHETIC-GROUPS-OF" in PROSTHETIC-GROUPS.INVERSE]
+[Fixed missing inverse by storing "BIOMASS-TEMPLATES" in USED-BY-ORGANISMS.INVERSE]
+[Fixed missing inverse by storing "ENZRXNS" in ENZRXN-IN-PATHWAY.INVERSE]
+[Fixed missing inverse by storing "PART-OF" in PARTS.INVERSE]
+[Fixed missing inverse by storing "RECOGNIZED-PROMOTERS" in BINDS-SIGMA-FACTOR.INVERSE]
+[Fixed missing inverse by storing "HISTORY" in REFERENT-FRAMES.INVERSE]
+[Fixed missing inverse by storing "ENZYME" in CATALYZES.INVERSE]
+[Fixed missing inverse by storing "UNMAPPED-COMPONENTS" in UNMAPPED-COMPONENT-OF.INVERSE]
+[Fixed missing inverse by storing "UNMAPPED-COMPONENT-OF" in UNMAPPED-COMPONENTS.INVERSE]
+[Fixed missing inverse by storing "MODIFIED-FORM" in UNMODIFIED-FORM.INVERSE]
+[Fixed missing inverse by storing "NEXT-IN-THREAD" in PREVIOUS-IN-THREAD.INVERSE]
+[Fixed missing inverse by storing "PGDB-AUTHORS" in AUTHOR-OF-PGDBS.INVERSE]
+[Fixed missing inverse by storing "IN-GENOME" in GENOME.INVERSE]
+[Fixed missing inverse by storing "OBSERVED-GROWTH" in WITH-GROWTH-MEDIA.INVERSE]
+[Fixed missing inverse by storing "PROMOTER-BOXES" in PROMOTER.INVERSE]
+[Fixed missing inverse by storing "KNOCKOUT-GROWTH-OBSERVATIONS" in SINGLE-GENE-KNOCKOUTS.INVERSE]
+[Fixed missing inverse by storing "SINGLE-GENE-KNOCKOUTS" in KNOCKOUT-GROWTH-OBSERVATIONS.INVERSE]
+[Fixed missing inverse by storing "PROMOTER" in PROMOTER-BOXES.INVERSE]
+[Fixed missing inverse by storing "ENZYMATIC-REACTION" in REACTION.INVERSE]
+[Fixed missing inverse by storing "AFFILIATES" in AFFILIATIONS.INVERSE]
+[Fixed missing inverse by storing "PARTS" in PART-OF.INVERSE]
+[Fixed missing inverse by storing "REGULATED-BY" in REGULATED-ENTITY.INVERSE]
+[Fixed missing inverse by storing "COFACTORS" in COFACTORS-OF.INVERSE]
+[Fixed missing inverse by storing "APPEARS-IN-LEFT-SIDE-OF" in LEFT.INVERSE]
+[Fixed missing inverse by storing "BUCKET-SEQUENCE" in BUCKET-OF.INVERSE]
+[Fixed missing inverse by storing "GROUP-MEMBERS" in IN-GROUP.INVERSE]
+
+== Done checking constraints ==
+
+== Checking for disconnected enzymatic reactions ==
+
+
+== Done checking for disconnected enzymatic reactions ==
+
+=====Checking for duplicate compounds====
+
+
+==The following compounds may be duplicates:  CPD-15818 RIBOSE
+
+==The following compounds may be duplicates:  CPD-15377 D-Xylose
+
+==The following compounds may be duplicates:  CPD-12829 Plastoquinols
+
+==The following compounds may be duplicates:  CPD-15590 D-Galactose
+
+==The following compounds may be duplicates:  Dihydrocarvones Iso-dihydrocarvones
+
+==The following compounds may be duplicates:  CPD-15699 L-ARABINOSE
+
+==The following compounds may be duplicates:  CPD-7695 Peptidoglycan-with-L-lysine-pentapeptide
+
+==The following compounds may be duplicates:  CPD-15374 D-Glucose
+
+==The following compounds may be duplicates:  CPD-15895 RIBOSE-5P
+
+==The following compounds may be duplicates:  44-DIMETHYL-CHOLESTA-812-24-TRIENOL 44-DIMETHYL-CHOLESTA-814-24-TRIENOL
+
+==The following compounds may be duplicates:  CPD-15373 MANNOSE
+
+==The following compounds may be duplicates:  CPD-15382 FRU
+
+==The following compounds may be duplicates:  APIGENIN CPD-20012
+
+====Done checking for duplicate compounds====
+
+Checking Alternative-Substrates slot and various kinetic data slots of the enzymatic reactions....
+
+
+== Done verifying all reactions ==
+
+==== Reaction balance summary report for chlamycyc ====
+
+TOTAL BALANCED REACTIONS: 2305
+    With :CANNOT-BALANCE? slot set to TRUE: 0
+TOTAL UNBALANCED REACTIONS: 84
+    With :CANNOT-BALANCE? slot set to TRUE: 67
+    With :CANNOT-BALANCE? slot not set: 17
+TOTAL UNDETERMINED REACTIONS: 87
+    With one or more of the substrates lack a chemical structure: 66
+    With non-numerical coefficients: 21
+======================================================
+
+
+=== The following 17 reactions are unbalanced and do not have the :CANNOT-BALANCE? slot set to TRUE:
+
+
+RXNQT-4147:                                  hamamelose-21,5-bisphosphate + 2 H2O  ->  hamamelose + 2 phosphate
+RXN-11950:                                   4alpha,14alpha-dimethyl-9beta,19-cyclo-5alpha-cholest-24-en-3-one + NADPH + NADPH + H+ + H+  ->  4alpha,14alpha-dimethyl-9beta,19-cyclo-5alpha-cholest-24-en-3beta-ol + 4alpha,14alpha-dimethyl-9beta,19-cyclo-5alpha-cholest-24-en-3beta-ol + NADP+ + NADP+
+RXN-6102:                                    L-glutamate + ATP + tetrahydropteroyl mono-L-glutamate  =  ADP + THF-L-glutamate + phosphate + 2 H+
+RXNQT-4146:                                  beta-D-fructose 1,6-bisphosphate  ->  hamamelose-21,5-bisphosphate
+RXNQT-4394:                                  CDP-1-18:1(9Z)-2-18:1(9Z)-glycerol + sn-glycerol 3-phosphate  =  CMP + phosphatidylglycerophosphate (dioctadec-9-enoyl(Z)) + H+
+RXNIO2-7:                                    1-18:3-2-16:3-monogalactosyldiacylglycerol  ->  1-18:3-2-16:4-monogalactosyldiacylglycerol + 2 H+
+RXN0-1021:                                   GTP + H2O  =  GDP + phosphate
+RXN-5985:                                    9-mercaptodethiobiotin  =  biotin + 2 H+
+RXN-11961:                                   5alpha-cholesta-7,24-dien-3-one + NADPH + NADPH + H+ + H+  ->  5alpha-cholesta-7,24-dien-3beta-ol + 5alpha-cholesta-7,24-dien-3beta-ol + NADP+ + NADP+
+RXNQT-4377:                                  UTP + N-acetyl-alpha-D-galactosamine 1-phosphate + UTP  =  UDP-N-acetyl-D-galactosamine + UDP-N-acetyl-D-galactosamine + diphosphate + diphosphate
+NADH-DEHYDROG-RXN:                           a ubiquinone + NADH  =  an ubiquinol + NAD+
+RXN-9809:                                    indole-3-butyryl-CoA  =  2-trans-indole-3-butyryl-CoA
+TRANS-RXN4LZ-6845:                           sulfate[cytosol] + ATP + H2O  =  sulfate[chloroplast stroma] + ADP + phosphate
+2.4.2.39-RXN:                                UDP-alpha-D-xylose + UDP-alpha-D-xylose + a xylose/galactose/fucose xyloglucan  =  UDP + xyloglucan with an alpha-D-xylosyl sidechain + UDP
+UMPKI-RXN:                                   ATP + UMP  =  ADP + UDP + H+
+RXNQT-4148:                                  hamamelose  ->  2-carboxy-D-arabinitol
+RXN-7183:                                    (S)-1-pyrroline-5-carboxylate + (S)-1-pyrroline-5-carboxylate + NAD(P)+ + NAD(P)+ + H2O + H2O  =  L-glutamate + L-glutamate + NAD(P)H + NAD(P)H + H+ + H+
+
+=== The following 42 reactions have balanced state UNDETERMINED and do not have the :CANNOT-BALANCE? slot set to TRUE:
+  A balance state of UNDETERMINED means that the software cannot determine whether
+the reaction is balanced, such as because reaction substrates lack chemical structures.
+
+ALDOSE-1-DEHYDROGENASE-RXN:                  an aldopyranose + NAD+  =  a D-aldonolactone + NADH + H+
+RXN-12433:                                   a 1,3-diglyceride + H2O  ->  a monoglyceride + a fatty acid
+RXN-10949:                                   a myo-inositol monophosphate + H2O  ->  myo-inositol + phosphate
+3.6.3.42-RXN:                                a beta-D glucan[in] + ATP + H2O  ->  a beta-D glucan[out] + ADP + phosphate
+RXN-1828:                                    a long-linear alpha-D-glucan + alpha-D-glucopyranose  <-->  a short glucan + a short glucan
+3.6.3.44-RXN:                                a xenobiotic[in] + ATP + H2O  ->  a xenobiotic[out] + ADP + phosphate
+RXN-11109:                                   wound RNA + ATP + H2O  =  an unwound RNA + ADP + phosphate + H+
+RXN-1823:                                    starch + n H2O  ->  a large-branched glucan
+3.2.1.18-RXN:                                a sialyloligosaccharide + H2O  ->  an oligosaccharide + N-acetylneuraminate
+3.2.1.65-RXN:                                a levan + n H2O  ->  n a fructooligosaccharide
+ALDEHYDE-REDUCTASE-RXN:                      a sugar alcohol + NAD(P)+  <-->  an aldose + NAD(P)H + H+
+3.2.1.80-RXN:                                a fructan(n) + H2O  ->  beta-D-fructofuranose + a fructan(n-1)
+HEXOKINASE-RXN:                              a D-hexose + ATP  ->  D-hexose 6-phosphate + ADP + H+
+RXN-3742:                                    a folylpolyglutamate(n) + L-glutamate + ATP  =  a folylpolyglutamate(n+1) + ADP + phosphate
+LACCASE-RXN:                                 4 a benzenediol + oxygen  ->  4 a benzosemiquinone + 2 H2O
+NADPH--FERRIHEMOPROTEIN-REDUCTASE-RXN:       n oxidized hemoproteins + NADPH + H+  =  n reduced hemoproteins + NADP+
+RXN-14352:                                   glucose[in]  ->  glucose[out]
+2.3.2.15-RXN:                                glu(-cys)(n)-gly + glutathione  ->  glu(-cys)(n+1)-gly + glycine
+ABC-11-RXN:                                  ATP + a ferric hydroxamate complex[out] + H2O  ->  ADP + a ferric hydroxamate complex[in] + phosphate
+RXN4LZ-39:                                   S-adenosyl-L-methionine + a 1,2-diacyl-sn-glycerol  =  S-adenosyl-L-homocysteine + a diacylglyceryl-N,N,N-trimethylhomoserine
+RXN-13961:                                   a 14alpha-methylsteroid + 3 NADPH + 3 oxygen + 2 H+  ->  a Delta14steroid + formate + 3 NADP+ + 4 H2O
+RXN-11047:                                   an all-trans-polyisoprenyl diphosphate + 2-carboxy-1,4-naphthoquinol + H+  ->  CO2 + a demethylmenaquinol + diphosphate
+RXN-11963:                                   (2E,6E)-farnesyl diphosphate + n isopentenyl diphosphate  =  a di-trans, poly-cis-polyisoprenyl diphosphate + n diphosphate
+3.2.1.8-RXN:                                 a (1->4)-beta-D-xylan + n H2O  ->  n a (1->4)-beta-D-xylan oligosaccharide
+2.4.1.19-RXN:                                a 1,4-alpha-D-glucan  =  a cyclodextrin
+RXN0-7010:                                   a glutathionyl-methylhydroquinone + glutathione  ->  methyl-p-hydroquinone + glutathione disulfide
+6.3.4.9-RXN:                                 an apo-[methylmalonyl-CoA:pyruvate carboxytransferase] + biotin + ATP  ->  a holo-[methylmalonyl-CoA:pyruvate carboxytransferase] + AMP + diphosphate
+OMEGA-AMIDASE-RXN:                           a monoamide of a dicarboxylate + H2O  =  ammonium + a dicarboxylate
+HOLOCYTOCHROME-C-SYNTHASE-RXN:               a c-type cytochrome  <-->  heme c + an apo-[c-type cytochrome]
+TRANS-RXN-238:                               an (aminoalkyl)phosphonate[in] + ATP + H2O  ->  an (aminoalkyl)phosphonate[out] + ADP + phosphate + H+
+ABC-23-RXN:                                  ATP + an alkylphosphonate[out] + H2O  ->  ADP + an alkylphosphonate[in] + phosphate + H+
+3.6.4.2-RXN:                                 a dynein associated with a microtubule at an n position + ATP + H2O  =  a dynein associated with a microtubule at an (n-1) position (toward the minus end) + ADP + phosphate + H+
+3.6.3.31-RXN:                                a polyamine[out] + ATP + H2O  ->  a polyamine[in] + ADP + phosphate
+PLASTOQUINOL--PLASTOCYANIN-REDUCTASE-RXN:    2 an oxidized plastocyanin[in] + a plastoquinol[membrane] + 2 H+[out]  ->  2 a reduced plastocyanin[in] + a plastoquinone[membrane] + 4 H+[in]
+3.2.1.96-RXN:                                a glycopeptide-D-mannosyl-N4-(N-acetyl-D-glucosaminyl)2-asparagine + H2O  ->  N-acetyl-D-glucosamine-asparagine + a glycopeptide-D-mannosyl-N4-N-acetyl-D-glucosamine
+2.3.1.158-RXN:                               a 1,2-diacyl-sn-glycerol + a phospholipid  ->  a triacyl-sn-glycerol + a lyso-phospholipid
+RXN0-5181:                                   a 1,4-alpha-D-glucan + n H2O  ->  a 1,4-alpha-D-glucan + maltohexaose
+RXN-11046:                                   S-adenosyl-L-methionine + a demethylmenaquinol  ->  S-adenosyl-L-homocysteine + a menaquinol + H+
+3.6.3.17-RXN:                                a monosaccharide[out] + ATP + H2O  ->  a monosaccharide[in] + ADP + phosphate
+OPPSYN-RXN:                                  trans-polyisoprenyln-PP + isopentenyl diphosphate  =  trans-polyisoprenyln+1-PP + diphosphate
+3.6.3.1-RXN:                                 a phospholipid[in] + ATP + H2O  ->  a phospholipid[out] + ADP + phosphate + H+
+RXN-15479:                                   an oxidized plastocyanin[in] + a reduced ferredoxin [iron-sulfur] cluster[out]  <-  hnu + a reduced plastocyanin[in] + an oxidized ferredoxin [iron-sulfur] cluster[out]
+
+
+====Checking frame references====
+
+ 
+Frame CPD-598 is referenced in a |FRAME: | construct, but
+                      does not exist either here or in MetaCyc or in EcoCyc. It is referenced in the
+                     following places:
+Frame: PWY-5692
+ Slot: COMMENT
+
+ Frame: PWY-5698
+ Slot: COMMENT
+
+  
+Frame EC-1.17.7.b is referenced in a |FRAME: | construct, but
+                      does not exist either here or in MetaCyc or in EcoCyc. It is referenced in the
+                     following places:
+Frame: NONMEVIPP-PWY
+ Slot: COMMENT
+
+ 
+Number of frames referenced using |FRAME: | that are: 
+  Defined in this DB: 1666
+  Defined in MetaCyc: 2165
+  Defined in EcoCyc: 6
+  Defined in EC-Number KB: 217
+  Not defined: 2
+
+====Done checking frame references====
+
+
+====Fixing references between polypeptides and genes====
+
+
+==Done fixing references between polypeptides and genes==
+
+====Check Reactions and Validate EC numbers====
+PWYQT-4433
+ Pathway contains one or more reaction PREDECESSORS relationships for which no valid overlap exists:
+ ((2-CARBOXY-D-ARABINITOL-1-PHOSPHATASE-RXN . RXNQT-4148))
+
+PWYQT-4466
+ Pathway contains one or more reaction PREDECESSORS relationships for which no valid overlap exists:
+ ((PGLUCISOM-RXN . GLUCOKIN-RXN))
+
+
+ == Reaction 2-OCTAPRENYLPHENOL-HYDROX-RXN
+ points to EC frame EC-1.14.13.M55, but no such object exists in the EC-Number KB.
+ == The following reactions are marked has having EC#s that have since been transferred: 
+
+ICOSANOYL-COA-SYNTHASE-RXN
+RXN-8079
+DIHYDROPICRED-RXN
+RXN-7183
+
+==Done checking reactions and validating EC#s==
+
+
+====Checking Transcription unit data====
+
+==Done checking Transcription unit data==
+
+==== Checking citations ====
+
+Deleting empty citations...
+
+Converting badly formed citations to the right format...
+
+
+Performing various checks on citations...
+
+3915 total citations
+3514 pubmed citations
+401 non-pubmed citations
+3953 publication frames in DB
+8031 frames contain at least one citation
+0 pubmed citations have not yet been downloaded from pubmed
+
+The following citation problems were found:
+
+Non-medline citation YIN11 not found in DB: referenced
+in frame PWY-4621
+, slot CITATIONS. 
+
+Non-medline citation YIN11 not found in DB: referenced
+in frame PWY-4261
+, slot CITATIONS. 
+
+Non-medline citation YIN11 not found in DB: referenced
+in frame PWY-4261
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+
+== Done checking citations ==
+
+The following frames have unification links to object 'C04902' in database LIGAND-CPD:
+
+Core2
+GALACTOSYL-BETA-GALACTOSAMINYL-R
+
+The following frames have unification links to object '22231' in database CHEBI:
+
+CPD-415
+Acylglycerone-phosphate
+
+The following frames have unification links to object '6255' in database PUBCHEM:
+
+MALTOSE
+CPD-15717
+
+The following frames have unification links to object '5311110' in database PUBCHEM:
+
+RIBOSE
+CPD-15818
+
+The following frames have unification links to object '15936' in database CHEBI:
+
+D-Xylose
+CPD-15377
+
+The following frames have unification links to object '1IR2' in database PDB:
+
+CHLREDRAFT_108283-MONOMER
+CHRECP049-MONOMER
+
+The following frames have unification links to object '44229124' in database PUBCHEM:
+
+Heme-b
+PROTOHEME
+
+The following frames have unification links to object '33853' in database CHEBI:
+
+Phenols
+Aryl-Alcohol
+
+The following frames have unification links to object '25244478' in database PUBCHEM:
+
+GUANOSINE_DIPHOSPHATE_FUCOSE
+CPD-13118
+
+The following frames have unification links to object 'C01935' in database LIGAND-CPD:
+
+Maltodextrins
+CPD-1790
+
+The following frames have unification links to object '15876' in database CHEBI:
+
+Core2
+GALACTOSYL-BETA-GALACTOSAMINYL-R
+
+The following frames have unification links to object '29198' in database CHEBI:
+
+Phosphinates
+CPD-27
+
+The following frames have unification links to object '33586' in database BIGG:
+
+Heme-b
+PROTOHEME
+
+The following frames have unification links to object '33576' in database BIGG:
+
+UDP-GLUCOSE
+CPD-12575
+
+The following frames have unification links to object 'C00032' in database LIGAND-CPD:
+
+Heme-b
+PROTOHEME
+
+The following frames have unification links to object '26436' in database CHEBI:
+
+Pyrimidine-deoxyribonucleosides-5-PPP
+Pyrimidine-deoxyribonucleotides
+
+The following frames have unification links to object '3055' in database NCBI-TAXONOMY-DB:
+
+TAX-3055
+CHLAMY
+
+The following frames have unification links to object '16136' in database CHEBI:
+
+CPD-678
+HS
+
+The following frames have unification links to object '121-69-7' in database CAS:
+
+Oxidized-flavodoxins
+NN-DIMETHYLANILINE
+
+The following frames have unification links to object 'Mannan' in database Wikipedia:
+
+1-4-Mannan
+Mannans
+
+The following frames have unification links to object '1Q90' in database PDB:
+
+CHRECP068-MONOMER
+CHRECP045-MONOMER
+CHRECP008-MONOMER
+
+The following frames have unification links to object '44229219' in database PUBCHEM:
+
+CPD-689
+CPD-694
+
+The following frames have unification links to object '33704' in database CHEBI:
+
+Amino-Acids-20
+Alpha-Amino-Acids
+
+The following frames have unification links to object 'C00615' in database LIGAND-CPD:
+
+Hpr-Histidine
+PTS-I-Histidines
+Protein-Histidines
+
+The following frames have unification links to object '47014' in database CHEBI:
+
+RIBOSE
+CPD-15818
+
+The following frames have unification links to object 'C02953' in database LIGAND-CPD:
+
+BIOPTERIN
+CPD-14202
+
+The following frames have unification links to object 'C00039' in database LIGAND-CPD:
+
+DEOXYNUCLEOTIDESM
+DNA-N
+
+The following frames have unification links to object 'CHLREDRAFT_60238' in database CHLAMYCYC1:
+
+CHLREDRAFT_60238
+CHLREDRAFT_60238-MONOMER
+
+The following frames have unification links to object 'C00002664' in database KNAPSACK:
+
+Phenols
+Aryl-Alcohol
+
+The following frames have unification links to object '58273' in database CHEBI:
+
+RIBOSE-5P
+CPD-15895
+
+The following frames have unification links to object '49033' in database CHEBI:
+
+CPD0-1959
+L-Methionine-sulfoxides
+
+The following frames have unification links to object 'C00161' in database LIGAND-CPD:
+
+2-Oxo-Acids
+2-Oxo-carboxylates
+
+The following frames have unification links to object '847' in database PUBCHEM:
+
+CPD0-1959
+L-Methionine-sulfoxides
+
+The following frames have unification links to object 'C15584' in database LIGAND-CPD:
+
+Phenols
+Aryl-Alcohol
+
+The following frames have unification links to object '14875-96-8' in database CAS:
+
+Heme-b
+PROTOHEME
+
+The following frames have unification links to object '18147' in database CHEBI:
+
+MALTOSE
+CPD-15717
+
+The following frames have unification links to object 'C04272' in database LIGAND-CPD:
+
+DIOH-ISOVALERATE
+CPD-13357
+
+The following frames have unification links to object 'C04571' in database LIGAND-CPD:
+
+CRPB-all-trans-Retinol
+RPB-Retinol
+
+The following frames have unification links to object '64837' in database CHEBI:
+
+Protein-pi-phospho-L-histidines
+Hpr-pi-phospho-L-histidines
+PTS-I-pi-phospho-L-histidines
+
+The following frames have unification links to object '30527' in database CHEBI:
+
+Oxidized-
+Oxidized-Flavins
+
+The following frames have unification links to object '4208' in database CHEBI:
+
+D-mannopyranose
+MANNOSE
+
+The following frames have unification links to object '4139' in database CHEBI:
+
+D-Galactose
+D-galactopyranose
+
+The following frames have unification links to object 'C02790' in database LIGAND-CPD:
+
+3prime-Hydroxy-Flavonoids
+3-Hydroxy-Flavonoids
+
+The following frames have unification links to object 'C02587' in database LIGAND-CPD:
+
+Pyrimidodiazepines
+A-PYRIMIDODIAZEPINE
+
+The following frames have unification links to object 'C01971' in database LIGAND-CPD:
+
+MALTOSE
+CPD-15717
+
+The following frames have unification links to object 'C04261' in database LIGAND-CPD:
+
+Protein-pi-phospho-L-histidines
+Hpr-pi-phospho-L-histidines
+PTS-I-pi-phospho-L-histidines
+
+The following frames have unification links to object 'C00029' in database LIGAND-CPD:
+
+UDP-GLUCOSE
+CPD-12575
+
+The following frames have unification links to object 'C05339' in database LIGAND-CPD:
+
+Phosphinates
+CPD-27
+
+The following frames have unification links to object '6303-21-5' in database CAS:
+
+Phosphinates
+CPD-27
+
+
+ Checking HTML tags in names for Proteins
+Frame CPLX4LZ-110:
+  The name "<i>bc<sub>1</sub> complex" has NIL 
+
+ Checking HTML tags in comments for Proteins
+SoxZY-S-Thiocysteine
+The Comment #<"SoxZY-S-Thiocysteine" class frame in CHLAMYBASE[F] @
+              #x10049980702> has Ctrl ErrorsSoxZY-Proteins
+The Comment #<"SoxZY-Proteins" class frame in CHLAMYBASE[F] @
+              #x1004997a962> has Ctrl ErrorsSoxZY-Thiocysteine-Sulfate
+The Comment #<"SoxZY-Thiocysteine-Sulfate" class frame in CHLAMYBASE[F]
+              @ #x10049980322> has Ctrl ErrorsCitrate-Lyase-Citryl-Forms
+The Comment #<"Citrate-Lyase-Citryl-Forms" class frame in CHLAMYBASE[F]
+              @ #x100499bff02> has Ctrl ErrorsCHLREDRAFT_205903-MONOMER
+The Comment #<"CHLREDRAFT_205903-MONOMER" instance frame in CHLAMYBASE[F]
+              @ #x1004985be02> has Ctrl ErrorsCHRECP027-MONOMER
+The Comment #<"CHRECP027-MONOMER" instance frame in CHLAMYBASE[F] @
+              #x10049987182> has Ctrl ErrorsGIO2-1782-MONOMER
+The Comment slot has HTML Errors: 
+ semicolon for a tag or a space missing next to an ampersand   
+CHRECP031-MONOMER
+The Comment #<"CHRECP031-MONOMER" instance frame in CHLAMYBASE[F] @
+              #x10049870eb2> has Ctrl ErrorsCHLREDRAFT_130316-MONOMER
+The Comment #<"CHLREDRAFT_130316-MONOMER" instance frame in CHLAMYBASE[F]
+              @ #x10049894712> has Ctrl ErrorsCHRECP004-MONOMER
+The Comment #<"CHRECP004-MONOMER" instance frame in CHLAMYBASE[F] @
+              #x100498c2802> has Ctrl ErrorsCHLREDRAFT_98021-MONOMER
+The Comment #<"CHLREDRAFT_98021-MONOMER" instance frame in CHLAMYBASE[F]
+              @ #x10049870e92> has Ctrl ErrorsCHRECP063-MONOMER
+The Comment #<"CHRECP063-MONOMER" instance frame in CHLAMYBASE[F] @
+              #x10049870e32> has Ctrl ErrorsCHLREDRAFT_186501-MONOMER
+The Comment #<"CHLREDRAFT_186501-MONOMER" instance frame in CHLAMYBASE[F]
+              @ #x100499b6852> has Ctrl ErrorsCHLREDRAFT_195712-MONOMER
+The Comment slot has HTML Errors: 
+  please replace & with correct HTML  
+CHLREDRAFT_184815-MONOMER
+The Comment #<"CHLREDRAFT_184815-MONOMER" instance frame in CHLAMYBASE[F]
+              @ #x100499b6792> has Ctrl ErrorsCPLX-7520
+The Comment #<"CPLX-7520" instance frame in CHLAMYBASE[F] @
+              #x1004997f2a2> has Ctrl ErrorsCHLREDRAFT_184660-MONOMER
+The Comment #<"CHLREDRAFT_184660-MONOMER" instance frame in CHLAMYBASE[F]
+              @ #x100498501e2> has Ctrl ErrorsCPLX4LZ-7492
+The Comment #<"CPLX4LZ-7492" instance frame in CHLAMYBASE[F] @
+              #x1004990a252> has Ctrl ErrorsCHLREDRAFT_196834-MONOMER
+The Comment slot has HTML Errors: 
+ incorrect tag1 <BR
+   
+CHLREDRAFT_192142-MONOMER
+The Comment #<"CHLREDRAFT_192142-MONOMER" instance frame in CHLAMYBASE[F]
+              @ #x100499b69d2> has Ctrl ErrorsCHLREDRAFT_191034-MONOMER
+The Comment #<"CHLREDRAFT_191034-MONOMER" instance frame in CHLAMYBASE[F]
+              @ #x100499b6952> has Ctrl ErrorsCHLREDRAFT_191828-MONOMER
+The Comment #<"CHLREDRAFT_191828-MONOMER" instance frame in CHLAMYBASE[F]
+              @ #x100499b6992> has Ctrl ErrorsCHLREDRAFT_152682-MONOMER
+The Comment #<"CHLREDRAFT_152682-MONOMER" instance frame in CHLAMYBASE[F]
+              @ #x100499b6592> has Ctrl ErrorsCPLX-8597
+The Comment #<"CPLX-8597" instance frame in CHLAMYBASE[F] @
+              #x100499558b2> has Ctrl ErrorsCHLREDRAFT_78831-MONOMER
+The Comment #<"CHLREDRAFT_78831-MONOMER" instance frame in CHLAMYBASE[F]
+              @ #x100499b6c92> has Ctrl ErrorsCHLREDRAFT_192157-MONOMER
+The Comment #<"CHLREDRAFT_192157-MONOMER" instance frame in CHLAMYBASE[F]
+              @ #x100499b69f2> has Ctrl ErrorsCHLREDRAFT_182740-MONOMER
+The Comment #<"CHLREDRAFT_182740-MONOMER" instance frame in CHLAMYBASE[F]
+              @ #x100499b66d2> has Ctrl Errors
+ Done checking HTML Tags 
+
+ Checking HTML tags in names for Compounds
+Frame III2-a-Fucosyllactotetraosylceramides:
+  The name "&beta;-D-galactosyl-1,4-<i>N</i>-acetyl-&beta;-D-glucosaminyl-1,3-&beta;-D-galactosyl-1,4-&beta;-D-glucosyl-(1<->1)-ceramide" has 
+ incorrect tag1 -
+  
+Frame 2-Lysophosphatidylcholines:
+  The name "a 1-acyl-<i>sn<i/>-glycerol-3-phosphocholine" has 
+ incorrect tag1 I/
+  
+Frame Glucosyl-acyl-sphingosines:
+  The name "a &beta;-D-glucosyl-(1<->1)-ceramide" has 
+ incorrect tag1 -
+  
+
+ Checking HTML tags in comments for Compounds
+CPD-1790
+The Comment #<"CPD-1790" class frame in CHLAMYBASE[F] @
+              #x1004994bc72> has Ctrl ErrorsUnclassified-Compounds
+The Comment #<"Unclassified-Compounds" class frame in CHLAMYBASE[F] @
+              #x10049984502> has Ctrl ErrorsPLASTOQUINOL-1
+The Comment #<"PLASTOQUINOL-1" class frame in CHLAMYBASE[F] @
+              #x100499ed162> has Ctrl ErrorsXyloglucans
+The Comment #<"Xyloglucans" class frame in CHLAMYBASE[F] @
+              #x100499cb972> has Ctrl ErrorsCPD-731
+The Comment #<"CPD-731" instance frame in CHLAMYBASE[F] @
+              #x100498c5422> has Ctrl ErrorsPALMITATE
+The Comment #<"PALMITATE" instance frame in CHLAMYBASE[F] @
+              #x100499be062> has Ctrl ErrorsCHLOROPHYLL-A
+The Comment #<"CHLOROPHYLL-A" instance frame in CHLAMYBASE[F] @
+              #x100499bbec2> has Ctrl ErrorsGLT
+The Comment #<"GLT" instance frame in CHLAMYBASE[F] @
+              #x100499bdfe2> has Ctrl ErrorsINOSITOL-1456-TETRAKISPHOSPHATE
+The Comment #<"INOSITOL-1456-TETRAKISPHOSPHATE" instance frame in CHLAMYBASE[F]
+              @ #x1004997fc22> has Ctrl ErrorsTHIAMINE-PYROPHOSPHATE
+The Comment #<"THIAMINE-PYROPHOSPHATE" instance frame in CHLAMYBASE[F]
+              @ #x100499859e2> has Ctrl ErrorsCPD-12867
+The Comment #<"CPD-12867" instance frame in CHLAMYBASE[F] @
+              #x10049962592> has Ctrl ErrorsL-GLUTAMATE_GAMMA-SEMIALDEHYDE
+The Comment #<"L-GLUTAMATE_GAMMA-SEMIALDEHYDE" instance frame in CHLAMYBASE[F]
+              @ #x100499bcb62> has Ctrl ErrorsCPD-653
+The Comment #<"CPD-653" instance frame in CHLAMYBASE[F] @
+              #x1004995f5b2> has Ctrl ErrorsCPD-14902
+The Comment #<"CPD-14902" instance frame in CHLAMYBASE[F] @
+              #x10049955992> has Ctrl ErrorsFUM
+The Comment #<"FUM" instance frame in CHLAMYBASE[F] @
+              #x100499be242> has Ctrl ErrorsOH-PYR
+The Comment #<"OH-PYR" instance frame in CHLAMYBASE[F] @
+              #x10049985f62> has Ctrl ErrorsCO-A
+The Comment #<"CO-A" instance frame in CHLAMYBASE[F] @
+              #x10049875aa2> has Ctrl ErrorsElemental-Sulfur
+The Comment #<"Elemental-Sulfur" instance frame in CHLAMYBASE[F] @
+              #x100499bcbc2> has Ctrl ErrorsPYRIDOXAL_PHOSPHATE
+The Comment #<"PYRIDOXAL_PHOSPHATE" instance frame in CHLAMYBASE[F] @
+              #x10049823d62> has Ctrl ErrorsCPD-13524
+The Comment #<"CPD-13524" instance frame in CHLAMYBASE[F] @
+              #x10049965472> has Ctrl ErrorsNADP
+The Comment #<"NADP" instance frame in CHLAMYBASE[F] @
+              #x10049860672> has Ctrl ErrorsCPD-12117
+The Comment #<"CPD-12117" instance frame in CHLAMYBASE[F] @
+              #x100499647b2> has Ctrl ErrorsCPD-12121
+The Comment #<"CPD-12121" instance frame in CHLAMYBASE[F] @
+              #x10049967312> has Ctrl ErrorsPYRUVATE
+The Comment #<"PYRUVATE" instance frame in CHLAMYBASE[F] @
+              #x100498651b2> has Ctrl ErrorsUREA
+The Comment #<"UREA" instance frame in CHLAMYBASE[F] @
+              #x10049775962> has Ctrl ErrorsPANTETHEINE-P
+The Comment #<"PANTETHEINE-P" instance frame in CHLAMYBASE[F] @
+              #x10049985462> has Ctrl ErrorsFRUCTOSE-16-DIPHOSPHATE
+The Comment #<"FRUCTOSE-16-DIPHOSPHATE" instance frame in CHLAMYBASE[F]
+              @ #x100499bf6c2> has Ctrl ErrorsPRO
+The Comment #<"PRO" instance frame in CHLAMYBASE[F] @
+              #x100499bd6e2> has Ctrl ErrorsCPD-15530
+The Comment #<"CPD-15530" instance frame in CHLAMYBASE[F] @
+              #x100499645d2> has Ctrl ErrorsL-CITRULLINE
+The Comment #<"L-CITRULLINE" instance frame in CHLAMYBASE[F] @
+              #x100499bd8c2> has Ctrl ErrorsOXALATE
+The Comment #<"OXALATE" instance frame in CHLAMYBASE[F] @
+              #x10049983502> has Ctrl ErrorsCPD-12122
+The Comment #<"CPD-12122" instance frame in CHLAMYBASE[F] @
+              #x100499671d2> has Ctrl ErrorsNADH
+The Comment #<"NADH" instance frame in CHLAMYBASE[F] @
+              #x100499bdb02> has Ctrl ErrorsSTEARIC_ACID
+The Comment #<"STEARIC_ACID" instance frame in CHLAMYBASE[F] @
+              #x100499baf22> has Ctrl ErrorsCPD-14903
+The Comment #<"CPD-14903" instance frame in CHLAMYBASE[F] @
+              #x10049955932> has Ctrl ErrorsNAD
+The Comment #<"NAD" instance frame in CHLAMYBASE[F] @
+              #x100499bdae2> has Ctrl ErrorsPROTOHEME
+The Comment #<"PROTOHEME" instance frame in CHLAMYBASE[F] @
+              #x100499bd242> has Ctrl ErrorsGUANINE
+The Comment #<"GUANINE" instance frame in CHLAMYBASE[F] @
+              #x100499bd9e2> has Ctrl ErrorsADENOSYLCOBALAMIN
+The Comment #<"ADENOSYLCOBALAMIN" instance frame in CHLAMYBASE[F] @
+              #x100499ba442> has Ctrl ErrorsCPD-14601
+The Comment #<"CPD-14601" instance frame in CHLAMYBASE[F] @
+              #x100499662b2> has Ctrl ErrorsCPD-13907
+The Comment #<"CPD-13907" instance frame in CHLAMYBASE[F] @
+              #x10049970f82> has Ctrl ErrorsSPERMINE
+The Comment #<"SPERMINE" instance frame in CHLAMYBASE[F] @
+              #x10049966392> has Ctrl ErrorsURATE
+The Comment #<"URATE" instance frame in CHLAMYBASE[F] @
+              #x100499834c2> has Ctrl ErrorsL-ASPARTATE
+The Comment #<"L-ASPARTATE" instance frame in CHLAMYBASE[F] @
+              #x100499beaa2> has Ctrl ErrorsCPD-12128
+The Comment #<"CPD-12128" instance frame in CHLAMYBASE[F] @
+              #x10049967152> has Ctrl ErrorsERGOSTEROL
+The Comment #<"ERGOSTEROL" instance frame in CHLAMYBASE[F] @
+              #x100499b9082> has Ctrl ErrorsN-ALPHA-ACETYLORNITHINE
+The Comment #<"N-ALPHA-ACETYLORNITHINE" instance frame in CHLAMYBASE[F]
+              @ #x100499bcde2> has Ctrl ErrorsBIOTIN
+The Comment #<"BIOTIN" instance frame in CHLAMYBASE[F] @
+              #x100499bd262> has Ctrl ErrorsD-LACTATE
+The Comment #<"D-LACTATE" instance frame in CHLAMYBASE[F] @
+              #x10049983082> has Ctrl ErrorsRIBOFLAVIN
+The Comment #<"RIBOFLAVIN" instance frame in CHLAMYBASE[F] @
+              #x100499be782> has Ctrl ErrorsL-DEHYDRO-ASCORBATE
+The Comment #<"L-DEHYDRO-ASCORBATE" instance frame in CHLAMYBASE[F] @
+              #x10049985ca2> has Ctrl ErrorsL-LACTATE
+The Comment #<"L-LACTATE" instance frame in CHLAMYBASE[F] @
+              #x10049977822> has Ctrl ErrorsCHOLESTEROL
+The Comment #<"CHOLESTEROL" instance frame in CHLAMYBASE[F] @
+              #x10049965f72> has Ctrl ErrorsNITRIC-OXIDE
+The Comment #<"NITRIC-OXIDE" instance frame in CHLAMYBASE[F] @
+              #x100499bd342> has Ctrl ErrorsMET
+The Comment #<"MET" instance frame in CHLAMYBASE[F] @
+              #x100499bf322> has Ctrl ErrorsCPD-12658
+The Comment #<"CPD-12658" instance frame in CHLAMYBASE[F] @
+              #x100499673b2> has Ctrl ErrorsCPD-12379
+The Comment #<"CPD-12379" instance frame in CHLAMYBASE[F] @
+              #x1004997fd02> has Ctrl ErrorsCPD-734
+The Comment #<"CPD-734" instance frame in CHLAMYBASE[F] @
+              #x100498c5402> has Ctrl ErrorsOLEATE-CPD
+The Comment #<"OLEATE-CPD" instance frame in CHLAMYBASE[F] @
+              #x100499ba0e2> has Ctrl ErrorsLINOLENIC_ACID
+The Comment #<"LINOLENIC_ACID" instance frame in CHLAMYBASE[F] @
+              #x100499bdb42> has Ctrl ErrorsCPD-12124
+The Comment #<"CPD-12124" instance frame in CHLAMYBASE[F] @
+              #x10049967352> has Ctrl ErrorsL-SELENOCYSTEINE
+The Comment #<"L-SELENOCYSTEINE" instance frame in CHLAMYBASE[F] @
+              #x100499be122> has Ctrl ErrorsCARNOSINE
+The Comment #<"CARNOSINE" instance frame in CHLAMYBASE[F] @
+              #x10049965ed2> has Ctrl ErrorsL-ALPHA-ALANINE
+The Comment #<"L-ALPHA-ALANINE" instance frame in CHLAMYBASE[F] @
+              #x1004987d332> has Ctrl Errors2-TRANS6-TRANS-FARNESOL
+The Comment #<"2-TRANS6-TRANS-FARNESOL" instance frame in CHLAMYBASE[F]
+              @ #x100499ba762> has Ctrl ErrorsFMN
+The Comment #<"FMN" instance frame in CHLAMYBASE[F] @
+              #x100499be762> has Ctrl ErrorsBILIVERDINE
+The Comment #<"BILIVERDINE" instance frame in CHLAMYBASE[F] @
+              #x100499bd222> has Ctrl ErrorsMI-HEXAKISPHOSPHATE
+The Comment #<"MI-HEXAKISPHOSPHATE" instance frame in CHLAMYBASE[F] @
+              #x100499833c2> has Ctrl ErrorsASCORBATE
+The Comment #<"ASCORBATE" instance frame in CHLAMYBASE[F] @
+              #x100499bd922> has Ctrl ErrorsCPD-237
+The Comment #<"CPD-237" instance frame in CHLAMYBASE[F] @
+              #x100499852c2> has Ctrl ErrorsCPD0-2472
+The Comment #<"CPD0-2472" instance frame in CHLAMYBASE[F] @
+              #x1004995f572> has Ctrl ErrorsGDP-TP
+The Comment #<"GDP-TP" instance frame in CHLAMYBASE[F] @
+              #x100499ba382> has Ctrl ErrorsSELENATE
+The Comment #<"SELENATE" instance frame in CHLAMYBASE[F] @
+              #x10049965fd2> has Ctrl ErrorsCPD-12829
+The Comment #<"CPD-12829" instance frame in CHLAMYBASE[F] @
+              #x10049755f12> has Ctrl ErrorsINOSITOL-1-4-5-TRISPHOSPHATE
+The Comment #<"INOSITOL-1-4-5-TRISPHOSPHATE" instance frame in CHLAMYBASE[F]
+              @ #x1004997fc42> has Ctrl Errors4-AMINO-BUTYRATE
+The Comment #<"4-AMINO-BUTYRATE" instance frame in CHLAMYBASE[F] @
+              #x10049985ae2> has Ctrl ErrorsLIPOIC-ACID
+The Comment #<"LIPOIC-ACID" instance frame in CHLAMYBASE[F] @
+              #x10049967df2> has Ctrl ErrorsCPD-12377
+The Comment #<"CPD-12377" instance frame in CHLAMYBASE[F] @
+              #x100499624b2> has Ctrl ErrorsPHOSPHOPANTOTHEINE-GROUP
+The Comment #<"PHOSPHOPANTOTHEINE-GROUP" instance frame in CHLAMYBASE[F]
+              @ #x10049980622> has Ctrl ErrorsREDUCED-MENAQUINONE
+The Comment #<"REDUCED-MENAQUINONE" instance frame in CHLAMYBASE[F] @
+              #x10049967212> has Ctrl ErrorsCPD-110
+The Comment #<"CPD-110" instance frame in CHLAMYBASE[F] @
+              #x100499641d2> has Ctrl ErrorsCPD-12118
+The Comment #<"CPD-12118" instance frame in CHLAMYBASE[F] @
+              #x10049967112> has Ctrl ErrorsTHIAMINE
+The Comment #<"THIAMINE" instance frame in CHLAMYBASE[F] @
+              #x100499bd1a2> has Ctrl ErrorsMETHYL-GLYOXAL
+The Comment #<"METHYL-GLYOXAL" instance frame in CHLAMYBASE[F] @
+              #x100499be2a2> has Ctrl ErrorsLINOLEIC_ACID
+The Comment #<"LINOLEIC_ACID" instance frame in CHLAMYBASE[F] @
+              #x100499be082> has Ctrl ErrorsGLY
+The Comment #<"GLY" instance frame in CHLAMYBASE[F] @
+              #x100499bd062> has Ctrl ErrorsL-ORNITHINE
+The Comment #<"L-ORNITHINE" instance frame in CHLAMYBASE[F] @
+              #x100498a19a2> has Ctrl ErrorsL-DELTA1-PYRROLINE_5-CARBOXYLATE
+The Comment #<"L-DELTA1-PYRROLINE_5-CARBOXYLATE" instance frame in CHLAMYBASE[F]
+              @ #x100499bbb22> has Ctrl ErrorsCPD-12831
+The Comment #<"CPD-12831" instance frame in CHLAMYBASE[F] @
+              #x1004996c742> has Ctrl ErrorsCPD-12126
+The Comment #<"CPD-12126" instance frame in CHLAMYBASE[F] @
+              #x100499670f2> has Ctrl ErrorsCPD-12120
+The Comment #<"CPD-12120" instance frame in CHLAMYBASE[F] @
+              #x10049967172> has Ctrl ErrorsCPD-12868
+The Comment #<"CPD-12868" instance frame in CHLAMYBASE[F] @
+              #x100499625b2> has Ctrl ErrorsSQUALENE
+The Comment #<"SQUALENE" instance frame in CHLAMYBASE[F] @
+              #x10049987362> has Ctrl ErrorsCPD-12116
+The Comment #<"CPD-12116" instance frame in CHLAMYBASE[F] @
+              #x10049967372> has Ctrl ErrorsGLYCOLLATE
+The Comment #<"GLYCOLLATE" instance frame in CHLAMYBASE[F] @
+              #x10049985602> has Ctrl ErrorsSER
+The Comment #<"SER" instance frame in CHLAMYBASE[F] @
+              #x100499bcaa2> has Ctrl ErrorsCPD-497
+The Comment #<"CPD-497" instance frame in CHLAMYBASE[F] @
+              #x10049962632> has Ctrl ErrorsCPD-12129
+The Comment #<"CPD-12129" instance frame in CHLAMYBASE[F] @
+              #x100499672f2> has Ctrl Errors1-L-MYO-INOSITOL-1-P
+The Comment #<"1-L-MYO-INOSITOL-1-P" instance frame in CHLAMYBASE[F] @
+              #x100499bc262> has Ctrl Errors1-L-MYO-INOSITOL-1-P
+The Comment slot has HTML Errors: 
+ Symbol "//WWW.CHEM.QMUL.AC.UK/IUPAC/CYCLITOL/MYO.HTML" not found in the HTTP package.
+ [file position = 50]  
+CIS-ACONITATE
+The Comment #<"CIS-ACONITATE" instance frame in CHLAMYBASE[F] @
+              #x100499bbbc2> has Ctrl ErrorsGUANOSINE-5DP-3DP
+The Comment #<"GUANOSINE-5DP-3DP" instance frame in CHLAMYBASE[F] @
+              #x10049a13682> has Ctrl ErrorsPPI
+The Comment #<"PPI" instance frame in CHLAMYBASE[F] @
+              #x1004986ad82> has Ctrl ErrorsNADPH
+The Comment #<"NADPH" instance frame in CHLAMYBASE[F] @
+              #x10049860692> has Ctrl ErrorsNITROUS-OXIDE
+The Comment #<"NITROUS-OXIDE" instance frame in CHLAMYBASE[F] @
+              #x100499656d2> has Ctrl ErrorsCPD-12119
+The Comment #<"CPD-12119" instance frame in CHLAMYBASE[F] @
+              #x100499672b2> has Ctrl ErrorsCPD-85
+The Comment #<"CPD-85" instance frame in CHLAMYBASE[F] @
+              #x10049966732> has Ctrl ErrorsCPD-506
+The Comment #<"CPD-506" instance frame in CHLAMYBASE[F] @
+              #x1004997fb62> has Ctrl ErrorsGLYCERATE
+The Comment #<"GLYCERATE" instance frame in CHLAMYBASE[F] @
+              #x100499bcec2> has Ctrl ErrorsD-MYO-INOSITOL-1-MONOPHOSPHATE
+The Comment #<"D-MYO-INOSITOL-1-MONOPHOSPHATE" instance frame in CHLAMYBASE[F]
+              @ #x100499bc802> has Ctrl ErrorsCPD-12115
+The Comment #<"CPD-12115" instance frame in CHLAMYBASE[F] @
+              #x10049967232> has Ctrl ErrorsGLN
+The Comment #<"GLN" instance frame in CHLAMYBASE[F] @
+              #x100499be002> has Ctrl ErrorsCPD-12125
+The Comment #<"CPD-12125" instance frame in CHLAMYBASE[F] @
+              #x10049964792> has Ctrl ErrorsCPD-12127
+The Comment #<"CPD-12127" instance frame in CHLAMYBASE[F] @
+              #x10049967292> has Ctrl ErrorsCPD-12130
+The Comment #<"CPD-12130" instance frame in CHLAMYBASE[F] @
+              #x100499671b2> has Ctrl ErrorsCPD-14901
+The Comment #<"CPD-14901" instance frame in CHLAMYBASE[F] @
+              #x10049955972> has Ctrl ErrorsPi
+The Comment #<"Pi" instance frame in CHLAMYBASE[F] @
+              #x100498597c2> has Ctrl Errors
+ Done checking HTML Tags 
+
+ Checking HTML tags in names for Enzymatic-Reactions
+Frame ENZRXNIO2-1618:
+  The name "GTP diphosphokinase<p" has NIL 
+Frame ENZRXNIO2-1043:
+  The name "ferroxidase<p" has NIL 
+Frame ENZRXNIO2-1513:
+  The name "3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p" has NIL 
+Frame ENZRXNIO2-1572:
+  The name "pyrimidodiazepine synthase<p" has NIL 
+Frame ENZRXNIO2-3924:
+  The name "glutamate synthase (ferredoxin)<p" has NIL 
+Frame ENZRXNIO2-1590:
+  The name "ferroxidase<p" has NIL 
+Frame ENZRXNIO2-2246:
+  The name "phospholipase A<small><sub>2</sub></small" has NIL 
+Frame ENZRXNIO2-3320:
+  The name "ferroxidase<p" has NIL 
+Frame ENZRXNIO2-4008:
+  The name "phospholipase A<small><sub>2</sub></small" has NIL 
+Frame ENZRXNIO2-3979:
+  The name "3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p" has NIL 
+Frame ENZRXNIO2-2186:
+  The name "3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p" has NIL 
+Frame ENZRXNIO2-1107:
+  The name "<i>N-</i>acetylglucosaminylphosphatidylinositol deacetylase<p" has NIL 
+Frame ENZRXNIO2-1698:
+  The name "phospholipase A<small><sub>1</sub></small" has NIL 
+Frame ENZRXNIO2-2545:
+  The name "ferroxidase<p" has NIL 
+Frame ENZRXNIO2-3066:
+  The name "GTP diphosphokinase<p" has NIL 
+Frame ENZRXNIO2-1731:
+  The name "glutathione &gamma;-glutamylcysteinyltransferase<p" has NIL 
+Frame ENZRXNIO2-2905:
+  The name "pyrimidodiazepine synthase<p" has NIL 
+Frame ENZRXNIO2-1193:
+  The name "GTP diphosphokinase<p" has NIL 
+Frame ENZRXNIO2-1395:
+  The name "glutathione &gamma;-glutamylcysteinyltransferase<p" has NIL 
+Frame ENZRXNIO2-3739:
+  The name "ferredoxin hydrogenase<p" has NIL 
+Frame ENZRXNIO2-1802:
+  The name "oxaloacetate tautomerase<p" has NIL 
+Frame ENZRXNIO2-2189:
+  The name "3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p" has NIL 
+Frame ENZRXNIO2-1516:
+  The name "3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p" has NIL 
+Frame ENZRXNIO2-1518:
+  The name "3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p" has NIL 
+Frame ENZRXNIO2-3326:
+  The name "NAD(P)H oxidase<p" has NIL 
+Frame ENZRXNIO2-1648:
+  The name "NAD(P)H oxidase<p" has NIL 
+Frame ENZRXNIO2-1527:
+  The name "phospholipase A<small><sub>2</sub></small" has NIL 
+Frame ENZRXNIO2-2181:
+  The name "3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p" has NIL 
+Frame ENZRXNIO2-3815:
+  The name "ubiquinol-cytochrome-<i>c</i> reductase<p" has NIL 
+Frame ENZRXNIO2-2437:
+  The name "phospholipase A<small><sub>2</sub></small" has NIL 
+Frame ENZRXNIO2-3082:
+  The name "FAD-AMP lyase (cyclizing)<p" has NIL 
+Frame ENZRXNIO2-2401:
+  The name "phospholipase A<small><sub>1</sub></small" has NIL 
+
+ Checking HTML tags in comments for Enzymatic-Reactions
+
+ Done checking HTML Tags 
+
+ Checking HTML tags in names for Reactions
+
+ Checking HTML tags in comments for Reactions
+TRANS-RXN4LZ-6845
+The Comment #<"TRANS-RXN4LZ-6845" instance frame in CHLAMYBASE[F] @
+              #x100499fb012> has Ctrl ErrorsRXN-7985
+The Comment #<"RXN-7985" instance frame in CHLAMYBASE[F] @
+              #x1004979a882> has Ctrl ErrorsTRANS-RXN4LZ-6867
+The Comment #<"TRANS-RXN4LZ-6867" instance frame in CHLAMYBASE[F] @
+              #x100499d5c82> has Ctrl ErrorsRXN-7984
+The Comment #<"RXN-7984" instance frame in CHLAMYBASE[F] @
+              #x1004979a822> has Ctrl ErrorsRXN-12590
+The Comment #<"RXN-12590" instance frame in CHLAMYBASE[F] @
+              #x100498f0b22> has Ctrl ErrorsTRANS-RXN4LZ-0
+The Comment #<"TRANS-RXN4LZ-0" instance frame in CHLAMYBASE[F] @
+              #x100499fdb12> has Ctrl ErrorsTRANS-RXN4LZ-42
+The Comment #<"TRANS-RXN4LZ-42" instance frame in CHLAMYBASE[F] @
+              #x100499cbee2> has Ctrl Errors
+ Done checking HTML Tags 
+
+ Checking HTML tags in names for Genes
+
+ Checking HTML tags in comments for Genes
+CHRECP019
+The Comment #<"CHRECP019" instance frame in CHLAMYBASE[F] @
+              #x100497d40e2> has Ctrl Errors
+ Done checking HTML Tags 
+
+ Checking HTML tags in names for Pathways
+
+ Checking HTML tags in comments for Pathways
+PWY-6348
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5120
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+BRANCHED-CHAIN-AA-SYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4984
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-162
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7197
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWYQT-4427
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6758
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6287
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6369
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5156
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7346
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY4FS-11
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6936
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6927
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5097
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY66-399
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6852
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4302
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLYOXYLATE-BYPASS
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLYCLEAV-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5670
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5142
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7344
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-501
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6730
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5340
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-46
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6012
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+LIPAS-PWY
+The Comment #<"LIPAS-PWY" instance frame in CHLAMYBASE[F] @
+              #x100499b55d2> has Ctrl ErrorsPROUT-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLUCONEO-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6527
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7183
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3981
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6756
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ARGSYNBSUB-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-1275
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6520
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-1021
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5980
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+THISYNARA-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3261
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6147
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7164
+The Comment #<"PWY-7164" instance frame in CHLAMYBASE[F] @
+              #x10049955892> has Ctrl ErrorsCOA-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6163
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5905
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5944
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7363
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5946
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4341
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+TRPSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-2301
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6509
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-2161
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6787
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5143
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-1422
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6482
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-2161B
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3001
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6502
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6910
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5971
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5188
+The Comment #<"PWY-5188" instance frame in CHLAMYBASE[F] @
+              #x1004985a832> has Ctrl ErrorsPWY-4861
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5121
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY66-421
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6964
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5995
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7039
+The Comment #<"PWY-7039" instance frame in CHLAMYBASE[F] @
+              #x10049964112> has Ctrl ErrorsPWY-7039
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PLPSAL-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6595
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6938
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6556
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+DETOX1-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWYQT-4433
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5046
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7546
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3982
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY4FS-8
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLUGLNSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6610
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+BSUBPOLYAMSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+OXIDATIVEPENT-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY4FS-7
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY1F-353
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5918
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5805
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3461
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+SERSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4621
+The Comment #<"PWY-4621" instance frame in CHLAMYBASE[F] @
+              #x100499685b2> has Ctrl ErrorsPWY-5687
+The Comment #<"PWY-5687" instance frame in CHLAMYBASE[F] @
+              #x100499b5832> has Ctrl ErrorsPWY-5687
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5129
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7219
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6698
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5288
+The Comment #<"PWY-5288" instance frame in CHLAMYBASE[F] @
+              #x100499684b2> has Ctrl ErrorsPWY-5115
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6799
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ASPARTATE-DEG1-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3481
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+HEME-BIOSYNTHESIS-II
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6902
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7185
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ALANINE-SYN2-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5785
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4983
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3282
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5493
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+THIOREDOX-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5194
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6019
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5947
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5886
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLNSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7199
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4321
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7206
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3161
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7204
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5453
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+SUCSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PROSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-1042
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7184
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5353
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5136
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5791
+The Comment #<"PWY-5791" instance frame in CHLAMYBASE[F] @
+              #x100499b5a92> has Ctrl ErrorsPWY-5791
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7036
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PHOTOALL-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6543
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-841
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+MANNCAT-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6607
+The Comment #<"PWY-6607" instance frame in CHLAMYBASE[F] @
+              #x1004997d702> has Ctrl ErrorsPWY-6607
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5084
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6466
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6596
+The Comment #<"PWY-6596" instance frame in CHLAMYBASE[F] @
+              #x10049774f12> has Ctrl ErrorsSAM-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6475
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLUTAMINDEG-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7416
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-2261
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5783
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3941
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY66-420
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-1264
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+CALVIN-PWY
+The Comment #<"CALVIN-PWY" instance frame in CHLAMYBASE[F] @
+              #x10049798032> has Ctrl ErrorsTHRESYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7193
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6121
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7060
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6890
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3821
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+MANNOSYL-CHITO-DOLICHOL-BIOSYNTHESIS
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-662
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6823
+The Comment #<"PWY-6823" instance frame in CHLAMYBASE[F] @
+              #x1004987d4b2> has Ctrl ErrorsPWY-5686
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-782
+The Comment #<"PWY-782" instance frame in CHLAMYBASE[F] @
+              #x10049968332> has Ctrl ErrorsPWY-5484
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-1822
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5691
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7177
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ALACAT2-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3462
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5098
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7205
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6351
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+FASYN-ELONG-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5667
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-735
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ARO-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7394
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6483
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6599
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5086
+The Comment #<"PWY-5086" instance frame in CHLAMYBASE[F] @
+              #x100499b5af2> has Ctrl ErrorsHISTSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ILEUSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6554
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5147
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7417
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5659
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5464
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6963
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4381
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLYOXDEG-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+HOMOSER-THRESYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+RIBOSYN2-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5137
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+LEU-DEG2-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6352
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+MALATE-ASPARTATE-SHUTTLE-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6464
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5989
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6473
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6909
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+TRESYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5068
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ASPARAGINE-BIOSYNTHESIS
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5326
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWYQT-4445
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7560
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5690
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-381
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7155
+The Comment #<"PWY-7155" instance frame in CHLAMYBASE[F] @
+              #x1004982eaf2> has Ctrl ErrorsPWY-6164
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ILEUDEG-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6030
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-724
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY66-423
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ARGSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4702
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PENTOSE-P-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLYSYN-ALA-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4661
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6745
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+HEXPPSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7791
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLYCOLYSIS
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5138
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+CHLOROPHYLL-SYN
+The Comment #<"CHLOROPHYLL-SYN" instance frame in CHLAMYBASE[F] @
+              #x100499b5b12> has Ctrl ErrorsPWY-6837
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6842
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6619
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6363
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3841
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-522
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5535
+The Comment #<"PWY-5535" instance frame in CHLAMYBASE[F] @
+              #x1004997d362> has Ctrl ErrorsPWY-5027
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+CYSTSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-1319
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+UDPNACETYLGALSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ALANINE-DEG3-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+TRIGLSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5172
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5381
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6498
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6959
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-166
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6606
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-882
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-702
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5943
+The Comment #<"PWY-5943" instance frame in CHLAMYBASE[F] @
+              #x1004997d9e2> has Ctrl ErrorsPWY-7159
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLUTATHIONESYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+VALSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5083
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6327
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5063
+The Comment #<"PWY-5063" instance frame in CHLAMYBASE[F] @
+              #x1004997dd82> has Ctrl ErrorsPWY-5080
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4541
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-541
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7154
+The Comment #<"PWY-7154" instance frame in CHLAMYBASE[F] @
+              #x10049955852> has Ctrl ErrorsPWY-7226
+The Comment #<"PWY-7226" instance frame in CHLAMYBASE[F] @
+              #x100497ebae2> has Ctrl ErrorsPWY-5173
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7221
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6773
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-1313
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ASPARAGINE-DEG1-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5122
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6613
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6605
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLUT-REDOX-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-2681
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6898
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5755
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3385
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-701
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-621
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PYRUVDEHYD-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4081
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7176
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7388
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6908
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-1801
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+CITRULLINE-DEG-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7187
+The Comment #<"PWY-7187" instance frame in CHLAMYBASE[F] @
+              #x100498b9b92> has Ctrl ErrorsPWY-7436
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+SULFMETII-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7409
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+LEUSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3781
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5041
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7175
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5997
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-63
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6707
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-1535
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5382
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7343
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-401
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-1001
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6370
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-1507
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+HOMOSERSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-101
+The Comment #<"PWY-101" instance frame in CHLAMYBASE[F] @
+              #x10049798012> has Ctrl ErrorsASPARAGINESYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+NONOXIPENT-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7101
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5859
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6124
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5350
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ASPARTATESYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PANTO-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5269
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7227
+The Comment #<"PWY-7227" instance frame in CHLAMYBASE[F] @
+              #x100497eba82> has Ctrl ErrorsKDOSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-43
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLUTORN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5064
+The Comment #<"PWY-5064" instance frame in CHLAMYBASE[F] @
+              #x100499687f2> has Ctrl ErrorsPWY-6441
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4821
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4562
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6803
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+VALDEG-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4041
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7238
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7224
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5044
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+NAGLIPASYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5123
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+NONMEVIPP-PWY
+The Comment #<"NONMEVIPP-PWY" instance frame in CHLAMYBASE[F] @
+              #x100498d2d22> has Ctrl ErrorsNONMEVIPP-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6079
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5921
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-801
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+
+ Done checking HTML Tags 
+
+ Checking HTML tags in names for RNAs
+
+ Checking HTML tags in comments for RNAs
+glyW-tRNA
+The Comment #<"glyW-tRNA" instance frame in CHLAMYBASE[F] @
+              #x10049982ec2> has Ctrl ErrorsglyT-tRNA
+The Comment #<"glyT-tRNA" instance frame in CHLAMYBASE[F] @
+              #x10049982ee2> has Ctrl ErrorsglyY-tRNA
+The Comment #<"glyY-tRNA" instance frame in CHLAMYBASE[F] @
+              #x10049982ea2> has Ctrl ErrorsglyU-tRNA
+The Comment #<"glyU-tRNA" instance frame in CHLAMYBASE[F] @
+              #x10049982e82> has Ctrl ErrorsglyV-tRNA
+The Comment #<"glyV-tRNA" instance frame in CHLAMYBASE[F] @
+              #x10049982f02> has Ctrl ErrorsglyX-tRNA
+The Comment #<"glyX-tRNA" instance frame in CHLAMYBASE[F] @
+              #x10049982f22> has Ctrl Errors
+ Done checking HTML Tags 
+The report from this consistency checker run can be found at
+/home/pzhang/ptools-local-21.5/ptools-local/pgdbs/user/chlamycyc/7.5/reports/consistency-checker-report-2018-06-07_16-10-46.txt

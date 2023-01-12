@@ -1,0 +1,1390 @@
+
+===== Checking constraints =====
+
+
+==== Frame CPD-5804 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame ETHYLENE-CMPD ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD-7409 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD1F-115 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD-7078 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD-5725 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame 5-FORMYL-THF ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame 2-METHYL-6-SOLANYL-14-BENZOQUINONE ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame INDOLE ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame L-LACTATE ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD-3 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD-4210 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame 7-METHYLGUANOSINE-ETCETERA-POLYNUCLEOTID ==== 
+   Slot STRUCTURE-ATOMS
+    -- Value |Polynucleotides| does not obey the type restrictions imposed on
+       this slot; the value must be an instance of one of the classes (Elements
+                                          Groups
+                                          Proteins
+                                          RNAs
+                                          Compounds)
+
+
+== Done checking constraints ==
+
+== Checking for disconnected enzymatic reactions ==
+
+
+== Done checking for disconnected enzymatic reactions ==
+
+== Checking for disconnected reactions ==
+
+The following orphan reactions have no associated enzrxn and are not part of a pathway:
+R17-RXN
+
+RXN-11355
+
+RXN-9544
+
+RR-BUTANEDIOL-DEHYDROGENASE-RXN
+
+SS-BUTANEDIOL-DEHYDROGENASE-RXN
+
+RXN-11035
+
+RXN-11034
+
+RXN1G-4355
+
+RXN-9545
+
+UREIDOGLYCOLATE-LYASE-RXN
+
+RXN-11402
+
+RXN-11400
+
+RXN-9591
+
+RXN1G-1634
+
+RXN1G-1635
+
+RXN1G-1636
+
+RXN1G-1637
+
+RXN1G-1633
+
+UREIDOGLYCOLATE-HYDROLASE-RXN
+
+RXN1G-1435
+
+RXN1G-1436
+
+RXN1G-1437
+
+RXN1G-1438
+
+RXN1G-1439
+
+RXN-12104
+
+RXN-1347
+
+RXN-11401
+
+RXN1G-807
+
+RXN1G-808
+
+RXN1G-809
+
+RXN1G-810
+
+RXN1G-811
+
+
+== Done verifying all reactions ==
+
+=====Checking for duplicate compounds====
+
+
+==The following compounds may be duplicates:  WATER CPD-12377
+
+====Done checking for duplicate compounds====
+
+
+==== Reaction balance summary report for chlamycyc ====
+
+TOTAL BALANCED REACTIONS: 1086
+    With :CANNOT-BALANCE? slot set to TRUE: 0
+TOTAL UNBALANCED REACTIONS: 61
+    With :CANNOT-BALANCE? slot set to TRUE: 52
+    With :CANNOT-BALANCE? slot not set: 9
+TOTAL UNDETERMINED REACTIONS: 50
+    With one or more of the substrates lack a chemical structure: 45
+    With non-numerical coefficients: 5
+======================================================
+
+
+=== The following 9 reactions are unbalanced and do not have the :CANNOT-BALANCE? slot set to TRUE:
+
+
+L-ASCORBATE-PEROXIDASE-RXN:                  L-ascorbate + hydrogen peroxide + H+  =  L-dehydro-ascorbate + 2 H2O
+L-ASCORBATE-OXIDASE-RXN:                     2 L-ascorbate + oxygen + 2 H+  =  2 L-dehydro-ascorbate + 2 H2O
+RXN-6102:                                    L-glutamate + ATP + tetrahydrofolate  ->  ADP + phosphate + THF-L-glutamate + 2 H+
+RXN4FS-19:                                   AMP + ATP  <-  2 ADP + H+
+RXN-1641:                                    a phosphatidylcholine[out] + a 1,2-diacylglycerol[out] + H+  ->  a triacylglycerol + a 2-lysophosphatidylcholine
+AMINOACYLASE-RXN:                            an N-acyl-L-amino acid + H2O  =  a carboxylate + an L-amino acid
+PHOSPHOLIPASE-A2-RXN:                        a phosphatidylcholine + H2O  ->  a 2-lysophosphatidylcholine + a fatty acid + H+
+PHOSPHOLIPASE-A1-RXN:                        a phosphatidylcholine + H2O  ->  a 1-lysophosphatidylcholine + a fatty acid + H+
+RXN-3523:                                    2 monodehydroascorbate  ->  L-ascorbate + L-dehydro-ascorbate + H+
+
+=== The following reactions have balanced state UNDETERMINED:
+  A balance state of UNDETERMINED means that the software cannot determine whether
+the reaction is balanced, such as because reaction substrates lack chemical structures.
+
+RXN-9670:                                    oleoyl-CoA + a lipid  ->  a lipid oleoyl-group + coenzyme A
+RXN-11444:                                   n melanochrome  ->  eumelanin
+RXN-11408:                                   indole-5,6-quinone + indole-5,6-quinone-2-carboxylate  ->  melanochrome
+3.1.21.7-RXN:                                DNAn  =  a 3'-hydroxy terminated DNA + a 5'-phospho terminated DNA
+ARYLSULFAT-RXN:                              a phenol sulfate + H2O  =  a phenol + sulfate
+RXN-10949:                                   a myo-inositol monophosphate + H2O  =  myo-inositol + phosphate
+RXN-7919:                                    S-(2-hydroxyacyl)glutathione + H2O  =  glutathione + a 2-hydroxy carboxylate
+RXN-2043:                                    cellulose + n H2O  =  n a cellodextrin
+RXN-9024:                                    a debranched limit dextrin + n H2O  =  n beta-D-glucose
+3.2.1.78-RXN:                                a mannan + n H2O  =  n a mannan oligosaccharide
+3.2.1.14-RXN:                                chitin + n H2O  =  n a chitodextrin
+RXN-1825:                                    a long-linear glucan + n H2O  ->  n short glucans
+RXN-1823:                                    starch + n H2O  ->  a large-branched glucan
+RXN0-5181:                                   a 1,4-alpha-D-glucan + n H2O  =  a 1,4-alpha-D-glucan + maltohexaose
+RXN-1824:                                    a large-branched glucan + n H2O  ->  n a long-linear glucan
+3.2.1.6-RXN:                                 a beta-D-glucan with a C3-substituted glucose  =  a beta-D glucan + a beta-D glucan
+GSHTRAN-RXN:                                 glutathione + RX  =  a glutathione-toxin conjugate + HX
+RXN1G-1633:                                  a mycobacterial arabinogalactan + trehalose-mono-mycolate  =  mycolyl-arabinogalactan-peptidoglycan complex + trehalose
+RXN1G-1637:                                  a mycobacterial arabinogalactan + trehalose-trans-keto-mono-mycolate  =  arabinogalactan-trans-keto-mycolate + trehalose
+RXN1G-1636:                                  a mycobacterial arabinogalactan + trehalose-cis-keto-mono-mycolate  =  arabinogalactan-cis-keto-mycolate + trehalose
+RXN1G-1635:                                  a mycobacterial arabinogalactan + trehalose-trans-methoxy-mono-mycolate  =  arabinogalactan-trans-methoxy-mycolate + trehalose
+RXN1G-1634:                                  a mycobacterial arabinogalactan + trehalose-cis-methoxy-mono-mycolate  =  arabinogalactan-cis-methoxy-mycolate + trehalose
+2.4.2.31-RXN:                                L-arginine + NAD(P)+  =  a protein-Nomega-(ADP-D-ribosyl)-L-arginine + nicotinamide
+NAD+-ADP-RIBOSYLTRANSFERASE-RXN:             ADP-D-ribosyl(n)-acceptor + NAD+  =  ADP-D-ribosyl(n+1)-acceptor + nicotinamide + H+
+RXN-1828:                                    a long-linear glucan + alpha-D-glucose  <-  a short glucan + a short glucan
+RXN-9023:                                    a limit dextrin  =  a limit dextrin with short branches
+RXN-7710:                                    a 1,4-alpha-D-glucan  ->  starch
+RXN-9025:                                    a debranched limit dextrin + n phosphate  =  n alpha-D-glucose 1-phosphate
+GLYCOPHOSPHORYL-RXN:                         a glycogen + phosphate  =  a limit dextrin + alpha-D-glucose 1-phosphate
+RXN-1826:                                    a long-linear glucan + phosphate  ->  alpha-D-glucose 1-phosphate
+POLYNUCLEOTIDE-5-HYDROXYL-KINASE-RXN:        a 5'-Dephospho-DNA + ATP  =  a 5'-phospho-DNA + ADP
+2.7.9.5-RXN:                                 ATP + [phospho-alpha-glucan] + H2O  =  AMP + O-phospho-[phospho-alpha-glucan] + phosphate
+RNA-DIRECTED-DNA-POLYMERASE-RXN:             a deoxyribonucleoside triphosphate + DNA(n)  =  diphosphate + DNA(n+1)
+2.7.7.64-RXN:                                UTP + a sugar-1-phosphate  ->  diphosphate + a UDP-sugar
+DNA-DIRECTED-DNA-POLYMERASE-RXN:             a deoxyribonucleoside triphosphate + DNA(n)  =  diphosphate + DNA(n+1)
+TRNA-GUANINE-N7--METHYLTRANSFERASE-RXN:      guanine46 in tRNA + S-adenosyl-L-methionine  =  N7-methylguanine46 in tRNA + S-adenosyl-L-homocysteine
+2.1.1.34-RXN:                                a guanosine18 in tRNA + S-adenosyl-L-methionine  =  a 2'-O-methylguanosine18 + S-adenosyl-L-homocysteine
+TRNA-URACIL-5--METHYLTRANSFERASE-RXN:        a tRNA uridine54 + S-adenosyl-L-methionine  =  a tRNA containing 5-methyluridine54 + S-adenosyl-L-homocysteine
+RXN-11596:                                   adenine1618 in 23S rRNA + S-adenosyl-L-methionine  =  N6-methyladenine1618 in 23S rRNA + S-adenosyl-L-homocysteine
+DNA-CYTOSINE-5--METHYLTRANSFERASE-RXN:       a DNA cytosine + S-adenosyl-L-methionine  =  a DNA 5-methylcytosine + S-adenosyl-L-homocysteine
+2.1.1.63-RXN:                                a [protein]-L-cysteine + a DNA containing 6-O-methylguanine  =  a protein-S-methyl-L-cysteine + DNA (without 6-O-methylguanine)
+RXN-11635:                                   S-adenosyl-L-methionine + guanine1835 in 23S rRNA  =  S-adenosyl-L-homocysteine + N2-methylguanine1835  in 23S rRNA
+2.1.1.125-RXN:                               S-adenosyl-L-methionine + [histone]-L-arginine  =  S-adenosyl-L-homocysteine + [histone]-Nomega-methyl-arginine
+RXN0-2601:                                   a damaged DNA pyrimidine  =  a DNA containing a apyrimidinic site
+DEOXYRIBODIPYRIMIDINE-PHOTOLYASE-RXN:        a DNA cyclobutadipyrimidine  =  a DNA pair of adjacent pyrimidines
+LACCASE-RXN:                                 4 a benzenediol + oxygen  =  4 a benzosemiquinone + 2 H2O
+RXN-9599:                                    a diamine + H2O + oxygen  =  a monoamine + ammonia + hydrogen peroxide
+NITRIC-OXIDE-SYNTHASE-RXN:                   n NADPH + L-arginine + m oxygen  ->  L-citrulline + n NADP+ + nitric oxide
+1.11.1.12-RXN:                               a lipid hydroperoxide + 2 glutathione  ->  a lipid + glutathione disulfide + 2 H2O
+PEROXID-RXN:                                 a phenolic donor + hydrogen peroxide  =  2 a phenoxyl radical of a phenolic donor + 2 H2O
+
+
+====Checking frame references====
+
+
+Number of frames referenced using |FRAME: | that are: 
+  Defined in this DB: 820
+  Defined in MetaCyc: 1142
+  Defined in EcoCyc: 4
+  Not defined: 0
+
+====Done checking frame references====
+
+
+====Fixing references between polypeptides and genes====
+
+
+==Done fixing references between polypeptides and genes==
+
+====Check Reactions and Validate EC numbers====
+
+ == The following reactions which were not linked under the proper EC class have now been classified:
+
+[RXN-3523 has the same EC as reaction L-ASCORBATE-PEROXIDASE-RXN]
+[RXN-3523 has the same EC as reaction RXN-3521]
+[RXN-3523 parent: (Small-Molecule-Reactions
+                   Chemical-Reactions) --> (EC-1.11.1
+                                            Small-Molecule-Reactions)]
+RXN-3523
+[RXN-8642 has the same EC as reaction ISOCITDEH-RXN]
+[RXN-8642 has the same EC as reaction RXN-9951]
+[RXN-8642 parent: (EC-4.1.1 Small-Molecule-Reactions) --> (EC-1.1.1
+                                                           Small-Molecule-Reactions)]
+RXN-8642
+[PLASTOQUINOL--PLASTOCYANIN-REDUCTASE-RXN parent: (EC-1.10.9
+                                                   Electron-Transfer-Reactions
+                                                   Protein-Modification-Reactions) --> (EC-1.10.99
+                                                                                        Electron-Transfer-Reactions
+                                                                                        Protein-Modification-Reactions)]
+PLASTOQUINOL--PLASTOCYANIN-REDUCTASE-RXN
+[PROPCOASYN-RXN parent: (EC-1.3.8
+                         Small-Molecule-Reactions) --> (EC-1.3.99
+                                                        Small-Molecule-Reactions)]
+PROPCOASYN-RXN
+[MEPROPCOA-FAD-RXN has the same EC as reaction 2-MEBUCOA-FAD-RXN]
+[MEPROPCOA-FAD-RXN parent: (EC-1.3.8
+                            Small-Molecule-Reactions) --> (EC-1.3.99
+                                                           Small-Molecule-Reactions)]
+MEPROPCOA-FAD-RXN
+[RXN0-2301 parent: (EC-1.3.8 Small-Molecule-Reactions) --> (EC-1.3.99
+                                                            Small-Molecule-Reactions)]
+RXN0-2301
+[SQUALENE-MONOOXYGENASE-RXN has the same EC as reaction RXN66-282]
+[SQUALENE-MONOOXYGENASE-RXN parent: (EC-1.14.13
+                                     Small-Molecule-Reactions) --> (EC-1.14.99
+                                                                    Small-Molecule-Reactions)]
+SQUALENE-MONOOXYGENASE-RXN
+
+ == The following reactions are marked has having their EC#s changed,
+ but frames exist for those EC#s: 
+
+TRNA-ADENINE-N1--METHYLTRANSFERASE-RXN
+TRNA-GUANINE-N2--METHYLTRANSFERASE-RXN
+TRNA-GUANINE-N1--METHYLTRANSFERASE-RXN
+DIHYDROOROTOX-RXN
+TRNA-CYTOSINE-5--METHYLTRANSFERASE-RXN
+
+==Done checking reactions and validating EC#s==
+
+
+====Checking Transcription unit data====
+
+==Done checking Transcription unit data==
+
+==== Checking citations ====
+
+Deleting empty citations...
+
+Converting badly formed citations to the right format...
+
+
+Performing various checks on citations...
+
+1702 total citations
+1519 pubmed citations
+183 non-pubmed citations
+1205 publication frames in DB
+4071 frames contain at least one citation
+1048 pubmed citations have not yet been downloaded from pubmed
+Importing PUB-KAZUHIRO92 from METABASE.
+Importing PUB-JOSELEAU from METABASE.
+Importing PUB-BIELY from METABASE.
+Importing PUB-12631264 from METABASE.
+Importing PUB-3117038 from METABASE.
+Importing PUB-4422841 from METABASE.
+Importing PUB-12700258 from METABASE.
+Importing PUB-17996203 from METABASE.
+Importing PUB-10561504 from METABASE.
+Importing PUB-8914526 from METABASE.
+Importing PUB-11377433 from METABASE.
+Importing PUB-8660289 from METABASE.
+Importing PUB-16461683 from METABASE.
+Importing PUB-14523010 from METABASE.
+Importing PUB-8278506 from METABASE.
+Importing PUB-16658750 from METABASE.
+Importing PUB-6767683 from METABASE.
+Importing PUB-4957438 from METABASE.
+Importing PUB-11438688 from METABASE.
+Importing PUB-11320134 from METABASE.
+Importing PUB-7768863 from METABASE.
+Importing PUB-16665292 from METABASE.
+Importing PUB-8798783 from METABASE.
+Importing PUB-1993704 from METABASE.
+Importing PUB-16244908 from METABASE.
+Importing PUB-12065209 from METABASE.
+Importing PUB-9632726 from METABASE.
+Importing PUB-6137189 from METABASE.
+Importing PUB-9195935 from METABASE.
+Importing PUB-6312311 from METABASE.
+Importing PUB-11024303 from METABASE.
+Importing PUB-16469917 from METABASE.
+Importing PUB-8830684 from METABASE.
+Importing PUB-12391334 from METABASE.
+Importing PUB-1574589 from METABASE.
+Importing PUB-20511299 from METABASE.
+Importing PUB-14568069 from METABASE.
+Importing PUB-16307306 from METABASE.
+Importing PUB-1731766 from METABASE.
+Importing PUB-7061379 from METABASE.
+Importing PUB-4552952 from METABASE.
+Importing PUB-9559543 from METABASE.
+Importing PUB-2404765 from METABASE.
+Importing PUB-4153356 from METABASE.
+Importing PUB-10743614 from METABASE.
+Importing PUB-16747930 from METABASE.
+Importing PUB-7787879 from METABASE.
+Importing PUB-8791626 from METABASE.
+Importing PUB-13428755 from METABASE.
+Importing PUB-14726522 from METABASE.
+Importing PUB-11744531 from METABASE.
+Importing PUB-5822067 from METABASE.
+Importing PUB-11706159 from METABASE.
+Importing PUB-8045430 from METABASE.
+Importing PUB-14630967 from METABASE.
+Importing PUB-14555471 from METABASE.
+Importing PUB-11566998 from METABASE.
+Importing PUB-16429326 from METABASE.
+Importing PUB-16462750 from METABASE.
+Importing PUB-15302873 from METABASE.
+Importing PUB-10937442 from METABASE.
+Importing PUB-16666035 from METABASE.
+Importing PUB-13790768 from METABASE.
+Importing PUB-4351074 from METABASE.
+Importing PUB-8914525 from METABASE.
+Importing PUB-12232134 from METABASE.
+Importing PUB-4873311 from METABASE.
+Importing PUB-1649049 from METABASE.
+Importing PUB-8444853 from METABASE.
+Importing PUB-2890623 from METABASE.
+Importing PUB-14956 from METABASE.
+Importing PUB-8861937 from METABASE.
+Importing PUB-13678580 from METABASE.
+Importing PUB-9409150 from METABASE.
+Importing PUB-2946387 from METABASE.
+Importing PUB-7592411 from METABASE.
+Importing PUB-7784524 from METABASE.
+Importing PUB-12893935 from METABASE.
+Importing PUB-17594111 from METABASE.
+Importing PUB-17658659 from METABASE.
+Importing PUB-9655933 from METABASE.
+Importing PUB-12609031 from METABASE.
+Importing PUB-9765550 from METABASE.
+Importing PUB-16669783 from METABASE.
+Importing PUB-17928701 from METABASE.
+Importing PUB-12606554 from METABASE.
+Importing PUB-11248686 from METABASE.
+Importing PUB-17476569 from METABASE.
+Importing PUB-16113212 from METABASE.
+Importing PUB-10733246 from METABASE.
+Importing PUB-12943234 from METABASE.
+Importing PUB-16100113 from METABASE.
+Importing PUB-1993703 from METABASE.
+Importing PUB-642066 from METABASE.
+Importing PUB-13314623 from METABASE.
+Importing PUB-5679987 from METABASE.
+Importing PUB-16669755 from METABASE.
+Importing PUB-17567580 from METABASE.
+Importing PUB-4607875 from METABASE.
+Importing PUB-16547652 from METABASE.
+Importing PUB-17485667 from METABASE.
+Importing PUB-19376213 from METABASE.
+Importing PUB-10939523 from METABASE.
+Importing PUB-7443300 from METABASE.
+Importing PUB-12369616 from METABASE.
+Importing PUB-12519197 from METABASE.
+Importing PUB-8086005 from METABASE.
+Importing PUB-16661409 from METABASE.
+Importing PUB-8824301 from METABASE.
+Importing PUB-10931207 from METABASE.
+Importing PUB-12837548 from METABASE.
+Importing PUB-9934985 from METABASE.
+Importing PUB-20233262 from METABASE.
+Importing PUB-12702322 from METABASE.
+Importing PUB-12870777 from METABASE.
+Importing PUB-2825635 from METABASE.
+Importing PUB-10860551 from METABASE.
+Importing PUB-10500844 from METABASE.
+Importing PUB-2590341 from METABASE.
+Importing PUB-6389540 from METABASE.
+Importing PUB-6753831 from METABASE.
+Importing PUB-4571226 from METABASE.
+Importing PUB-1526969 from METABASE.
+Importing PUB-16963437 from METABASE.
+Importing PUB-9214587 from METABASE.
+Importing PUB-164246 from METABASE.
+Importing PUB-1802034 from METABASE.
+Importing PUB-12828642 from METABASE.
+Importing PUB-13718526 from METABASE.
+Importing PUB-11590064 from METABASE.
+Importing PUB-6329757 from METABASE.
+Importing PUB-7887593 from METABASE.
+Importing PUB-15247403 from METABASE.
+Importing PUB-11409546 from METABASE.
+Importing PUB-9478969 from METABASE.
+Importing PUB-11322938 from METABASE.
+Importing PUB-6357923 from METABASE.
+Importing PUB-17244043 from METABASE.
+Importing PUB-8660287 from METABASE.
+Importing PUB-11351091 from METABASE.
+Importing PUB-20418392 from METABASE.
+Importing PUB-17877701 from METABASE.
+Importing PUB-13457352 from METABASE.
+Importing PUB-20727617 from METABASE.
+Importing PUB-11447107 from METABASE.
+Importing PUB-15899978 from METABASE.
+Importing PUB-10762259 from METABASE.
+Importing PUB-6427192 from METABASE.
+Importing PUB-15918884 from METABASE.
+Importing PUB-7491943 from METABASE.
+Importing PUB-11115893 from METABASE.
+Importing PUB-17894783 from METABASE.
+Importing PUB-16663565 from METABASE.
+Importing PUB-8000011 from METABASE.
+Importing PUB-2824247 from METABASE.
+Importing PUB-16665956 from METABASE.
+Importing PUB-993199 from METABASE.
+Importing PUB-8923741 from METABASE.
+Importing PUB-6712607 from METABASE.
+Importing PUB-1970635 from METABASE.
+Importing PUB-8938413 from METABASE.
+Importing PUB-14711585 from METABASE.
+Importing PUB-15144063 from METABASE.
+Importing PUB-2248795 from METABASE.
+Importing PUB-15987956 from METABASE.
+Importing PUB-16269773 from METABASE.
+Importing PUB-9758418 from METABASE.
+Importing PUB-3480285 from METABASE.
+Importing PUB-11937062 from METABASE.
+Importing PUB-15078537 from METABASE.
+Importing PUB-11834738 from METABASE.
+Importing PUB-19168668 from METABASE.
+Importing PUB-6396514 from METABASE.
+Importing PUB-8200132 from METABASE.
+Importing PUB-7831398 from METABASE.
+Importing PUB-4301226 from METABASE.
+Importing PUB-4200844 from METABASE.
+Importing PUB-16655893 from METABASE.
+Importing PUB-14671011 from METABASE.
+Importing PUB-14657409 from METABASE.
+Importing PUB-10829075 from METABASE.
+Importing PUB-11495998 from METABASE.
+Importing PUB-7628352 from METABASE.
+Importing PUB-12670488 from METABASE.
+Importing PUB-17721788 from METABASE.
+Importing PUB-11940598 from METABASE.
+Importing PUB-10907783 from METABASE.
+Importing PUB-14660793 from METABASE.
+Importing PUB-9247130 from METABASE.
+Importing PUB-1848220 from METABASE.
+Importing PUB-4831331 from METABASE.
+Importing PUB-398767 from METABASE.
+Importing PUB-11395409 from METABASE.
+Importing PUB-6773935 from METABASE.
+Importing PUB-1323123 from METABASE.
+Importing PUB-12218025 from METABASE.
+Importing PUB-16495081 from METABASE.
+Importing PUB-11890682 from METABASE.
+Importing PUB-13398382 from METABASE.
+Importing PUB-3067148 from METABASE.
+Importing PUB-12021284 from METABASE.
+Importing PUB-18048325 from METABASE.
+Importing PUB-1744047 from METABASE.
+Importing PUB-11956213 from METABASE.
+Importing PUB-10446384 from METABASE.
+Importing PUB-10767575 from METABASE.
+Importing PUB-12061798 from METABASE.
+Importing PUB-15838028 from METABASE.
+Importing PUB-12815048 from METABASE.
+Importing PUB-16743051 from METABASE.
+Importing PUB-1906065 from METABASE.
+Importing PUB-10024464 from METABASE.
+Importing PUB-4808901 from METABASE.
+Importing PUB-10469156 from METABASE.
+Importing PUB-9380766 from METABASE.
+Importing PUB-8545001 from METABASE.
+Importing PUB-11420176 from METABASE.
+Importing PUB-2198251 from METABASE.
+Importing PUB-8744268 from METABASE.
+Importing PUB-7710277 from METABASE.
+Importing PUB-7579161 from METABASE.
+Importing PUB-12586875 from METABASE.
+Importing PUB-8948633 from METABASE.
+Importing PUB-12354106 from METABASE.
+Importing PUB-11729262 from METABASE.
+Importing PUB-12624762 from METABASE.
+Importing PUB-9572738 from METABASE.
+Importing PUB-861230 from METABASE.
+Importing PUB-18371309 from METABASE.
+Importing PUB-10510276 from METABASE.
+Importing PUB-3519419 from METABASE.
+Importing PUB-17659286 from METABASE.
+Importing PUB-15685223 from METABASE.
+Importing PUB-14627706 from METABASE.
+Importing PUB-9162046 from METABASE.
+Importing PUB-16668673 from METABASE.
+Importing PUB-6088086 from METABASE.
+Importing PUB-12366803 from METABASE.
+Importing PUB-14209328 from METABASE.
+Importing PUB-16600818 from METABASE.
+Importing PUB-12882974 from METABASE.
+Importing PUB-16714307 from METABASE.
+Importing PUB-15340153 from METABASE.
+Importing PUB-7024727 from METABASE.
+Importing PUB-2553398 from METABASE.
+Importing PUB-17412958 from METABASE.
+Importing PUB-1825082 from METABASE.
+Importing PUB-13654295 from METABASE.
+Importing PUB-12010467 from METABASE.
+Importing PUB-11170264 from METABASE.
+Importing PUB-11313355 from METABASE.
+Importing PUB-10987149 from METABASE.
+Importing PUB-11752427 from METABASE.
+Importing PUB-6547136 from METABASE.
+Importing PUB-13416174 from METABASE.
+Importing PUB-16395587 from METABASE.
+Importing PUB-16361515 from METABASE.
+Importing PUB-3129535 from METABASE.
+Importing PUB-16024685 from METABASE.
+Importing PUB-11331765 from METABASE.
+Importing PUB-8576237 from METABASE.
+Importing PUB-2318202 from METABASE.
+Importing PUB-10898944 from METABASE.
+Importing PUB-16656806 from METABASE.
+Importing PUB-15347288 from METABASE.
+Importing PUB-9755241 from METABASE.
+Importing PUB-2989290 from METABASE.
+Importing PUB-14745783 from METABASE.
+Importing PUB-4879554 from METABASE.
+Importing PUB-6146314 from METABASE.
+Importing PUB-9171333 from METABASE.
+Importing PUB-7866382 from METABASE.
+Importing PUB-19538397 from METABASE.
+Importing PUB-12981074 from METABASE.
+Importing PUB-11488606 from METABASE.
+Importing PUB-9882672 from METABASE.
+Importing PUB-2546914 from METABASE.
+Importing PUB-12627188 from METABASE.
+Importing PUB-14321753 from METABASE.
+Importing PUB-8912628 from METABASE.
+Importing PUB-8730877 from METABASE.
+Importing PUB-11598126 from METABASE.
+Importing PUB-9829957 from METABASE.
+Importing PUB-8819328 from METABASE.
+Importing PUB-7909542 from METABASE.
+Importing PUB-11807558 from METABASE.
+Importing PUB-16237031 from METABASE.
+Importing PUB-14660674 from METABASE.
+Importing PUB-8096645 from METABASE.
+Importing PUB-1445840 from METABASE.
+Importing PUB-4346747 from METABASE.
+Importing PUB-11072090 from METABASE.
+Importing PUB-14745019 from METABASE.
+Importing PUB-12654921 from METABASE.
+Importing PUB-11278418 from METABASE.
+Importing PUB-9398220 from METABASE.
+Importing PUB-2896195 from METABASE.
+Importing PUB-16415206 from METABASE.
+Importing PUB-690081 from METABASE.
+Importing PUB-16508009 from METABASE.
+Importing PUB-10864031 from METABASE.
+Importing PUB-11706190 from METABASE.
+Importing PUB-11080293 from METABASE.
+Importing PUB-9571241 from METABASE.
+Importing PUB-10601206 from METABASE.
+Importing PUB-12610721 from METABASE.
+Importing PUB-11069698 from METABASE.
+Importing PUB-18039763 from METABASE.
+Importing PUB-11142398 from METABASE.
+Importing PUB-17592476 from METABASE.
+Importing PUB-4986615 from METABASE.
+Importing PUB-16342929 from METABASE.
+Importing PUB-12110581 from METABASE.
+Importing PUB-12706792 from METABASE.
+Importing PUB-11804860 from METABASE.
+Importing PUB-6754864 from METABASE.
+Importing PUB-12411477 from METABASE.
+Importing PUB-6945923 from METABASE.
+Importing PUB-6316234 from METABASE.
+Importing PUB-13821949 from METABASE.
+Importing PUB-8772169 from METABASE.
+Importing PUB-8440693 from METABASE.
+Importing PUB-15012204 from METABASE.
+Importing PUB-15936174 from METABASE.
+Importing PUB-12177321 from METABASE.
+Importing PUB-12473124 from METABASE.
+Importing PUB-8485401 from METABASE.
+Importing PUB-13680202 from METABASE.
+Importing PUB-3288631 from METABASE.
+Importing PUB-11502751 from METABASE.
+Importing PUB-4356297 from METABASE.
+Importing PUB-7507106 from METABASE.
+Importing PUB-15893380 from METABASE.
+Importing PUB-12231873 from METABASE.
+Importing PUB-4328693 from METABASE.
+Importing PUB-14993698 from METABASE.
+Importing PUB-2279393 from METABASE.
+Importing PUB-191434 from METABASE.
+Importing PUB-8472892 from METABASE.
+Importing PUB-11810498 from METABASE.
+Importing PUB-12093901 from METABASE.
+Importing PUB-12232210 from METABASE.
+Importing PUB-16307301 from METABASE.
+Importing PUB-12943544 from METABASE.
+Importing PUB-9632630 from METABASE.
+Importing PUB-17869216 from METABASE.
+Importing PUB-9242907 from METABASE.
+Importing PUB-11474104 from METABASE.
+Importing PUB-15322128 from METABASE.
+Importing PUB-1906874 from METABASE.
+Importing PUB-20080681 from METABASE.
+Importing PUB-8577746 from METABASE.
+Importing PUB-10536147 from METABASE.
+Importing PUB-9370311 from METABASE.
+Importing PUB-17287810 from METABASE.
+Importing PUB-12860978 from METABASE.
+Importing PUB-7786044 from METABASE.
+Importing PUB-18223080 from METABASE.
+Importing PUB-10598551 from METABASE.
+Importing PUB-8181054 from METABASE.
+Importing PUB-15208317 from METABASE.
+Importing PUB-809333 from METABASE.
+Importing PUB-20113432 from METABASE.
+Importing PUB-6768836 from METABASE.
+Importing PUB-11006346 from METABASE.
+Importing PUB-11779861 from METABASE.
+Importing PUB-12555668 from METABASE.
+Importing PUB-5075284 from METABASE.
+Importing PUB-15829606 from METABASE.
+Importing PUB-16333637 from METABASE.
+Importing PUB-17093042 from METABASE.
+Importing PUB-10827188 from METABASE.
+Importing PUB-17348836 from METABASE.
+Importing PUB-16658005 from METABASE.
+Importing PUB-16107329 from METABASE.
+Importing PUB-8027058 from METABASE.
+Importing PUB-16927206 from METABASE.
+Importing PUB-17640895 from METABASE.
+Importing PUB-192219 from METABASE.
+Importing PUB-1885603 from METABASE.
+Importing PUB-11775055 from METABASE.
+Importing PUB-7953568 from METABASE.
+Importing PUB-22079366 from METABASE.
+Importing PUB-11553611 from METABASE.
+Importing PUB-8012582 from METABASE.
+Importing PUB-9668121 from METABASE.
+Importing PUB-15012246 from METABASE.
+Importing PUB-18460012 from METABASE.
+Importing PUB-7929259 from METABASE.
+Importing PUB-11743782 from METABASE.
+Importing PUB-380648 from METABASE.
+Importing PUB-17950389 from METABASE.
+Importing PUB-13522696 from METABASE.
+Importing PUB-3536926 from METABASE.
+Importing PUB-12055292 from METABASE.
+Importing PUB-7651129 from METABASE.
+Importing PUB-19293370 from METABASE.
+Importing PUB-11544359 from METABASE.
+Importing PUB-17955994 from METABASE.
+Importing PUB-14351147 from METABASE.
+Importing PUB-9190084 from METABASE.
+Importing PUB-11585846 from METABASE.
+Importing PUB-15381699 from METABASE.
+Importing PUB-3090435 from METABASE.
+Importing PUB-12198182 from METABASE.
+Importing PUB-773366 from METABASE.
+Importing PUB-11244107 from METABASE.
+Importing PUB-2188967 from METABASE.
+Importing PUB-6117607 from METABASE.
+Importing PUB-16527867 from METABASE.
+Importing PUB-4580884 from METABASE.
+Importing PUB-14013029 from METABASE.
+Importing PUB-7473709 from METABASE.
+Importing PUB-8366018 from METABASE.
+Importing PUB-10940562 from METABASE.
+Importing PUB-11607536 from METABASE.
+Importing PUB-1368944 from METABASE.
+Importing PUB-11289612 from METABASE.
+Importing PUB-18815415 from METABASE.
+Importing PUB-2985605 from METABASE.
+Importing PUB-19304936 from METABASE.
+Importing PUB-18948076 from METABASE.
+Importing PUB-15342793 from METABASE.
+Importing PUB-3904617 from METABASE.
+Importing PUB-11399772 from METABASE.
+Importing PUB-4978444 from METABASE.
+Importing PUB-13906633 from METABASE.
+Importing PUB-8406038 from METABASE.
+Importing PUB-9409147 from METABASE.
+Importing PUB-12633501 from METABASE.
+Importing PUB-3131312 from METABASE.
+Importing PUB-6124544 from METABASE.
+Importing PUB-16511094 from METABASE.
+Importing PUB-4921568 from METABASE.
+Importing PUB-15277688 from METABASE.
+Importing PUB-20675472 from METABASE.
+Importing PUB-15130548 from METABASE.
+Importing PUB-6402507 from METABASE.
+Importing PUB-10940330 from METABASE.
+Importing PUB-11278778 from METABASE.
+Importing PUB-16531054 from METABASE.
+Importing PUB-12481102 from METABASE.
+Importing PUB-11402187 from METABASE.
+Importing PUB-9655927 from METABASE.
+Importing PUB-15665079 from METABASE.
+Importing PUB-18332905 from METABASE.
+Importing PUB-12232327 from METABASE.
+Importing PUB-11537482 from METABASE.
+Importing PUB-15020640 from METABASE.
+Importing PUB-11976751 from METABASE.
+Importing PUB-12514238 from METABASE.
+Importing PUB-16656066 from METABASE.
+Importing PUB-6995433 from METABASE.
+Importing PUB-409467 from METABASE.
+Importing PUB-12603323 from METABASE.
+Importing PUB-16771665 from METABASE.
+Importing PUB-11553780 from METABASE.
+Importing PUB-15695453 from METABASE.
+Importing PUB-15090492 from METABASE.
+Importing PUB-3108250 from METABASE.
+Importing PUB-16664133 from METABASE.
+Importing PUB-15604701 from METABASE.
+Importing PUB-12859897 from METABASE.
+Importing PUB-10464198 from METABASE.
+Importing PUB-11755682 from METABASE.
+Importing PUB-11337402 from METABASE.
+Importing PUB-10785666 from METABASE.
+Importing PUB-12954611 from METABASE.
+Importing PUB-14955523 from METABASE.
+Importing PUB-10629181 from METABASE.
+Importing PUB-12177484 from METABASE.
+Importing PUB-9878395 from METABASE.
+Importing PUB-14593172 from METABASE.
+Importing PUB-8041358 from METABASE.
+Importing PUB-12481075 from METABASE.
+Importing PUB-6232463 from METABASE.
+Importing PUB-8102604 from METABASE.
+Importing PUB-10548498 from METABASE.
+Importing PUB-15012185 from METABASE.
+Importing PUB-15615718 from METABASE.
+Importing PUB-14622413 from METABASE.
+Importing PUB-2553693 from METABASE.
+Importing PUB-3522583 from METABASE.
+Importing PUB-10515911 from METABASE.
+Importing PUB-16317038 from METABASE.
+Importing PUB-2688305 from METABASE.
+Importing PUB-15516572 from METABASE.
+Importing PUB-17827303 from METABASE.
+Importing PUB-1310094 from METABASE.
+Importing PUB-17008082 from METABASE.
+Importing PUB-15962786 from METABASE.
+Importing PUB-2867095 from METABASE.
+Importing PUB-11153271 from METABASE.
+Importing PUB-18547394 from METABASE.
+Importing PUB-16749035 from METABASE.
+Importing PUB-12734720 from METABASE.
+Importing PUB-1946693 from METABASE.
+Importing PUB-6378912 from METABASE.
+Importing PUB-8676868 from METABASE.
+Importing PUB-9287019 from METABASE.
+Importing PUB-11341960 from METABASE.
+Importing PUB-15850974 from METABASE.
+Importing PUB-17174261 from METABASE.
+Importing PUB-9143321 from METABASE.
+Importing PUB-1882180 from METABASE.
+Importing PUB-7727752 from METABASE.
+Importing PUB-10735872 from METABASE.
+Importing PUB-3541827 from METABASE.
+Importing PUB-17078815 from METABASE.
+Importing PUB-12675736 from METABASE.
+Importing PUB-8473852 from METABASE.
+Importing PUB-1508200 from METABASE.
+Importing PUB-15289616 from METABASE.
+Importing PUB-458874 from METABASE.
+Importing PUB-11575719 from METABASE.
+Importing PUB-11094259 from METABASE.
+Importing PUB-1916088 from METABASE.
+Importing PUB-15853883 from METABASE.
+Importing PUB-12901271 from METABASE.
+Importing PUB-402938 from METABASE.
+Importing PUB-1453880 from METABASE.
+Importing PUB-11226235 from METABASE.
+Importing PUB-8951816 from METABASE.
+Importing PUB-11784332 from METABASE.
+Importing PUB-17895620 from METABASE.
+Importing PUB-8002607 from METABASE.
+Importing PUB-2404013 from METABASE.
+Importing PUB-11390663 from METABASE.
+Importing PUB-2506014 from METABASE.
+Importing PUB-10409134 from METABASE.
+Importing PUB-16655178 from METABASE.
+Importing PUB-12893936 from METABASE.
+Importing PUB-13851709 from METABASE.
+Importing PUB-16746397 from METABASE.
+Importing PUB-2512996 from METABASE.
+Importing PUB-6303241 from METABASE.
+Importing PUB-6358862 from METABASE.
+Importing PUB-4328830 from METABASE.
+Importing PUB-3926948 from METABASE.
+Importing PUB-15128531 from METABASE.
+Importing PUB-3534538 from METABASE.
+Importing PUB-8145281 from METABASE.
+Importing PUB-4788946 from METABASE.
+Importing PUB-8837512 from METABASE.
+Importing PUB-9922248 from METABASE.
+Importing PUB-10567345 from METABASE.
+Importing PUB-8586770 from METABASE.
+Importing PUB-20167108 from METABASE.
+Importing PUB-15539209 from METABASE.
+Importing PUB-15927941 from METABASE.
+Importing PUB-4311031 from METABASE.
+Importing PUB-2185470 from METABASE.
+Importing PUB-11337393 from METABASE.
+Importing PUB-7548115 from METABASE.
+Importing PUB-8473321 from METABASE.
+Importing PUB-10574768 from METABASE.
+Importing PUB-15280363 from METABASE.
+Importing PUB-16143840 from METABASE.
+Importing PUB-11580295 from METABASE.
+Importing PUB-1594598 from METABASE.
+Importing PUB-11501996 from METABASE.
+Importing PUB-10996253 from METABASE.
+Importing PUB-6295388 from METABASE.
+Importing PUB-12051904 from METABASE.
+Importing PUB-16594069 from METABASE.
+Importing PUB-15735339 from METABASE.
+Importing PUB-15533939 from METABASE.
+Importing PUB-7462151 from METABASE.
+Importing PUB-15576047 from METABASE.
+Importing PUB-627278 from METABASE.
+Importing PUB-16332852 from METABASE.
+Importing PUB-13575436 from METABASE.
+Importing PUB-3157043 from METABASE.
+Importing PUB-9022698 from METABASE.
+Importing PUB-9405463 from METABASE.
+Importing PUB-6154938 from METABASE.
+Importing PUB-18713763 from METABASE.
+Importing PUB-11479373 from METABASE.
+Importing PUB-19413687 from METABASE.
+Importing PUB-6325857 from METABASE.
+Importing PUB-11759049 from METABASE.
+Importing PUB-10929100 from METABASE.
+Importing PUB-9620799 from METABASE.
+Importing PUB-12427975 from METABASE.
+Importing PUB-5030618 from METABASE.
+Importing PUB-18430135 from METABASE.
+Importing PUB-15939575 from METABASE.
+Importing PUB-15473867 from METABASE.
+Importing PUB-10877846 from METABASE.
+Importing PUB-6426769 from METABASE.
+Importing PUB-15749055 from METABASE.
+Importing PUB-9428635 from METABASE.
+Importing PUB-11171088 from METABASE.
+Importing PUB-9837904 from METABASE.
+Importing PUB-3053713 from METABASE.
+Importing PUB-4321550 from METABASE.
+Importing PUB-16963634 from METABASE.
+Importing PUB-2821345 from METABASE.
+Importing PUB-16093570 from METABASE.
+Importing PUB-2193919 from METABASE.
+Importing PUB-4436643 from METABASE.
+Importing PUB-15561716 from METABASE.
+Importing PUB-8612643 from METABASE.
+Importing PUB-2820965 from METABASE.
+Importing PUB-15581584 from METABASE.
+Importing PUB-8648647 from METABASE.
+Importing PUB-17651436 from METABASE.
+Importing PUB-10464247 from METABASE.
+Importing PUB-8590375 from METABASE.
+Importing PUB-9657994 from METABASE.
+Importing PUB-11980703 from METABASE.
+Importing PUB-15665075 from METABASE.
+Importing PUB-8557109 from METABASE.
+Importing PUB-12379100 from METABASE.
+Importing PUB-8117661 from METABASE.
+Importing PUB-10209755 from METABASE.
+Importing PUB-21724998 from METABASE.
+Importing PUB-12456329 from METABASE.
+Importing PUB-16664492 from METABASE.
+Importing PUB-16746585 from METABASE.
+Importing PUB-2341911 from METABASE.
+Importing PUB-15951039 from METABASE.
+Importing PUB-8619816 from METABASE.
+Importing PUB-321933 from METABASE.
+Importing PUB-17052198 from METABASE.
+Importing PUB-12648681 from METABASE.
+Importing PUB-10640355 from METABASE.
+Importing PUB-9098009 from METABASE.
+Importing PUB-3920982 from METABASE.
+Importing PUB-3015258 from METABASE.
+Importing PUB-14991405 from METABASE.
+Importing PUB-2736319 from METABASE.
+Importing PUB-10944160 from METABASE.
+Importing PUB-5355347 from METABASE.
+Importing PUB-15189166 from METABASE.
+Importing PUB-8294460 from METABASE.
+Importing PUB-844323 from METABASE.
+Importing PUB-8885873 from METABASE.
+Importing PUB-15004283 from METABASE.
+Importing PUB-4841987 from METABASE.
+Importing PUB-19935661 from METABASE.
+Importing PUB-9150241 from METABASE.
+Importing PUB-5483919 from METABASE.
+Importing PUB-15652176 from METABASE.
+Importing PUB-11161040 from METABASE.
+Importing PUB-642063 from METABASE.
+Importing PUB-14633982 from METABASE.
+Importing PUB-12506203 from METABASE.
+Importing PUB-5219700 from METABASE.
+Importing PUB-10656811 from METABASE.
+Importing PUB-15352329 from METABASE.
+Importing PUB-0009501126 from METABASE.
+Importing PUB-5911610 from METABASE.
+Importing PUB-8917600 from METABASE.
+Importing PUB-15653809 from METABASE.
+Importing PUB-16450403 from METABASE.
+Importing PUB-7772845 from METABASE.
+Importing PUB-12123465 from METABASE.
+Importing PUB-10802170 from METABASE.
+Importing PUB-9451025 from METABASE.
+Importing PUB-14973169 from METABASE.
+Importing PUB-11198422 from METABASE.
+Importing PUB-2876681 from METABASE.
+Importing PUB-13731310 from METABASE.
+Importing PUB-2983992 from METABASE.
+Importing PUB-15837705 from METABASE.
+Importing PUB-16585758 from METABASE.
+Importing PUB-18713395 from METABASE.
+Importing PUB-9367159 from METABASE.
+Importing PUB-16658848 from METABASE.
+Importing PUB-16448336 from METABASE.
+Importing PUB-17142327 from METABASE.
+Importing PUB-2111378 from METABASE.
+Importing PUB-7855068 from METABASE.
+Importing PUB-12981104 from METABASE.
+Importing PUB-12117804 from METABASE.
+Importing PUB-18042623 from METABASE.
+Importing PUB-438153 from METABASE.
+Importing PUB-16698923 from METABASE.
+Importing PUB-8668130 from METABASE.
+Importing PUB-18765564 from METABASE.
+Importing PUB-16766535 from METABASE.
+Importing PUB-1303803 from METABASE.
+Importing PUB-13416173 from METABASE.
+Importing PUB-6373737 from METABASE.
+Importing PUB-5568176 from METABASE.
+Importing PUB-15811329 from METABASE.
+Importing PUB-11706201 from METABASE.
+Importing PUB-6430704 from METABASE.
+Importing PUB-21941 from METABASE.
+Importing PUB-3190233 from METABASE.
+Importing PUB-11675382 from METABASE.
+Importing PUB-10944152 from METABASE.
+Importing PUB-10382260 from METABASE.
+Importing PUB-15326192 from METABASE.
+Importing PUB-2236071 from METABASE.
+Importing PUB-18341203 from METABASE.
+Importing PUB-17385315 from METABASE.
+Importing PUB-16100110 from METABASE.
+Importing PUB-17644147 from METABASE.
+Importing PUB-12954627 from METABASE.
+Importing PUB-8971722 from METABASE.
+Importing PUB-1903745 from METABASE.
+Importing PUB-11081789 from METABASE.
+Importing PUB-11851397 from METABASE.
+Importing PUB-7813420 from METABASE.
+Importing PUB-16048997 from METABASE.
+Importing PUB-4556303 from METABASE.
+Importing PUB-4552305 from METABASE.
+Importing PUB-15561724 from METABASE.
+Importing PUB-8892826 from METABASE.
+Importing PUB-17112527 from METABASE.
+Importing PUB-10625629 from METABASE.
+Importing PUB-10692366 from METABASE.
+Importing PUB-7511585 from METABASE.
+Importing PUB-15134748 from METABASE.
+Importing PUB-19945481 from METABASE.
+Importing PUB-16413588 from METABASE.
+Importing PUB-8910376 from METABASE.
+Importing PUB-1409623 from METABASE.
+Importing PUB-15247387 from METABASE.
+Importing PUB-9724776 from METABASE.
+Importing PUB-16564093 from METABASE.
+Importing PUB-10889206 from METABASE.
+Importing PUB-14725335 from METABASE.
+Importing PUB-5076220 from METABASE.
+Importing PUB-16183844 from METABASE.
+Importing PUB-15375722 from METABASE.
+Importing PUB-15791207 from METABASE.
+Importing PUB-2657387 from METABASE.
+Importing PUB-16342930 from METABASE.
+Importing PUB-18272182 from METABASE.
+Importing PUB-11752472 from METABASE.
+Importing PUB-17194211 from METABASE.
+Importing PUB-14724176 from METABASE.
+Importing PUB-17143579 from METABASE.
+Importing PUB-10517829 from METABASE.
+Importing PUB-12714594 from METABASE.
+Importing PUB-9755286 from METABASE.
+Importing PUB-7947743 from METABASE.
+Importing PUB-10066616 from METABASE.
+Importing PUB-1910298 from METABASE.
+Importing PUB-8953249 from METABASE.
+Importing PUB-18039766 from METABASE.
+Importing PUB-11286922 from METABASE.
+Importing PUB-15812856 from METABASE.
+Importing PUB-10205893 from METABASE.
+Importing PUB-5333153 from METABASE.
+Importing PUB-15012287 from METABASE.
+Importing PUB-15171683 from METABASE.
+Importing PUB-15502012 from METABASE.
+Importing PUB-12208502 from METABASE.
+Importing PUB-9023215 from METABASE.
+Importing PUB-1112810 from METABASE.
+Importing PUB-4150713 from METABASE.
+Importing PUB-16690166 from METABASE.
+Importing PUB-14675442 from METABASE.
+Importing PUB-11306275 from METABASE.
+Importing PUB-6270101 from METABASE.
+Importing PUB-387737 from METABASE.
+Importing PUB-3806049 from METABASE.
+Importing PUB-6440485 from METABASE.
+Importing PUB-10832633 from METABASE.
+Importing PUB-18252769 from METABASE.
+Importing PUB-8763940 from METABASE.
+Importing PUB-11157928 from METABASE.
+Importing PUB-13905315 from METABASE.
+Importing PUB-11173291 from METABASE.
+Importing PUB-17613006 from METABASE.
+Importing PUB-15272174 from METABASE.
+Importing PUB-16585762 from METABASE.
+Importing PUB-1339419 from METABASE.
+Importing PUB-681067 from METABASE.
+Importing PUB-2228433 from METABASE.
+Importing PUB-16443825 from METABASE.
+Importing PUB-12408752 from METABASE.
+Importing PUB-19329636 from METABASE.
+Importing PUB-12566589 from METABASE.
+Importing PUB-10517845 from METABASE.
+Importing PUB-2792734 from METABASE.
+Importing PUB-14086740 from METABASE.
+Importing PUB-1212197 from METABASE.
+Importing PUB-15563616 from METABASE.
+Importing PUB-15039580 from METABASE.
+Importing PUB-9352906 from METABASE.
+Importing PUB-11481430 from METABASE.
+Importing PUB-8680961 from METABASE.
+Importing PUB-15686546 from METABASE.
+Importing PUB-7734968 from METABASE.
+Importing PUB-15811335 from METABASE.
+Importing PUB-6105114 from METABASE.
+Importing PUB-8012291 from METABASE.
+Importing PUB-355220 from METABASE.
+Importing PUB-340460 from METABASE.
+Importing PUB-6586495 from METABASE.
+Importing PUB-6605482 from METABASE.
+Importing PUB-11737647 from METABASE.
+Importing PUB-9501211 from METABASE.
+Importing PUB-8770581 from METABASE.
+Importing PUB-6030882 from METABASE.
+Importing PUB-4550817 from METABASE.
+Importing PUB-12446641 from METABASE.
+Importing PUB-9027 from METABASE.
+Importing PUB-9878828 from METABASE.
+Importing PUB-16884924 from METABASE.
+Importing PUB-8938402 from METABASE.
+Importing PUB-3333001 from METABASE.
+Importing PUB-14977569 from METABASE.
+Importing PUB-19344749 from METABASE.
+Importing PUB-8180221 from METABASE.
+Importing PUB-16668420 from METABASE.
+Importing PUB-12795594 from METABASE.
+Importing PUB-5335895 from METABASE.
+Importing PUB-14563547 from METABASE.
+Importing PUB-17244616 from METABASE.
+Importing PUB-18931826 from METABASE.
+Importing PUB-8932317 from METABASE.
+Importing PUB-3132096 from METABASE.
+Importing PUB-8655478 from METABASE.
+Importing PUB-2674136 from METABASE.
+Importing PUB-6270100 from METABASE.
+Importing PUB-15502869 from METABASE.
+Importing PUB-2263641 from METABASE.
+Importing PUB-10484349 from METABASE.
+Importing PUB-9440688 from METABASE.
+Importing PUB-17928708 from METABASE.
+Importing PUB-20202167 from METABASE.
+Importing PUB-11337497 from METABASE.
+Importing PUB-20693992 from METABASE.
+Importing PUB-3553866 from METABASE.
+Importing PUB-5092557 from METABASE.
+Importing PUB-12634339 from METABASE.
+Importing PUB-4379953 from METABASE.
+Importing PUB-977548 from METABASE.
+Importing PUB-11111046 from METABASE.
+Importing PUB-16655478 from METABASE.
+Importing PUB-126306 from METABASE.
+Importing PUB-3332993 from METABASE.
+Importing PUB-13405870 from METABASE.
+Importing PUB-11153263 from METABASE.
+Importing PUB-8343137 from METABASE.
+Importing PUB-9428669 from METABASE.
+Importing PUB-8727785 from METABASE.
+Importing PUB-15598807 from METABASE.
+Importing PUB-2198472 from METABASE.
+Importing PUB-4306794 from METABASE.
+Importing PUB-2005135 from METABASE.
+Importing PUB-17611796 from METABASE.
+Importing PUB-6426463 from METABASE.
+Importing PUB-18685272 from METABASE.
+Importing PUB-16661891 from METABASE.
+Importing PUB-13654294 from METABASE.
+Importing PUB-2679363 from METABASE.
+Importing PUB-2407558 from METABASE.
+Importing PUB-14527277 from METABASE.
+Importing PUB-8190743 from METABASE.
+Importing PUB-8652653 from METABASE.
+Importing PUB-21421810 from METABASE.
+Importing PUB-11389890 from METABASE.
+Importing PUB-4150714 from METABASE.
+Importing PUB-13430766 from METABASE.
+Importing PUB-9575812 from METABASE.
+Importing PUB-15316027 from METABASE.
+Importing PUB-15680985 from METABASE.
+Importing PUB-18824398 from METABASE.
+Importing PUB-17230350 from METABASE.
+Importing PUB-1731963 from METABASE.
+Importing PUB-9988781 from METABASE.
+Importing PUB-15294157 from METABASE.
+Importing PUB-11078528 from METABASE.
+Importing PUB-5800441 from METABASE.
+Importing PUB-10601204 from METABASE.
+Importing PUB-16648478 from METABASE.
+Importing PUB-6151157 from METABASE.
+Importing PUB-11607123 from METABASE.
+Importing PUB-12065293 from METABASE.
+Importing PUB-15028704 from METABASE.
+Importing PUB-9057836 from METABASE.
+Importing PUB-18633118 from METABASE.
+Importing PUB-405403 from METABASE.
+Importing PUB-2254247 from METABASE.
+Importing PUB-15907694 from METABASE.
+Importing PUB-421954 from METABASE.
+Importing PUB-16179482 from METABASE.
+Importing PUB-12177483 from METABASE.
+Importing PUB-20826786 from METABASE.
+Importing PUB-10753862 from METABASE.
+Importing PUB-16554711 from METABASE.
+Importing PUB-13076 from METABASE.
+Importing PUB-19698964 from METABASE.
+Importing PUB-12614618 from METABASE.
+Importing PUB-14550537 from METABASE.
+Importing PUB-18077451 from METABASE.
+Importing PUB-1150668 from METABASE.
+Importing PUB-8994874 from METABASE.
+Importing PUB-10359490 from METABASE.
+Importing PUB-16656975 from METABASE.
+Importing PUB-15952903 from METABASE.
+Importing PUB-15821883 from METABASE.
+Importing PUB-11778054 from METABASE.
+Importing PUB-2005134 from METABASE.
+Importing PUB-2843090 from METABASE.
+Importing PUB-10336995 from METABASE.
+Importing PUB-15044395 from METABASE.
+Importing PUB-12220406 from METABASE.
+Importing PUB-7007895 from METABASE.
+Importing PUB-6438064 from METABASE.
+Importing PUB-11102662 from METABASE.
+Importing PUB-12999794 from METABASE.
+Importing PUB-8480996 from METABASE.
+Importing PUB-5813342 from METABASE.
+Importing PUB-6338879 from METABASE.
+Importing PUB-8917599 from METABASE.
+Importing PUB-16878994 from METABASE.
+Importing PUB-11575720 from METABASE.
+Importing PUB-15012285 from METABASE.
+Importing PUB-11891236 from METABASE.
+Importing PUB-1092682 from METABASE.
+Importing PUB-8590475 from METABASE.
+Importing PUB-8842710 from METABASE.
+Importing PUB-16774646 from METABASE.
+Importing PUB-2621485 from METABASE.
+Importing PUB-5903088 from METABASE.
+Importing PUB-8550510 from METABASE.
+Importing PUB-365225 from METABASE.
+Importing PUB-2570348 from METABASE.
+Importing PUB-11500541 from METABASE.
+Importing PUB-8343522 from METABASE.
+Importing PUB-2883950 from METABASE.
+Importing PUB-10762072 from METABASE.
+Importing PUB-15012227 from METABASE.
+Importing PUB-10438463 from METABASE.
+Importing PUB-7592417 from METABASE.
+Importing PUB-179820 from METABASE.
+Importing PUB-10542236 from METABASE.
+Importing PUB-8246839 from METABASE.
+Importing PUB-2030672 from METABASE.
+Importing PUB-20490788 from METABASE.
+Importing PUB-6304077 from METABASE.
+Importing PUB-9075622 from METABASE.
+Importing PUB-8382679 from METABASE.
+Importing PUB-10844699 from METABASE.
+Importing PUB-8391102 from METABASE.
+Importing PUB-12175798 from METABASE.
+Importing PUB-3073057 from METABASE.
+Importing PUB-9596633 from METABASE.
+Importing PUB-2174100 from METABASE.
+Importing PUB-8026756 from METABASE.
+Importing PUB-4031539 from METABASE.
+Importing PUB-19249065 from METABASE.
+Importing PUB-8436953 from METABASE.
+Importing PUB-3157549 from METABASE.
+Importing PUB-17384161 from METABASE.
+Importing PUB-9822646 from METABASE.
+Importing PUB-19326391 from METABASE.
+Importing PUB-8075141 from METABASE.
+Importing PUB-12062417 from METABASE.
+Importing PUB-7945210 from METABASE.
+Importing PUB-11540925 from METABASE.
+Importing PUB-15590778 from METABASE.
+Importing PUB-13892210 from METABASE.
+Importing PUB-3080433 from METABASE.
+Importing PUB-10613873 from METABASE.
+Importing PUB-8161820 from METABASE.
+Importing PUB-21605544 from METABASE.
+Importing PUB-16662141 from METABASE.
+Importing PUB-17916946 from METABASE.
+Importing PUB-192218 from METABASE.
+Importing PUB-13044808 from METABASE.
+Importing PUB-8025667 from METABASE.
+Importing PUB-8257282 from METABASE.
+Importing PUB-14700636 from METABASE.
+Importing PUB-9084754 from METABASE.
+Importing PUB-18423382 from METABASE.
+Importing PUB-342386 from METABASE.
+Importing PUB-8645272 from METABASE.
+Importing PUB-20199623 from METABASE.
+Importing PUB-2080924 from METABASE.
+Importing PUB-9439886 from METABASE.
+Importing PUB-782536 from METABASE.
+Importing PUB-11012661 from METABASE.
+Importing PUB-11337394 from METABASE.
+Importing PUB-1310545 from METABASE.
+Importing PUB-3298985 from METABASE.
+Importing PUB-15280033 from METABASE.
+Importing PUB-16540542 from METABASE.
+Importing PUB-15215334 from METABASE.
+Importing PUB-7551735 from METABASE.
+Importing PUB-16408321 from METABASE.
+Importing PUB-6171647 from METABASE.
+Importing PUB-1092681 from METABASE.
+Importing PUB-11997379 from METABASE.
+Importing PUB-16051266 from METABASE.
+Importing PUB-10788330 from METABASE.
+Importing PUB-14738999 from METABASE.
+Importing PUB-15237968 from METABASE.
+Importing PUB-9576794 from METABASE.
+Importing PUB-9154992 from METABASE.
+Importing PUB-17020556 from METABASE.
+Importing PUB-4206476 from METABASE.
+Importing PUB-11027694 from METABASE.
+Importing PUB-3286606 from METABASE.
+Importing PUB-20660776 from METABASE.
+Importing PUB-14967042 from METABASE.
+Importing PUB-6195343 from METABASE.
+Importing PUB-4340261 from METABASE.
+Importing PUB-19279205 from METABASE.
+Importing PUB-15951486 from METABASE.
+Importing PUB-3309559 from METABASE.
+Importing PUB-10217486 from METABASE.
+Importing PUB-17346238 from METABASE.
+Importing PUB-10671542 from METABASE.
+Importing PUB-1856165 from METABASE.
+Importing PUB-8631705 from METABASE.
+Importing PUB-15180996 from METABASE.
+Importing PUB-12232283 from METABASE.
+Importing PUB-18701674 from METABASE.
+Importing PUB-10806386 from METABASE.
+Importing PUB-2007556 from METABASE.
+Importing PUB-14622420 from METABASE.
+Importing PUB-11673419 from METABASE.
+Importing PUB-15003233 from METABASE.
+Importing PUB-16533066 from METABASE.
+Importing PUB-12644697 from METABASE.
+Importing PUB-1879422 from METABASE.
+Importing PUB-11337409 from METABASE.
+Importing PUB-12473104 from METABASE.
+Importing PUB-3141576 from METABASE.
+Importing PUB-100070 from METABASE.
+Importing PUB-16698895 from METABASE.
+Importing PUB-6107250 from METABASE.
+Importing PUB-14742562 from METABASE.
+Importing PUB-14726515 from METABASE.
+Importing PUB-15292141 from METABASE.
+Importing PUB-16829585 from METABASE.
+Importing PUB-7798235 from METABASE.
+Importing PUB-15592419 from METABASE.
+Importing PUB-1992953 from METABASE.
+Importing PUB-8444169 from METABASE.
+Importing PUB-10631256 from METABASE.
+Importing PUB-10715000 from METABASE.
+Importing PUB-6726176 from METABASE.
+Importing PUB-16407262 from METABASE.
+Importing PUB-10986234 from METABASE.
+Importing PUB-691077 from METABASE.
+Importing PUB-13233241 from METABASE.
+Importing PUB-15326535 from METABASE.
+Importing PUB-17462988 from METABASE.
+Importing PUB-15500462 from METABASE.
+Importing PUB-8572700 from METABASE.
+Importing PUB-16689682 from METABASE.
+1705 total citations
+1519 pubmed citations
+186 non-pubmed citations
+2256 publication frames in DB
+4071 frames contain at least one citation
+0 pubmed citations have not yet been downloaded from pubmed
+
+== Done checking citations ==
+
+The report from this consistency checker run can be found at
+/var/pathway-tools/ptools-local/pgdbs/user/chlamycyc/2.0.1.1/reports/consistency-checker-report-2012-07-10_14-33-43.txt

@@ -1,0 +1,439 @@
+
+=====Checking all inverse links====
+
+[Checking inverses under class  Promoter-Boxes]
+[Checking inverses under class  EC-BOOKKEEPING]
+[Checking inverses under class  PGDB-Metadata]
+
+Warning: No slotunit exists for slot TEMPLATE-COUNTERS in frame KB-DESCRIPTOR
+[Checking inverses under class  Gene-Ontology-Terms]
+[Checking inverses under class  Organizations]
+[Checking inverses under class  Protein-Features]
+[Checking inverses under class  Organisms]
+
+Warning: No slotunit exists for slot REFERENCE-PGDB-IDS in frame CHLAMY
+[Checking inverses under class  Generalized-Reactions]
+[Checking inverses under class  Publications]
+[Checking inverses under class  Evidence]
+[Checking inverses under class  Collections]
+[Checking inverses under class  Notes]
+[Checking inverses under class  Enzymatic-Reactions]
+[Checking inverses under class  Chemicals]
+
+Removing bad reference to non-existent frame "GIO2-5339" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5338" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5337" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5336" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5335" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5334" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5333" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5332" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5331" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5330" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5329" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5328" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5327" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5326" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5325" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5324" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5323" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5322" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5321" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5320" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5319" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5318" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5317" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5316" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5315" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5314" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5313" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5312" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5311" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5310" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5309" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5308" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5307" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5306" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5305" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5304" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5303" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5302" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5301" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5300" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5298" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5299" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5297" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5295" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5296" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5294" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5293" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5292" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5291" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5290" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5289" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5288" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5287" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5286" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5285" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5284" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5283" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5282" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5281" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5280" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5279" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5278" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5277" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5276" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5275" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5274" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5273" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5271" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5272" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5270" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5269" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5268" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5267" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5266" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5265" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5263" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5264" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5262" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5261" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5260" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5258" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5259" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5257" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5256" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5255" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5254" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5253" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5252" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5251" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5250" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5249" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5247" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5248" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5246" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5245" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5244" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5243" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5242" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5241" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5240" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5239" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5238" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5237" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5236" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5235" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5234" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5233" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5232" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5231" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5230" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5229" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5228" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5227" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5226" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5225" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5224" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5223" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5221" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5222" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5220" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5219" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5218" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5217" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5216" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5215" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5214" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5213" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5212" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5211" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+
+Removing bad reference to non-existent frame "GIO2-5210" in slot UNMAPPED-COMPONENTS in frame CHLAMYDOMONAS-REINHARDTII
+[Checking inverses under class  Growth-Observations]
+[Checking inverses under class  Compound-Mixtures]
+[Checking inverses under class  People]
+[Checking inverses under class  Databases]
+[Checking inverses under class  Regulation]
+[Checking inverses under class  CCO]
+[Checking inverses under class  Polymer-Segments]
+[Checking inverses under class  Cell-Types]
+
+===== Checking and removing any values from PATHWAY-LINKS that point to nonexistent frames ====
+
+Removing link from pwy PWY-5121 to nonexistent pwys (PWY-5660
+                                                     PWY-5416
+                                                     PWY-2981
+                                                     PWY-5032)
+Removing link from pwy CAROTENOID-PWY to nonexistent pwys (PWY-5397)
+Removing link from pwy CAROTENOID-PWY to nonexistent pwys (PWY-5305)
+Removing link from pwy CAROTENOID-PWY to nonexistent pwys (PWY-5291)
+Removing link from pwy CAROTENOID-PWY to nonexistent pwys (PWY-5175)
+Removing link from pwy PWY-5381 to nonexistent pwys (PWY-5388 PWY-5110)
+Removing link from pwy PWY-5751 to nonexistent pwys (PWY-7075 PWY-7074)
+
+===== Checking and removing any reactions from PRIMARIES slot that are no longer in the pathway ====
+
+
+===== Checking modified protein links to eliminate nonexistent frames ====
+
+
+===== Cross-referencing compounds and reactions ====
+
+
+==== Calculating sub and super pathways ====
+
+===== Finding missing sub pathway links ====
+
+
+==== Checking for missing sub pathway links ====
+Warning:METHIONINE-DEG1-PWY is completely contained within PWY-5041 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6473 is completely contained within PWY-4321 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5484 is completely contained within GLYCOLYSIS but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-3821 is completely contained within PWY-6527 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5944 is completely contained within PWY-5288 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-7177 is completely contained within PWY-7185 but is not listed in the SUB-PATHWAYS slot
+
+Warning:THRESYN-PWY is completely contained within PWY-3001 but is not listed in the SUB-PATHWAYS slot
+
+Warning:ILE-VAL-PWY is completely contained within BRANCHED-CHAIN-AA-SYN-PWY but is not listed in the SUB-PATHWAYS slot
+
+Warning:PLPSAL-PWY is completely contained within PWY-7204 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6554 is completely contained within PWY-4562 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-7176 is completely contained within PWY-5687 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-7177 is completely contained within PWY-5687 but is not listed in the SUB-PATHWAYS slot
+
+Warning:GLUTATHIONESYN-PWY is completely contained within PWYQT-4470 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-7343 is completely contained within PWY-7238 but is not listed in the SUB-PATHWAYS slot
+
+
+==Done checking all the links==
+
+==== Checking pathways for duplicate reactions in REACTION-LIST slot ====
+
+== Done checking pathways for duplicate reactions ==
+
+==== Verifying replicon components and positions ====
+
+== Done verifying replicon components ==
+
+
+===== Validating Gene Ontology (GO) Terms =====
+
+
+== Done validating GO terms ==
+
+===== Changing compound name strings to frame IDs in a variety of slots =====
+
+[Checking class Enzymatic-Reactions]
+[Checking class Compounds]
+[Checking class Regulation]
+[Checking class Reactions]
+[Checking class Pathways]
+(DEOXYHYPUSINE-MONOOXYGENASE-RXN (CPD-9973) (CPD-9974))  -->
+   (DEOXYHYPUSINE-MONOOXYGENASE-RXN (CPD-9973) ("CPD-9974")) in
+   #<"PWY-5905" instance frame in CHLAMYBASE[F] @
+     #x10092f0b652>, PRIMARIES
+(2.5.1.64-RXN (ISOCHORISMATE) (SUCCINYL-OH-CYCLOHEXADIENE-COOH))  -->
+   (2.5.1.64-RXN (ISOCHORISMATE) ("SUCCINYL-OH-CYCLOHEXADIENE-COOH")) in
+   #<"PWY-5837" instance frame in CHLAMYBASE[F] @
+     #x10092f08f82>, PRIMARIES
+(RXN-14973 (|3-Oxo-octanoyl-ACPs|) (OCTANOYL-ACP))  -->
+   (RXN-14973 (|3-Oxo-octanoyl-ACPs|) ("OCTANOYL-ACP")) in
+   #<"PWY-7388" instance frame in CHLAMYBASE[F] @
+     #x10092f09012>, PRIMARIES
+(DIHYDRODIPICSYN-RXN (L-ASPARTATE-SEMIALDEHYDE)
+ (2-3-DIHYDRODIPICOLINATE))  -->
+   (DIHYDRODIPICSYN-RXN (L-ASPARTATE-SEMIALDEHYDE)
+    ("2-3-DIHYDRODIPICOLINATE")) in
+   #<"PWY-5097" instance frame in CHLAMYBASE[F] @
+     #x10092f097c2>, PRIMARIES
+[Checking class Enzymatic-Reactions]
+
+== Done changing compound name strings to compound frame IDs ==
+
+===== Checking pathway predecessors/reactions/subs ====
+
+
+===== Removing newlines from names ====
+
+
+===== Clearing read-only computed slot values ====
+
+
+==== Deleting frames that have TEMPORARY-FRAME in their ID ====
+
+
+== Done running all the Misc automatic checks ==
+
+===== Classifying modified proteins as such ====
+
+
+===== Updating molecular weights of polypeptides from amino acid sequences ====
+
+Updated 0 protein molecular weights from sequence
+
+== Done with protein updates  ==
+
+===== Checking compound structures for redundancy =====
+
+Checking Compound structures for redundant bonds
+
+== Done checking compound structure redundancies ==
+
+==== Recomputing statistics for database chlamycyc ====
+
+ Recomputed statistics are as follows:
+(PROTEIN-FEATURES 0 TRANSCRIPTIONAL-REGULATORY-INTERACTION 0
+ PHENOTYPE-MICROARRAY-DATASETS 0 NUM-GO-TERMS 81
+ GENE-ESSENTIALITY-DATASETS 0 GENES-WITH-GENE-ESSENTIALITY-DATA NIL
+ BROWSABLE-GENOME-P NIL PSEUDOGENE-NUMBER 0 ENZYMATIC-REACTION-NUMBER
+ 2262 CITATION-COUNT 3392 GENOME-LENGTH NIL MAPPED-GENE-NUMBER 138
+ UN-MAPPED-GENE-NUMBER 2612 PROTEIN-GENE-NUMBER 4546 RNA-GENE-NUMBER 0
+ ORF-GENE-NUMBER 2625 REACTION-NUMBER 2473 NO-EC-REACTION-NUMBER 607
+ ORGANISM-REACTION-NUMBER 2473 TRANSPORT-REACTION-NUMBER 81
+ POLYPEPTIDE-NUMBER 2840 COMPLEX-NUMBER 32 ENZYME-NUMBER 2614
+ TRANSPORTER-NUMBER 219 CPD-NUMBER 1778 TOTAL-GENE-NUMBER 2820
+ OPERON-NUMBER 0 TRNA-NUMBER 6 LAST-TIME-STAMP 24-Mar-2017  14:31:20)
+
+==== Done recomputing statistics for database chlamycyc ====
+The report from this consistency checker run can be found at
+/home/pzhang/ptools-local/pgdbs/user/chlamycyc/6.0.1/reports/consistency-checker-report-2017-03-24_14-30-57.txt

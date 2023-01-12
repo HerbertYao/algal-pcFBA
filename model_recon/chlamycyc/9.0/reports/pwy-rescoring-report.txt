@@ -1,0 +1,124 @@
+::: Pathway Rescoring Report written at  08-Jun-2018  09:51:08
+
+There are 390 pathways currently in the PGDB.  Of these, 297 pathways were 
+previously inferred and their status has not changed.  The remainder are either
+newly inferred or require(d) manual confirmation for the various reasons stated
+below.  Pathways in the lists below that are marked with an X have been 
+interactively deleted.  All other pathways in the various lists below were 
+present in the PGDB at report generation time.  
+This report was generated on 08-Jun-2018  09:51:08.
+
+2 Pathways that were previously deleted manually now have evidence for additional or different reactions.
+ 	PWY-6845	nitric oxide biosynthesis I (plants)	
+ 	PWY-7799	Arg/N-end rule pathway (eukaryotic)	
+
+
+84 Pathways that were previously inferred but which now would be pruned due to insufficient evidence.
+You will probably want to delete most or all of these.
+ 	FASYN-ELONG-PWY	fatty acid elongation -- saturated	
+ 	GLUT-REDOX-PWY	glutathione-glutaredoxin redox reactions	
+ 	GLYCOLYSIS	glycolysis I (from glucose 6-phosphate)	
+ 	GLYOXDEG-PWY	glycolate and glyoxylate degradation II	
+ 	ILEUDEG-PWY	L-isoleucine degradation I	
+ 	ILEUSYN-PWY	L-isoleucine biosynthesis I (from threonine)	
+ 	MALATE-ASPARTATE-SHUTTLE-PWY	L-aspartate degradation II	
+ 	NAGLIPASYN-PWY	lipid IV<sub>A</sub> biosynthesis	
+ 	NONMEVIPP-PWY	methylerythritol phosphate pathway I	
+ 	PLPSAL-PWY	pyridoxal 5'-phosphate salvage I	
+ 	PWY-1001	cellulose biosynthesis	
+ 	PWY-1042	glycolysis IV (plant cytosol)	
+ 	PWY-2161	folate polyglutamylation	
+ 	PWY-2681	<i>trans</i>-zeatin biosynthesis	
+ 	PWY-3161	indole-3-acetate biosynthesis III (bacteria)	
+ 	PWY-3561	choline biosynthesis III	
+ 	PWY-3821	D-galactose detoxification	
+ 	PWY-3941	&beta;-alanine biosynthesis II	
+ 	PWY-3981	&beta;-alanine biosynthesis I	
+ 	PWY-4321	L-glutamate degradation IV	
+ 	PWY-4661	1D-<i>myo</i>-inositol hexakisphosphate biosynthesis III (<i>Spirodela polyrrhiza</i>)	
+ 	PWY-4861	UDP-&alpha;-D-galacturonate biosynthesis I (from UDP-D-glucuronate)	
+ 	PWY-4983	nitric oxide biosynthesis II (mammals)	
+ 	PWY-5083	NAD/NADH phosphorylation and dephosphorylation	
+ 	PWY-5098	chlorophyll <i>a</i> degradation I	
+ 	PWY-5115	GDP-L-galactose biosynthesis	
+ 	PWY-5138	unsaturated, even numbered fatty acid &beta;-oxidation	
+ 	PWY-5172	acetyl-CoA biosynthesis III (from citrate)	
+ 	PWY-5353	arachidonate biosynthesis I (6-desaturase, lower eukaryotes)	
+ 	PWY-5381	pyridine nucleotide cycling (plants)	
+ 	PWY-5382	hydrogen oxidation II (aerobic, NAD)	
+ 	PWY-5484	glycolysis II (from fructose 6-phosphate)	
+ 	PWY-5493	reductive monocarboxylic acid cycle	
+ 	PWY-5755	4-hydroxybenzoate biosynthesis II (microbes)	
+ 	PWY-5785	di-<i>trans</i>,poly-<i>cis</i>-undecaprenyl phosphate biosynthesis	
+ 	PWY-5791	1,4-dihydroxy-2-naphthoate biosynthesis II (plants)	
+ 	PWY-5946	&delta;-carotene biosynthesis	
+ 	PWY-5995	linoleate biosynthesis I (plants)	
+ 	PWY-6012	acyl carrier protein metabolism	
+ 	PWY-6079	anthranilate degradation I (aerobic)	
+ 	PWY-621	sucrose degradation III (sucrose invertase)	
+ 	PWY-63	UDP-&beta;-L-arabinose biosynthesis I (from UDP-&alpha;-D-xylose)	
+ 	PWY-6327	tetrathionate oxidation	
+ 	PWY-6473	4-aminobutanoate degradation IV	
+ 	PWY-6482	diphthamide biosynthesis (archaea)	
+ 	PWY-6509	methanol oxidation to formaldehyde III	
+ 	PWY-6596	adenosine nucleotides degradation I	
+ 	PWY-6607	guanosine nucleotides degradation I	
+ 	PWY-6610	adenine salvage	
+ 	PWY-6698	oxalate degradation V	
+ 	PWY-6745	phytochelatins biosynthesis	
+ 	PWY-6758	hydrogen production II	
+ 	PWY-6787	flavonoid biosynthesis (in equisetum)	
+ 	PWY-6799	fatty acid biosynthesis (plant mitochondria)	
+ 	PWY-6837	fatty acid beta-oxidation V (unsaturated, odd number, di-isomerase-dependent)	
+ 	PWY-6852	senecionine N-oxide biosynthesis	
+ 	PWY-6898	thiamine salvage III	
+ 	PWY-6902	chitin degradation II (Vibrio)	
+ 	PWY-6927	chlorophyll <i>a</i> degradation II	
+ 	PWY-701	L-methionine degradation II	
+ 	PWY-702	L-methionine biosynthesis II	
+ 	PWY-7036	very long chain fatty acid biosynthesis II	
+ 	PWY-7159	3,8-divinyl-chlorophyllide <i>a</i> biosynthesis III (aerobic, light independent)	
+ 	PWY-7175	nostoxanthin biosynthesis	
+ 	PWY-7177	UTP and CTP dephosphorylation II	
+ 	PWY-7185	UTP and CTP dephosphorylation I	
+ 	PWY-7187	pyrimidine deoxyribonucleotides <i>de novo</i> biosynthesis II	
+ 	PWY-7204	pyridoxal 5'-phosphate salvage II (plants)	
+ 	PWY-7221	guanosine ribonucleotides <i>de novo</i> biosynthesis	
+ 	PWY-7388	octanoyl-[acyl-carrier protein] biosynthesis (mitochondria, yeast)	
+ 	PWY-7394	urate conversion to allantoin II	
+ 	PWY-7409	phospholipid remodeling (phosphatidylethanolamine, yeast)	
+ 	PWY-801	homocysteine and cysteine interconversion	
+ 	PWY0-1275	lipoate biosynthesis and incorporation II	
+ 	PWY0-1313	acetate conversion to acetyl-CoA	
+ 	PWY0-1319	CDP-diacylglycerol biosynthesis II	
+ 	PWY0-522	lipoate salvage I	
+ 	PWY0-541	cyclopropane fatty acid (CFA) biosynthesis	
+ 	PWY1F-353	glycine betaine biosynthesis III (plants)	
+ 	PWY3DJ-35471	L-ascorbate biosynthesis IV	
+ 	PWY4FS-11	L-ascorbate biosynthesis II (L-gulose pathway)	
+ 	PWY66-420	carnosine biosynthesis	
+ 	PWY66-421	homocarnosine biosynthesis	
+ 	TRESYN-PWY	trehalose biosynthesis I	
+
+
+0 Pathways that were added since PathoLogic was last run but which now would be pruned.
+You should consider deleting most or all of these.
+
+
+0 Pathways are not present in MetaCyc.  If any of these pathways have been created specifically for your
+organism and have experimental evidence and comments, please consider submitting them for inclusion into
+MetaCyc.  If not, these are probably pathways that have been deleted from Metacyc (and possibly replaced
+with others).  You should consider carefully whether these pathways should be kept or deleted.
+
+
+7 Pathways have been newly inferred in this organism.
+You should check the list for false positives, but otherwise you will want to keep most of these.
+ 	PWY-2161B-PMN	folate polyglutamylation II	
+ 	PWY-7800	Ac/N-end rule pathway	
+ 	PWY-7856	heme <i>a</i> biosynthesis	
+ 	PWY-7909	formaldehyde oxidation VII (THF pathway)	
+ 	PWY-7919	protein <i>N</i>-glycosylation processing phase (plants and animals)	
+ 	PWYQT-4432	glutathione degradation	
+ 	PWYQT-4449	polyisoprenoid biosynthesis	
+
+

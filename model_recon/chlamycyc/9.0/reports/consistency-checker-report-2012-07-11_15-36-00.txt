@@ -1,0 +1,175 @@
+
+=====Checking all inverse links====
+
+[Checking inverses under class  CCO]
+[Checking inverses under class  CCO-SUPER-COMP]
+[Checking inverses under class  CCO-CELL-FRACT]
+[Checking inverses under class  CCO-ENVELOPE]
+[Checking inverses under class  CCO-SURFACE-MAT]
+[Checking inverses under class  Regulation]
+[Checking inverses under class  Publications]
+[Checking inverses under class  Protein-Features]
+[Checking inverses under class  Polymer-Segments]
+[Checking inverses under class  People]
+[Checking inverses under class  Paralogous-Gene-Groups]
+[Checking inverses under class  Organizations]
+[Checking inverses under class  Organisms]
+[Checking inverses under class  Notes]
+[Checking inverses under class  KB-DESCRIPTOR]
+[Checking inverses under class  Growth-Observations]
+[Checking inverses under class  Generalized-Reactions]
+
+Removing bad reference to non-existent frame mature-tRNA in slot RIGHT in frame 3.1.26.11-RXN
+[Checking inverses under class  Gene-Ontology-Terms]
+[Checking inverses under class  Evidence]
+[Checking inverses under class  Enzymatic-Reactions]
+[Checking inverses under class  EC-BOOKKEEPING]
+[Checking inverses under class  Databases]
+[Checking inverses under class  Compound-Mixtures]
+[Checking inverses under class  Chemicals]
+
+===== Checking and removing any values from PATHWAY-LINKS that point to nonexistent frames ====
+
+Removing link from pwy PWY-6164 to nonexistent pwys (PWY-5770
+                                                     PWY-5755
+                                                     FOLSYN-PWY
+                                                     TYRSYN)
+Removing link from pwy PWY-6163 to nonexistent pwys (PWY-6160)
+Removing link from pwy PWY-6163 to nonexistent pwys (PWY-5770
+                                                     PWY-5755
+                                                     FOLSYN-PWY
+                                                     TYRSYN)
+Removing link from pwy PWY-6890 to nonexistent pwys (PWY-6894
+                                                     PWY-6893
+                                                     PWY-6907)
+Removing link from pwy PWY-5692 to nonexistent pwys (GLYCOLATEMET-PWY
+                                                     GLYOXDEG-PWY)
+Removing link from pwy PWY-5694 to nonexistent pwys (GLYCOLATEMET-PWY
+                                                     GLYOXDEG-PWY)
+Removing link from pwy P142-PWY to nonexistent pwys (CODH-PWY)
+
+===== Checking and removing any reactions from PRIMARIES slot that are no longer in the pathway ====
+
+
+===== Checking modified protein links to eliminate nonexistent frames ====
+
+
+===== Cross-referencing compounds and reactions ====
+
+
+==== Calculating sub and super pathways ====
+
+Adding PWY-6163 to SUB-PATHWAYS slot of ARO-PWY
+
+Adding PWY-6164 to SUB-PATHWAYS slot of ARO-PWY
+
+Adding PWY-6909 to SUB-PATHWAYS slot of THISYNARA-PWY
+
+Adding PWY-6908 to SUB-PATHWAYS slot of THISYNARA-PWY
+
+Adding PWY-6890 to SUB-PATHWAYS slot of THISYNARA-PWY
+
+Adding PWY-5692 to SUB-PATHWAYS slot of URDEGR-PWY
+
+Adding PWY-5694 to SUB-PATHWAYS slot of URDEGR-PWY
+
+Removing PWY-5697 from SUB-PATHWAYS slot of P165-PWY because it does not appear in the PREDECESSORS list
+
+Adding PWY-5694 to SUB-PATHWAYS slot of P165-PWY
+
+Adding PWY-6964 to SUB-PATHWAYS slot of PWY-3282
+
+Adding PWY-6963 to SUB-PATHWAYS slot of PWY-3282
+
+Adding P142-PWY to SUB-PATHWAYS slot of PWY-5100
+
+===== Finding missing sub pathway links ====
+
+
+==== Checking for missing sub pathway links ====
+Warning:THRESYN-PWY is completely contained within PWY-3001 but is not listed in the SUB-PATHWAYS slot
+
+Warning:METHIONINE-DEG1-PWY is completely contained within PWY-5041 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6543 is completely contained within PWY-3742 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6614 is completely contained within PWY-3742 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6147 is completely contained within PWY-3742 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5173 is completely contained within PYRUVDEHYD-PWY but is not listed in the SUB-PATHWAYS slot
+
+
+==Done checking all the links==
+
+==== Checking pathways for duplicate reactions in REACTION-LIST slot ====
+
+== Done checking pathways for duplicate reactions ==
+
+==== Verifying replicon components and positions ====
+
+== Done verifying replicon components ==
+
+
+===== Changing compound name strings to frame IDs in a variety of slots =====
+
+[Checking class Enzymatic-Reactions]
+[Checking class Reactions]
+[Checking class Pathways]
+[Checking class Enzymatic-Reactions]
+
+== Done changing compound name strings to compound frame IDs ==
+
+===== Checking pathway predecessors/reactions/subs ====
+
+Adjusting predecessor list of super-pathway PWY-5381
+Adjusting predecessor list of super-pathway PWY-5156
+Deleting empty pathway PWY-5692
+Transferring pathway PWY-5698 to super-pathway URDEGR-PWY
+Deleting empty pathway PWY-5694
+Transferring pathway PWY-5697 to super-pathway P165-PWY
+Transferring pathway PWY-5697 to super-pathway URDEGR-PWY
+Deleting empty pathway P142-PWY
+Transferring pathway PWY0-1312 to super-pathway PWY-5100
+
+===== Removing newlines from names ====
+
+
+===== Clearing read-only computed slot values ====
+
+
+==== Deleting frames that have TEMPORARY-FRAME in their ID ====
+
+
+== Done running all the Misc automatic checks ==
+
+===== Classifying modified proteins as such ====
+
+
+===== Updating molecular weights of polypeptides from amino acid sequences ====
+
+Updated 0 protein molecular weights from sequence
+
+== Done with protein updates  ==
+
+===== Checking compound structures for redundancy =====
+
+Checking Compound structures for redundant bonds
+
+== Done checking compound structure redundancies ==
+
+====Recomputing statistics for database chlamycyc====
+
+ Recomputed statistics are as follows:
+(PSEUDOGENE-NUMBER 0 ENZYMATIC-REACTION-NUMBER 1509 CITATION-COUNT 1725
+ GENOME-LENGTH NIL MAPPED-GENE-NUMBER 0 UN-MAPPED-GENE-NUMBER 1893
+ PROTEIN-GENE-NUMBER 1893 RNA-GENE-NUMBER 0 ORF-GENE-NUMBER 1893
+ REACTION-NUMBER 1589 NO-EC-REACTION-NUMBER 209
+ ORGANISM-REACTION-NUMBER 1589 TRANSPORT-REACTION-NUMBER 12
+ POLYPEPTIDE-NUMBER 1893 COMPLEX-NUMBER 0 ENZYME-NUMBER 1892
+ TRANSPORTER-NUMBER 35 CPD-NUMBER 1060 TOTAL-GENE-NUMBER 1893
+ OPERON-NUMBER 0 TRNA-NUMBER 6 LAST-TIME-STAMP 11-Jul-2012  15:36:18)
+
+== Done recomputing statistics for database chlamycyc ==
+The report from this consistency checker run can be found at
+/var/pathway-tools/ptools-local/pgdbs/user/chlamycyc/2.0.1.1/reports/consistency-checker-report-2012-07-11_15-36-00.txt

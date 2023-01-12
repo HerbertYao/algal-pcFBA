@@ -1,0 +1,3216 @@
+
+===== Checking constraints =====
+
+
+==== Frame Sulfurated-Sulfur-Acceptors ==== 
+   Slot INCHI
+    -- Slot INCHI may not be used in this frame; it may only be used in
+       frames in the class Compounds
+
+
+==== Frame PHOSGLYPHOS-RXN ==== 
+   Slot DELTAG0
+    -- Slot DELTAG0 is not known in KB CHLAMYBASE
+
+
+==== Frame GLYCO-CT-METHYL ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-LMAN-HEX-1:5_6:D ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-DMAN-HEX-1:5 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-LIDO-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-LGAL-HEX-1:5_6:D ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame B-DIDO-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-LARA-PEN-1:4 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame B-DGLC-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-DARA-PEN-1:4 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-DIDO-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-DGRO-DGAL-NON-2:6_1:A_2:KETO_3:D ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame GLYCO-CT-N-SULFATE ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame O-DGAL-HEX-0:0_1:ALDI ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-DARA-HEX-2:5_2:KETO ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-DGLC-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-DMAN-HEX-1:5 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-DARA-HEX-2:5_2:KETO ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame GLYCO-CT-N-ACETYL ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame GLYCO-CT-PHOSPHATE ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame B-DXYL-PEN-1:5 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-DARA-PEN-1:4 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame B-DGAL-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame GLYCO-CT-SULFATE ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-DXYL-PEN-1:5 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame B-DARA-HEX-2:5_2:KETO ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-LGAL-HEX-1:5_6:D ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame REG-8162 ==== 
+   Slot REGULATOR
+    -- This slot has only 0 values, whereas at least 1 value must be supplied
+
+
+== Done checking constraints ==
+
+==== Reaction balance summary report for chlamycyc ====
+
+TOTAL BALANCED REACTIONS: 2270
+    With :CANNOT-BALANCE? slot set to TRUE: 0
+TOTAL UNBALANCED REACTIONS: 87
+    With :CANNOT-BALANCE? slot set to TRUE: 70
+    With :CANNOT-BALANCE? slot not set: 17
+TOTAL UNDETERMINED REACTIONS: 94
+    With one or more of the substrates lack a chemical structure: 72
+    With non-numerical coefficients: 22
+======================================================
+
+
+=== The following 17 reactions are unbalanced and do not have the :CANNOT-BALANCE? slot set to TRUE:
+
+
+RXN0-1021:                                   GTP + H2O  =  GDP + phosphate
+RXN-9809:                                    indole-3-butyryl-CoA  =  2-trans-indole-3-butyryl-CoA
+RXN-11961:                                   5alpha-cholesta-7,24-dien-3-one + NADPH + NADPH + H+ + H+  ->  5alpha-cholesta-7,24-dien-3beta-ol + 5alpha-cholesta-7,24-dien-3beta-ol + NADP+ + NADP+
+RXNQT-4394:                                  CDP-1-18:1(9Z)-2-18:1(9Z)-glycerol + sn-glycerol 3-phosphate  =  CMP + phosphatidylglycerophosphate (dioctadec-9-enoyl(Z)) + H+
+RXNQT-4377:                                  UTP + N-acetyl-alpha-D-galactosamine 1-phosphate + UTP  =  UDP-N-acetyl-D-galactosamine + UDP-N-acetyl-D-galactosamine + diphosphate + diphosphate
+2.4.2.39-RXN:                                UDP-alpha-D-xylose + UDP-alpha-D-xylose + a xylose/galactose/fucose xyloglucan  =  UDP + xyloglucan with an alpha-D-xylosyl sidechain + UDP
+UMPKI-RXN:                                   ATP + UMP  =  ADP + UDP + H+
+RXN-7183:                                    (S)-1-pyrroline-5-carboxylate + (S)-1-pyrroline-5-carboxylate + NAD(P)+ + NAD(P)+ + H2O + H2O  =  L-glutamate + L-glutamate + NAD(P)H + NAD(P)H + H+ + H+
+RXN-6102:                                    L-glutamate + ATP + tetrahydropteroyl mono-L-glutamate  =  ADP + THF-L-glutamate + phosphate + 2 H+
+RXN-5985:                                    9-mercaptodethiobiotin  =  biotin + 2 H+
+RXNQT-4148:                                  hamamelose  ->  2-carboxy-D-arabinitol
+RXNQT-4147:                                  hamamelose-21,5-bisphosphate + 2 H2O  ->  hamamelose + 2 phosphate
+RXNQT-4146:                                  fructose 1,6-bisphosphate  ->  hamamelose-21,5-bisphosphate
+NADH-DEHYDROG-RXN:                           NADH + a ubiquinone  =  NAD+ + an ubiquinol
+TRANS-RXN4LZ-6845:                           sulfate[cytosol] + ATP + H2O  =  sulfate[chloroplast stroma] + ADP + phosphate
+RXNIO2-7:                                    1-18:3-2-16:3-monogalactosyldiacylglycerol  ->  1-18:3-2-16:4-monogalactosyldiacylglycerol + 2 H+
+RXN-11950:                                   4alpha,14alpha-dimethyl-9beta,19-cyclo-5alpha-cholest-24-en-3-one + NADPH + NADPH + H+ + H+  ->  4alpha,14alpha-dimethyl-9beta,19-cyclo-5alpha-cholest-24-en-3beta-ol + 4alpha,14alpha-dimethyl-9beta,19-cyclo-5alpha-cholest-24-en-3beta-ol + NADP+ + NADP+
+
+=== The following 48 reactions have balanced state UNDETERMINED and do not have the :CANNOT-BALANCE? slot set to TRUE:
+  A balance state of UNDETERMINED means that the software cannot determine whether
+the reaction is balanced, such as because reaction substrates lack chemical structures.
+
+2.3.2.15-RXN:                                glu(-cys)(n)-gly + glutathione  ->  glu(-cys)(n+1)-gly + glycine
+HEXOKINASE-RXN:                              a D-hexose + ATP  =  D-hexose 6-phosphate + ADP + H+
+3.2.1.96-RXN:                                a glycopeptide-D-mannosyl-N4-(N-acetyl-D-glucosaminyl)2-asparagine + H2O  ->  N-acetyl-D-glucosamine-asparagine + a glycopeptide-D-mannosyl-N4-N-acetyl-D-glucosamine
+RXN-1828:                                    a long-linear glucan + alpha-D-glucopyranose  =  a short glucan + a short glucan
+3.6.3.17-RXN:                                a monosaccharide[out] + ATP + H2O  =  a monosaccharide[in] + ADP + phosphate
+RXN4LZ-39:                                   a 1,2-diacyl-sn-glycerol + S-adenosyl-L-methionine  =  S-adenosyl-L-homocysteine + a diacylglyceryl-N,N,N-trimethylhomoserine
+6.3.4.11-RXN:                                an apo-[3-methylcrotonoyl-CoA:carbon-dioxide ligase (ADP-forming)] + biotin + ATP  ->  a holo-[3-methylcrotonoyl-CoA:carbon-dioxide ligase (ADP-forming)] + AMP + diphosphate
+SUGAR-PHOSPHATASE-RXN:                       a sugar phosphate + H2O  ->  a sugar + phosphate
+6.3.4.9-RXN:                                 an apo-[methylmalonyl-CoA:pyruvate carboxytransferase] + biotin + ATP  ->  a holo-[methylmalonyl-CoA:pyruvate carboxytransferase] + AMP + diphosphate
+RXN-14352:                                   glucose[in]  ->  glucose[out]
+OPPSYN-RXN:                                  trans-polyisoprenyln-PP + isopentenyl diphosphate  =  trans-polyisoprenyln+1-PP + diphosphate
+RXN-3742:                                    a folylpolyglutamate(n) + L-glutamate + ATP  =  a folylpolyglutamate(n+1) + ADP + phosphate
+ABC-23-RXN:                                  ATP + an alkylphosphonate[out] + H2O  =  ADP + an alkylphosphonate[in] + phosphate + H+
+3.6.3.44-RXN:                                a xenobiotic[in] + ATP + H2O  =  a xenobiotic[out] + ADP + phosphate
+TRANS-RXN-238:                               an (aminoalkyl)phosphonate[in] + ATP + H2O  ->  an (aminoalkyl)phosphonate[out] + ADP + phosphate + H+
+3.6.3.1-RXN:                                 a phospholipid[in] + ATP + H2O  ->  a phospholipid[out] + ADP + phosphate + H+
+RXN-11963:                                   (2E,6E)-farnesyl diphosphate + n isopentenyl diphosphate  =  a di-trans, poly-cis-polyisoprenyl diphosphate + n diphosphate
+3.6.3.31-RXN:                                a polyamine[out] + ATP + H2O  =  a polyamine[in] + ADP + phosphate
+OMEGA-AMIDASE-RXN:                           a monoamide of a dicarboxylate + H2O  =  ammonium + a dicarboxylate
+3.2.1.18-RXN:                                a sialyloligosaccharide + H2O  ->  an oligosaccharide + N-acetylneuraminate
+3.6.3.42-RXN:                                a beta-D glucan[in] + ATP + H2O  =  a beta-D glucan[out] + ADP + phosphate
+RXN-10949:                                   a myo-inositol monophosphate + H2O  ->  myo-inositol + phosphate
+RXN-1823:                                    starch + n H2O  ->  a large-branched glucan
+2.4.1.19-RXN:                                a 1,4-alpha-D-glucan  =  a cyclodextrin
+3.2.1.8-RXN:                                 a (1->4)-beta-D-xylan + n H2O  ->  n a (1->4)-beta-D-xylan oligosaccharide
+RXN-13961:                                   a 14alpha-methylsteroid + 3 NADPH + 3 oxygen + 2 H+  ->  a delta14steroid + formate + 3 NADP+ + 4 H2O
+RXN-15479:                                   an oxidized plastocyanin[in] + a reduced ferredoxin [iron-sulfur] cluster[out]  <-  hnu + a reduced plastocyanin[in] + an oxidized ferredoxin [iron-sulfur] cluster[out]
+2.3.1.158-RXN:                               a 1,2-diacyl-sn-glycerol + a phospholipid  ->  a triacyl-sn-glycerol + a lyso-phospholipid
+ABC-11-RXN:                                  ATP + a ferric hydroxamate complex[out] + H2O  ->  ADP + a ferric hydroxamate complex[in] + phosphate
+PLASTOQUINOL--PLASTOCYANIN-REDUCTASE-RXN:    2 an oxidized plastocyanin[in] + a plastoquinol[membrane] + 2 H+[out]  ->  2 a reduced plastocyanin[in] + a plastoquinone[membrane] + 4 H+[in]
+RXN-12433:                                   a 1,3-diglyceride + H2O  ->  a monoglyceride + a fatty acid
+ALDOSE-1-DEHYDROGENASE-RXN:                  an aldopyranose + NAD+  =  a D-aldonolactone + NADH + H+
+LACCASE-RXN:                                 4 a benzenediol + oxygen  ->  4 a benzosemiquinone + 2 H2O
+RXN0-5181:                                   a 1,4-alpha-D-glucan + n H2O  ->  a 1,4-alpha-D-glucan + maltohexaose
+2.4.1.232-RXN:                               GDP-alpha-D-mannose + a lipid-linked D-mannose-oligosaccharide  =  a lipid-linked alpha(1->6)-D-mannosyl-D-mannose-oligosaccharide + GDP
+3.6.4.2-RXN:                                 a dynein associated with a microtubule at an n position + ATP + H2O  =  a dynein associated with a microtubule at an (n-1) position (toward the minus end) + ADP + phosphate + H+
+RXN-11109:                                   wound RNA + ATP + H2O  =  an unwound RNA + ADP + phosphate + H+
+RXN-11047:                                   an all-trans-polyisoprenyl diphosphate + 2-carboxy-1,4-naphthoquinol + H+  =  CO2 + a demethylmenaquinol + diphosphate
+TDCEACT-RXN:                                 a [formate C acetyltransferase]-glycine + S-adenosyl-L-methionine + a reduced flavodoxin  =  a [formate C acetyltransferase]-glycin -2-yl radical + 5'-deoxyadenosine + L-methionine + a flavodoxin semiquinone
+RXN-11368:                                   an isoprenoid diphosphate + 4-hydroxybenzoate  =  a 4-hydroxy-3-polyprenylbenzoate + diphosphate
+RXN0-7010:                                   GS-methylhydroquinone + glutathione  ->  methyl-p-hydroquinone + glutathione disulfide
+NADPH--FERRIHEMOPROTEIN-REDUCTASE-RXN:       n oxidized hemoproteins + NADPH + H+  =  n reduced hemoproteins + NADP+
+ALDEHYDE-REDUCTASE-RXN:                      a sugar alcohol + NAD(P)+  =  an aldose + NAD(P)H + H+
+3.2.1.65-RXN:                                a levan + n H2O  ->  n a fructooligosaccharide
+3.2.1.80-RXN:                                a fructan(n) + H2O  ->  beta-D-fructofuranose + a fructan(n-1)
+RXN-11046:                                   S-adenosyl-L-methionine + a demethylmenaquinol  ->  S-adenosyl-L-homocysteine + a menaquinol + H+
+HALOALKANE-DEHALOGENASE-RXN:                 a 1-haloalkane + H2O  =  a primary alcohol + a halide anion
+HOLOCYTOCHROME-C-SYNTHASE-RXN:               a c-type cytochrome  <-->  heme c + an apo-[c-type cytochrome]
+
+
+====Checking frame references====
+
+ 
+Frame EC-2.1.1.fy is referenced in a |FRAME: | construct, but
+                      does not exist either here or in MetaCyc or in EcoCyc. It is referenced in the
+                     following places:
+Frame: Bacteriochlorophyll-f
+ Slot: COMMENT
+
+  
+Frame EC-1.17.7.b is referenced in a |FRAME: | construct, but
+                      does not exist either here or in MetaCyc or in EcoCyc. It is referenced in the
+                     following places:
+Frame: NONMEVIPP-PWY
+ Slot: COMMENT
+
+ 
+Number of frames referenced using |FRAME: | that are: 
+  Defined in this DB: 1607
+  Defined in MetaCyc: 2071
+  Defined in EcoCyc: 5
+  Defined in EC-Number KB: 197
+  Not defined: 2
+
+====Done checking frame references====
+
+
+====Fixing references between polypeptides and genes====
+
+
+==Done fixing references between polypeptides and genes==
+
+====Check Reactions and Validate EC numbers====
+PWYQT-4433
+ Pathway contains one or more reaction PREDECESSORS relationships for which no valid overlap exists:
+ ((2-CARBOXY-D-ARABINITOL-1-PHOSPHATASE-RXN . RXNQT-4148))
+
+
+ == Reaction RXNQT-4164
+ points to EC frame EC-4.2.1.bn, but no such object exists in the EC-Number KB.
+ == Reaction RXNQT-4173
+ points to EC frame EC-4.2.1.bn, but no such object exists in the EC-Number KB.
+ == Reaction RXN-13193
+ points to EC frame EC-1.14.15.n, but no such object exists in the EC-Number KB.
+ == Reaction RXN-15251
+ points to EC frame EC-3.5.1.ac, but no such object exists in the EC-Number KB.
+ == Reaction RXNQT-4170
+ points to EC frame EC-4.2.1.bn, but no such object exists in the EC-Number KB.
+ == Reaction RXN-10450
+ points to EC frame EC-1.14.13.dl, but no such object exists in the EC-Number KB.
+ == Reaction RXNQT-4167
+ points to EC frame EC-4.2.1.bn, but no such object exists in the EC-Number KB.
+ == Reaction RXNQT-4176
+ points to EC frame EC-4.2.1.bn, but no such object exists in the EC-Number KB.
+ == Reaction RXN-7569
+ points to EC frame EC-2.1.1.fq, but no such object exists in the EC-Number KB.
+ == The following reactions are marked has having EC#s that have since been transferred: 
+
+ICOSANOYL-COA-SYNTHASE-RXN
+DIHYDROPICRED-RXN
+RXN-7183
+
+==Done checking reactions and validating EC#s==
+
+
+====Checking Transcription unit data====
+
+==Done checking Transcription unit data==
+
+==== Checking citations ====
+
+Deleting empty citations...
+
+Converting badly formed citations to the right format...
+
+
+Performing various checks on citations...
+
+3666 total citations
+3297 pubmed citations
+369 non-pubmed citations
+3693 publication frames in DB
+7843 frames contain at least one citation
+0 pubmed citations have not yet been downloaded from pubmed
+
+The following citation problems were found:
+
+Non-medline citation YIN11 not found in DB: referenced
+in frame PWY-4621
+, slot CITATIONS. 
+
+Non-medline citation YIN11 not found in DB: referenced
+in frame PWY-4261
+, slot CITATIONS. 
+
+Non-medline citation YIN11 not found in DB: referenced
+in frame PWY-4261
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Wrong argument type: string expected in slot GIBBS-0 of frame CPD-15709
+
+
+Wrong argument type: string expected in slot GIBBS-0 of frame D-SEDOHEPTULOSE-7-P
+
+
+
+== Done checking citations ==
+
+The following frames have unification links to object 'C04902' in database LIGAND-CPD:
+
+Core2
+GALACTOSYL-BETA-GALACTOSAMINYL-R
+
+The following frames have unification links to object '22231' in database CHEBI:
+
+CPD-415
+Acylglycerone-phosphate
+
+The following frames have unification links to object '6255' in database PUBCHEM:
+
+MALTOSE
+CPD-15717
+
+The following frames have unification links to object '5311110' in database PUBCHEM:
+
+RIBOSE
+CPD-15818
+
+The following frames have unification links to object '15936' in database CHEBI:
+
+D-Xylose
+CPD-15377
+
+The following frames have unification links to object '1IR2' in database PDB:
+
+CHLREDRAFT_108283-MONOMER
+CHRECP049-MONOMER
+
+The following frames have unification links to object '44229124' in database PUBCHEM:
+
+Heme-b
+PROTOHEME
+
+The following frames have unification links to object '25244478' in database PUBCHEM:
+
+GUANOSINE_DIPHOSPHATE_FUCOSE
+CPD-13118
+
+The following frames have unification links to object '15876' in database CHEBI:
+
+Core2
+GALACTOSYL-BETA-GALACTOSAMINYL-R
+
+The following frames have unification links to object '29198' in database CHEBI:
+
+Phosphinates
+CPD-27
+
+The following frames have unification links to object '33586' in database BIGG:
+
+Heme-b
+PROTOHEME
+
+The following frames have unification links to object '9036-88-8' in database CAS:
+
+1-4-Mannan
+Mannan
+
+The following frames have unification links to object '33576' in database BIGG:
+
+UDP-GLUCOSE
+CPD-12575
+
+The following frames have unification links to object 'C00032' in database LIGAND-CPD:
+
+Heme-b
+PROTOHEME
+
+The following frames have unification links to object '26436' in database CHEBI:
+
+Pyrimidine-deoxyribonucleosides-5-PPP
+Pyrimidine-deoxyribonucleotides
+
+The following frames have unification links to object '3055' in database NCBI-TAXONOMY-DB:
+
+TAX-3055
+CHLAMY
+
+The following frames have unification links to object '16136' in database CHEBI:
+
+CPD-678
+HS
+
+The following frames have unification links to object '121-69-7' in database CAS:
+
+Oxidized-flavodoxins
+NN-DIMETHYLANILINE
+
+The following frames have unification links to object 'Mannan' in database Wikipedia:
+
+Mannans
+1-4-Mannan
+Mannan
+
+The following frames have unification links to object '1Q90' in database PDB:
+
+CHRECP045-MONOMER
+CHRECP068-MONOMER
+CHRECP008-MONOMER
+
+The following frames have unification links to object '44229219' in database PUBCHEM:
+
+CPD-694
+CPD-689
+
+The following frames have unification links to object '47622' in database CHEBI:
+
+Acetate-esters
+Acetic-Esters
+
+The following frames have unification links to object '33704' in database CHEBI:
+
+Alpha-Amino-Acids
+Amino-Acids-20
+
+The following frames have unification links to object 'C00615' in database LIGAND-CPD:
+
+Protein-Histidines
+PTS-I-Histidines
+Hpr-Histidine
+
+The following frames have unification links to object '47014' in database CHEBI:
+
+RIBOSE
+CPD-15818
+
+The following frames have unification links to object 'C02953' in database LIGAND-CPD:
+
+BIOPTERIN
+CPD-14202
+
+The following frames have unification links to object 'C00039' in database LIGAND-CPD:
+
+DEOXYNUCLEOTIDESM
+DNA-N
+
+The following frames have unification links to object 'CHLREDRAFT_60238' in database CHLAMYCYC1:
+
+CHLREDRAFT_60238
+CHLREDRAFT_60238-MONOMER
+
+The following frames have unification links to object 'C00464' in database LIGAND-CPD:
+
+1-4-Mannan
+Mannan
+
+The following frames have unification links to object '58273' in database CHEBI:
+
+RIBOSE-5P
+CPD-15895
+
+The following frames have unification links to object '49033' in database CHEBI:
+
+CPD0-1959
+L-Methionine-sulfoxides
+
+The following frames have unification links to object 'C00161' in database LIGAND-CPD:
+
+2-Oxo-carboxylates
+2-Oxo-Acids
+
+The following frames have unification links to object '847' in database PUBCHEM:
+
+CPD0-1959
+L-Methionine-sulfoxides
+
+The following frames have unification links to object '14875-96-8' in database CAS:
+
+Heme-b
+PROTOHEME
+
+The following frames have unification links to object '18147' in database CHEBI:
+
+MALTOSE
+CPD-15717
+
+The following frames have unification links to object 'C04272' in database LIGAND-CPD:
+
+DIOH-ISOVALERATE
+CPD-13357
+
+The following frames have unification links to object 'C04571' in database LIGAND-CPD:
+
+RPB-Retinol
+CRPB-all-trans-Retinol
+
+The following frames have unification links to object '64837' in database CHEBI:
+
+Protein-pi-phospho-L-histidines
+PTS-I-pi-phospho-L-histidines
+Hpr-pi-phospho-L-histidines
+
+The following frames have unification links to object '30527' in database CHEBI:
+
+Oxidized-
+Oxidized-Flavins
+
+The following frames have unification links to object '4208' in database CHEBI:
+
+D-mannopyranose
+MANNOSE
+
+The following frames have unification links to object '4139' in database CHEBI:
+
+D-galactopyranose
+D-Galactose
+
+The following frames have unification links to object 'C02790' in database LIGAND-CPD:
+
+3-Hydroxy-Flavonoids
+3prime-Hydroxy-Flavonoids
+
+The following frames have unification links to object 'C02587' in database LIGAND-CPD:
+
+Pyrimidodiazepines
+A-PYRIMIDODIAZEPINE
+
+The following frames have unification links to object 'C01971' in database LIGAND-CPD:
+
+MALTOSE
+CPD-15717
+
+The following frames have unification links to object 'C04866' in database LIGAND-CPD:
+
+B-antigen
+Galactosyl-fucosyl-galactosyl-R
+
+The following frames have unification links to object 'C04261' in database LIGAND-CPD:
+
+Protein-pi-phospho-L-histidines
+PTS-I-pi-phospho-L-histidines
+Hpr-pi-phospho-L-histidines
+
+The following frames have unification links to object 'C00029' in database LIGAND-CPD:
+
+UDP-GLUCOSE
+CPD-12575
+
+The following frames have unification links to object 'C05339' in database LIGAND-CPD:
+
+Phosphinates
+CPD-27
+
+The following frames have unification links to object '6303-21-5' in database CAS:
+
+Phosphinates
+CPD-27
+
+
+ Checking HTML tags in names for Proteins
+CPLX4LZ-110
+The name <i>bc<sub>1</sub> complex  has NIL 
+
+ Checking HTML tags in comments for Proteins
+CHLREDRAFT_196834-MONOMER
+The Comment slot has HTML Errors: 
+ incorrect tag1 <BR
+   
+GIO2-1782-MONOMER
+The Comment slot has HTML Errors: 
+ semicolon for a tag or a space missing next to an ampersand   
+CHLREDRAFT_195712-MONOMER
+The Comment slot has HTML Errors: 
+  please replace & with correct HTML  
+
+ Done checking HTML Tags 
+
+ Checking HTML tags in names for Compounds
+2-Lysophosphatidylcholines
+The name a 1-acyl-<i>sn<i/>-glycerol-3-phosphocholine  has 
+ incorrect tag1 I/
+  
+Glucosyl-acyl-sphingosines
+The name a &beta;-D-glucosyl-(1<->1)-ceramide  has 
+ incorrect tag1 -
+  
+III2-a-Fucosyllactotetraosylceramides
+The name &beta;-D-galactosyl-1,4-<i>N</i>-acetyl-&beta;-D-glucosaminyl-1,3-&beta;-D-galactosyl-1,4-&beta;-D-glucosyl-(1<->1)-ceramide  has 
+ incorrect tag1 -
+  
+
+ Checking HTML tags in comments for Compounds
+1-L-MYO-INOSITOL-1-P
+The Comment slot has HTML Errors: 
+ Symbol "//WWW.CHEM.QMUL.AC.UK/IUPAC/CYCLITOL/MYO.HTML" not found in the HTTP package.
+ [file position = 50]  
+
+ Done checking HTML Tags 
+
+ Checking HTML tags in names for Enzymatic-Reactions
+ENZRXNIO2-3979
+The name 3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p  has NIL 
+ENZRXNIO2-4008
+The name phospholipase A<small><sub>2</sub></small  has NIL 
+ENZRXNIO2-1590
+The name ferroxidase<p  has NIL 
+ENZRXNIO2-2401
+The name phospholipase A<small><sub>1</sub></small  has NIL 
+ENZRXNIO2-1518
+The name 3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p  has NIL 
+ENZRXNIO2-1698
+The name phospholipase A<small><sub>1</sub></small  has NIL 
+ENZRXNIO2-2437
+The name phospholipase A<small><sub>2</sub></small  has NIL 
+ENZRXNIO2-2905
+The name pyrimidodiazepine synthase<p  has NIL 
+ENZRXNIO2-3739
+The name ferredoxin hydrogenase<p  has NIL 
+ENZRXNIO2-1731
+The name glutathione &gamma;-glutamylcysteinyltransferase<p  has NIL 
+ENZRXNIO2-2545
+The name ferroxidase<p  has NIL 
+ENZRXNIO2-1107
+The name <i>N-</i>acetylglucosaminylphosphatidylinositol deacetylase<p  has NIL 
+ENZRXNIO2-1802
+The name oxaloacetate tautomerase<p  has NIL 
+ENZRXNIO2-3320
+The name ferroxidase<p  has NIL 
+ENZRXNIO2-3326
+The name NAD(P)H oxidase<p  has NIL 
+ENZRXNIO2-1527
+The name phospholipase A<small><sub>2</sub></small  has NIL 
+ENZRXNIO2-3815
+The name ubiquinol-cytochrome-<i>c</i> reductase<p  has NIL 
+ENZRXNIO2-1618
+The name GTP diphosphokinase<p  has NIL 
+ENZRXNIO2-3066
+The name GTP diphosphokinase<p  has NIL 
+ENZRXNIO2-3082
+The name FAD-AMP lyase (cyclizing)<p  has NIL 
+ENZRXNIO2-1193
+The name GTP diphosphokinase<p  has NIL 
+ENZRXNIO2-1043
+The name ferroxidase<p  has NIL 
+ENZRXNIO2-1513
+The name 3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p  has NIL 
+ENZRXNIO2-1395
+The name glutathione &gamma;-glutamylcysteinyltransferase<p  has NIL 
+ENZRXNIO2-1516
+The name 3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p  has NIL 
+ENZRXNIO2-1572
+The name pyrimidodiazepine synthase<p  has NIL 
+ENZRXNIO2-2181
+The name 3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p  has NIL 
+ENZRXNIO2-2186
+The name 3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p  has NIL 
+ENZRXNIO2-1648
+The name NAD(P)H oxidase<p  has NIL 
+ENZRXNIO2-2189
+The name 3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p  has NIL 
+ENZRXNIO2-3924
+The name glutamate synthase (ferredoxin)<p  has NIL 
+ENZRXNIO2-2246
+The name phospholipase A<small><sub>2</sub></small  has NIL 
+
+ Checking HTML tags in comments for Enzymatic-Reactions
+
+ Done checking HTML Tags 
+
+ Checking HTML tags in names for Reactions
+
+ Checking HTML tags in comments for Reactions
+
+ Done checking HTML Tags 
+
+ Checking HTML tags in names for Genes
+
+ Checking HTML tags in comments for Genes
+
+ Done checking HTML Tags 
+
+ Checking HTML tags in names for Pathways
+
+ Checking HTML tags in comments for Pathways
+PWY-2301
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7238
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-801
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5971
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6599
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-541
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6730
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-401
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+THISYNARA-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5785
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5027
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6773
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PHOTOALL-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6910
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ALANINE-DEG3-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5484
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-701
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7417
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-162
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6030
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3781
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6745
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5115
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+TRPSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4081
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6498
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7560
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ASPARTATE-DEG1-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6756
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6147
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7060
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5269
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6890
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+KDOSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-1822
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWYQT-4433
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-662
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5173
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+OXIDATIVEPENT-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6164
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6370
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-1275
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6509
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5080
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7206
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWYQT-4445
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6959
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4702
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-522
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-166
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5041
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-1422
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5084
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7204
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7791
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6842
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4381
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7409
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-2161
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+HEXPPSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5989
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+FASYN-ELONG-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+NONMEVIPP-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7175
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6852
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5690
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5783
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6352
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7159
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5046
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5453
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5691
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PROSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+VALDEG-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+UDPNACETYLGALSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-882
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7185
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-724
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ARO-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY66-399
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+CITRULLINE-DEG-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ASPARAGINE-DEG1-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3982
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3941
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+MANNOSYL-CHITO-DOLICHOL-BIOSYNTHESIS
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6363
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLUTATHIONESYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3461
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5137
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+DETOX1-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5138
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-1264
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ALACAT2-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLYOXYLATE-BYPASS
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5464
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6163
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PENTOSE-P-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5326
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+LEU-DEG2-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5129
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5659
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6466
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5918
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY66-421
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6707
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+NONOXIPENT-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5143
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ILEUSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5136
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5381
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5083
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3385
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6019
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3821
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+SULFMETII-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+TRESYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6898
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7193
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY66-423
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7546
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+HISTSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6963
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7184
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6520
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6758
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+SUCSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY4FS-8
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+RIBOSYN2-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6554
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+COA-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4341
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5382
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4861
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5995
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWYQT-4427
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6502
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5944
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6787
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6369
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY4FS-11
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4983
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+MANNCAT-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3282
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5097
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+NAGLIPASYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7394
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6079
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3981
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5493
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6606
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4562
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-2681
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7343
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6605
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5142
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6441
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY4FS-7
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+LEUSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-735
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-1313
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7219
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ILEUDEG-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6327
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5921
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6012
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4821
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6527
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6607
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6595
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4661
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-501
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5172
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7344
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3841
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-1001
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+TRIGLSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+HOMOSERSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7363
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ASPARTATESYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5068
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5120
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5044
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6348
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7416
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLUCONEO-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-1535
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5350
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-1021
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6610
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6799
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLYSYN-ALA-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-1319
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6909
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6483
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLYOXDEG-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7205
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-2161B
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6473
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4321
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5947
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLUT-REDOX-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5123
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6124
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+THIOREDOX-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7388
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3001
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7199
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4302
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3462
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+THRESYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5791
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLUTAMINDEG-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5340
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-43
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+SERSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6927
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+HOMOSER-THRESYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-2261
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-381
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6613
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLYCLEAV-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLUTORN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+VALSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-621
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+MALATE-ASPARTATE-SHUTTLE-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6619
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5946
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6464
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6482
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ARGSYNBSUB-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6936
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY0-1507
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY66-420
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6908
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3161
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PLPSAL-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLNSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5353
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4984
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7224
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6902
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7177
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4541
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6351
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5997
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+CYSTSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7176
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+BRANCHED-CHAIN-AA-SYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7221
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5667
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7039
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+HEME-BIOSYNTHESIS-II
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+SAM-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7101
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6964
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6543
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6287
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5147
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5980
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5686
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5098
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6837
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ALANINE-SYN2-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5905
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5805
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5121
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PYRUVDEHYD-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-4041
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7436
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLUGLNSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6803
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY1F-353
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5194
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-63
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-1801
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5886
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6938
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+BSUBPOLYAMSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5156
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6121
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7346
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ARGSYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5687
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6475
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-1042
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7197
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5122
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5670
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3481
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6556
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PANTO-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PROUT-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-46
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-3261
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-6698
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+GLYCOLYSIS
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5859
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-5755
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-702
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7183
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-841
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ASPARAGINESYN-PWY
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+PWY-7036
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+ASPARAGINE-BIOSYNTHESIS
+The Comment slot has HTML Errors: 
+ there are 2 possibilities :
+                          1. nesting HTML error  please close the last
+ tag first  OR
+                          2. missing opening tag for unmatched closing
+ HTML tag  </B>  
+  
+
+ Done checking HTML Tags 
+
+ Checking HTML tags in names for RNAs
+
+ Checking HTML tags in comments for RNAs
+
+ Done checking HTML Tags 
+The report from this consistency checker run can be found at
+/home/pzhang/ptools-local/pgdbs/user/chlamycyc/7.0/reports/consistency-checker-report-2017-05-01_11-49-49.txt

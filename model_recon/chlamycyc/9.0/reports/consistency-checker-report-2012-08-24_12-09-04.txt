@@ -1,0 +1,431 @@
+
+===== Checking constraints =====
+
+
+==== Frame CPLX4LZ-7520 ==== 
+   Slot COMPONENTS
+    -- Value CHLREDRAFT_192090-MONOMER does not obey the type restrictions
+       imposed on this slot; the value must be an instance of one of the
+       classes (Proteins Protein-Complexes)
+
+
+==== Frame CPD-5804 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame ETHYLENE-CMPD ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame L-LACTATE ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD-7078 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD-4210 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame INDOLE ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame 2-METHYL-6-SOLANYL-14-BENZOQUINONE ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD-5725 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame 5-FORMYL-THF ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD-3 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD1F-115 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD-7409 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame 7-METHYLGUANOSINE-ETCETERA-POLYNUCLEOTID ==== 
+   Slot STRUCTURE-ATOMS
+    -- Value |Polynucleotides| does not obey the type restrictions imposed on
+       this slot; the value must be an instance of one of the classes (Elements
+                                          Groups
+                                          Proteins
+                                          RNAs
+                                          Compounds)
+
+
+== Done checking constraints ==
+
+== Checking for disconnected enzymatic reactions ==
+
+
+== Done checking for disconnected enzymatic reactions ==
+
+== Checking for disconnected reactions ==
+
+The following orphan reactions have no associated enzrxn and are not part of a pathway:
+RXN1G-4355
+
+RXN-9917
+
+RXN-11402
+
+RXN-11400
+
+RXN-9545
+
+ACETOACETATE-DECARBOXYLASE-RXN
+
+UREIDOGLYCOLATE-HYDROLASE-RXN
+
+RXN1G-1439
+
+RXN1G-1438
+
+RXN1G-1437
+
+RXN1G-1436
+
+RXN1G-1435
+
+OHMETPYRKIN-RXN
+
+RXN1G-1637
+
+RXN1G-1636
+
+RXN1G-1635
+
+RXN1G-1634
+
+RXN1G-1633
+
+RXN-9591
+
+R17-RXN
+
+2-MEBUCOA-FAD-RXN
+
+RXN-11355
+
+SS-BUTANEDIOL-DEHYDROGENASE-RXN
+
+RXN-9544
+
+RXN-11035
+
+RXN-11034
+
+RR-BUTANEDIOL-DEHYDROGENASE-RXN
+
+RXN1G-811
+
+RXN1G-810
+
+RXN1G-809
+
+RXN1G-808
+
+RXN1G-807
+
+RXN-7712
+
+RXN-1347
+
+RXN-12104
+
+RXN-11401
+
+
+== Done verifying all reactions ==
+
+=====Checking for duplicate compounds====
+
+
+==The following compounds may be duplicates:  WATER CPD-12377
+
+====Done checking for duplicate compounds====
+
+
+==== Reaction balance summary report for chlamycyc ====
+
+TOTAL BALANCED REACTIONS: 1128
+    With :CANNOT-BALANCE? slot set to TRUE: 0
+TOTAL UNBALANCED REACTIONS: 63
+    With :CANNOT-BALANCE? slot set to TRUE: 53
+    With :CANNOT-BALANCE? slot not set: 10
+TOTAL UNDETERMINED REACTIONS: 54
+    With one or more of the substrates lack a chemical structure: 49
+    With non-numerical coefficients: 5
+======================================================
+
+
+=== The following 10 reactions are unbalanced and do not have the :CANNOT-BALANCE? slot set to TRUE:
+
+
+RXN-6102:                                    L-glutamate + ATP + tetrahydrofolate  ->  ADP + phosphate + THF-L-glutamate + 2 H+
+AMINOACYLASE-RXN:                            an N-acyl-L-amino acid + H2O  =  a carboxylate + an L-amino acid
+3.2.1.84-RXN:                                (1,3-alpha-D-glucosyl)(n)  =  (1,3-alpha-D-glucosyl)(n-1) + alpha-D-glucose
+3.2.1.143-RXN:                               a poly(ADP-ribose) + H2O  =  a poly(ADP-ribose) + ADP-ribose
+PHOSPHOLIPASE-A1-RXN:                        a phosphatidylcholine + H2O  ->  a 1-lysophosphatidylcholine + a fatty acid + H+
+RXN4FS-19:                                   AMP + ATP  <-  2 ADP + H+
+RXN-1641:                                    a phosphatidylcholine[out] + a 1,2-diacylglycerol[out] + H+  ->  a triacylglycerol + a 2-lysophosphatidylcholine
+NADH-DEHYDROG-RXN:                           a ubiquinone + NADH  =  a ubiquinol + NAD+
+RXN-5285:                                    divinyl protochlorophyllide a + NADPH + 2 H+  =  NADP+ + divinylchlorophyllide a
+RXN-10981:                                   an oxidized electron acceptor + L-ascorbate + 2 H+  ->  a reduced electron acceptor + monodehydroascorbate
+
+=== The following reactions have balanced state UNDETERMINED:
+  A balance state of UNDETERMINED means that the software cannot determine whether
+the reaction is balanced, such as because reaction substrates lack chemical structures.
+
+RXN-11408:                                   indole-5,6-quinone + indole-5,6-quinone-2-carboxylate  ->  melanochrome
+RXN-11444:                                   n melanochrome  ->  eumelanin
+RXN-9670:                                    oleoyl-CoA + a lipid  ->  a lipid oleoyl-group + coenzyme A
+RXN4LZ-39:                                   a 1,2-diacylglycerol + S-adenosyl-L-methionine  =  S-adenosyl-L-homocysteine + a diacylglyceryl-N,N,N-trimethylhomoserine
+LACCASE-RXN:                                 4 a benzenediol + oxygen  =  4 a benzosemiquinone + 2 H2O
+1.11.1.12-RXN:                               a lipid hydroperoxide + 2 glutathione  ->  a lipid + glutathione disulfide + 2 H2O
+PEROXID-RXN:                                 a phenolic donor + hydrogen peroxide  =  2 a phenoxyl radical of a phenolic donor + 2 H2O
+NITRIC-OXIDE-SYNTHASE-RXN:                   n NADPH + L-arginine + m oxygen  ->  L-citrulline + n NADP+ + nitric oxide
+RXN-9599:                                    a diamine + H2O + oxygen  =  a monoamine + ammonia + hydrogen peroxide
+NQOR-RXN:                                    NAD(P)H + a quinone + H+  ->  a quinol + NAD(P)+
+2.1.1.125-RXN:                               S-adenosyl-L-methionine + [histone]-L-arginine  =  S-adenosyl-L-homocysteine + [histone]-Nomega-methyl-arginine
+2.1.1.34-RXN:                                a guanosine18 in tRNA + S-adenosyl-L-methionine  =  a 2'-O-methylguanosine18 + S-adenosyl-L-homocysteine
+2.1.1.63-RXN:                                a [protein]-L-cysteine + a DNA containing 6-O-methylguanine  =  a protein-S-methyl-L-cysteine + DNA (without 6-O-methylguanine)
+DNA-CYTOSINE-5--METHYLTRANSFERASE-RXN:       a DNA cytosine + S-adenosyl-L-methionine  =  a DNA 5-methylcytosine + S-adenosyl-L-homocysteine
+RXN-11596:                                   adenine1618 in 23S rRNA + S-adenosyl-L-methionine  =  N6-methyladenine1618 in 23S rRNA + S-adenosyl-L-homocysteine
+RXN-11635:                                   S-adenosyl-L-methionine + guanine1835 in 23S rRNA  =  S-adenosyl-L-homocysteine + N2-methylguanine1835  in 23S rRNA
+TRNA-GUANINE-N7--METHYLTRANSFERASE-RXN:      guanine46 in tRNA + S-adenosyl-L-methionine  =  N7-methylguanine46 in tRNA + S-adenosyl-L-homocysteine
+TRNA-URACIL-5--METHYLTRANSFERASE-RXN:        a tRNA uridine54 + S-adenosyl-L-methionine  =  a tRNA containing 5-methyluridine54 + S-adenosyl-L-homocysteine
+RXN1G-1633:                                  a mycobacterial arabinogalactan + trehalose-mono-mycolate  =  mycolyl-arabinogalactan-peptidoglycan complex + trehalose
+RXN1G-1634:                                  a mycobacterial arabinogalactan + trehalose-cis-methoxy-mono-mycolate  =  arabinogalactan-cis-methoxy-mycolate + trehalose
+RXN1G-1635:                                  a mycobacterial arabinogalactan + trehalose-trans-methoxy-mono-mycolate  =  arabinogalactan-trans-methoxy-mycolate + trehalose
+RXN1G-1636:                                  a mycobacterial arabinogalactan + trehalose-cis-keto-mono-mycolate  =  arabinogalactan-cis-keto-mycolate + trehalose
+RXN1G-1637:                                  a mycobacterial arabinogalactan + trehalose-trans-keto-mono-mycolate  =  arabinogalactan-trans-keto-mycolate + trehalose
+GLYCOPHOSPHORYL-RXN:                         a glycogen + phosphate  =  a limit dextrin + alpha-D-glucose 1-phosphate
+RXN-1826:                                    [(1->4)-alpha-D-glucosyl]n + phosphate  ->  [(1->4)-alpha-D-glucosyl](n-1) + alpha-D-glucose 1-phosphate
+RXN-1828:                                    a long-linear glucan + alpha-D-glucose  <-  a short glucan + a short glucan
+RXN-7710:                                    a 1,4-alpha-D-glucan  ->  starch
+RXN-9023:                                    a limit dextrin  =  a limit dextrin with short branches
+RXN-9025:                                    a debranched limit dextrin + n phosphate  =  n alpha-D-glucose 1-phosphate
+2.4.2.31-RXN:                                L-arginine + NAD(P)+  =  a protein-Nomega-(ADP-D-ribosyl)-L-arginine + nicotinamide
+NAD+-ADP-RIBOSYLTRANSFERASE-RXN:             ADP-D-ribosyl(n)-acceptor + NAD+  =  ADP-D-ribosyl(n+1)-acceptor + nicotinamide + H+
+GSHTRAN-RXN:                                 glutathione + RX  =  a glutathione-toxin conjugate + HX
+POLYNUCLEOTIDE-5-HYDROXYL-KINASE-RXN:        a 5'-Dephospho-DNA + ATP  =  a 5'-phospho-DNA + ADP
+2.7.7.64-RXN:                                UTP + a sugar-1-phosphate  ->  diphosphate + a UDP-sugar
+DNA-DIRECTED-DNA-POLYMERASE-RXN:             a deoxyribonucleoside triphosphate + DNA(n)  =  diphosphate + DNA(n+1)
+RNA-DIRECTED-DNA-POLYMERASE-RXN:             a deoxyribonucleoside triphosphate + DNA(n)  =  diphosphate + DNA(n+1)
+2.7.9.5-RXN:                                 ATP + [phospho-alpha-glucan] + H2O  =  AMP + O-phospho-[phospho-alpha-glucan] + phosphate
+RXN-7919:                                    S-(2-hydroxyacyl)glutathione + H2O  =  glutathione + a 2-hydroxy carboxylate
+3.1.21.7-RXN:                                DNAn  =  a 3'-hydroxy terminated DNA + a 5'-phospho terminated DNA
+RXN-10949:                                   a myo-inositol monophosphate + H2O  =  myo-inositol + phosphate
+ARYLSULFAT-RXN:                              a phenol sulfate + H2O  =  a phenol + sulfate
+3.2.1.106-RXN:                               Glc3Man9GlcNAc2  =  Glc2Man9GlcNAc2 + D-glucose
+3.2.1.130-RXN:                               GlcMan9(GlcNAc)2  =  GlcMan8(GlcNAc)2 + Glcalpha1-3Man
+3.2.1.14-RXN:                                chitin + n H2O  =  n a chitodextrin
+3.2.1.6-RXN:                                 a beta-D-glucan with a C3-substituted glucose  =  a beta-D glucan + a beta-D glucan
+3.2.1.78-RXN:                                a mannan + n H2O  =  n a mannan oligosaccharide
+RXN-1823:                                    starch + n H2O  ->  a large-branched glucan
+RXN-1824:                                    a large-branched glucan + n H2O  ->  n a long-linear glucan
+RXN-1825:                                    a long-linear glucan + n H2O  ->  n short glucans
+RXN-2043:                                    cellulose + n H2O  =  n a cellodextrin
+RXN-9024:                                    a debranched limit dextrin + n H2O  =  n beta-D-glucose
+RXN0-5181:                                   a 1,4-alpha-D-glucan + n H2O  =  a 1,4-alpha-D-glucan + maltohexaose
+DEOXYRIBODIPYRIMIDINE-PHOTOLYASE-RXN:        a DNA cyclobutadipyrimidine  =  a DNA pair of adjacent pyrimidines
+RXN0-2601:                                   a damaged DNA pyrimidine  =  a DNA containing a apyrimidinic site
+
+
+====Checking frame references====
+
+ 
+Frame Medium-Chain-Alcohols is referenced in a |FRAME: | construct, but
+                      does not exist either here or in MetaCyc or in EcoCyc. It is referenced in the
+                     following places:
+Frame: Short-Chain-Alcohols
+ Slot: COMMENT
+
+ Frame: Alcohols
+ Slot: COMMENT
+
+  
+Frame C35-Terpenes is referenced in a |FRAME: | construct, but
+                      does not exist either here or in MetaCyc or in EcoCyc. It is referenced in the
+                     following places:
+Frame: Terpenoids
+ Slot: COMMENT
+
+  
+Frame CHLREDRAFT_173281 is referenced in a |FRAME: | construct, but
+                      does not exist either here or in MetaCyc or in EcoCyc. It is referenced in the
+                     following places:
+Frame: GIO2-197-MONOMER
+ Slot: COMMENT
+
+ Frame: PWY-5934
+ Slot: COMMENT
+
+  
+Frame CHLREDRAFT_184156 is referenced in a |FRAME: | construct, but
+                      does not exist either here or in MetaCyc or in EcoCyc. It is referenced in the
+                     following places:
+Frame: PWY-5934
+ Slot: COMMENT
+
+  
+Frame Long-chain-alcohols is referenced in a |FRAME: | construct, but
+                      does not exist either here or in MetaCyc or in EcoCyc. It is referenced in the
+                     following places:
+Frame: Short-Chain-Alcohols
+ Slot: COMMENT
+
+ Frame: Alcohols
+ Slot: COMMENT
+
+  
+Frame CHLREDRAFT_129929 is referenced in a |FRAME: | construct, but
+                      does not exist either here or in MetaCyc or in EcoCyc. It is referenced in the
+                     following places:
+Frame: GIO2-197-MONOMER
+ Slot: COMMENT
+
+ Frame: PWY-5934
+ Slot: COMMENT
+
+  
+Frame Sesterterpenes is referenced in a |FRAME: | construct, but
+                      does not exist either here or in MetaCyc or in EcoCyc. It is referenced in the
+                     following places:
+Frame: Terpenoids
+ Slot: COMMENT
+
+  
+Frame Hemiterpenes is referenced in a |FRAME: | construct, but
+                      does not exist either here or in MetaCyc or in EcoCyc. It is referenced in the
+                     following places:
+Frame: Terpenoids
+ Slot: COMMENT
+
+ 
+Number of frames referenced using |FRAME: | that are: 
+  Defined in this DB: 847
+  Defined in MetaCyc: 1139
+  Defined in EcoCyc: 4
+  Not defined: 8
+
+====Done checking frame references====
+
+
+====Fixing references between polypeptides and genes====
+
+The following proteins are not connected to any other objects in the database:
+CHLREDRAFT_127317-MONOMER
+
+CHLREDRAFT_132909-MONOMER
+
+CHLREDRAFT_138803-MONOMER
+
+CHLREDRAFT_185013-MONOMER
+
+CHLREDRAFT_186342-MONOMER
+
+CHLREDRAFT_193296-MONOMER
+
+CHLREDRAFT_196245-MONOMER
+
+CHLREDRAFT_205709-MONOMER
+
+CHLREDRAFT_205711-MONOMER
+
+CHLREDRAFT_205713-MONOMER
+
+CHLREDRAFT_205714-MONOMER
+
+CHLREDRAFT_205715-MONOMER
+
+CHLREDRAFT_205718-MONOMER
+
+CHLREDRAFT_205720-MONOMER
+
+CHLREDRAFT_58686-MONOMER
+
+CHLREDRAFT_79362-MONOMER
+
+CHLREDRAFT_82986-MONOMER
+
+MONOMER4LZ-7010
+
+MONOMER4LZ-74
+
+The following genes are not connected to any other objects in the database:
+CHLREDRAFT_192090
+
+
+==Done fixing references between polypeptides and genes==
+
+====Check Reactions and Validate EC numbers====
+
+ == The following reactions are marked as having deleted EC#s,but frames exist for them:
+
+3.4.13.3-RXN
+
+ == The following reactions are marked has having their EC#s changed,
+ but frames exist for those EC#s: 
+
+RXN66-282
+TRNA-ADENINE-N1--METHYLTRANSFERASE-RXN
+TRNA-GUANINE-N2--METHYLTRANSFERASE-RXN
+TRNA-GUANINE-N1--METHYLTRANSFERASE-RXN
+DIHYDROOROTOX-RXN
+TRNA-CYTOSINE-5--METHYLTRANSFERASE-RXN
+
+==Done checking reactions and validating EC#s==
+
+
+====Checking Transcription unit data====
+
+==Done checking Transcription unit data==
+
+==== Checking citations ====
+
+Deleting empty citations...
+
+Converting badly formed citations to the right format...
+
+
+Performing various checks on citations...
+
+2023 total citations
+1818 pubmed citations
+205 non-pubmed citations
+2576 publication frames in DB
+4555 frames contain at least one citation
+2 pubmed citations have not yet been downloaded from pubmed
+
+== Done checking citations ==
+
+The report from this consistency checker run can be found at
+/var/pathway-tools/ptools-local/pgdbs/user/chlamycyc/2.0/reports/consistency-checker-report-2012-08-24_12-09-04.txt

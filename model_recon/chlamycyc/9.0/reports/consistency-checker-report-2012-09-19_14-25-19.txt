@@ -1,0 +1,138 @@
+
+=====Checking all inverse links====
+
+[Checking inverses under class  Regulation]
+[Checking inverses under class  Publications]
+[Checking inverses under class  Protein-Features]
+[Checking inverses under class  Polymer-Segments]
+[Checking inverses under class  People]
+[Checking inverses under class  Paralogous-Gene-Groups]
+[Checking inverses under class  Organizations]
+[Checking inverses under class  Organisms]
+[Checking inverses under class  Notes]
+[Checking inverses under class  KB-DESCRIPTOR]
+[Checking inverses under class  Growth-Observations]
+[Checking inverses under class  Generalized-Reactions]
+[Checking inverses under class  Gene-Ontology-Terms]
+[Checking inverses under class  Evidence]
+[Checking inverses under class  Enzymatic-Reactions]
+[Checking inverses under class  EC-BOOKKEEPING]
+[Checking inverses under class  Databases]
+[Checking inverses under class  Compound-Mixtures]
+[Checking inverses under class  Chemicals]
+[Checking inverses under class  CCO]
+
+===== Checking and removing any values from PATHWAY-LINKS that point to nonexistent frames ====
+
+
+===== Checking and removing any reactions from PRIMARIES slot that are no longer in the pathway ====
+
+
+===== Checking modified protein links to eliminate nonexistent frames ====
+
+
+===== Cross-referencing compounds and reactions ====
+
+
+==== Calculating sub and super pathways ====
+
+===== Finding missing sub pathway links ====
+
+
+==== Checking for missing sub pathway links ====
+Warning:THRESYN-PWY is completely contained within PWY-3001 but is not listed in the SUB-PATHWAYS slot
+
+Warning:METHIONINE-DEG1-PWY is completely contained within PWY-5041 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6543 is completely contained within PWY-3742 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6147 is completely contained within PWY-3742 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5173 is completely contained within PYRUVDEHYD-PWY but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6963 is completely contained within PWY4LZ-283 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5697 is completely contained within PWY4LZ-81 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6963 is completely contained within PWY4LZ-81 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5100 is completely contained within PWY4LZ-257 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5485 is completely contained within PWY4LZ-257 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5486 is completely contained within PWY4LZ-257 but is not listed in the SUB-PATHWAYS slot
+
+
+==Done checking all the links==
+
+==== Checking pathways for duplicate reactions in REACTION-LIST slot ====
+
+== Done checking pathways for duplicate reactions ==
+
+==== Verifying replicon components and positions ====
+[Sorting replicon #<CHLAMYDOMONAS-REINHARDTII instance frame in CHLAMYBASE[M]
+                    @ #x102611f642>]
+
+== Done verifying replicon components ==
+
+
+===== Validating Gene Ontology (GO) Terms =====
+
+
+== Done validating GO terms ==
+
+===== Changing compound name strings to frame IDs in a variety of slots =====
+
+[Checking class Enzymatic-Reactions]
+[Checking class Compounds]
+[Checking class Regulation]
+[Checking class Reactions]
+[Checking class Pathways]
+[Checking class Enzymatic-Reactions]
+
+== Done changing compound name strings to compound frame IDs ==
+
+===== Checking pathway predecessors/reactions/subs ====
+
+
+===== Removing newlines from names ====
+
+
+===== Clearing read-only computed slot values ====
+
+
+==== Deleting frames that have TEMPORARY-FRAME in their ID ====
+
+
+== Done running all the Misc automatic checks ==
+
+===== Classifying modified proteins as such ====
+
+
+===== Updating molecular weights of polypeptides from amino acid sequences ====
+
+Updated 0 protein molecular weights from sequence
+
+== Done with protein updates  ==
+
+===== Checking compound structures for redundancy =====
+
+Checking Compound structures for redundant bonds
+
+== Done checking compound structure redundancies ==
+
+====Recomputing statistics for database chlamycyc====
+
+ Recomputed statistics are as follows:
+(PSEUDOGENE-NUMBER 0 ENZYMATIC-REACTION-NUMBER 1591 CITATION-COUNT 2036
+ GENOME-LENGTH NIL MAPPED-GENE-NUMBER 153 UN-MAPPED-GENE-NUMBER 2084
+ PROTEIN-GENE-NUMBER 1891 RNA-GENE-NUMBER 0 ORF-GENE-NUMBER 1891
+ REACTION-NUMBER 1688 NO-EC-REACTION-NUMBER 285
+ ORGANISM-REACTION-NUMBER 1688 TRANSPORT-REACTION-NUMBER 29
+ POLYPEPTIDE-NUMBER 2127 COMPLEX-NUMBER 30 ENZYME-NUMBER 1999
+ TRANSPORTER-NUMBER 84 CPD-NUMBER 1130 TOTAL-GENE-NUMBER 2107
+ OPERON-NUMBER 0 TRNA-NUMBER 6 LAST-TIME-STAMP 19-Sep-2012  14:25:41)
+
+== Done recomputing statistics for database chlamycyc ==
+The report from this consistency checker run can be found at
+/var/pathway-tools/ptools-local/pgdbs/user/chlamycyc/2.0/reports/consistency-checker-report-2012-09-19_14-25-19.txt

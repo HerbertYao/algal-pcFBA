@@ -1,0 +1,1880 @@
+
+===== Checking constraints =====
+
+
+==== Frame Sulfurated-Sulfur-Acceptors ==== 
+   Slot INCHI
+    -- Slot INCHI may not be used in this frame; it may only be used in
+       frames in the class Compounds
+
+
+==== Frame CHLREDRAFT_77062 ==== 
+   Slot COMPONENT-OF
+    -- Value "7" does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class THING
+
+
+==== Frame CPD-15237 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame INDOLE ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame X-DGRO-DGAL-NON-2:6_1:A_2:KETO_3:D ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame B-DIDO-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-LIDO-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-DIDO-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame B-DGLC-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-DGLC-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-DMAN-HEX-1:5 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-DMAN-HEX-1:5 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-LMAN-HEX-1:5_6:D ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-LGAL-HEX-1:5_6:D ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame O-DGAL-HEX-0:0_1:ALDI ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-LGAL-HEX-1:5_6:D ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame B-DGAL-HEX-1:5_6:A ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-DARA-HEX-2:5_2:KETO ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-DARA-PEN-1:4 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-DARA-PEN-1:4 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame B-DARA-HEX-2:5_2:KETO ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-LARA-PEN-1:4 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame A-DARA-HEX-2:5_2:KETO ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame X-DXYL-PEN-1:5 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame B-DXYL-PEN-1:5 ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame GLYCO-CT-PHOSPHATE ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame GLYCO-CT-N-ACETYL ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame GLYCO-CT-METHYL ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame GLYCO-CT-SULFATE ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame GLYCO-CT-N-SULFATE ==== 
+   Slot GIBBS-0
+    -- Value NIL does not obey the type restrictions imposed on this slot;
+       the value must be an instance of class NUMBER
+
+
+==== Frame CPD1F-115 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD-7409 ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame ETHYLENE-CMPD ==== 
+   Slot MOLECULAR-WEIGHT
+    -- This slot has 2 values, whereas at most 1 value are allowed
+
+
+==== Frame CPD-7082 ==== 
+   Slot COMPONENTS
+    -- Value CPD-13584 does not obey the type restrictions imposed on this
+       slot; the value must be an instance of class THING
+
+
+==== Frame Soyasapogenol-B-Monoglucosides ==== 
+   Slot STRUCTURE-ATOMS
+    -- Value CPD-7610 does not obey the type restrictions imposed on this
+       slot; the value must be an instance of one of the classes (Elements
+                                          Groups
+                                          Compounds
+                                          Proteins
+                                          Polynucleotides)
+
+
+== Done checking constraints ==
+
+== Checking for disconnected enzymatic reactions ==
+
+
+== Done checking for disconnected enzymatic reactions ==
+
+== Checking for disconnected reactions ==
+
+
+=====Checking for duplicate compounds====
+
+
+==The following compounds may be duplicates:  4R-Limonene-1-2-epoxides 4S-limonene-1-2-epoxides
+
+==The following compounds may be duplicates:  Iso-dihydrocarvones Dihydrocarvones
+
+==The following compounds may be duplicates:  Elemental-Sulfur Intracellular-Sulfur
+
+====Done checking for duplicate compounds====
+
+Checking Alternative-Substrates slot of the enzymatic reactions....
+
+
+== Done verifying all reactions ==
+
+==== Reaction balance summary report for chlamycyc ====
+
+TOTAL BALANCED REACTIONS: 1746
+    With :CANNOT-BALANCE? slot set to TRUE: 0
+TOTAL UNBALANCED REACTIONS: 86
+    With :CANNOT-BALANCE? slot set to TRUE: 73
+    With :CANNOT-BALANCE? slot not set: 13
+TOTAL UNDETERMINED REACTIONS: 81
+    With one or more of the substrates lack a chemical structure: 64
+    With non-numerical coefficients: 17
+======================================================
+
+
+=== The following 13 reactions are unbalanced and do not have the :CANNOT-BALANCE? slot set to TRUE:
+
+
+2.1.1.127-RXN:                               a [ribulose-1,5-bisphosphate-carboxylase]-lysine + 3 S-adenosyl-L-methionine  =  a [ribulose-1,5-bisphosphate-carboxylase]-N6,N6,N6-trimethyl-L-lysine + 3 S-adenosyl-L-homocysteine + 3 H+
+RXN-13681:                                   all-trans-retinal + H2O + oxygen  =  hydrogen peroxide + H+
+RXN-10464:                                   oxygen + H2O  =  3-aminopropanal + hydrogen peroxide
+RXN-8093:                                    geranial + oxygen + H2O  =  hydrogen peroxide + H+
+RXN-13290:                                   ATP + coenzyme A  =  AMP + diphosphate
+RXN66-484:                                   ATP + coenzyme A  =  AMP + diphosphate
+RXN-8090:                                    oxygen + H2O  =  hydrogen peroxide + H+
+RXN-12702:                                   ATP + coenzyme A + 2 H+  =  AMP + diphosphate
+RXN-8091:                                    protocatechualdehyde + oxygen + H2O  =  hydrogen peroxide + H+
+D-PPENTOMUT-RXN:                             EC 5.4.2.7
+RXN-12746:                                   ATP + coenzyme A  =  AMP + diphosphate
+POLYAMINE-OXIDASE-RXN:                       oxygen + H2O  =  3-aminopropanal + hydrogen peroxide
+NADH-DEHYDROG-RXN:                           an ubiquinone + NADH  =  an ubiquinol + NAD+
+
+=== The following reactions have balanced state UNDETERMINED:
+  A balance state of UNDETERMINED means that the software cannot determine whether
+the reaction is balanced, such as because reaction substrates lack chemical structures.
+
+RXN-14380:                                   n a (1,6)-alpha-D-glucosyl-(1,4)-alpha-glucan highly branched + n H2O  ->  n a malto-oligosaccharide + n (1,6)-alpha-D-glucosyl-(1,4)-alpha-glucan moderately branched
+3.2.1.18-RXN:                                a sialyloligosaccharide + H2O  =  an oligosaccharide + N-acetylneuraminate
+RXN-12204:                                   a 6-phosphogluco-amylopectin + n ATP + n H2O  ->  a 6-phosphogluco-3-phosphogluco-amylopectin + n AMP + n phosphate
+RXN-12277:                                   a 6-phosphogluco-3-phosphogluco-amylopectin + n H2O  ->  an exposed unphosphorylated, unbranched malto-oligosaccharide tail on amylopectin + n phosphate
+RXN-12623:                                   a chitodextrin + H2O  ->  n N,N'-diacetylchitobiose
+2.7.13.3-RXN:                                ATP + a [protein]-L-histidine  =  ADP + a protein-N-phospho-L-histidine + H+
+RXN-13961:                                   a 14alpha-methylsteroid + 3 NADPH + 3 oxygen + 2 H+  =  a delta14steroid + formate + 3 NADP+ + 4 H2O
+PEROXID-RXN:                                 a phenolic donor + hydrogen peroxide  =  2 a phenoxyl radical of a phenolic donor + 2 H2O
+RXN-12276:                                   a 6-phosphogluco-amylopectin + n H2O  ->  an exposed unphosphorylated, unbranched malto-oligosaccharide tail on amylopectin + n phosphate
+RXN-12202:                                   a 6-phosphogluco-maltodextrin + n ATP + n H2O  =  a poly-6-phosphogluco-maltodextrin + n AMP + n phosphate
+RXN-11368:                                   an isoprenoid diphosphate + 4-hydroxybenzoate  =  a 4-hydroxy-3-polyprenylbenzoate + diphosphate
+OMEGA-AMIDASE-RXN:                           a monoamide of a dicarboxylate + H2O  =  ammonium + a dicarboxylate
+RXN-1823:                                    starch + n H2O  =  a large-branched glucan
+3.2.1.78-RXN:                                a mannan + n H2O  =  n a mannan oligosaccharide
+QOR-RXN:                                     a quinone + NADPH  =  a semiquinone + NADP+
+GLYCOPHOSPHORYL-RXN:                         a glycogen + phosphate  =  a limit dextrin + alpha-D-glucose 1-phosphate
+RXN-12280:                                   an exposed unphosphorylated, (alpha-1,6)-branched malto-oligosaccharide tail on amylopectin + n H2O  ->  amylopectin + n a linear malto-oligosaccharide
+RXN-14361:                                   UDP-alpha-D-glucuronate + glucosyl-(heptosyl)3-Kdo2-lipid A-phosphate  ->  UDP + glucosyl-(heptosyl)3-glucuronosyl-Kdo2-lipid A-phosphate
+RXN-11444:                                   n melanochrome  ->  eumelanin
+3.2.1.96-RXN:                                a glycopeptide-D-mannosyl-N4-(N-acetyl-D-glucosaminyl)2-asparagine + H2O  =  N-acetyl-D-glucosamine-asparagine + a glycopeptide-D-mannosyl-N4-N-acetyl-D-glucosamine
+ALPHA-AMYL-RXN:                              a 1,4-alpha-D-glucan + n H2O  =  n a 1,4-alpha-D-glucan
+RXN-1828:                                    a long-linear glucan + alpha-D-glucose  =  a short glucan + a short glucan
+2.3.1.158-RXN:                               a 1,2-diacyl-sn-glycerol + a phospholipid  ->  a triacyl-sn-glycerol + a lysophospholipid
+RXN-7710:                                    n a 1,4-alpha-D-glucan  =  n starch + n H2O
+RXN-12279:                                   an exposed unphosphorylated, unbranched malto-oligosaccharide tail on amylopectin + n H2O  ->  maltose + an exposed unphosphorylated, (alpha-1,6)-branched malto-oligosaccharide tail on amylopectin
+RXN-12302:                                   pullulan + n H2O  =  n maltotriose
+RXN-9024:                                    a debranched limit dextrin + n H2O  =  n beta-D-glucose
+RXN-9599:                                    a diamine + H2O + oxygen  =  a monoamine + ammonium + hydrogen peroxide
+RXN-14353:                                   SHG-glucosyln+1 + phosphate  ->  SHG-glucosyln + alpha-D-glucose 1-phosphate
+RXN-12278:                                   an exposed unphosphorylated, unbranched malto-oligosaccharide tail on amylopectin + n H2O  ->  amylopectin + maltose
+UDPSUGARHYDRO-RXN:                           a UDP-sugar + H2O  ->  UMP + an alpha-D-aldose 1-phosphate + 2 H+
+RXN-11408:                                   indole-5,6-quinone + indole-5,6-quinone-2-carboxylate  ->  melanochrome
+RXN-11135:                                   a double-helix DNA + ATP + H2O  ->  an unwound double-stranded DNA + ADP + phosphate + H+
+RXN-14372:                                   n alpha-amylose  ->  n amylopectin + n H2O
+RXN-12391:                                   a glucan + D-glucopyranose  <-  a glucan + maltotriose
+RXN-1026:                                    a long-chain acyl-CoA + n malonyl-CoA  =  a very long chain fatty acyl-CoA + n CO2 + n coenzyme A
+RXN-1824:                                    a large-branched glucan + n H2O  =  n a long-linear glucan
+RXN-4301:                                    a glycogen + n H2O  =  n a maltodextrin
+RXN-14378:                                   ADP-alpha-D-glucose + n (1,4-alpha-D-glucosyl)(n)  ->  ADP + n alpha-amylose
+RXN-14371:                                   n a 1,4-alpha-D-glucan  ->  a (1,6)-alpha-D-glucosyl-(1,4)-alpha-glucan highly branched + n H2O
+RXN-9598:                                    a monoamine + H2O + oxygen  =  an aldehyde + a primary amine + hydrogen peroxide
+RXN-11046:                                   a demethylmenaquinol + S-adenosyl-L-methionine  =  a menaquinol + S-adenosyl-L-homocysteine + H+
+CERAMIDASE-YEAST-RXN:                        an alpha hydroxyphytoceramide + H2O    phytosphingosine + a hydroxy fatty acid
+3.2.1.6-RXN:                                 a beta-D-glucan with a C3-substituted glucose  =  a beta-D glucan + a beta-D glucan
+RXN4LZ-39:                                   a 1,2-diacyl-sn-glycerol + S-adenosyl-L-methionine  =  S-adenosyl-L-homocysteine + a diacylglyceryl-N,N,N-trimethylhomoserine
+3.2.1.113-RXN:                               a (mannosyl)9-(N-acetylglucosaminyl)2 + H2O  =  a (mannosyl)8-(N-acetylglucosaminyl)2 + D-mannose
+LACCASE-RXN:                                 4 a benzenediol + oxygen  =  4 a benzosemiquinone + 2 H2O
+GSHTRAN-RXN:                                 glutathione + RX  =  a glutathione-toxin conjugate + HX
+RXN-10949:                                   a myo-inositol monophosphate + H2O  =  myo-inositol + phosphate
+3.2.1.14-RXN:                                chitin + n H2O  ->  n a chitodextrin
+RXN-9025:                                    a debranched limit dextrin + n phosphate  =  n alpha-D-glucose 1-phosphate
+3.2.1.55-RXN:                                a (1->5)-alpha-L-arabinan oligosaccharide + n H2O  =  n alpha-L-arabinofuranose
+RXN-14374:                                   n (1,6)-alpha-D-glucosyl-(1,4)-alpha-glucan moderately branched  ->  n amylopectin
+RXN0-5181:                                   a 1,4-alpha-D-glucan + n H2O  =  a 1,4-alpha-D-glucan + maltohexaose
+RXN-14373:                                   n amylopectin + alpha-amylose  ->  n starch
+3.2.1.141-RXN:                               a maltooligosyl-trehalose  =  a maltodextrin + alpha,alpha-trehalose
+RXN-14354:                                   SHG-glucosyln+1 + beta-D-glucose  <-  SHG-glucosyln + maltose
+SUCROSE-1F-FRUCTOSYLTRANSFERASE-RXN:         2 sucrose  =  an inulin + beta-D-glucose
+3.2.1.37-RXN:                                a (1->4)-beta-D-xylan oligosaccharide + n H2O  =  n beta-D-xylopyranose
+2.7.9.5-RXN:                                 ATP + [phospho-alpha-glucan] + H2O  =  AMP + O-phospho-[phospho-alpha-glucan] + phosphate
+RXN-9023:                                    a limit dextrin  =  a limit dextrin with short branches
+3.2.1.1-RXN:                                 starch + H2O  =  maltose + glucose
+HEXOKINASE-RXN:                              a D-hexose + ATP  =  D-hexose 6-phosphate + ADP + H+
+RXN-1826:                                    [(1->4)-alpha-D-glucosyl]n + phosphate  ->  [(1->4)-alpha-D-glucosyl](n-1) + alpha-D-glucose 1-phosphate
+RXN-12624:                                   a chitodextrin + H2O  ->  n chitotriose
+RXN-12203:                                   starch + n ATP + n H2O  ->  a 6-phosphogluco-amylopectin + n AMP + n phosphate
+NAD+-ADP-RIBOSYLTRANSFERASE-RXN:             ADP-D-ribosyl(n)-acceptor + NAD+  =  ADP-D-ribosyl(n+1)-acceptor + nicotinamide + H+
+RXN-11868:                                   a cytidine32/guanosine34 in tRNA + S-adenosyl-L-methionine  =  a 2'-O-methylcytidine32/2-O-methylguanosine34 in tRNA + S-adenosyl-L-homocysteine
+RXN-12378:                                   guanine26/guanine27 in tRNA + S-adenosyl-L-methionine  =  N2-methylguanine26/guanine27 in tRNA + S-adenosyl-L-homocysteine
+RXN-12379:                                   N2-methylguanine26/guanine27 in tRNA + S-adenosyl-L-methionine  =  N2 dimethylguanine26/guanine27 in tRNA + S-adenosyl-L-homocysteine
+RXN-12382:                                   guanine26/guanine27 in tRNA + 4 S-adenosyl-L-methionine  =  N2-dimethylguanine26/N2-dimethylguanine27 + 4 S-adenosyl-L-homocysteine
+RXN-12380:                                   N2 dimethylguanine26/guanine27 in tRNA + S-adenosyl-L-methionine  =  N2-dimethylguanine26/N2-methylguanine27 + S-adenosyl-L-homocysteine
+RXN-12469:                                   an adenine57/adenine58 in tRNA + 2 S-adenosyl-L-methionine  =  N1-methyladenine57/N1-methyladenine58 in tRNA + 2 S-adenosyl-L-homocysteine
+RXN-12381:                                   N2-dimethylguanine26/N2-methylguanine27 + S-adenosyl-L-methionine  =  N2-dimethylguanine26/N2-dimethylguanine27 + S-adenosyl-L-homocysteine
+POLYNUCLEOTIDE-5-HYDROXYL-KINASE-RXN:        a 5'-dephospho-DNA + ATP  =  a 5'-phospho-DNA + ADP
+RXN0-2601:                                   a damaged DNA pyrimidine  =  a DNA containing a apyrimidinic site
+RXN0-2584:                                   a DNA with uracil  =  an AP (apurinic or apyrimidinic) site created by glycosylic bond cleavage + uracil
+RXN0-2625:                                   a mismatched DNA base pair  =  a properly matched DNA base pair
+RXN0-2602:                                   a damaged DNA (purine or pyrimidine)  =  an AP (apurinic or apyrimidinic) site created by glycosylic bond cleavage
+RXN-2043:                                    cellulose + n H2O  =  n a cellodextrin
+2.7.7.64-RXN:                                UTP + a sugar 1-phosphate  =  a UDP-sugar + diphosphate
+
+
+====Checking frame references====
+
+
+Number of frames referenced using |FRAME: | that are: 
+  Defined in this DB: 1283
+  Defined in MetaCyc: 1680
+  Defined in EcoCyc: 7
+  Defined in EC-Number KB: 55
+  Not defined: 0
+
+====Done checking frame references====
+
+
+====Fixing references between polypeptides and genes====
+
+
+==Done fixing references between polypeptides and genes==
+
+====Check Reactions and Validate EC numbers====
+
+ == The following reactions are marked has having EC#s that have since been transferred: 
+
+RXN-821
+
+==Done checking reactions and validating EC#s==
+
+
+====Checking Transcription unit data====
+
+==Done checking Transcription unit data==
+
+==== Checking citations ====
+
+Deleting empty citations...
+
+Converting badly formed citations to the right format...
+
+
+Performing various checks on citations...
+
+2931 total citations
+2600 pubmed citations
+331 non-pubmed citations
+3948 publication frames in DB
+7887 frames contain at least one citation
+28 pubmed citations have not yet been downloaded from pubmed
+Importing PUB-999838 from METABASE.
+Importing PUB-7937826 from METABASE.
+Importing PUB-16546181 from METABASE.
+Importing PUB-3902008 from METABASE.
+Importing PUB-8900454 from METABASE.
+Importing PUB-12573240 from METABASE.
+Importing PUB-18422645 from METABASE.
+Importing PUB-15866875 from METABASE.
+Importing PUB-4312676 from METABASE.
+Importing PUB-15110319 from METABASE.
+Importing PUB-9829122 from METABASE.
+Importing PUB-3384801 from METABASE.
+Importing PUB-22927644 from METABASE.
+Importing PUB-6188151 from METABASE.
+Importing PUB-1334266 from METABASE.
+Importing PUB-2248971 from METABASE.
+Importing PUB-11170598 from METABASE.
+Importing PUB-16799769 from METABASE.
+Importing PUB-8468053 from METABASE.
+Importing PUB-16742819 from METABASE.
+Importing PUB-1637300 from METABASE.
+Importing PUB-16718484 from METABASE.
+Importing PUB-10570972 from METABASE.
+Importing PUB-8389613 from METABASE.
+Importing PUB-7138806 from METABASE.
+Importing PUB-16328883 from METABASE.
+Importing PUB-11112411 from METABASE.
+
+The following citation problems were found:
+
+Non-medline citation YIN11 not found in DB: referenced
+in frame PWY-4261
+, slot CITATIONS. 
+
+Non-medline citation YIN11 not found in DB: referenced
+in frame PWY-4261
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation YIN11 not found in DB: referenced
+in frame PWY-4621
+, slot CITATIONS. 
+
+2931 total citations
+2600 pubmed citations
+331 non-pubmed citations
+3975 publication frames in DB
+7887 frames contain at least one citation
+1 pubmed citations have not yet been downloaded from pubmed
+
+== Done checking citations ==
+
+The following frames have unification links to object '15936' in database CHEBI:
+
+D-Xylose
+CPD-15377
+
+The following frames have unification links to object '1IR2' in database PDB:
+
+CHLREDRAFT_108283-MONOMER
+CHRECP049-MONOMER
+
+The following frames have unification links to object 'C15550' in database LIGAND-CPD:
+
+Anthocyanidin-3-O-beta-D-glucosides
+Anthocyanin-3-O-beta-D-glucosides
+
+The following frames have unification links to object 'C04212' in database LIGAND-CPD:
+
+Cyclic-3-5-Ribonucleoside-Monophosphates
+Cyclic-3-5-Nucleoside-Monophosphates
+
+The following frames have unification links to object 'C00182' in database LIGAND-CPD:
+
+6-alpha-D--1-4-alpha-D-Glucano--Glucan
+Glycogens
+
+The following frames have unification links to object 'C01240' in database LIGAND-CPD:
+
+Cyclic-2-3-Ribonucleoside-Monophosphates
+Cyclic-2-3-Nucleoside-Monophosphates
+
+The following frames have unification links to object 'C02843' in database LIGAND-CPD:
+
+Long-Chain-Acyl-CoAs
+Fatty-Acyl-CoA
+
+The following frames have unification links to object '26436' in database CHEBI:
+
+Pyrimidine-deoxyribonucleosides-5-PPP
+Pyrimidine-deoxyribonucleotides
+
+The following frames have unification links to object '33184' in database CHEBI:
+
+Long-Chain-Acyl-CoAs
+Fatty-Acyl-CoA
+
+The following frames have unification links to object '3055' in database NCBI-TAXONOMY-DB:
+
+TAX-3055
+CHLAMY
+
+The following frames have unification links to object '16136' in database CHEBI:
+
+HS
+CPD-678
+
+The following frames have unification links to object '18364' in database CHEBI:
+
+44-DIMETHYL-824-CHOLESTADIENOL
+44-DIMETHYL-CHOLESTA-812-24-TRIENOL
+
+The following frames have unification links to object '1Q90' in database PDB:
+
+CHRECP068-MONOMER
+CHRECP008-MONOMER
+CHRECP045-MONOMER
+
+The following frames have unification links to object '47014' in database CHEBI:
+
+RIBOSE
+CPD-15818
+
+The following frames have unification links to object 'C00039' in database LIGAND-CPD:
+
+DNA-N
+DEOXYNUCLEOTIDESM
+
+The following frames have unification links to object 'CHLREDRAFT_60238' in database CHLAMYCYC1:
+
+CHLREDRAFT_60238
+CHLREDRAFT_60238-MONOMER
+
+The following frames have unification links to object 'C00161' in database LIGAND-CPD:
+
+2-Oxo-Acids
+2-Oxo-carboxylates
+
+The following frames have unification links to object '9005-79-2' in database CAS:
+
+6-alpha-D--1-4-alpha-D-Glucano--Glucan
+Glycogens
+
+The following frames have unification links to object 'C03940' in database LIGAND-CPD:
+
+Anthocyanidin-3-O-beta-D-glucosides
+ANTHOCYANIDIN-3-O-D-GLUCOSIDE
+
+The following frames have unification links to object 'PWY-101' in database METACYC:
+
+PWY-101
+GO:0019684
+
+The following frames have unification links to object 'C04571' in database LIGAND-CPD:
+
+RPB-Retinol
+CRPB-all-trans-Retinol
+
+The following frames have unification links to object '30527' in database CHEBI:
+
+Oxidized-
+Oxidized-Flavins
+
+The following frames have unification links to object '4208' in database CHEBI:
+
+D-mannopyranose
+MANNOSE
+
+The following frames have unification links to object '4139' in database CHEBI:
+
+D-galactopyranose
+D-Galactose
+
+The following frames have unification links to object 'C02790' in database LIGAND-CPD:
+
+3-Hydroxy-Flavonoids
+3prime-Hydroxy-Flavonoids
+
+CPLX4LZ-110
+The name <i>bc<sub>1</sub> complex  has NIL 
+CHLREDRAFT_196834-MONOMER
+The Comment slot has HTML Errors: 
+ incorrect tag <BR
+  
+2-Lysophosphatidylcholines
+The name a 1-acyl-<i>sn<i/>-glycerol-3-phosphocholine  has 
+ incorrect tag I/
+ 
+Lactotetraosylceramides
+The name &beta;-D-galactosyl-1,4-<i>N</i>-acetyl-&beta;-D-glucosaminyl-1,3-&beta;-D-galactosyl-1,4-&beta;-D-glucosyl-(1<->1)-ceramide  has 
+ incorrect tag -
+ 
+Glucosyl-Cermaides
+The name a &beta;-D-glucosyl-(1<->1)-ceramide  has 
+ incorrect tag -
+ 
+III2-a-Fucosyllactotetraosylceramides
+The name &beta;-D-galactosyl-1,4-<i>N</i>-acetyl-&beta;-D-glucosaminyl-1,3-&beta;-D-galactosyl-1,4-&beta;-D-glucosyl-(1<->1)-ceramide  has 
+ incorrect tag -
+ 
+Glucosyl-acyl-sphingosines
+The name a &beta;-D-glucosyl-(1<->1)-ceramide  has 
+ incorrect tag -
+ 
+1-L-MYO-INOSITOL-1-P
+The Comment slot has HTML Errors: 
+ Symbol "//WWW.CHEM.QMUL.AC.UK/IUPAC/CYCLITOL/MYO.HTML" not found in the HTTP package.
+ [file position = 50]  
+ENZRXNIO2-5769
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-7108
+The name protein disulfide-isomerase<p  has NIL 
+ENZRXNIO2-6695
+The name GTP diphosphokinase<p  has NIL 
+ENZRXNIO2-6448
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-7190
+The name 3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p  has NIL 
+ENZRXNIO2-8669
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-8757
+The name cathepsin X <p  has NIL 
+ENZRXNIO2-5703
+The name RNA-3'-phosphate cyclase<p  has NIL 
+ENZRXNIO2-6102
+The name protein disulfide-isomerase<p  has NIL 
+ENZRXNIO2-6644
+The name 3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p  has NIL 
+ENZRXNIO2-6957
+The name <i>N-</i>acetylglucosaminylphosphatidylinositol deacetylase<p  has NIL 
+ENZRXNIO2-9436
+The name spleen exonuclease<p  has NIL 
+ENZRXNIO2-5275
+The name ferroxidase<p  has NIL 
+ENZRXNIO2-6355
+The name phospholipase A<small><sub>2</sub></small  has NIL 
+ENZRXNIO2-7189
+The name 3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p  has NIL 
+ENZRXNIO2-6101
+The name protein disulfide-isomerase<p  has NIL 
+ENZRXNIO2-7174
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-5283
+The name protein disulfide-isomerase<p  has NIL 
+ENZRXNIO2-7360
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-9821
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-7621
+The name ferroxidase<p  has NIL 
+ENZRXNIO2-179
+The name protein disulfide-isomerase<p  has NIL 
+ENZRXNIO2-615
+The name ubiquinol-cytochrome-<i>c</i> reductase<p  has NIL 
+ENZRXNIO2-6794
+The name electron-transferring-flavoprotein dehydrogenase<p  has NIL 
+ENZRXNIO2-7187
+The name yeast ribonuclease<p  has NIL 
+ENZRXNIO2-856
+The name NAD(P)<small><sup>+</sup></small> transhydrogenase (AB-specific)<p  has NIL 
+ENZRXNIO2-6317
+The name ferroxidase<p  has NIL 
+ENZRXNIO2-9243
+The name FAD-AMP lyase (cyclizing)<p  has NIL 
+ENZRXNIO2-7097
+The name ubiquinol-cytochrome-<i>c</i> reductase<p  has NIL 
+ENZRXNIO2-6077
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-7912
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-10003
+The name cathepsin X <p  has NIL 
+ENZRXNIO2-736
+The name ubiquinol-cytochrome-<i>c</i> reductase<p  has NIL 
+ENZRXNIO2-5456
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-180
+The name protein disulfide-isomerase<p  has NIL 
+ENZRXNIO2-6059
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-5282
+The name protein disulfide-isomerase<p  has NIL 
+ENZRXNIO2-7531
+The name 3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p  has NIL 
+ENZRXNIO2-7267
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-8280
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-9279
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-8602
+The name NAD(P)<small><sup>+</sup></small> transhydrogenase (AB-specific)<p  has NIL 
+ENZRXNIO2-9027
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-5067
+The name GTP diphosphokinase<p  has NIL 
+ENZRXNIO2-6353
+The name phospholipase A<small><sub>2</sub></small  has NIL 
+ENZRXNIO2-183
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-8204
+The name ferroxidase<p  has NIL 
+ENZRXNIO2-9370
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-7584
+The name peptidylamidoglycolate lyase<p  has NIL 
+ENZRXNIO2-6691
+The name glutathione &gamma;-glutamylcysteinyltransferase<p  has NIL 
+ENZRXNIO2-8503
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-7270
+The name RNA-3'-phosphate cyclase<p  has NIL 
+ENZRXNIO2-7188
+The name 3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p  has NIL 
+ENZRXNIO2-621
+The name ubiquinol-cytochrome-<i>c</i> reductase<p  has NIL 
+ENZRXNIO2-7109
+The name protein disulfide-isomerase<p  has NIL 
+ENZRXNIO2-7230
+The name ubiquinol-cytochrome-<i>c</i> reductase<p  has NIL 
+ENZRXNIO2-9286
+The name <small>L</small>-galactonolactone dehydrogenase<p  has NIL 
+ENZRXNIO2-6985
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-5068
+The name GTP diphosphokinase<p  has NIL 
+ENZRXNIO2-6311
+The name ribonuclease T<small><sub>2</sub></small  has NIL 
+ENZRXNIO2-6872
+The name protein disulfide-isomerase<p  has NIL 
+ENZRXNIO2-6645
+The name 3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p  has NIL 
+ENZRXNIO2-10061
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-6643
+The name 3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p  has NIL 
+ENZRXNIO2-7530
+The name 3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p  has NIL 
+ENZRXNIO2-9990
+The name ribonuclease T<small><sub>2</sub></small  has NIL 
+ENZRXNIO2-567
+The name ubiquinol-cytochrome-<i>c</i> reductase<p  has NIL 
+ENZRXNIO2-6354
+The name phospholipase A<small><sub>2</sub></small  has NIL 
+ENZRXNIO2-6620
+The name ubiquinol-cytochrome-<i>c</i> reductase<p  has NIL 
+ENZRXNIO2-6694
+The name GTP diphosphokinase<p  has NIL 
+ENZRXNIO2-6225
+The name ferroxidase<p  has NIL 
+ENZRXNIO2-367
+The name RNA-3'-phosphate cyclase<p  has NIL 
+ENZRXNIO2-7532
+The name 3-methyl-2-oxobutanoate dehydrogenase (2-methylpropanoyl-transferring)<p  has NIL 
+ENZRXNIO2-5128
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-6873
+The name protein disulfide-isomerase<p  has NIL 
+ENZRXNIO2-5487
+The name ubiquinol-cytochrome-<i>c</i> reductase<p  has NIL 
+ENZRXNIO2-5638
+The name cathepsin X <p  has NIL 
+ENZRXNIO2-6975
+The name glutathione &gamma;-glutamylcysteinyltransferase<p  has NIL 
+ENZRXNIO2-6926
+The name glutamate-1-semialdehyde 2,1-aminomutase<p  has NIL 
+ENZRXNIO2-10085
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-6630
+The name ubiquitinyl hydrolase 1<p  has NIL 
+ENZRXNIO2-6736
+The name ubiquitinyl hydrolase 1<p  has NIL 
+PWY-5340
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5143
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-1822
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7346
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7250
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6012
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+SAM-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+COA-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5194
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5068
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+HEME-BIOSYNTHESIS-II
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY0-501
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5805
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5785
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5122
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+THIOREDOX-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-4041
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+GLUT-REDOX-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-4081
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+GLUTATHIONESYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-1422
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5027
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-882
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+RIBOSYN2-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6908
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6890
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6910
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6898
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6897
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7353
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PLPSAL-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7204
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PANTO-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY0-1507
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-2161B
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6613
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-2161
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6543
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-3841
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6147
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5083
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5791
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5871
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5872
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6030
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-2681
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-735
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY3DJ-11281
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWYQT-4427
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-401
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY0-1264
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-782
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+TRIGLSYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5142
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5080
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-4381
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5997
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+FASYN-ELONG-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5995
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5366
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5971
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7053
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5353
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY0-541
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6958
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5147
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5989
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5129
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7039
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-762
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6352
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5269
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY4FS-8
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY4FS-7
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5667
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY0-1319
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6424
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-2541
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5886
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6164
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6435
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6163
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-4983
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5905
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6482
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-3941
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-3982
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-3981
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+HOMOSER-THRESYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+GLNSYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6549
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5921
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+VALSYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+ILEUSYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-702
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5041
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY0-1021
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+ALANINE-SYN2-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PROSYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+ASPARTATESYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+GLUTSYNIII-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+GLUTSYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-4341
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+GLUGLNSYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-3461
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6134
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+CYSTSYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+HISTSYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+TRPSYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5097
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-3462
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+GLYSYN-ALA-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+GLUTORN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+HOMOSERSYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+ASPARAGINE-BIOSYNTHESIS
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+ASPARAGINESYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+LEUSYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+ARGSYNBSUB-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+ARGSYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6196
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+SERSYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7222
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7220
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7184
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6545
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5687
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7193
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6556
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7205
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7183
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7199
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7197
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY0-163
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5686
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7176
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7224
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6599
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6605
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6619
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7221
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7219
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6124
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6121
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6936
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5389
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6745
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6498
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5670
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY0-662
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+TRESYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-2622
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+BSUBPOLYAMSYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-46
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-43
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY1F-353
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+UDPNACETYLGALSYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6330
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6369
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6363
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6351
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-2301
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-4661
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6554
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6852
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-112
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6035
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+TRNA-CHARGING-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6333
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+MANNOSYL-CHITO-DOLICHOL-BIOSYNTHESIS
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6724
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+GLUCONEO-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7238
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+SUCSYN-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-4861
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7344
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-82
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-3261
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-63
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7343
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-4821
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5659
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5115
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6773
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-622
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6441
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6473
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6535
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5691
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6464
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6952
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY66-21
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY66-162
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+ETOH-ACETYLCOA-ANA-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5453
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5386
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5046
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5084
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+ARGDEG-V-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+ARGDEGRAD-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PROUT-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY0-1535
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+ASPARAGINE-DEG1-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5436
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+MALATE-ASPARTATE-SHUTTLE-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+ASPARTATE-DEG1-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+VALDEG-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+CYSTEINE-DEG-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-4321
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+GLUTAMINDEG-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+GLYCLEAV-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+ILEUDEG-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+LEU-DEG2-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-701
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+CITRULLINE-DEG-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+ALANINE-DEG3-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+ALACAT2-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-1801
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+FORMASS-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5493
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PYRUVDEHYD-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY0-1313
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+GLYOXDEG-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6959
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5098
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6527
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+MANNCAT-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY0-1301
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY0-1182
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-621
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6902
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6483
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7367
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5137
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5136
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5138
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7185
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7177
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7206
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6430
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6019
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+SALVADEHYPOX-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6932
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5934
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5326
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+SULFMETII-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5350
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6348
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6964
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6963
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-381
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-7214
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-4781
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+LARABITOLUTIL-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5461
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6502
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+DETOX1-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-2261
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+GLYOXYLATE-BYPASS
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-4302
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-3781
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+GLYCOLYSIS
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-1042
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6512
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5486
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6587
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+NONOXIPENT-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+OXIDATIVEPENT-PWY
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5690
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-5172
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+PWY-6137
+The Comment slot has HTML Errors: 
+ missing opening tag for unmatched closing  HTML tag  </B>  
+  
+The report from this consistency checker run can be found at
+/home/pzhang/ptools-local/pgdbs/user/chlamycyc/4.0/reports/consistency-checker-report-2014-08-01_16-00-25.txt

@@ -1,0 +1,21 @@
+
+==== Checking citations ====
+
+Deleting empty citations...
+
+Converting badly formed citations to the right format...
+
+
+Performing various checks on citations...
+
+2036 total citations
+1825 pubmed citations
+211 non-pubmed citations
+2585 publication frames in DB
+4560 frames contain at least one citation
+0 pubmed citations have not yet been downloaded from pubmed
+
+== Done checking citations ==
+
+The report from this consistency checker run can be found at
+/var/pathway-tools/ptools-local/pgdbs/user/chlamycyc/2.0/reports/consistency-checker-report-2012-09-21_14-24-30.txt

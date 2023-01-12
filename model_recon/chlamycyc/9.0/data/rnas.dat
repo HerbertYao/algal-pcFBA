@@ -1,0 +1,337 @@
+# 
+#
+# Authors:
+#    Bo Xue
+#    Pascal Schlapfer
+#    Seung Yon Rhee
+#    Peifen Zhang
+#    Angela Xu
+#    Charles Hawkins
+#    Emily Fryer
+#
+# Please see the license agreement regarding the use of and distribution of this file.
+# The format of this file is defined at http://bioinformatics.ai.sri.com/ptools/flatfile-format.html .
+#
+# Filename: /var/ptools/23.0/ptools-local/pgdbs/user/chlamycyc/9.0/data/rnas.dat
+#
+# Organism: Chlamydomonas reinhardtii
+# Database: ChlamyCyc
+# Version: 9.0
+# Date and time generated: January 28, 2020, 20:45:50
+#
+# Attributes:
+#    UNIQUE-ID
+#    TYPES
+#    COMMON-NAME
+#    ABBREV-NAME
+#    ACCESSION-1
+#    ANTICODON
+#    AROMATIC-RINGS
+#    ATOM-CHARGES
+#    ATOM-ISOTOPES
+#    CHEMICAL-FORMULA
+#    CITATIONS
+#    CODING-SEGMENTS
+#    CODONS
+#    COFACTORS-OF
+#    COMMENT
+#    COMPONENT-OF
+#    CREDITS
+#    DATA-SOURCE
+#    DBLINKS
+#    DOCUMENTATION
+#    EXPRESSION-MECHANISM
+#    FAST-EQUILIBRATING-INSTANCES?
+#    GENE
+#    GIBBS-0
+#    GO-TERMS
+#    HAS-NO-STRUCTURE?
+#    HIDE-SLOT?
+#    IN-MIXTURE
+#    INCHI
+#    INCHI-KEY
+#    INSTANCE-NAME-TEMPLATE
+#    INTERNALS-OF-GROUP
+#    LOCATIONS
+#    MEMBER-SORT-FN
+#    MODIFIED-FORM
+#    MOLECULAR-WEIGHT
+#    MONOISOTOPIC-MW
+#    N+1-NAME
+#    N-1-NAME
+#    N-NAME
+#    NON-STANDARD-INCHI
+#    PATHOLOGIC-NAME-MATCHER-EVIDENCE
+#    PATHOLOGIC-PWY-EVIDENCE
+#    PKA1
+#    PKA2
+#    PKA3
+#    PROSTHETIC-GROUPS-OF
+#    RADICAL-ATOMS
+#    REGULATED-BY
+#    REGULATES
+#    SMILES
+#    SPECIES
+#    SPLICE-FORM-INTRONS
+#    STRUCTURE-BONDS
+#    SUPERATOMS
+#    SYNONYMS
+#    SYSTEMATIC-NAME
+#    TAUTOMERS
+#    UNMODIFIED-FORM
+#
+UNIQUE-ID - glyU-tRNA
+TYPES - GLY-tRNAs
+COMMON-NAME - tRNA<SUP>glyU</SUP>
+ANTICODON - CCC
+COMMENT - tRNA(glyU) is one of six glycine tRNAs.
+/
+/tRNAs are the adapters that allow synthesis of proteins from mRNAs.
+/Each tRNA carries a specific amino acid to the ribosome for protein synthesis.
+/There, the tRNA recognizes an RNA codon with its own three-nucleotide
+/anticodon, thus allowing synthesis of a specific peptide based on an mRNA
+/template.
+/
+/tRNAs are processed to their active, mature forms by RNA cleavage
+/and by modification of their bases. RNA cleavage consists of
+/removal of both 5' and 3' extensions in a multistep process involving
+/many RNases |CITS: [11252717]|. RNases taking part in tRNA processing include |FRAME: CPLX0-3461|,
+/|FRAME: CPLX0-3601|, |FRAME: EG10858-MONOMER|,
+/|FRAME: EG11620-MONOMER|, and |FRAME: CPLX0-3602|. tRNAs are also subject to a
+/wide variety of base modifications catalyzed by proteins such as
+/|FRAME: EG11932-MONOMER|, |FRAME: EG10595-MONOMER|, |FRAME: G6364-MONOMER|, |FRAME: EG11344-MONOMER|,
+/|FRAME: G7199-MONOMER|, |FRAME: CPLX0-1101|, |FRAME: EG11779-MONOMER|, |FRAME: G7422-MONOMER|,
+/|FRAME: G7449-MONOMER|, |FRAME: EG11177-MONOMER|, |FRAME: EG10454-MONOMER|, |FRAME: EG10967-MONOMER|,
+/and |FRAME: EG11022-MONOMER|.
+/
+/Mature tRNAs are linked via a 3' CCA sequence to their cognate
+/amino acid in an ATP-dependent fashion by the appropriate
+/amino-acid-tRNA synthetase, as shown in the |FRAME: TRNA-CHARGING-PWY|.
+/Subsequently, these charged tRNAs interact with the ribosome
+/and template mRNA to generate polypeptides. The discovery of the
+/role of tRNA in protein synthesis is reviewed in detail in |CITS: [7033244]|.
+CREDITS - SRI
+CREDITS - shearer
+DBLINKS - (ECOLIWIKI "b2864" NIL |kr| 3409616149 NIL NIL)
+MODIFIED-FORM - charged-glyU-tRNA
+//
+UNIQUE-ID - glyV-tRNA
+TYPES - GLY-tRNAs
+COMMON-NAME - tRNA<SUP>glyV</SUP>
+ANTICODON - GCC
+COMMENT - tRNA(glyV) is one of six glycine tRNAs.
+/
+/tRNAs are the adapters that allow synthesis of proteins from mRNAs.
+/Each tRNA carries a specific amino acid to the ribosome for protein synthesis.
+/There, the tRNA recognizes an RNA codon with its own three-nucleotide
+/anticodon, thus allowing synthesis of a specific peptide based on an mRNA
+/template.
+/
+/tRNAs are processed to their active, mature forms by RNA cleavage
+/and by modification of their bases. RNA cleavage consists of
+/removal of both 5' and 3' extensions in a multistep process involving
+/many RNases |CITS: [11252717]|. RNases taking part in tRNA processing include |FRAME: CPLX0-3461|,
+/|FRAME: CPLX0-3601|, |FRAME: EG10858-MONOMER|,
+/|FRAME: EG11620-MONOMER|, and |FRAME: CPLX0-3602|. tRNAs are also subject to a
+/wide variety of base modifications catalyzed by proteins such as
+/|FRAME: EG11932-MONOMER|, |FRAME: EG10595-MONOMER|, |FRAME: G6364-MONOMER|, |FRAME: EG11344-MONOMER|,
+/|FRAME: G7199-MONOMER|, |FRAME: CPLX0-1101|, |FRAME: EG11779-MONOMER|, |FRAME: G7422-MONOMER|,
+/|FRAME: G7449-MONOMER|, |FRAME: EG11177-MONOMER|, |FRAME: EG10454-MONOMER|, |FRAME: EG10967-MONOMER|,
+/and |FRAME: EG11022-MONOMER|.
+/
+/Mature tRNAs are linked via a 3' CCA sequence to their cognate
+/amino acid in an ATP-dependent fashion by the appropriate
+/amino-acid-tRNA synthetase, as shown in the |FRAME: TRNA-CHARGING-PWY|.
+/Subsequently, these charged tRNAs interact with the ribosome
+/and template mRNA to generate polypeptides. The discovery of the
+/role of tRNA in protein synthesis is reviewed in detail in |CITS: [7033244]|.
+/
+/A mutation in the anticodon of tRNA(glyV) that results in misinsertion
+/of glycine at some aspartate codons, known as <i>mutA</i>, yields
+/a substantial increase in AT to TA tranversions, as well as GC to AT and
+/AT to GC transversions |CITS: [8633075][2251267][15063131]|. 
+/This mutator effect depends on RecA and RecB
+/and is a consequence of error-prone replication, possibly due to
+/a mutated |FRAME: CPLX0-3803| |CITS: [10320582][10447883]|.
+CREDITS - SRI
+CREDITS - shearer
+DBLINKS - (ECOLIWIKI "b4163" NIL |kr| 3409616149 NIL NIL)
+MODIFIED-FORM - charged-glyV-tRNA
+//
+UNIQUE-ID - charged-glyV-tRNA
+TYPES - Charged-GLY-tRNAs
+COMMON-NAME - charged tRNA<SUP>glyV</SUP>
+UNMODIFIED-FORM - glyV-tRNA
+//
+UNIQUE-ID - charged-glyT-tRNA
+TYPES - Charged-GLY-tRNAs
+COMMON-NAME - charged tRNA<SUP>glyT</SUP>
+UNMODIFIED-FORM - glyT-tRNA
+//
+UNIQUE-ID - glyX-tRNA
+TYPES - GLY-tRNAs
+COMMON-NAME - tRNA<SUP>glyX</SUP>
+ANTICODON - GCC
+COMMENT - tRNA(glyX) is one of six glycine tRNAs.
+/
+/tRNAs are the adapters that allow synthesis of proteins from mRNAs.
+/Each tRNA carries a specific amino acid to the ribosome for protein synthesis.
+/There, the tRNA recognizes an RNA codon with its own three-nucleotide
+/anticodon, thus allowing synthesis of a specific peptide based on an mRNA
+/template.
+/
+/tRNAs are processed to their active, mature forms by RNA cleavage
+/and by modification of their bases. RNA cleavage consists of
+/removal of both 5' and 3' extensions in a multistep process involving
+/many RNases |CITS: [11252717]|. RNases taking part in tRNA processing include |FRAME: CPLX0-3461|,
+/|FRAME: CPLX0-3601|, |FRAME: EG10858-MONOMER|,
+/|FRAME: EG11620-MONOMER|, and |FRAME: CPLX0-3602|. tRNAs are also subject to a
+/wide variety of base modifications catalyzed by proteins such as
+/|FRAME: EG11932-MONOMER|, |FRAME: EG10595-MONOMER|, |FRAME: G6364-MONOMER|, |FRAME: EG11344-MONOMER|,
+/|FRAME: G7199-MONOMER|, |FRAME: CPLX0-1101|, |FRAME: EG11779-MONOMER|, |FRAME: G7422-MONOMER|,
+/|FRAME: G7449-MONOMER|, |FRAME: EG11177-MONOMER|, |FRAME: EG10454-MONOMER|, |FRAME: EG10967-MONOMER|,
+/and |FRAME: EG11022-MONOMER|.
+/
+/Mature tRNAs are linked via a 3' CCA sequence to their cognate
+/amino acid in an ATP-dependent fashion by the appropriate
+/amino-acid-tRNA synthetase, as shown in the |FRAME: TRNA-CHARGING-PWY|.
+/Subsequently, these charged tRNAs interact with the ribosome
+/and template mRNA to generate polypeptides. The discovery of the
+/role of tRNA in protein synthesis is reviewed in detail in |CITS: [7033244]|.
+CREDITS - SRI
+CREDITS - shearer
+DBLINKS - (ECOLIWIKI "b4164" NIL |kr| 3409616149 NIL NIL)
+MODIFIED-FORM - charged-glyX-tRNA
+//
+UNIQUE-ID - glyY-tRNA
+TYPES - GLY-tRNAs
+COMMON-NAME - tRNA<SUP>glyY</SUP>
+ANTICODON - GCC
+COMMENT - tRNA(glyY) is one of six glycine tRNAs.
+/
+/tRNAs are the adapters that allow synthesis of proteins from mRNAs.
+/Each tRNA carries a specific amino acid to the ribosome for protein synthesis.
+/There, the tRNA recognizes an RNA codon with its own three-nucleotide
+/anticodon, thus allowing synthesis of a specific peptide based on an mRNA
+/template.
+/
+/tRNAs are processed to their active, mature forms by RNA cleavage
+/and by modification of their bases. RNA cleavage consists of
+/removal of both 5' and 3' extensions in a multistep process involving
+/many RNases |CITS: [11252717]|. RNases taking part in tRNA processing include |FRAME: CPLX0-3461|,
+/|FRAME: CPLX0-3601|, |FRAME: EG10858-MONOMER|,
+/|FRAME: EG11620-MONOMER|, and |FRAME: CPLX0-3602|. tRNAs are also subject to a
+/wide variety of base modifications catalyzed by proteins such as
+/|FRAME: EG11932-MONOMER|, |FRAME: EG10595-MONOMER|, |FRAME: G6364-MONOMER|, |FRAME: EG11344-MONOMER|,
+/|FRAME: G7199-MONOMER|, |FRAME: CPLX0-1101|, |FRAME: EG11779-MONOMER|, |FRAME: G7422-MONOMER|,
+/|FRAME: G7449-MONOMER|, |FRAME: EG11177-MONOMER|, |FRAME: EG10454-MONOMER|, |FRAME: EG10967-MONOMER|,
+/and |FRAME: EG11022-MONOMER|.
+/
+/Mature tRNAs are linked via a 3' CCA sequence to their cognate
+/amino acid in an ATP-dependent fashion by the appropriate
+/amino-acid-tRNA synthetase, as shown in the |FRAME: TRNA-CHARGING-PWY|.
+/Subsequently, these charged tRNAs interact with the ribosome
+/and template mRNA to generate polypeptides. The discovery of the
+/role of tRNA in protein synthesis is reviewed in detail in |CITS: [7033244]|.
+CREDITS - SRI
+CREDITS - shearer
+DBLINKS - (ECOLIWIKI "b4165" NIL |kr| 3409616149 NIL NIL)
+MODIFIED-FORM - charged-glyY-tRNA
+//
+UNIQUE-ID - glyW-tRNA
+TYPES - GLY-tRNAs
+COMMON-NAME - tRNA<SUP>glyW</SUP>
+ANTICODON - GCC
+COMMENT - tRNA(glyW) is one of six glycine tRNAs.
+/
+/tRNAs are the adapters that allow synthesis of proteins from mRNAs.
+/Each tRNA carries a specific amino acid to the ribosome for protein synthesis.
+/There, the tRNA recognizes an RNA codon with its own three-nucleotide
+/anticodon, thus allowing synthesis of a specific peptide based on an mRNA
+/template.
+/
+/tRNAs are processed to their active, mature forms by RNA cleavage
+/and by modification of their bases. RNA cleavage consists of
+/removal of both 5' and 3' extensions in a multistep process involving
+/many RNases |CITS: [11252717]|. RNases taking part in tRNA processing include |FRAME: CPLX0-3461|,
+/|FRAME: CPLX0-3601|, |FRAME: EG10858-MONOMER|,
+/|FRAME: EG11620-MONOMER|, and |FRAME: CPLX0-3602|. tRNAs are also subject to a
+/wide variety of base modifications catalyzed by proteins such as
+/|FRAME: EG11932-MONOMER|, |FRAME: EG10595-MONOMER|, |FRAME: G6364-MONOMER|, |FRAME: EG11344-MONOMER|,
+/|FRAME: G7199-MONOMER|, |FRAME: CPLX0-1101|, |FRAME: EG11779-MONOMER|, |FRAME: G7422-MONOMER|,
+/|FRAME: G7449-MONOMER|, |FRAME: EG11177-MONOMER|, |FRAME: EG10454-MONOMER|, |FRAME: EG10967-MONOMER|,
+/and |FRAME: EG11022-MONOMER|.
+/
+/Mature tRNAs are linked via a 3' CCA sequence to their cognate
+/amino acid in an ATP-dependent fashion by the appropriate
+/amino-acid-tRNA synthetase, as shown in the |FRAME: TRNA-CHARGING-PWY|.
+/Subsequently, these charged tRNAs interact with the ribosome
+/and template mRNA to generate polypeptides. The discovery of the
+/role of tRNA in protein synthesis is reviewed in detail in |CITS: [7033244]|.
+/
+/A mutation in the anticodon of tRNA(glyW), also known as <i>mutC</i>,
+/leads to an increase in AT to TA transversions, as well as GC to AT and
+/AT to GC tranversions |CITS: [8633075][2251267]|.
+CREDITS - SRI
+CREDITS - shearer
+DBLINKS - (ECOLIWIKI "b1911" NIL |kr| 3409616149 NIL NIL)
+MODIFIED-FORM - charged-glyW-tRNA
+//
+UNIQUE-ID - charged-glyU-tRNA
+TYPES - Charged-GLY-tRNAs
+COMMON-NAME - charged tRNA<SUP>glyU</SUP>
+UNMODIFIED-FORM - glyU-tRNA
+//
+UNIQUE-ID - charged-glyY-tRNA
+TYPES - Charged-GLY-tRNAs
+COMMON-NAME - charged tRNA<SUP>glyY</SUP>
+UNMODIFIED-FORM - glyY-tRNA
+//
+UNIQUE-ID - charged-glyX-tRNA
+TYPES - Charged-GLY-tRNAs
+COMMON-NAME - charged tRNA<SUP>glyX</SUP>
+UNMODIFIED-FORM - glyX-tRNA
+//
+UNIQUE-ID - glyT-tRNA
+TYPES - GLY-tRNAs
+COMMON-NAME - tRNA<SUP>glyT</SUP>
+ANTICODON - UCC
+COMMENT - tRNA(glyT) is one of six glycine tRNAs.
+/
+/tRNAs are the adapters that allow synthesis of proteins from mRNAs.
+/Each tRNA carries a specific amino acid to the ribosome for protein synthesis.
+/There, the tRNA recognizes an RNA codon with its own three-nucleotide
+/anticodon, thus allowing synthesis of a specific peptide based on an mRNA
+/template.
+/
+/tRNAs are processed to their active, mature forms by RNA cleavage
+/and by modification of their bases. RNA cleavage consists of
+/removal of both 5' and 3' extensions in a multistep process involving
+/many RNases |CITS: [11252717]|. RNases taking part in tRNA processing include |FRAME: CPLX0-3461|,
+/|FRAME: CPLX0-3601|, |FRAME: EG10858-MONOMER|,
+/|FRAME: EG11620-MONOMER|, and |FRAME: CPLX0-3602|. tRNAs are also subject to a
+/wide variety of base modifications catalyzed by proteins such as
+/|FRAME: EG11932-MONOMER|, |FRAME: EG10595-MONOMER|, |FRAME: G6364-MONOMER|, |FRAME: EG11344-MONOMER|,
+/|FRAME: G7199-MONOMER|, |FRAME: CPLX0-1101|, |FRAME: EG11779-MONOMER|, |FRAME: G7422-MONOMER|,
+/|FRAME: G7449-MONOMER|, |FRAME: EG11177-MONOMER|, |FRAME: EG10454-MONOMER|, |FRAME: EG10967-MONOMER|,
+/and |FRAME: EG11022-MONOMER|.
+/
+/The sequence of tRNA(glyT), including its modified bases, has been examined
+/in detail |CITS: [167016]|. 
+/
+/Mature tRNAs are linked via a 3' CCA sequence to their cognate
+/amino acid in an ATP-dependent fashion by the appropriate
+/amino-acid-tRNA synthetase, as shown in the |FRAME: TRNA-CHARGING-PWY|.
+/Subsequently, these charged tRNAs interact with the ribosome
+/and template mRNA to generate polypeptides. The discovery of the
+/role of tRNA in protein synthesis is reviewed in detail in |CITS: [7033244]|.
+CREDITS - SRI
+CREDITS - shearer
+DBLINKS - (ECOLIWIKI "b3978" NIL |kr| 3409616149 NIL NIL)
+MODIFIED-FORM - charged-glyT-tRNA
+//
+UNIQUE-ID - charged-glyW-tRNA
+TYPES - Charged-GLY-tRNAs
+COMMON-NAME - charged tRNA<SUP>glyW</SUP>
+UNMODIFIED-FORM - glyW-tRNA
+//

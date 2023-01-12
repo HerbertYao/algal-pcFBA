@@ -1,0 +1,332 @@
+This report was generated on 11-Jul-2012  15:35:37.
+
+* = already updated
+
+Compounds
+
+
+4 Compounds are present in ChlamyCyc but not in MetaCyc. (4 already deleted)
+ 	ID	Name	
+*	#S(MISSING-FRAME :ID 3-Hydroxy-Flavonoids
+                         :CLASS COMPOUND
+                         :REF-MERGE-CANDIDATES (3prime-Hydroxy-Flavonoids)
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID 7-hydroxyisoflavonoids
+                         :CLASS COMPOUND
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES (7-hydroxyisoflavones)
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID 37-DIMETHYLOCTA-16-DIEN-3-OL
+                         :CLASS COMPOUND
+                         :REF-MERGE-CANDIDATES (CPD-8996 CPD-8997)
+                         :LOCAL-MERGE-CANDIDATES (Linalools)
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID CPD-5725
+                         :CLASS COMPOUND
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+
+Reactions
+
+23 Reactions are present in ChlamyCyc but not in MetaCyc. (23 already deleted)
+ 	ID	Name	
+*	#S(MISSING-FRAME :ID RXN-6102
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID RXN-9917
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES (RXN-7904)
+                         :LOCAL-MERGE-CANDIDATES (RXN-7904)
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID RXN-11025
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID R9-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES (3-HYDROXBUTYRYL-COA-DEHYDRATASE-RXN)
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID RXN0-5234
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID R314-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES (NICOTINAMID-RXN)
+                         :LOCAL-MERGE-CANDIDATES (NICOTINAMID-RXN)
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID 3.4.13.3-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID RXN0-4082
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID 3.1.11.5-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID RXN4FS-19
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID TRNA-GUANINE-N2--METHYLTRANSFERASE-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID TRNA-GUANINE-N1--METHYLTRANSFERASE-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID TRNA-CYTOSINE-5--METHYLTRANSFERASE-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID TRNA-ADENINE-N1--METHYLTRANSFERASE-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID 2-MEBUCOA-FAD-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID DIHYDROOROTOX-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID PYRUVATEDECARB-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID RXN66-282
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES (SQUALENE-MONOOXYGENASE-RXN)
+                         :LOCAL-MERGE-CANDIDATES (SQUALENE-MONOOXYGENASE-RXN)
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID RXN1F-146
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID 1.14.99.30-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID L-ASCORBATE-PEROXIDASE-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES (RXN-12440)
+                         :LOCAL-MERGE-CANDIDATES (RXN-12440)
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID L-ASCORBATE-OXIDASE-RXN
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES (RXN-8488
+                                                ETHYL-RXN
+                                                DOPAMINE-BETA-MONOOXYGENASE-RXN)
+                         :LOCAL-MERGE-CANDIDATES (ETHYL-RXN
+                                                  DOPAMINE-BETA-MONOOXYGENASE-RXN)
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID RXN-7712
+                         :CLASS REACTION
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+
+Pathways
+
+14 Pathways have toplogical differences between ChlamyCyc and MetaCyc. (14 already updated)
+ 	ID	Name	Slot	ChlamyCyc Value	MetaCyc Value	
+*	PWY-5100	pyruvate fermentation to acetate and lactate II	PREDECESSORS	(PWY-5481 PWY0-1312 (ACETATEKIN-RXN PHOSACETYLTRANS-RXN) (PHOSACETYLTRANS-RXN PYRUFLAVREDUCT-RXN) (PYRUFLAVREDUCT-RXN L-LACTATE-DEHYDROGENASE-RXN))	(PWY-5481 P142-PWY (ACETATEKIN-RXN PHOSACETYLTRANS-RXN) (PHOSACETYLTRANS-RXN PYRUFLAVREDUCT-RXN) (PYRUFLAVREDUCT-RXN L-LACTATE-DEHYDROGENASE-RXN))	
+*			REACTION-LIST	(PWY-5481 PWY0-1312)	(PWY-5481 P142-PWY)	
+*	PWY-3282	superpathway of ammonia assimilation (plants)	PRIMARIES	((GLUTAMATE-SYNTHASE-FERREDOXIN-RXN (GLN) (GLT)) (GLUTAMATE-SYNTHASE-NADH-RXN (GLN) (GLT)) (GLUTAMINESYN-RXN (GLT) (GLN)))	NIL	
+*			PREDECESSORS	((GLUTAMATE-SYNTHASE-NADH-RXN GLUTAMINESYN-RXN) (GLUTAMATE-SYNTHASE-FERREDOXIN-RXN GLUTAMINESYN-RXN))	(PWY-6964 PWY-6963)	
+*			REACTION-LIST	(GLUTAMATE-SYNTHASE-FERREDOXIN-RXN GLUTAMATE-SYNTHASE-NADH-RXN GLUTAMINESYN-RXN)	(PWY-6964 PWY-6963)	
+*	PYRUVDEHYD-PWY	acetyl-CoA biosynthesis I (pyruvate dehydrogenase complex)	PREDECESSORS	((RXN-12508 RXN-12583) (RXN0-1133 RXN-12508) (RXN-12508 RXN0-1132) (RXN0-1132 RXN0-1133))	((RXN0-1134 RXN0-1132) (RXN0-1133 RXN0-1134) (RXN0-1132 RXN0-1133))	
+*			REACTION-LIST	(RXN-12508 RXN-12583 RXN0-1132 RXN0-1133)	(RXN0-1134 RXN0-1132 RXN0-1133)	
+*	P23-PWY	reductive TCA cycle I	PREDECESSORS	((ACONITATEHYDR-RXN RXN-7712) (RXN-7712 2-OXOGLUTARATE-SYNTHASE-RXN) (PYRUFLAVREDUCT-RXN ATP-CITRATE-PRO-S--LYASE-RXN) (ACONITATEDEHYDR-RXN ACONITATEHYDR-RXN) (2-OXOGLUTARATE-SYNTHASE-RXN SUCCCOASYN-RXN) (FUMHYDR-RXN MALATE-DEH-RXN) (ATP-CITRATE-PRO-S--LYASE-RXN ACONITATEDEHYDR-RXN) (MALATE-DEH-RXN ATP-CITRATE-PRO-S--LYASE-RXN) (PEPSYNTH-RXN PYRUFLAVREDUCT-RXN) (SUCC-FUM-OXRED-RXN FUMHYDR-RXN) (SUCCCOASYN-RXN SUCC-FUM-OXRED-RXN) (PEPCARBOX-RXN PEPSYNTH-RXN) (MALATE-DEH-RXN PEPCARBOX-RXN))	((ACONITATEHYDR-RXN ISOCITDEH-RXN) (ISOCITDEH-RXN 2-OXOGLUTARATE-SYNTHASE-RXN) (PYRUFLAVREDUCT-RXN ATP-CITRATE-PRO-S--LYASE-RXN) (ACONITATEDEHYDR-RXN ACONITATEHYDR-RXN) (2-OXOGLUTARATE-SYNTHASE-RXN SUCCCOASYN-RXN) (FUMHYDR-RXN MALATE-DEH-RXN) (ATP-CITRATE-PRO-S--LYASE-RXN ACONITATEDEHYDR-RXN) (MALATE-DEH-RXN ATP-CITRATE-PRO-S--LYASE-RXN) (PEPSYNTH-RXN PYRUFLAVREDUCT-RXN) (SUCC-FUM-OXRED-RXN FUMHYDR-RXN) (SUCCCOASYN-RXN SUCC-FUM-OXRED-RXN) (PEPCARBOX-RXN PEPSYNTH-RXN) (MALATE-DEH-RXN PEPCARBOX-RXN))	
+*			REACTION-LIST	(MALATE-DEH-RXN PEPCARBOX-RXN RXN-7712 SUCC-FUM-OXRED-RXN PEPSYNTH-RXN PYRUFLAVREDUCT-RXN ATP-CITRATE-PRO-S--LYASE-RXN ACONITATEDEHYDR-RXN ACONITATEHYDR-RXN 2-OXOGLUTARATE-SYNTHASE-RXN SUCCCOASYN-RXN FUMHYDR-RXN)	(ISOCITDEH-RXN MALATE-DEH-RXN PEPCARBOX-RXN SUCC-FUM-OXRED-RXN PEPSYNTH-RXN PYRUFLAVREDUCT-RXN ATP-CITRATE-PRO-S--LYASE-RXN ACONITATEDEHYDR-RXN ACONITATEHYDR-RXN 2-OXOGLUTARATE-SYNTHASE-RXN SUCCCOASYN-RXN FUMHYDR-RXN)	
+*	PWYQT-4429	CO<sub>2</sub> fixation into oxaloacetate (anapleurotic)	PRIMARIES	((PEPCARBOX-RXN (HCO3) (OXALACETIC_ACID)))	((RXN0-5224 (CARBON-DIOXIDE) (HCO3)) (PEPCARBOX-RXN (HCO3) (OXALACETIC_ACID)))	
+*			PREDECESSORS	(PEPCARBOX-RXN)	(PEPCARBOX-RXN RXN0-5224)	
+*			REACTION-LIST	(PEPCARBOX-RXN)	(RXN0-5224 PEPCARBOX-RXN)	
+*	ILEUDEG-PWY	isoleucine degradation I	PREDECESSORS	((TIGLYLCOA-HYDROXY-RXN 2-MEBUCOA-FAD-RXN) (1.1.1.178-RXN TIGLYLCOA-HYDROXY-RXN) (METHYLACETOACETYLCOATHIOL-RXN 1.1.1.178-RXN) (2KETO-3METHYLVALERATE-RXN BRANCHED-CHAINAMINOTRANSFERILEU-RXN) (2-MEBUCOA-FAD-RXN 2KETO-3METHYLVALERATE-RXN))	((TIGLYLCOA-HYDROXY-RXN 2-METHYLACYL-COA-DEHYDROGENASE-RXN) (1.1.1.178-RXN TIGLYLCOA-HYDROXY-RXN) (METHYLACETOACETYLCOATHIOL-RXN 1.1.1.178-RXN) (2KETO-3METHYLVALERATE-RXN BRANCHED-CHAINAMINOTRANSFERILEU-RXN) (2-METHYLACYL-COA-DEHYDROGENASE-RXN 2KETO-3METHYLVALERATE-RXN))	
+*			REACTION-LIST	(2KETO-3METHYLVALERATE-RXN METHYLACETOACETYLCOATHIOL-RXN TIGLYLCOA-HYDROXY-RXN 1.1.1.178-RXN BRANCHED-CHAINAMINOTRANSFERILEU-RXN 2-MEBUCOA-FAD-RXN)	(2-METHYLACYL-COA-DEHYDROGENASE-RXN 2KETO-3METHYLVALERATE-RXN METHYLACETOACETYLCOATHIOL-RXN TIGLYLCOA-HYDROXY-RXN 1.1.1.178-RXN BRANCHED-CHAINAMINOTRANSFERILEU-RXN)	
+*	PWY-4261	glycerol degradation I	PRIMARIES	((RXN0-5260 (GLYCEROL-3P) (DIHYDROXY-ACETONE-PHOSPHATE)) (GLYCEROL-KIN-RXN (GLYCEROL) (GLYCEROL-3P)))	((GLYCEROL-KIN-RXN (GLYCEROL) (GLYCEROL-3P)))	
+*			PREDECESSORS	(RXN0-5260 GLYCEROL-KIN-RXN)	(RXN0-5258 GLYCEROL-KIN-RXN)	
+*			REACTION-LIST	(RXN0-5260 GLYCEROL-KIN-RXN)	(RXN0-5258 GLYCEROL-KIN-RXN)	
+*	P165-PWY	superpathway of purines degradation in plants	PRIMARIES	NIL	(UREIDOGLYCOLATE-LYASE-RXN (CPD-1091) (GLYOX))	
+*			PREDECESSORS	((URATE-OXIDASE-RXN RXN0-901) PWY-5044 (ALLANTOINASE-RXN RXN-6201) PWY-5697 PWY-5691)	((URATE-OXIDASE-RXN RXN0-901) PWY-5044 (ALLANTOINASE-RXN RXN-6201) PWY-5694 PWY-5691)	
+*			REACTION-LIST	(PWY-5044 PWY-5697 PWY-5691)	(PWY-5044 PWY-5694 PWY-5691)	
+*	URDEGR-PWY	superpathway of allantoin degradation in plants	PREDECESSORS	(PWY-5697 (UREASE-RXN ALLANTOICASE-RXN) (UREASE-RXN UREIDOGLYCOLATE-LYASE-RXN) PWY-5704 PWY-5698 (UREIDOGLYCOLATE-LYASE-RXN URUR-RXN) (UREIDOGLYCOLATE-HYDROLASE-RXN URUR-RXN) (URUR-RXN ALLANTOATE-DEIMINASE-RXN) (ALLANTOICASE-RXN ALLANTOINASE-RXN) (ALLANTOATE-DEIMINASE-RXN ALLANTOINASE-RXN) (UREIDOGLYCOLATE-HYDROLASE-RXN ALLANTOICASE-RXN) (UREIDOGLYCOLATE-LYASE-RXN ALLANTOICASE-RXN))	((UREASE-RXN ALLANTOICASE-RXN) (UREASE-RXN UREIDOGLYCOLATE-LYASE-RXN) PWY-5704 PWY-5692 PWY-5694 (UREIDOGLYCOLATE-LYASE-RXN URUR-RXN) (UREIDOGLYCOLATE-HYDROLASE-RXN URUR-RXN) (URUR-RXN ALLANTOATE-DEIMINASE-RXN) (ALLANTOICASE-RXN ALLANTOINASE-RXN) (ALLANTOATE-DEIMINASE-RXN ALLANTOINASE-RXN) (UREIDOGLYCOLATE-HYDROLASE-RXN ALLANTOICASE-RXN) (UREIDOGLYCOLATE-LYASE-RXN ALLANTOICASE-RXN))	
+*			REACTION-LIST	(PWY-5697 PWY-5704 PWY-5698)	(PWY-5704 PWY-5692 PWY-5694)	
+*	PWY-5156	superpathway of fatty acid biosynthesis II (plant)	PREDECESSORS	((RXN-9632 RXN-9663) (RXN-9514 2.3.1.180-RXN) PWY-5971 (RXN-7903 RXN-9635) PWY-5989 PWY-4381 PWY-5147)	((RXN-9632 RXN-9663) (RXN-9632 RXN-9542) (RXN-9514 2.3.1.180-RXN) PWY-5971 (RXN-7903 RXN-9635) PWY-5989 PWY-4381 PWY-5147)	
+*	THISYNARA-PWY	superpathway of thiamin diphosphate biosynthesis III (eukaryotes)	PRIMARIES	NIL	((RXNQT-4300 (GLY NAD) NIL) (PYRIMSYN1-RXN (5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE) NIL))	
+*			PREDECESSORS	((RXNQT-4301 RXNQT-4300) (THI-P-SYN-RXN RXNQT-4301) (THIAMIN-PYROPHOSPHOKINASE-RXN RXNQT-4191) (RXNQT-4191 THI-P-SYN-RXN) (PYRIMSYN3-RXN OHMETPYRKIN-RXN) (PYRIMSYN3-RXN PYRIMSYN1-RXN) (THI-P-SYN-RXN PYRIMSYN3-RXN))	((THI-P-SYN-RXN PYRIMSYN3-RXN) (THI-P-SYN-RXN RXNQT-4301) PWY-6909 PWY-6908 PWY-6890)	
+*			REACTION-LIST	(RXNQT-4301 RXNQT-4300 THIAMIN-PYROPHOSPHOKINASE-RXN RXNQT-4191 OHMETPYRKIN-RXN PYRIMSYN1-RXN PYRIMSYN3-RXN THI-P-SYN-RXN)	(PWY-6909 PWY-6908 PWY-6890)	
+*	PWY-5381	pyridine nucleotide cycling (plants)	PREDECESSORS	((NMNNUCLEOSID-RXN NADPYROPHOSPHAT-RXN) (RXN-8441 RXN-5841) (NADPYROPHOSPHAT-RXN RXN-5841) (RXN-5841 NADPYROPHOSPHAT-RXN) (NICOTINAMID-RXN NMNNUCLEOSID-RXN) (NICOTINAMID-RXN RXN-8441) (RXN-8442 NICOTINAMID-RXN) (RXN-8443 RXN-8442) (NICOTINATEPRIBOSYLTRANS-RXN NICOTINAMID-RXN) (NICONUCADENYLYLTRAN-RXN RXN-8443) (NICONUCADENYLYLTRAN-RXN NICOTINATEPRIBOSYLTRANS-RXN) (NAD-SYNTH-GLN-RXN NICONUCADENYLYLTRAN-RXN) (NADPYROPHOSPHAT-RXN NAD-SYNTH-GLN-RXN) (RXN-8444 NICOTINATEPRIBOSYLTRANS-RXN) (RXN-8444 RXN-8443) (RXN-8442 RXN-8444) (NICOTINATEPRIBOSYLTRANS-RXN RXN-8444))	((NADNUCLEOSID-RXN) (NMNNUCLEOSID-RXN NADPYROPHOSPHAT-RXN) (RXN-8441 RXN-5841) (NADPYROPHOSPHAT-RXN RXN-5841) (RXN-5841 NADPYROPHOSPHAT-RXN) (NICOTINAMID-RXN NADNUCLEOSID-RXN) (NICOTINAMID-RXN NMNNUCLEOSID-RXN) (NICOTINAMID-RXN RXN-8441) (RXN-8442 NICOTINAMID-RXN) (RXN-8443 RXN-8442) (NICOTINATEPRIBOSYLTRANS-RXN NICOTINAMID-RXN) (NICONUCADENYLYLTRAN-RXN RXN-8443) (NICONUCADENYLYLTRAN-RXN NICOTINATEPRIBOSYLTRANS-RXN) (NAD-SYNTH-GLN-RXN NICONUCADENYLYLTRAN-RXN) (NADPYROPHOSPHAT-RXN NAD-SYNTH-GLN-RXN) (RXN-8444 NICOTINATEPRIBOSYLTRANS-RXN) (RXN-8444 RXN-8443) (RXN-8442 RXN-8444) (NICOTINATEPRIBOSYLTRANS-RXN RXN-8444))	
+*	ARO-PWY	chorismate biosynthesis I	PREDECESSORS	((CHORISMATE-SYNTHASE-RXN 2.5.1.19-RXN) (2.5.1.19-RXN SHIKIMATE-KINASE-RXN) (SHIKIMATE-KINASE-RXN SHIKIMATE-5-DEHYDROGENASE-RXN) (SHIKIMATE-5-DEHYDROGENASE-RXN 3-DEHYDROQUINATE-DEHYDRATASE-RXN) (3-DEHYDROQUINATE-DEHYDRATASE-RXN 3-DEHYDROQUINATE-SYNTHASE-RXN) (3-DEHYDROQUINATE-SYNTHASE-RXN DAHPSYN-RXN) (DAHPSYN-RXN) (SHIKIMATE-KINASE-RXN RXN-7968) (RXN-7968 3-DEHYDROQUINATE-DEHYDRATASE-RXN))	((3-DEHYDROQUINATE-DEHYDRATASE-RXN 3-DEHYDROQUINATE-SYNTHASE-RXN) PWY-6163 PWY-6164)	
+*			REACTION-LIST	(RXN-7968 DAHPSYN-RXN 3-DEHYDROQUINATE-SYNTHASE-RXN 3-DEHYDROQUINATE-DEHYDRATASE-RXN SHIKIMATE-5-DEHYDROGENASE-RXN SHIKIMATE-KINASE-RXN 2.5.1.19-RXN CHORISMATE-SYNTHASE-RXN)	(PWY-6163 PWY-6164)	
+*	PWY-5143	fatty acid activation	PRIMARIES	(RXN-7904 (Fatty-Acids) (Fatty-Acyl-CoA))	(RXN-7904 (Long-Chain-Fatty-Acids) (Fatty-Acyl-CoA))	
+
+12 Pathways have differences in slot COMMON-NAME between MetaCyc and ChlamyCyc. (12 already updated)
+ 	ID	Name	ChlamyCyc Value	MetaCyc Value	
+*	PWY-5690	TCA cycle II (eukaryotic)	TCA cycle variation III (eukaryotic)	TCA cycle II (eukaryotic)	
+*	PWY-5172	acetyl-CoA biosynthesis III (from citrate)	acetyl-CoA biosynthesis (from citrate)	acetyl-CoA biosynthesis III (from citrate)	
+*	PWY-3282	superpathway of ammonia assimilation (plants)	ammonia assimilation cycle II	superpathway of ammonia assimilation (plants)	
+*	PWY-5098	chlorophyll <i>a</i> degradation I	chlorophyll <i>a</i> degradation	chlorophyll <i>a</i> degradation I	
+*	PYRUVDEHYD-PWY	acetyl-CoA biosynthesis I (pyruvate dehydrogenase complex)	acetyl-CoA biosynthesis (from pyruvate)	acetyl-CoA biosynthesis I (pyruvate dehydrogenase complex)	
+*	PWYQT-4429	CO<sub>2</sub> fixation into oxaloacetate (anapleurotic)	CO<sub>2</sub> fixation into oxaloacetate	CO<sub>2</sub> fixation into oxaloacetate (anapleurotic)	
+*	PWY-4261	glycerol degradation I	glycerol degradation IV	glycerol degradation I	
+*	PWY66-21	ethanol degradation II	ethanol degradation II (cytosol)	ethanol degradation II	
+*	PWY66-162	ethanol degradation IV	ethanol degradation IV (peroxisomal)	ethanol degradation IV	
+*	THISYNARA-PWY	superpathway of thiamin diphosphate biosynthesis III (eukaryotes)	thiamine biosynthesis II	superpathway of thiamin diphosphate biosynthesis III (eukaryotes)	
+*	PWY-1581	plastoquinol-9 biosynthesis I	plastoquinol biosynthesis	plastoquinol-9 biosynthesis I	
+*	SUCSYN-PWY	sucrose biosynthesis	sucrose biosynthesis I	sucrose biosynthesis	
+
+10 Pathways have differences in slot SYNONYMS between MetaCyc and ChlamyCyc. (10 already updated)
+ 	ID	Name	ChlamyCyc Value	MetaCyc Value	
+*	PWY-5690	TCA cycle II (eukaryotic)	("TCA" "TCA cycle -- aerobic respiration" "tricarboxylic acid cycle" "citric acid cycle")	("TCA cycle -- aerobic respiration" "tricarboxylic acid cycle" "citric acid cycle" "Szent-Gyorgyi-Krebs cycle" "Krebs cycle")	
+*	PWY-3282	superpathway of ammonia assimilation (plants)	glutamate synthase cycle	GS/GOGAT pathway	
+*	PPGPPMET-PWY	ppGpp biosynthesis	("guanosine 3'-diphosphate 5'-diphosphate biosynthesis" "ppgpp")	("guanosine 3'-diphosphate 5'-diphosphate biosynthesis")	
+*	THISYNARA-PWY	superpathway of thiamin diphosphate biosynthesis III (eukaryotes)	("thiamin biosynthesis" "vitamin B1 biosynthesis" "thiamine biosynthesis (plants)")	("vitamin B1 biosynthesis IV (eukaryotes)" "thiamine diphosphate biosynthesis (plants)")	
+*	PWY-1581	plastoquinol-9 biosynthesis I	("plastoquinone biosynthesis")	("plastoquinone biosynthesis I" "plastoquinone-9 biosynthesis I" "plastoquinol biosynthesis I")	
+*	NONMEVIPP-PWY	methylerythritol phosphate pathway	("DOXP pathway" "nonmevalonate isopentenyl diphosphate biosynthesis" "methylerythritol phosphate degradation" "MEP degradation" "deoxyxylulose phosphate pathway" "DXP pathway" "Rohmer pathway" "isopentenyl diphosphate biosynthesis -- mevalonate-independent" "nonmevalonate isoprenoid pathway" "MEP pathway")	("nonmevalonate isopentenyl diphosphate biosynthesis" "methylerythritol phosphate degradation" "MEP degradation" "deoxyxylulose phosphate pathway" "DOXP pathway" "Rohmer pathway" "isopentenyl diphosphate biosynthesis -- mevalonate-independent" "nonmevalonate isoprenoid pathway" "MEP pathway")	
+*	PWY-842	starch degradation I	("starch mobilization" "starch mobilization from cereal endosperm" "starch degradation from cereal endosperm")	("starch mobilization from cereal endosperm" "starch degradation from cereal endosperm")	
+*	GLNSYN-PWY	glutamine biosynthesis I	("glutamine - glutamate pathway II" "glutamine - glutamate pathway")	("glutamine - glutamate pathway")	
+*	PWY-4983	citrulline-nitric oxide cycle	("citrulline-NO cycle")	("citrulline-NO cycle" "nitric oxide biosynthesis II")	
+*	PWY-724	superpathway of lysine, threonine and methionine biosynthesis II	("aspartate super pathway" "aspartate-derived amino acid biosynthesis")	("aspartate super pathway")	
+
+4 Pathways are present in ChlamyCyc but not in MetaCyc. (4 already deleted)
+ 	ID	Name	
+*	#S(MISSING-FRAME :ID DENOVOPURINE3-PWY
+                         :CLASS NIL
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID PWY-3742
+                         :CLASS NIL
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID PWY-5354-ARA
+                         :CLASS NIL
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+*	#S(MISSING-FRAME :ID GLYSYN2-PWY
+                         :CLASS NIL
+                         :REF-MERGE-CANDIDATES NIL
+                         :LOCAL-MERGE-CANDIDATES NIL
+                         :SELECTED-FOR-DELETE? NIL
+                         :DELETED? NIL
+                         :SELECTED-FOR-MERGE NIL
+                         :MERGED NIL)	
+

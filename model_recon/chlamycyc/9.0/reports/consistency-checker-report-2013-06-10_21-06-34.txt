@@ -1,0 +1,60 @@
+
+==== Checking citations ====
+
+Deleting empty citations...
+
+Converting badly formed citations to the right format...
+
+
+Performing various checks on citations...
+
+2708 total citations
+2386 pubmed citations
+322 non-pubmed citations
+3311 publication frames in DB
+7419 frames contain at least one citation
+0 pubmed citations have not yet been downloaded from pubmed
+
+The following citation problems were found:
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation " not found in DB: referenced
+in frame LIPASYN-PWY
+, slot CITATIONS. 
+
+Non-medline citation YIN11 not found in DB: referenced
+in frame PWY-4621
+, slot CITATIONS. 
+
+Non-medline citation KREUZBERG87 not found in DB: referenced
+in frame GIO2-1750-MONOMER
+, slot COMMENT. 
+
+Non-medline citation KREUZBERG87 not found in DB: referenced
+in frame GIO2-716-MONOMER
+, slot COMMENT. 
+
+
+== Done checking citations ==
+
+The report from this consistency checker run can be found at
+/var/pathway-tools/ptools-local/pgdbs/user/chlamycyc/3.0/reports/consistency-checker-report-2013-06-10_21-06-34.txt

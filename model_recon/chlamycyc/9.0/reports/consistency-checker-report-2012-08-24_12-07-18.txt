@@ -1,0 +1,681 @@
+
+=====Checking all inverse links====
+
+[Checking inverses under class  Regulation]
+[Checking inverses under class  Publications]
+[Checking inverses under class  Protein-Features]
+[Checking inverses under class  Polymer-Segments]
+
+Removing bad reference to non-existent frame CHLREDRAFT_192090-MONOMER in slot PRODUCT in frame CHLREDRAFT_192090
+[Checking inverses under class  People]
+[Checking inverses under class  Paralogous-Gene-Groups]
+[Checking inverses under class  Organizations]
+[Checking inverses under class  Organisms]
+[Checking inverses under class  Notes]
+[Checking inverses under class  KB-DESCRIPTOR]
+[Checking inverses under class  Growth-Observations]
+[Checking inverses under class  Generalized-Reactions]
+
+Fixing Inverse omission: PROTON is in 3.6.4.9-RXN in slot RIGHT but 3.6.4.9-RXN is not in PROTON in slot APPEARS-IN-RIGHT-SIDE-OF
+
+Fixing Inverse omission: Pi is in 3.6.4.9-RXN in slot RIGHT but 3.6.4.9-RXN is not in Pi in slot APPEARS-IN-RIGHT-SIDE-OF
+
+Fixing Inverse omission: ADP is in 3.6.4.9-RXN in slot RIGHT but 3.6.4.9-RXN is not in ADP in slot APPEARS-IN-RIGHT-SIDE-OF
+
+Fixing Inverse omission: WATER is in 3.6.4.9-RXN in slot LEFT but 3.6.4.9-RXN is not in WATER in slot APPEARS-IN-LEFT-SIDE-OF
+
+Fixing Inverse omission: ATP is in 3.6.4.9-RXN in slot LEFT but 3.6.4.9-RXN is not in ATP in slot APPEARS-IN-LEFT-SIDE-OF
+
+Fixing Inverse omission: MAL is in TRANS-RXN4LZ-7054 in slot LEFT but TRANS-RXN4LZ-7054 is not in MAL in slot APPEARS-IN-LEFT-SIDE-OF
+
+Fixing Inverse omission: GLT is in TRANS-RXN4LZ-7054 in slot LEFT but TRANS-RXN4LZ-7054 is not in GLT in slot APPEARS-IN-LEFT-SIDE-OF
+
+Fixing Inverse omission: MAL is in TRANS-RXN4LZ-7054 in slot RIGHT but TRANS-RXN4LZ-7054 is not in MAL in slot APPEARS-IN-RIGHT-SIDE-OF
+
+Fixing Inverse omission: GLT is in TRANS-RXN4LZ-7054 in slot RIGHT but TRANS-RXN4LZ-7054 is not in GLT in slot APPEARS-IN-RIGHT-SIDE-OF
+[Checking inverses under class  Gene-Ontology-Terms]
+[Checking inverses under class  Evidence]
+[Checking inverses under class  Enzymatic-Reactions]
+[Checking inverses under class  EC-BOOKKEEPING]
+[Checking inverses under class  Databases]
+[Checking inverses under class  Compound-Mixtures]
+[Checking inverses under class  Chemicals]
+[Checking inverses under class  CCO]
+
+===== Checking and removing any values from PATHWAY-LINKS that point to nonexistent frames ====
+
+Removing link from pwy PWY-5934 to nonexistent pwys ((PWY-5912
+                                                      . INCOMING))
+
+===== Checking and removing any reactions from PRIMARIES slot that are no longer in the pathway ====
+
+Removing reaction UREIDOGLYCOLATE-LYASE-RXN from PRIMARIES slot of URDEGR-PWY because it is not in the pathway's reaction-list.
+Removing reaction UREIDOGLYCOLATE-LYASE-RXN from PRIMARIES slot of P165-PWY because it is not in the pathway's reaction-list.
+Removing reaction PYRUFLAVREDUCT-RXN from PRIMARIES slot of PWY-5100 because it is not in the pathway's reaction-list.
+
+===== Checking modified protein links to eliminate nonexistent frames ====
+
+
+===== Cross-referencing compounds and reactions ====
+
+
+==== Calculating sub and super pathways ====
+
+Adding PWY-5698 to SUB-PATHWAYS slot of URDEGR-PWY
+
+Adding PWY-5697 to SUB-PATHWAYS slot of URDEGR-PWY
+
+Adding PWY-5697 to SUB-PATHWAYS slot of P165-PWY
+
+Adding PWY0-1312 to SUB-PATHWAYS slot of PWY-5100
+
+===== Finding missing sub pathway links ====
+
+
+==== Checking for missing sub pathway links ====
+Warning:THRESYN-PWY is completely contained within PWY-3001 but is not listed in the SUB-PATHWAYS slot
+
+Warning:METHIONINE-DEG1-PWY is completely contained within PWY-5041 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6543 is completely contained within PWY-3742 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6614 is completely contained within PWY-3742 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6147 is completely contained within PWY-3742 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5173 is completely contained within PYRUVDEHYD-PWY but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6963 is completely contained within PWY4LZ-283 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5697 is completely contained within PWY4LZ-81 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6963 is completely contained within PWY4LZ-81 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5100 is completely contained within PWY4LZ-257 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5485 is completely contained within PWY4LZ-257 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5486 is completely contained within PWY4LZ-257 but is not listed in the SUB-PATHWAYS slot
+
+
+==Done checking all the links==
+
+==== Checking pathways for duplicate reactions in REACTION-LIST slot ====
+
+== Done checking pathways for duplicate reactions ==
+
+==== Verifying replicon components and positions ====
+[Sorting replicon #<CHLAMYDOMONAS-REINHARDTII instance frame in CHLAMYBASE[M]
+                    @ #x102713b262>]
+
+== Done verifying replicon components ==
+
+
+===== Validating Gene Ontology (GO) Terms =====
+
+Deleting term GO:0031968 - organelle outer membrane because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0019866 - organelle inner membrane because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0031970 - organelle envelope lumen because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009319 - cytochrome o ubiquinol oxidase complex because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009538 - photosystem I reaction center because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009539 - photosystem II reaction center because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009544 - chloroplast ATP synthase complex because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009654 - oxygen evolving complex because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009782 - photosystem I antenna complex because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009783 - photosystem II antenna complex because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0016472 - sodium ion-transporting two-sector ATPase complex because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0017090 - meprin A complex because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0034702 - ion channel complex because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0045265 - proton-transporting ATP synthase, stator stalk because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0045267 - proton-transporting ATP synthase, catalytic core because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0045269 - proton-transporting ATP synthase, central stalk because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0046930 - pore complex because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0030095 - chloroplast photosystem II because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009503 - thylakoid light-harvesting complex because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0030089 - phycobilisome because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0071685 - NADH dehydrogenase complex (plastoquinone) because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0046696 - lipopolysaccharide receptor complex because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0044232 - organelle membrane contact site because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0044447 - axoneme part because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0031300 - intrinsic to organelle membrane because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0031312 - extrinsic to organelle membrane because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0031967 - organelle envelope because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0035449 - extrinsic to plastid thylakoid membrane because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009543 - chloroplast thylakoid lumen because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0035448 - extrinsic to thylakoid membrane because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0031360 - intrinsic to thylakoid membrane because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0031361 - integral to thylakoid membrane because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0031975 - envelope because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006418 - tRNA aminoacylation for protein translation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009780 - photosynthetic NADP+ reduction because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006396 - RNA processing because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0001109 - promoter clearance during DNA-dependent transcription because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0001173 - DNA-dependent transcriptional start site selection because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0001192 - maintenance of transcriptional fidelity during DNA-dependent transcription elongation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006354 - transcription elongation, DNA-dependent because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0035694 - mitochondrial protein catabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0051190 - prosthetic group catabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006414 - translational elongation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0070589 - cellular component macromolecule biosynthetic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0019685 - photosynthesis, dark reaction because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0051191 - prosthetic group biosynthetic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0071891 - N-terminal peptidyl-proline dimethylation involved in translation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0051603 - proteolysis involved in cellular protein catabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0010206 - photosystem II repair because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006627 - protein processing involved in protein targeting to mitochondrion because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009765 - photosynthesis, light harvesting because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009766 - primary charge separation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009777 - photosynthetic phosphorylation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0051189 - prosthetic group metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0046902 - regulation of mitochondrial membrane permeability because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0051205 - protein insertion into membrane because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0072595 - maintenance of protein localization to organelle because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0001677 - formation of translation initiation ternary complex because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0001731 - formation of translation preinitiation complex because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0001732 - formation of translation initiation complex because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0010207 - photosystem II assembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0033108 - mitochondrial respiratory chain complex assembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0048564 - photosystem I assembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0033615 - mitochondrial proton-transporting ATP synthase complex assembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0070897 - DNA-dependent transcriptional preinitiation complex assembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0001118 - transcription ternary complex disassembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006415 - translational termination because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0070925 - organelle assembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006626 - protein targeting to mitochondrion because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006127 - glycerophosphate shuttle because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0043490 - malate-aspartate shuttle because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006649 - phospholipid transfer to membrane because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0072655 - establishment of protein localization in mitochondrion because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0001112 - DNA-dependent transcriptional open complex formation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0019867 - outer membrane because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0031974 - membrane-enclosed lumen because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009523 - photosystem II because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0030076 - light-harvesting complex because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0030964 - NADH dehydrogenase complex because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0043235 - receptor complex because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0005930 - axoneme because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0031090 - organelle membrane because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0031978 - plastid thylakoid lumen because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0019898 - extrinsic to membrane because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0016021 - integral to membrane because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0043039 - tRNA aminoacylation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006740 - NADPH regeneration because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0051187 - cofactor catabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0016051 - carbohydrate biosynthetic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0051188 - cofactor biosynthetic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0018016 - N-terminal peptidyl-proline dimethylation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006508 - proteolysis because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0044257 - cellular protein catabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0030091 - protein repair because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0034982 - mitochondrial protein processing because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0016310 - phosphorylation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0007006 - mitochondrial membrane organization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0051668 - localization within membrane because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0032507 - maintenance of protein location in cell because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0022618 - ribonucleoprotein complex assembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006413 - translational initiation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0043461 - proton-transporting ATP synthase complex assembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0065004 - protein-DNA complex assembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0001117 - protein-DNA-RNA complex disassembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006353 - transcription termination, DNA-dependent because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0043624 - cellular protein complex disassembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006412 - translation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006605 - protein targeting because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0017038 - protein import because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0007005 - mitochondrion organization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006839 - mitochondrial transport because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0022904 - respiratory electron transport chain because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0015914 - phospholipid transport because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0016044 - cellular membrane organization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0072594 - establishment of protein localization to organelle because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0070585 - protein localization in mitochondrion because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0001120 - protein-DNA complex remodeling because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006352 - transcription initiation, DNA-dependent because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0044463 - cell projection part because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0031977 - thylakoid lumen because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0031224 - intrinsic to membrane because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006399 - tRNA metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0043038 - amino acid activation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006739 - NADP metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0005975 - carbohydrate metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0035568 - N-terminal peptidyl-proline methylation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0030163 - protein catabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0044265 - cellular macromolecule catabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0016485 - protein processing because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006796 - phosphate-containing compound metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0051651 - maintenance of location in cell because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0045185 - maintenance of protein location because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0071826 - ribonucleoprotein complex subunit organization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0022613 - ribonucleoprotein complex biogenesis because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0070071 - proton-transporting two-sector ATPase complex assembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0070272 - proton-transporting ATP synthase complex biogenesis because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0001115 - protein-DNA-RNA complex subunit organization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0043241 - protein complex disassembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0034623 - cellular macromolecular complex disassembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006886 - intracellular protein transport because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0015031 - protein transport because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006996 - organelle organization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0046907 - intracellular transport because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0045333 - cellular respiration because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006869 - lipid transport because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0061024 - membrane organization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0045184 - establishment of protein localization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0033365 - protein localization to organelle because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0071824 - protein-DNA complex subunit organization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0034367 - macromolecular complex remodeling because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006351 - transcription, DNA-dependent because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0042995 - cell projection because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0034660 - ncRNA metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006520 - cellular amino acid metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0046496 - nicotinamide nucleotide metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0018208 - peptidyl-proline modification because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006480 - N-terminal protein amino acid methylation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0044248 - cellular catabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009057 - macromolecule catabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0051604 - protein maturation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006793 - phosphorus metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0051235 - maintenance of location because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0043623 - cellular protein complex assembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0071843 - cellular component biogenesis at cellular level because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0071845 - cellular component disassembly at cellular level because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0032984 - macromolecular complex disassembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0051649 - establishment of localization in cell because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0015980 - energy derivation by oxidation of organic compounds because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0071702 - organic substance transport because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0010876 - lipid localization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0034613 - cellular protein localization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0032774 - RNA biosynthetic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0034645 - cellular macromolecule biosynthetic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0010467 - gene expression because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0019752 - carboxylic acid metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0044106 - cellular amine metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0019362 - pyridine nucleotide metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0018193 - peptidyl-amino acid modification because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0031365 - N-terminal protein amino acid modification because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006479 - protein methylation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009056 - catabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0065008 - regulation of biological quality because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006461 - protein complex assembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0034622 - cellular macromolecular complex assembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0022411 - cellular component disassembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006810 - transport because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0008104 - protein localization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0070727 - cellular macromolecule localization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0016070 - RNA metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0044249 - cellular biosynthetic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009059 - macromolecule biosynthetic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0043436 - oxoacid metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009308 - amine metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006733 - oxidoreduction coenzyme metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009117 - nucleotide metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0072524 - pyridine-containing compound metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0008213 - protein alkylation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0043414 - macromolecule methylation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0065007 - biological regulation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0071822 - protein complex subunit organization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0070271 - protein complex biogenesis because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0034621 - cellular macromolecular complex subunit organization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0065003 - macromolecular complex assembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0071844 - cellular component assembly at cellular level because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0051234 - establishment of localization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0033036 - macromolecule localization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0051641 - cellular localization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0090304 - nucleic acid metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0009058 - biosynthetic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006082 - organic acid metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0042180 - cellular ketone metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006732 - coenzyme metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006753 - nucleoside phosphate metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0046483 - heterocycle metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006464 - protein modification process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0032259 - methylation because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0043412 - macromolecule modification because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0043933 - macromolecular complex subunit organization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0022607 - cellular component assembly because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0071842 - cellular component organization at cellular level because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0051179 - localization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0051186 - cofactor metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0055086 - nucleobase-containing small molecule metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0044267 - cellular protein metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0044085 - cellular component biogenesis because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0071841 - cellular component organization or biogenesis at cellular level because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0016043 - cellular component organization because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006139 - nucleobase-containing compound metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0044281 - small molecule metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0044260 - cellular macromolecule metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0019538 - protein metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0071840 - cellular component organization or biogenesis because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0034641 - cellular nitrogen compound metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0044238 - primary metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0043170 - macromolecule metabolic process because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0006807 - nitrogen compound metabolic process because it has no subs, instances, term-members, or parts.
+
+
+== Done validating GO terms ==
+
+===== Changing compound name strings to frame IDs in a variety of slots =====
+
+[Checking class Enzymatic-Reactions]
+[Checking class Compounds]
+[Checking class Regulation]
+[Checking class Reactions]
+[Checking class Pathways]
+[Checking class Enzymatic-Reactions]
+
+== Done changing compound name strings to compound frame IDs ==
+
+===== Checking pathway predecessors/reactions/subs ====
+
+Adjusting predecessor list of super-pathway PWY4LZ-235
+
+===== Removing newlines from names ====
+
+
+(|D-Galactosyl-12-diacyl-glycerols| "a 
+
+monogalactosyldiglyceride") 
+===== Clearing read-only computed slot values ====
+
+
+Clearing computed slot NAMES of frame CHLREDRAFT_108283
+
+Clearing computed slot NAMES of frame CHLREDRAFT_133395
+
+Clearing computed slot NAMES of frame CHLREDRAFT_136578
+
+Clearing computed slot NAMES of frame CHLREDRAFT_156256
+
+Clearing computed slot NAMES of frame CHLREDRAFT_177155
+
+Clearing computed slot NAMES of frame CHLREDRAFT_192478
+
+Clearing computed slot NAMES of frame CHLREDRAFT_77031
+
+Clearing computed slot NAMES of frame CHLREDRAFT_106419
+
+Clearing computed slot NAMES of frame CHLREDRAFT_130596
+
+Clearing computed slot NAMES of frame CHLREDRAFT_79396
+
+Clearing computed slot NAMES of frame CHLREDRAFT_129048
+
+Clearing computed slot NAMES of frame CHLREDRAFT_130019
+
+Clearing computed slot NAMES of frame CHLREDRAFT_128114
+
+Clearing computed slot NAMES of frame CHLREDRAFT_135424
+
+Clearing computed slot NAMES of frame CHLREDRAFT_136810
+
+Clearing computed slot NAMES of frame CHLREDRAFT_171165
+
+==== Deleting frames that have TEMPORARY-FRAME in their ID ====
+
+
+== Done running all the Misc automatic checks ==
+
+===== Classifying modified proteins as such ====
+
+
+===== Updating molecular weights of polypeptides from amino acid sequences ====
+
+Updated 0 protein molecular weights from sequence
+
+== Done with protein updates  ==
+
+===== Checking compound structures for redundancy =====
+
+Checking Compound structures for redundant bonds
+
+== Done checking compound structure redundancies ==
+
+====Recomputing statistics for database chlamycyc====
+
+ Recomputed statistics are as follows:
+(PSEUDOGENE-NUMBER 0 ENZYMATIC-REACTION-NUMBER 1545 CITATION-COUNT 2023
+ GENOME-LENGTH NIL MAPPED-GENE-NUMBER 153 UN-MAPPED-GENE-NUMBER 2084
+ PROTEIN-GENE-NUMBER 1891 RNA-GENE-NUMBER 0 ORF-GENE-NUMBER 1891
+ REACTION-NUMBER 1642 NO-EC-REACTION-NUMBER 243
+ ORGANISM-REACTION-NUMBER 1642 TRANSPORT-REACTION-NUMBER 29
+ POLYPEPTIDE-NUMBER 2127 COMPLEX-NUMBER 30 ENZYME-NUMBER 1999
+ TRANSPORTER-NUMBER 84 CPD-NUMBER 1096 TOTAL-GENE-NUMBER 2107
+ OPERON-NUMBER 0 TRNA-NUMBER 6 LAST-TIME-STAMP 24-Aug-2012  12:07:50)
+
+== Done recomputing statistics for database chlamycyc ==
+The report from this consistency checker run can be found at
+/var/pathway-tools/ptools-local/pgdbs/user/chlamycyc/2.0/reports/consistency-checker-report-2012-08-24_12-07-18.txt

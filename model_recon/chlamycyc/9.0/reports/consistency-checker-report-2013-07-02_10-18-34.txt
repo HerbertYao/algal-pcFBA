@@ -1,0 +1,163 @@
+
+=====Checking all inverse links====
+
+[Checking inverses under class  Regulation]
+[Checking inverses under class  Publications]
+[Checking inverses under class  Protein-Features]
+[Checking inverses under class  Polymer-Segments]
+[Checking inverses under class  People]
+[Checking inverses under class  Paralogous-Gene-Groups]
+[Checking inverses under class  Organizations]
+[Checking inverses under class  Organisms]
+[Checking inverses under class  Notes]
+[Checking inverses under class  KB-DESCRIPTOR]
+[Checking inverses under class  Growth-Observations]
+[Checking inverses under class  Generalized-Reactions]
+[Checking inverses under class  Gene-Ontology-Terms]
+[Checking inverses under class  Evidence]
+[Checking inverses under class  Enzymatic-Reactions]
+[Checking inverses under class  EC-BOOKKEEPING]
+[Checking inverses under class  Databases]
+[Checking inverses under class  Compound-Mixtures]
+[Checking inverses under class  Chemicals]
+[Checking inverses under class  CCO]
+
+===== Checking and removing any values from PATHWAY-LINKS that point to nonexistent frames ====
+
+
+===== Checking and removing any reactions from PRIMARIES slot that are no longer in the pathway ====
+
+
+===== Checking modified protein links to eliminate nonexistent frames ====
+
+
+===== Cross-referencing compounds and reactions ====
+
+
+==== Calculating sub and super pathways ====
+
+===== Finding missing sub pathway links ====
+
+
+==== Checking for missing sub pathway links ====
+Warning:THRESYN-PWY is completely contained within PWY-3001 but is not listed in the SUB-PATHWAYS slot
+
+Warning:METHIONINE-DEG1-PWY is completely contained within PWY-5041 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5353 is completely contained within PWY-7053 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5944 is completely contained within PWY-5288 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6473 is completely contained within PWY-4321 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6535 is completely contained within PWY-4321 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5173 is completely contained within PYRUVDEHYD-PWY but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6963 is completely contained within PWY4LZ-283 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5697 is completely contained within PWY4LZ-81 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6963 is completely contained within PWY4LZ-81 but is not listed in the SUB-PATHWAYS slot
+
+Warning:P142-PWY is completely contained within PWY4LZ-257 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5485 is completely contained within PWY4LZ-257 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-5486 is completely contained within PWY4LZ-257 but is not listed in the SUB-PATHWAYS slot
+
+
+==Done checking all the links==
+
+==== Checking pathways for duplicate reactions in REACTION-LIST slot ====
+
+== Done checking pathways for duplicate reactions ==
+
+==== Verifying replicon components and positions ====
+[Sorting replicon #<CHLAMYDOMONAS-REINHARDTII instance frame in CHLAMYBASE[M]
+                    @ #x1026ad3612>]
+
+== Done verifying replicon components ==
+
+
+===== Validating Gene Ontology (GO) Terms =====
+
+Parent GO:0044763 of GO:0044237 does not exist in CHLAMYBASE -- importing GO:0044763
+Copied class GO:0044699 from GO to CHLAMYBASE.
+Copied class GO:0044763 from GO to CHLAMYBASE.
+[GO:0044237 parents become (GO:0008152 GO:0044763)]
+Deleting term GO:0005788 - endoplasmic reticulum lumen because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0044432 - endoplasmic reticulum part because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0070013 - intracellular organelle lumen because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0043233 - organelle lumen because it has no subs, instances, term-members, or parts.
+
+Deleting term GO:0031974 - membrane-enclosed lumen because it has no subs, instances, term-members, or parts.
+
+
+== Done validating GO terms ==
+
+===== Changing compound name strings to frame IDs in a variety of slots =====
+
+[Checking class Enzymatic-Reactions]
+[Checking class Modified-Proteins]
+[Checking class Compounds]
+[Checking class Regulation]
+[Checking class Reactions]
+[Checking class Pathways]
+--- Importing 1 compounds
+
+[Copied 1 primary frames; overwrote 0 of them]
+(DEOXYHYPUSINE-MONOOXYGENASE-RXN (CPD-9973) (CPD-9974))  -->
+   (DEOXYHYPUSINE-MONOOXYGENASE-RXN (CPD-9973) (CPD-9974)) in
+   #<PWY-5905 instance frame in CHLAMYBASE[M] @ #x10420f4792>, PRIMARIES
+[Checking class Enzymatic-Reactions]
+
+== Done changing compound name strings to compound frame IDs ==
+
+===== Checking pathway predecessors/reactions/subs ====
+
+
+===== Removing newlines from names ====
+
+
+===== Clearing read-only computed slot values ====
+
+
+==== Deleting frames that have TEMPORARY-FRAME in their ID ====
+
+
+== Done running all the Misc automatic checks ==
+
+===== Classifying modified proteins as such ====
+
+
+===== Updating molecular weights of polypeptides from amino acid sequences ====
+
+Updated 0 protein molecular weights from sequence
+
+== Done with protein updates  ==
+
+===== Checking compound structures for redundancy =====
+
+Checking Compound structures for redundant bonds
+
+== Done checking compound structure redundancies ==
+
+====Recomputing statistics for database chlamycyc====
+
+ Recomputed statistics are as follows:
+(BROWSABLE-GENOME-P NIL PSEUDOGENE-NUMBER 0 ENZYMATIC-REACTION-NUMBER
+ 2145 CITATION-COUNT 2659 GENOME-LENGTH NIL MAPPED-GENE-NUMBER 147
+ UN-MAPPED-GENE-NUMBER 3335 PROTEIN-GENE-NUMBER 138 RNA-GENE-NUMBER 0
+ ORF-GENE-NUMBER 3139 REACTION-NUMBER 2263 NO-EC-REACTION-NUMBER 473
+ ORGANISM-REACTION-NUMBER 2263 TRANSPORT-REACTION-NUMBER 47
+ POLYPEPTIDE-NUMBER 3361 COMPLEX-NUMBER 31 ENZYME-NUMBER 3246
+ TRANSPORTER-NUMBER 185 CPD-NUMBER 1515 TOTAL-GENE-NUMBER 3358
+ OPERON-NUMBER 0 TRNA-NUMBER 6 LAST-TIME-STAMP 02-Jul-2013  10:19:46)
+
+== Done recomputing statistics for database chlamycyc ==
+The report from this consistency checker run can be found at
+/var/ptools/ptools-local/pgdbs/user/chlamycyc/3.0/reports/consistency-checker-report-2013-07-02_10-18-34.txt

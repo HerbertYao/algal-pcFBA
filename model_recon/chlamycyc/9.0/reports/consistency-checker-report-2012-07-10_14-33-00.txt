@@ -1,0 +1,352 @@
+
+=====Checking all inverse links====
+
+[Checking inverses under class  Publications]
+[Checking inverses under class  Notes]
+[Checking inverses under class  Gene-Ontology-Terms]
+[Checking inverses under class  EC-BOOKKEEPING]
+[Checking inverses under class  Evidence]
+[Checking inverses under class  People]
+[Checking inverses under class  Enzymatic-Reactions]
+[Checking inverses under class  Compound-Mixtures]
+[Checking inverses under class  Organisms]
+[Checking inverses under class  Regulation]
+[Checking inverses under class  Generalized-Reactions]
+[Checking inverses under class  CCO]
+[Checking inverses under class  Databases]
+[Checking inverses under class  Chemicals]
+[Checking inverses under class  KB-DESCRIPTOR]
+[Checking inverses under class  Organizations]
+[Checking inverses under class  Paralogous-Gene-Groups]
+[Checking inverses under class  Protein-Features]
+[Checking inverses under class  Polymer-Segments]
+[Checking inverses under class  Growth-Observations]
+
+===== Checking and removing any values from PATHWAY-LINKS that point to nonexistent frames ====
+
+Removing link from pwy PWY-5100 to nonexistent pwys (CODH-PWY)
+Removing link from pwy PWY-5100 to nonexistent pwys (ANAGLYCOLYSIS-PWY)
+Removing link from pwy PWY-5483 to nonexistent pwys (P341-PWY)
+Removing link from pwy P142-PWY to nonexistent pwys (CODH-PWY)
+Removing link from pwy MANNCAT-PWY to nonexistent pwys ((MANNKIN-RXN
+                                                         . INCOMING))
+Removing link from pwy PWY-5694 to nonexistent pwys (GLYOXDEG-PWY)
+Removing link from pwy PWY-5692 to nonexistent pwys (GLYOXDEG-PWY)
+Removing link from pwy URDEGR-PWY to nonexistent pwys (URSIN-PWY)
+Removing link from pwy P165-PWY to nonexistent pwys (GLYOXDEG-PWY)
+Removing link from pwy CITRULLINE-DEG-PWY to nonexistent pwys (ARGDEGRAD-PWY)
+Removing link from pwy PWY-5044 to nonexistent pwys ((PWY-5043
+                                                      . INCOMING))
+Removing link from pwy PWY-401 to nonexistent pwys (PWY-782)
+Removing link from pwy PWY-401 to nonexistent pwys ((PWY-782
+                                                     . OUTGOING))
+Removing link from pwy PWY-3742 to nonexistent pwys (ARO-PWY-ARA)
+Removing link from pwy NONMEVIPP-PWY to nonexistent pwys (PWY-6270)
+Removing link from pwy PWY-5886 to nonexistent pwys (PWY-5048)
+Removing link from pwy PWY-5886 to nonexistent pwys (TYRSYN)
+Removing link from pwy PWY-5943 to nonexistent pwys (PWY-5291 PWY-5288)
+Removing link from pwy PWY-5946 to nonexistent pwys (PWY-5175)
+Removing link from pwy PWY-5944 to nonexistent pwys (PWY-5397)
+Removing link from pwy PWY-2681 to nonexistent pwys (PWY-922)
+Removing link from pwy PWY-2681 to nonexistent pwys (PWY-2902
+                                                     PWY-2901
+                                                     PWY-2881)
+Removing link from pwy TRPSYN-PWY to nonexistent pwys (ARO-PWY-ARA)
+Removing link from pwy GLYSYN2-PWY to nonexistent pwys (PWY-181)
+Removing link from pwy PWY-3941 to nonexistent pwys (PWY-3921)
+Removing link from pwy PWY-3462 to nonexistent pwys (ARO-PWY-ARA)
+Removing link from pwy PWY-3462 to nonexistent pwys (PWY1F-467)
+
+===== Checking and removing any reactions from PRIMARIES slot that are no longer in the pathway ====
+
+Removing reaction RXN0-1134 from PRIMARIES slot of PWY-5464 because it is not in the pathway's reaction-list.
+Removing reaction PEPCARBOX-RXN from PRIMARIES slot of PWY-561 because it is not in the pathway's reaction-list.
+Removing reaction SUCCINATE-DEHYDROGENASE-(UBIQUINONE)-RXN from PRIMARIES slot of PWY-561 because it is not in the pathway's reaction-list.
+Removing reaction RXN0-1134 from PRIMARIES slot of PYRUVDEHYD-PWY because it is not in the pathway's reaction-list.
+Removing reaction ACYL-COA-OXIDASE-RXN from PRIMARIES slot of PWY-5136 because it is not in the pathway's reaction-list.
+Removing reaction RXN-11494 from PRIMARIES slot of PWY-6527 because it is not in the pathway's reaction-list.
+Removing reaction 2.7.1.127-RXN from PRIMARIES slot of PWY-6554 because it is not in the pathway's reaction-list.
+Removing reaction RXN-7162 from PRIMARIES slot of PWY-6554 because it is not in the pathway's reaction-list.
+Removing reaction 2.7.1.151-RXN from PRIMARIES slot of PWY-6554 because it is not in the pathway's reaction-list.
+Removing reaction DNA-CYTOSINE-5--METHYLTRANSFERASE-RXN from PRIMARIES slot of METHIONINE-DEG1-PWY because it is not in the pathway's reaction-list.
+Removing reaction BETA-UREIDOPROPIONASE-RXN from PRIMARIES slot of PWY-6430 because it is not in the pathway's reaction-list.
+Removing reaction DIHYDROPYRIMIDINASE-RXN from PRIMARIES slot of PWY-6430 because it is not in the pathway's reaction-list.
+Removing reaction 1.3.1.2-RXN from PRIMARIES slot of PWY-6430 because it is not in the pathway's reaction-list.
+Removing reaction RXN-3541 from PRIMARIES slot of PWY-2261 because it is not in the pathway's reaction-list.
+Removing reaction GLUTATHIONE-REDUCT-NADPH-RXN from PRIMARIES slot of PWY-2261 because it is not in the pathway's reaction-list.
+Removing reaction ADENPHOSPHOR-RXN from PRIMARIES slot of PWY-6619 because it is not in the pathway's reaction-list.
+Removing reaction ADENPRIBOSYLTRAN-RXN from PRIMARIES slot of PWY-6619 because it is not in the pathway's reaction-list.
+Removing reaction RXN-12002 from PRIMARIES slot of PWY-5687 because it is not in the pathway's reaction-list.
+Removing reaction 7KAPSYN-RXN from PRIMARIES slot of PWY0-1507 because it is not in the pathway's reaction-list.
+Removing reaction GART-RXN from PRIMARIES slot of PWY-6614 because it is not in the pathway's reaction-list.
+Removing reaction H2PTEROATESYNTH-RXN from PRIMARIES slot of PWY-6613 because it is not in the pathway's reaction-list.
+Removing reaction FARNESYLTRANSTRANSFERASE-RXN from PRIMARIES slot of PWY-5807 because it is not in the pathway's reaction-list.
+Removing reaction SUCROSE-SYNTHASE-RXN from PRIMARIES slot of SUCSYN-PWY because it is not in the pathway's reaction-list.
+Removing reaction RXN-5465 from PRIMARIES slot of MANNOSYL-CHITO-DOLICHOL-BIOSYNTHESIS because it is not in the pathway's reaction-list.
+Removing reaction RXN-8024 from PRIMARIES slot of PWY-6475 because it is not in the pathway's reaction-list.
+Removing reaction RXN-8023 from PRIMARIES slot of PWY-6475 because it is not in the pathway's reaction-list.
+Removing reaction 1.14.99.30-RXN from PRIMARIES slot of PWY-6475 because it is not in the pathway's reaction-list.
+Removing reaction RXN-8022 from PRIMARIES slot of PWY-6475 because it is not in the pathway's reaction-list.
+Removing reaction RXN-6425 from PRIMARIES slot of PWY-3981 because it is not in the pathway's reaction-list.
+Removing reaction RXN-6424 from PRIMARIES slot of PWY-3981 because it is not in the pathway's reaction-list.
+Removing reaction RXN-6421 from PRIMARIES slot of PWY-3981 because it is not in the pathway's reaction-list.
+Removing reaction SPERMIDINE-DEHYDROGENASE-RXN from PRIMARIES slot of PWY-3981 because it is not in the pathway's reaction-list.
+Removing reaction RXN-6423 from PRIMARIES slot of PWY-3981 because it is not in the pathway's reaction-list.
+
+===== Checking modified protein links to eliminate nonexistent frames ====
+
+
+===== Cross-referencing compounds and reactions ====
+
+
+==== Calculating sub and super pathways ====
+
+===== Finding missing sub pathway links ====
+
+
+==== Checking for missing sub pathway links ====
+Warning:PWY-5173 is completely contained within PYRUVDEHYD-PWY but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6555 is completely contained within PWY-6554 but is not listed in the SUB-PATHWAYS slot
+
+Warning:THRESYN-PWY is completely contained within PWY-3001 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6543 is completely contained within PWY-3742 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6614 is completely contained within PWY-3742 but is not listed in the SUB-PATHWAYS slot
+
+Warning:PWY-6147 is completely contained within PWY-3742 but is not listed in the SUB-PATHWAYS slot
+
+Warning:METHIONINE-DEG1-PWY is completely contained within PWY-5041 but is not listed in the SUB-PATHWAYS slot
+
+
+==Done checking all the links==
+
+==== Checking pathways for duplicate reactions in REACTION-LIST slot ====
+
+== Done checking pathways for duplicate reactions ==
+
+==== Verifying replicon components and positions ====
+
+== Done verifying replicon components ==
+
+
+===== Changing compound name strings to frame IDs in a variety of slots =====
+
+[Checking class Enzymatic-Reactions]
+[Checking class Reactions]
+[Checking class Pathways]
+--- Importing compounds
+(DEOXYHYPUSINE-MONOOXYGENASE-RXN (CPD-9973) (CPD-9974))  -->
+   (DEOXYHYPUSINE-MONOOXYGENASE-RXN (CPD-9973) (CPD-9974)) in
+   #<PWY-5905 instance frame in CHLAMYBASE[F] @ #x10225ad442>, PRIMARIES
+[Checking class Enzymatic-Reactions]
+
+== Done changing compound name strings to compound frame IDs ==
+
+===== Checking pathway predecessors/reactions/subs ====
+
+Deleting empty pathway PWY-5483
+Deleting empty pathway P142-PWY
+Transferring pathway PWY0-1312 to super-pathway PWY-5100
+Deleting empty pathway PWY-5694
+Transferring pathway PWY-5697 to super-pathway URDEGR-PWY
+Deleting empty pathway PWY-5692
+Transferring pathway PWY-5698 to super-pathway URDEGR-PWY
+Deleting empty pathway PWY-6555
+Adjusting predecessor list of super-pathway PWY-5156
+Adjusting predecessor list of super-pathway PWY-5381
+
+===== Removing newlines from names ====
+
+
+(ENZRXNIO2-2168 "adenosine kinase ") 
+(ENZRXNIO2-3328
+ "phosphoribosylaminoimidazolecarboxamide formyltransferase ") 
+(ENZRXNIO2-3329 "IMP cyclohydrolase ") 
+(ENZRXNIO2-2172 "acyl-[acyl-carrier-protein] desaturase ") 
+(ENZRXNIO2-2173 "acyl-[acyl-carrier-protein] desaturase ") 
+(ENZRXNIO2-3337
+ "&Delta;<sup><small>12</small></sup>-fatty acid dehydrogenase ") 
+(ENZRXNIO2-4568 " thioredoxin-disulfide reductase") 
+(ENZRXNIO2-2197 "polyprenyldihydroxybenzoate methyltransferase ") 
+(ENZRXNIO2-2198 "polyprenyldihydroxybenzoate methyltransferase ") 
+(ENZRXNIO2-3398 "inositol-3-phosphate synthase ") 
+(ENZRXNIO2-3406
+ "&Delta;<sup><small>12</small></sup>-fatty acid dehydrogenase ") 
+(ENZRXNIO2-3411 "phosphoribosylformylglycinamidine synthase ") 
+(ENZRXNIO2-4649 "3,4-dihydroxy-2-butanone-4-phosphate synthase ") 
+(ENZRXNIO2-4670 "chorismate synthase ") 
+(ENZRXNIO2-2242 "pantothenate kinase ") 
+(ENZRXNIO2-2251 "pyruvate, phosphate dikinase ") 
+(ENZRXNIO2-2256 "Mg<small><sup>2+</sup></small>-ATPase ") 
+(ENZRXNIO2-3453 "NADH dehydrogenase ") 
+(ENZRXNIO2-2258 "cellulase ") 
+(ENZRXNIO2-3461 " peptide deformylase") 
+(ENZRXNIO2-2282 "3-dehydroquinate synthase ") 
+(ENZRXNIO2-2284 "uridine kinase ") 
+(ENZRXNIO2-4745
+ "NAD<small><sup>+</sup></small>-protein-arginine ADP-ribosyltransferase ") 
+(ENZRXNIO2-2285 "uridine kinase ") 
+(ENZRXNIO2-3512 "carbamoyl-phosphate synthase (glutamine-hydrolysing) ") 
+(ENZRXNIO2-3518 "CCA  tRNA nucleotidyltransferase ") 
+(ENZRXNIO2-3555 "hydroxyethylthiazole kinase ") 
+(ENZRXNIO2-4777 "NAD<small><sup>+</sup></small> kinase ") 
+(ENZRXNIO2-3559 "UDP-sulfoquinovose synthase ") 
+(ENZRXNIO2-3570 "cellulase ") 
+(ENZRXNIO2-3574 "pyruvate kinase ") 
+(ENZRXNIO2-4792 "uracil phosphoribosyltransferase ") 
+(ENZRXNIO2-3592 "polynucleotide 5'-hydroxyl-kinase ") 
+(ENZRXNIO2-3601 "pyruvate kinase ") 
+(ENZRXNIO2-4811 " peptide deformylase") 
+(ENZRXNIO2-4812 "uridine kinase ") 
+(ENZRXNIO2-4813 "uridine kinase ") 
+(ENZRXNIO2-4814 "uracil phosphoribosyltransferase ") 
+(ENZRXNIO2-3617 "pyruvate, phosphate dikinase ") 
+(ENZRXNIO2-3628 " &beta;-carotene 15,15'-monooxygenase") 
+(ENZRXNIO2-3629 "riboflavin kinase ") 
+(ENZRXNIO2-2439 "pyruvate kinase ") 
+(ENZRXNIO2-3642 "<small>L</small>-dopachrome isomerase ") 
+(ENZRXNIO2-4858 "adenylosuccinate lyase ") 
+(ENZRXNIO2-4859 "adenylosuccinate lyase ") 
+(ENZRXNIO2-2470 "xylulokinase ") 
+(ENZRXNIO2-3798 " thioredoxin-disulfide reductase") 
+(ENZRXNIO2-3690 "hypoxanthine phosphoribosyltransferase ") 
+(ENZRXNIO2-3691 "hypoxanthine phosphoribosyltransferase ") 
+(ENZRXNIO2-3806 "1-phosphatidylinositol 4-kinase ") 
+(ENZRXNIO2-3813 " sterol 14-demethylase") 
+(ENZRXNIO2-3814 " sterol 14-demethylase") 
+(ENZRXNIO2-3815 " sterol 14-demethylase") 
+(ENZRXNIO2-3816 " sterol 14-demethylase") 
+(ENZRXNIO2-3817 " sterol 14-demethylase") 
+(ENZRXNIO2-3818 " sterol 14-demethylase") 
+(ENZRXNIO2-3819 " sterol 14-demethylase") 
+(ENZRXNIO2-3721 "pantetheine-phosphate adenylyltransferase ") 
+(ENZRXNIO2-3820 " sterol 14-demethylase") 
+(ENZRXNIO2-2520 "NADH dehydrogenase ") 
+(ENZRXNIO2-3821 " sterol 14-demethylase") 
+(ENZRXNIO2-3833 "6-phosphofructokinase ") 
+(ENZRXNIO2-3841 " protein-disulfide reductase") 
+(ENZRXNIO2-3865 "phosphoribosylamine-glycine ligase ") 
+(ENZRXNIO2-3866 "thymidine kinase ") 
+(ENZRXNIO2-3867 "thymidine kinase ") 
+(ENZRXNIO2-3886
+ "NAD<small><sup>+</sup></small> ADP-ribosyltransferase ") 
+(ENZRXNIO2-3887 "phosphoribosylglycinamide formyltransferase ") 
+(ENZRXNIO2-3891 "glycerate kinase ") 
+(ENZRXNIO2-3918 "6-phosphofructokinase ") 
+(ENZRXNIO2-3924 "NADH dehydrogenase ") 
+(ENZRXNIO2-3949 "NADH dehydrogenase ") 
+(ENZRXNIO2-2572 "NADH dehydrogenase ") 
+(ENZRXNIO2-2639 "anthranilate phosphoribosyltransferase ") 
+(ENZRXNIO2-4064 "threonine synthase ") 
+(ENZRXNIO2-2669 "homoserine kinase ") 
+(ENZRXNIO2-1925 "CCA  tRNA nucleotidyltransferase ") 
+(ENZRXNIO2-1896 " protein-disulfide reductase") 
+(ENZRXNIO2-2683 "phosphoribosylformylglycinamidine cyclo-ligase ") 
+(ENZRXNIO2-4001 "sulfate adenylyltransferase ") 
+(ENZRXNIO2-1949 "dephospho-CoA kinase ") 
+(ENZRXNIO2-4045 "adenine phosphoribosyltransferase ") 
+(ENZRXNIO2-2866 "pyridoxal kinase ") 
+(ENZRXNIO2-2867 "pyridoxal kinase ") 
+(ENZRXNIO2-1964 "gluconokinase ") 
+(ENZRXNIO2-4193 "glycerone kinase ") 
+(ENZRXNIO2-2897 "phosphoribosylamine-glycine ligase ") 
+(ENZRXNIO2-4226 "sulfate adenylyltransferase ") 
+(ENZRXNIO2-4229 "Mg<small><sup>2+</sup></small>-ATPase ") 
+(ENZRXNIO2-4235 "carbamoyl-phosphate synthase (glutamine-hydrolysing) ") 
+(ENZRXNIO2-3022 "1-phosphatidylinositol-4-phosphate 5-kinase ") 
+(ENZRXNIO2-2050 "NADH dehydrogenase ") 
+(ENZRXNIO2-4323 "riboflavin kinase ") 
+(ENZRXNIO2-3034 "pyruvate kinase ") 
+(ENZRXNIO2-2952 "1-phosphatidylinositol 4-kinase ") 
+(ENZRXNIO2-4337 "Mg<small><sup>2+</sup></small>-ATPase ") 
+(ENZRXNIO2-3063 "uridine kinase ") 
+(ENZRXNIO2-3064 "uridine kinase ") 
+(ENZRXNIO2-3065 "uracil phosphoribosyltransferase ") 
+(ENZRXNIO2-2028 "adenylyl-sulfate kinase ") 
+(ENZRXNIO2-3073
+ " 2-<i>C-</i>methyl-<small>D</small>-erythritol 2,4-cyclodiphosphate synthase") 
+(ENZRXNIO2-4351 "deoxyhypusine synthase ") 
+(ENZRXNIO2-2986 "phosphoribulokinase ") 
+(ENZRXNIO2-2990 "threonine ammonia-lyase ") 
+(ENZRXNIO2-4355 " thioredoxin-disulfide reductase") 
+(ENZRXNIO2-2034 "hypoxanthine phosphoribosyltransferase ") 
+(ENZRXNIO2-4295
+ "phosphoribosylaminoimidazolesuccinocarboxamide synthase ") 
+(ENZRXNIO2-2994
+ "nicotinate-nucleotide diphosphorylase (carboxylating) ") 
+(ENZRXNIO2-2035 "hypoxanthine phosphoribosyltransferase ") 
+(ENZRXNIO2-4300
+ "nicotinate-nucleotide-dimethylbenzimidazole phosphoribosyltransferase ") 
+(ENZRXNIO2-4302 "glycerol kinase ") 
+(ENZRXNIO2-3101 " peptide deformylase") 
+(ENZRXNIO2-4371 "1-phosphatidylinositol-4-phosphate 5-kinase ") 
+(ENZRXNIO2-3113 "UMP/CMP kinase ") 
+(ENZRXNIO2-3114 "UMP/CMP kinase ") 
+(ENZRXNIO2-3115 "UMP/CMP kinase ") 
+(ENZRXNIO2-3123 " protein-disulfide reductase") 
+(ENZRXNIO2-3135
+ "Na<small><sup>+</sup></small>/K<small><sup>+</sup></small>-exchanging ATPase ") 
+(ENZRXNIO2-3136 "dephospho-CoA kinase ") 
+(ENZRXNIO2-3150 "uracil phosphoribosyltransferase ") 
+(ENZRXNIO2-3158 "1-phosphatidylinositol 4-kinase ") 
+(ENZRXNIO2-2093 "ribokinase ") 
+(ENZRXNIO2-3167 "shikimate kinase ") 
+(ENZRXNIO2-3176 "ATP phosphoribosyltransferase ") 
+(ENZRXNIO2-3177 "ATP phosphoribosyltransferase ") 
+(ENZRXNIO2-3184 "cellulase ") 
+(ENZRXNIO2-2108
+ " 2-<i>C-</i>methyl-<small>D</small>-erythritol 4-phosphate cytidylyltransferase") 
+(ENZRXNIO2-3208 "ATP phosphoribosyltransferase ") 
+(ENZRXNIO2-3209 "ATP phosphoribosyltransferase ") 
+(ENZRXNIO2-4464 "deoxyhypusine synthase ") 
+(ENZRXNIO2-4465 "NAD<small><sup>+</sup></small> kinase ") 
+(ENZRXNIO2-4477 "phosphoribosyl-AMP cyclohydrolase ") 
+(ENZRXNIO2-3252 "NADH dehydrogenase ") 
+(ENZRXNIO2-4485 "pyruvate kinase ") 
+(ENZRXNIO2-3265 " thioredoxin-disulfide reductase") 
+(ENZRXNIO2-3283 "NAD<small><sup>+</sup></small> kinase ") 
+(ENZRXNIO2-4506 "homoserine kinase ") 
+(ENZRXNIO2-3292 "phosphoribosylaminoimidazole carboxylase ") 
+(ENZRXNIO2-3293 "adenine phosphoribosyltransferase ") 
+(ENZRXNIO2-2160 "nicotinamide phosphoribosyltransferase ") 
+(ENZRXNIO2-2165 "orotate phosphoribosyltransferase ") 
+===== Clearing read-only computed slot values ====
+
+
+==== Deleting frames that have TEMPORARY-FRAME in their ID ====
+
+
+== Done running all the Misc automatic checks ==
+
+===== Classifying modified proteins as such ====
+
+
+===== Updating molecular weights of polypeptides from amino acid sequences ====
+
+Updated 0 protein molecular weights from sequence
+
+== Done with protein updates  ==
+
+===== Checking compound structures for redundancy =====
+
+Checking Compound structures for redundant bonds
+
+== Done checking compound structure redundancies ==
+
+====Recomputing statistics for database chlamycyc====
+
+ Recomputed statistics are as follows:
+(PSEUDOGENE-NUMBER 0 ENZYMATIC-REACTION-NUMBER 1505 CITATION-COUNT 1702
+ GENOME-LENGTH NIL MAPPED-GENE-NUMBER 0 UN-MAPPED-GENE-NUMBER 1893
+ PROTEIN-GENE-NUMBER 1893 RNA-GENE-NUMBER 0 ORF-GENE-NUMBER 1893
+ REACTION-NUMBER 1571 NO-EC-REACTION-NUMBER 191
+ ORGANISM-REACTION-NUMBER 1571 TRANSPORT-REACTION-NUMBER 11
+ POLYPEPTIDE-NUMBER 1893 COMPLEX-NUMBER 0 ENZYME-NUMBER 1892
+ TRANSPORTER-NUMBER 35 CPD-NUMBER 1046 TOTAL-GENE-NUMBER 1893
+ OPERON-NUMBER 0 TRNA-NUMBER 6 LAST-TIME-STAMP 10-Jul-2012  14:33:21)
+
+== Done recomputing statistics for database chlamycyc ==
+The report from this consistency checker run can be found at
+/var/pathway-tools/ptools-local/pgdbs/user/chlamycyc/2.0.1.1/reports/consistency-checker-report-2012-07-10_14-33-00.txt
